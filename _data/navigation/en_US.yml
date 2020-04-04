@@ -1,0 +1,24 @@
+---
+main:
+  -
+    title: Home
+    url: /
+  -
+    title: FAQ
+    url: faq
+  -
+    title: Credits
+    url: credits
+bottom:
+  -
+    title: If you need further help, ask on the official <a href="https://discord.gg/5psYsup">Cemu Discord Server</a> for assistance.
+footer:
+  -
+    title: Source
+    url: https://github.com/emiyl/cemu.cfw.guide
+  -
+    title: Site Navigation
+    url: site-navigation
+  -
+    title: Credits
+    url: credits
