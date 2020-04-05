@@ -176,7 +176,7 @@ You can check to see if your graphics processor is supported [here](https://www.
   amd.style.display = "none";
   intel.style.display = "none";
   nvidiabtn.classList.remove("btn--info");
-  nvidiabtn.classList.add("btn--primary");
+  nvidiabtn.classList.add("btn--success");
 
   function shownvidia() {
     nvidia.style.display = "block";
@@ -184,11 +184,11 @@ You can check to see if your graphics processor is supported [here](https://www.
     intel.style.display = "none";
 
     nvidiabtn.classList.remove("btn--info");
-    amdbtn.classList.remove("btn--primary");
+    amdbtn.classList.remove("btn--danger");
     amdbtn.classList.add("btn--info");
     intelbtn.classList.remove("btn--primary");
     intelbtn.classList.add("btn--info");
-    nvidiabtn.classList.add("btn--primary");
+    nvidiabtn.classList.add("btn--success");
   }
 
   function showamd() {
@@ -197,11 +197,11 @@ You can check to see if your graphics processor is supported [here](https://www.
     intel.style.display = "none";
 
     amdbtn.classList.remove("btn--info");
-    nvidiabtn.classList.remove("btn--primary");
+    nvidiabtn.classList.remove("btn--success");
     nvidiabtn.classList.add("btn--info");
     intelbtn.classList.remove("btn--primary");
     intelbtn.classList.add("btn--info");
-    amdbtn.classList.add("btn--primary");
+    amdbtn.classList.add("btn--danger");
   }
 
   function showintel() {
@@ -210,9 +210,9 @@ You can check to see if your graphics processor is supported [here](https://www.
     intel.style.display = "block";
 
     intelbtn.classList.remove("btn--info");
-    nvidiabtn.classList.remove("btn--primary");
+    nvidiabtn.classList.remove("btn--success");
     nvidiabtn.classList.add("btn--info");
-    amdbtn.classList.remove("btn--primary");
+    amdbtn.classList.remove("btn--danger");
     amdbtn.classList.add("btn--info");
     intelbtn.classList.add("btn--primary");
   }
