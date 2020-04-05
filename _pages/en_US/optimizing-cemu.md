@@ -10,9 +10,9 @@ Under your display name, it should say `Display #: Connected to [GPU]`. It shoul
 
 Please select your GPU brand below:
 
-<button class="btn btn--info" id="nvidiabtn" onclick="shownvidia()">NVIDIA</button>
-<button class="btn btn--info" id="amdbtn"    onclick="showamd()"   >AMD</button>
-<button class="btn btn--info" id="intelbtn"  onclick="showintel()" >Intel</button>
+<button class="btn btn--large btn--info" id="nvidiabtn" onclick="shownvidia()">NVIDIA</button>
+<button class="btn btn--large btn--info" id="amdbtn"    onclick="showamd()"   >AMD</button>
+<button class="btn btn--large btn--info" id="intelbtn"  onclick="showintel()" >Intel</button>
 
 {% capture nvidia-instructions %}
 

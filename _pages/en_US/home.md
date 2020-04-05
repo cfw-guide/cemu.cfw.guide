@@ -79,9 +79,11 @@ If you're running on a thinner laptop, you may be using an iGPU instead. These i
 
 <div class="notice--textbox">{{ gpu-notice | markdownify }}</div>
 
+<a name="get-started"/>
+
 A lot of users will want to play games at higher resolutions, with better framerates and using custom shaders. To do this, you will require better hardware than the guidelines listed above.
 
 Now we know what specs we're dealing with, we can continue onto installing the application.
 
-Continue to [Installing Cemu](installing-cemu). <a name="get-started"/>
+Continue to [Installing Cemu](installing-cemu).
 {: .notice--info}
