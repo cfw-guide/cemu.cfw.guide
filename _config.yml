@@ -16,7 +16,7 @@ description              : "A complete guide to installing Cemu and optimizing p
 url                      : "https://cemu.cfw.guide" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 enforce_ssl              : "cemu.cfw.guide"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "emiyl/cemu.cfw.guide" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "cfw-guide/cemu.cfw.guide" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : # true, false (default)
 words_per_minute         : 200
