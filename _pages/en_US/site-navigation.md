@@ -19,10 +19,8 @@ permalink: /site-navigation
 + [Credits](credits)
 + [FAQ](faq)
 + [Home](/)
-+ [Installing cemu](installing-cemu)
-+ [Optimizing (AMD)](optimizing-amd)
-+ [Optimizing (Intel)](optimizing-igpu)
-+ [Optimizing (NVIDIA)](optimizing-nvidia)
++ [Installing Cemu](installing-cemu)
++ [Optimizing Cemu](optimizing-cemu)
 + [Site Navigation](site-navigation)
 + [Troubleshooting](troubleshooting)
 

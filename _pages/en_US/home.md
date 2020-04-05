@@ -17,8 +17,16 @@ For complete guides to homebrew and custom firmware for other devices, check out
 These guides will always remain free, but you can [buy me a coffee](https://www.buymeacoffee.com/emiyl){:target="_blank"} if you want!
 {: .notice--textbox}
 
-Cemu is currently only officially supported on 64-bit Windows systems.
-{: .notice--danger}
+<div class="wrap-collabsible, notice--danger">
+  <input id="collapsible" class="toggle" type="checkbox">
+  <label for="collapsible" class="lbl-toggle">Cemu can only run on 64-bit Windows systems.</label>
+  <div class="collapsible-content">
+    <div class="content-inner">
+      <li>If you have a 32-bit Windows system, this will not work.</li>
+      <li>Some users have managed to get Cemu running using Wine, however your mileage may vary.</li>
+    </div>
+  </div>
+</div>
 
 Thoroughly read all of the introductory pages (including this one!) before proceeding.
 {: .notice--info}
@@ -75,7 +83,5 @@ A lot of users will want to play games at higher resolutions, with better framer
 
 Now we know what specs we're dealing with, we can continue onto installing the application.
 
-Continue to [Installing Cemu](installing-cemu).
+Continue to [Installing Cemu](installing-cemu). <a name="get-started"/>
 {: .notice--info}
-
-<a name="get-started"/>

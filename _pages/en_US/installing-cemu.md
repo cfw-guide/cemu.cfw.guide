@@ -104,15 +104,5 @@ This includes letting games run at higher resolutions, higher framerates, adjust
 
 Your Cemu set-up should now be complete, but there's a couple things we need to do first before we load some games onto the system, to make sure games run as fast as possible.
 
-Please select your GPU type below. If you don't know what GPU you're running, open the Settings app on Windows 10. Then navigate to `System` -> `Display` -> `Advanced display settings`.
-
-Under your display name, it should say `Display #: Connected to [GPU]`. It should say either Intel, AMD or NVIDIA. Select the option that corresponds to that.
-
-Continue to [Optimizing (NVIDIA)](optimizing-nvidia).
-{: .notice--info}
-
-Continue to [Optimizing (AMD)](optimizing-amd).
-{: .notice--info}
-
-Continue to [Optimizing (Intel)](optimizing-igpu).
+Continue to [Optimizing Cemu](optimizing-cemu).
 {: .notice--info}
