@@ -17,7 +17,7 @@ For complete guides to homebrew and custom firmware for other devices, check out
 These guides will always remain free, but you can [buy me a coffee](https://www.buymeacoffee.com/emiyl){:target="_blank"} if you want!
 {: .notice--textbox}
 
-<div class="wrap-collabsible, notice--danger">
+<div class="wrap-collabsible notice--danger">
   <input id="collapsible" class="toggle" type="checkbox">
   <label for="collapsible" class="lbl-toggle">Cemu can only run on 64-bit Windows systems.</label>
   <div class="collapsible-content">
