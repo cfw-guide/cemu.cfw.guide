@@ -42,8 +42,6 @@
   - This can cause stuttering when playing for the first time, but will go away after time
 1. Ensure that `Graphics Device` is correct and using your most powerful card in the case of devices with dual graphics
 1. Enable `VSync` to double or triple buffering
-1. Optionally, disable `Full sync at GX2DrawDone()`
-  - This will increase performance but can cause graphical glitches
 
     ---
 
