@@ -8,7 +8,7 @@ permalink: /site-navigation
 {% capture notice-1 %}
 **Popular**
 
-+ [Installing cemu](installing-cemu)
++ [Installing Cemu](installing-cemu)
 
 {% endcapture %}
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
@@ -17,11 +17,15 @@ permalink: /site-navigation
 **All**
 
 + [Credits](credits)
++ [Dumping Games](dumping-games)
 + [FAQ](faq)
 + [Home](/)
 + [Installing Cemu](installing-cemu)
++ [Online Play](online-play)
++ [Optimizing Breath of the Wild](optimizing-botw)
 + [Optimizing Cemu](optimizing-cemu)
 + [Site Navigation](site-navigation)
++ [Transferring Save Data](transferring-save-data)
 + [Troubleshooting](troubleshooting)
 
 {% endcapture %}
