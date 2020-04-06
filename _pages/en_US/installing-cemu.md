@@ -67,12 +67,18 @@ This includes letting games run at higher resolutions, higher framerates, adjust
 1. Enable "Override high DPI scaling behaviour. Scaling performed by: Application"
 1. Click `Apply` -> `OK`
 
+![]({{ "/assets/images/cemu-properties.png" | absolute_url }})
+{:.notice--textbox}
+
 ## Configuration
 
 1. Double click the Cemu application
 1. When prompted, grant administrator access
 
     You will now be greeted with the Cemu quickstart guide. This take you through setting up the emulator for first use.
+    {:.notice--textbox}
+
+    ![]({{ "/assets/images/cemu-quickstart-guide.png" | absolute_url }})
     {:.notice--textbox}
 
 3. Set your Wii U internal storage folder by clicking "Browse" under `mlc01 path`
@@ -93,6 +99,9 @@ This includes letting games run at higher resolutions, higher framerates, adjust
 1. Select the controller you'd like to use
 1. Map each Wii U button to the preferred button on your controller
 1. Once you're finished, enter a profile name in the `Profile` text box and click `Save`
+
+![]({{ "/assets/images/cemu-input-settings.png" | absolute_url }})
+{:.notice--textbox}
 
 ### Finishing set-up
 ---

@@ -121,6 +121,9 @@ After this is finished, you can exit FileZilla and turn off your Wii U.
 1. Ensure your active account is set to `80000001`
 1. Check the box `Enable online mode`
 
+![]({{ "/assets/images/cemu-account-settings.png" | absolute_url }})
+{:.notice--textbox}
+
 Your Wii U should now be ready to go online. If you ever want to disable online features, simply uncheck the box `Enable online mode`.
 
 Continue to [Optimizing Cemu](optimizing-cemu)

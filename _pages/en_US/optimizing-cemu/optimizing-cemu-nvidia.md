@@ -5,6 +5,9 @@
 1. Set "Mode" to `Triplecore-recompiler`
   - Switch to `Dualcore-recompiler` or `Singlecore-recompiler` if this stops a game from working
 
+![]({{ "/assets/images/cemu-game-profile.png" | absolute_url }})
+{:.notice--info}
+
 ## GPU Settings
 
 1. Open NVIDIA Control Panel
@@ -21,8 +24,11 @@
 1. Enable the `Triple buffering` option
 1. Enable the `Vertical sync` option
   - If you have a more powerful system, you can set it to `Fast` instead
-  - Enabling will reduce [screen tearing](https://en.wikipedia.org/wiki/Screen_tearing){:target="_blank"}, however can increase input lag in some rare cases
+  - Enabling will reduce [screen tearing](https://en.wikipedia.org/wiki/Screen_tearing), however can increase input lag in some rare cases
 1. If you have a compatible display, enable G-Sync
+
+![]({{ "/assets/images/nvidia-gpu-settings.png" | absolute_url }})
+{:.notice--textbox}
 
 ## Cemu Settings
 
@@ -36,6 +42,8 @@
   - This can cause stuttering when playing for the first time, but will go away after time
 1. Ensure that `Graphics Device` is correct and using your most powerful card in the case of devices with dual graphics
 1. Enable `VSync` to double or triple buffering
+1. Optionally, disable `Full sync at GX2DrawDone()`
+  - This will increase performance but can cause graphical glitches
 
     ---
 

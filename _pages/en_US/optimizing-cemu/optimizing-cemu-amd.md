@@ -5,6 +5,9 @@
 1. Set "Mode" to `Triplecore-recompiler`
   - Switch to `Dualcore-recompiler` or `Singlecore-recompiler` if this stops a game from working
 
+![]({{ "/assets/images/cemu-game-profile.png" | absolute_url }})
+{:.notice--info}
+
 ## Cemu Settings
 
 1. Open the Cemu main menu

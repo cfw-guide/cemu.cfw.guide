@@ -14,7 +14,7 @@ header:
 For complete guides to homebrew and custom firmware for other devices, check out [CFW.Guide](https://cfw.guide).
 {: .notice--primary}
 
-These guides will always remain free, but you can [buy me a coffee](https://www.buymeacoffee.com/emiyl){:target="_blank"} if you want!
+These guides will always remain free, but you can [buy me a coffee](https://www.buymeacoffee.com/emiyl) if you want!
 {: .notice--textbox}
 
 <div class="wrap-collabsible notice--danger">
@@ -23,7 +23,7 @@ These guides will always remain free, but you can [buy me a coffee](https://www.
   <div class="collapsible-content">
     <div class="content-inner">
       <li>If you have a 32-bit Windows system, this will not work.</li>
-      <li>Some users have managed to get Cemu running using Wine, however your mileage may vary.</li>
+      <li>Some users have managed to get Cemu running using [Wine](https://www.winehq.org/), however your mileage may vary.</li>
     </div>
   </div>
 </div>
@@ -35,7 +35,7 @@ Thoroughly read all of the introductory pages (including this one!) before proce
 
 Cemu is experimental software used to emulate Wii U applications on your PC. This means that if you will be able to run commercial Wii U games directly off of your system.
 
-The majority of games are completely playable from start to finish. You can check compatibility [here](http://compat.cemu.info/){:target="_blank"}
+The majority of games are completely playable from start to finish. You can check compatibility [here](http://compat.cemu.info/)
 
 ## How well can I run games?
 
@@ -58,7 +58,7 @@ Non-Ryzen AMD chips are not recommended as they lack in single-core processing s
 
 {% capture ram-notice %}
 
-The official [Cemu website](https://cemu.info/){:target="_blank"} states that it can run with a minimum of 4GB of RAM, with 8GB or more recommended. Most users will struggle a lot with 4GB, however, and may suffer extreme stuttering and other issues.
+The official [Cemu website](https://cemu.info/) states that it can run with a minimum of 4GB of RAM, with 8GB or more recommended, however most users will struggle immensely with 4GB, and will suffer extreme stuttering and other issues.
 
 Using 8GB can be fine, and you will be able to run most games well, however for maximum performance and compatibility we recommend 12GB or more.
 {% endcapture %}
@@ -72,9 +72,9 @@ Using 8GB can be fine, and you will be able to run most games well, however for 
 
 NVIDIA GPUs are mainly recommended, being able to take some load off of the CPU. Our second choice would be an AMD GPU, but they can be very reliant on the performance of your CPU.
 
-For running any game in general, we would recommend at least an NVIDIA GTX 600 card or AMD HD 7000 Series card. If you want increased FPS or resolution, consider looking for something more powerful.
+For running any game in general, you should at the very least have an NVIDIA GTX 600 card or AMD HD 7000 Series card. We recommend something more powerful however. If you want increased FPS or resolution, consider looking for something more expensive.
 
-If you're running on a thinner laptop, you may be using an iGPU instead. These integrated graphics are currently not supported on Cemu. While [some users](http://wiki.cemu.info/wiki/The_Legend_of_Zelda:_Breath_of_the_Wild#Testing){:target="_blank"} have reported playable framerates using Intel Graphics in games such as Breath of the Wild, we would recommend playing on a more powerful machine for better results.
+If you're running on a thinner laptop or other low-powered machine, you may be using an iGPU instead. These integrated graphics are currently not supported on Cemu. While [some users](http://wiki.cemu.info/wiki/The_Legend_of_Zelda:_Breath_of_the_Wild#Testing) have reported playable framerates using Intel Graphics in games such as Breath of the Wild, we would recommend playing on a more powerful machine for better results.
 {% endcapture %}
 
 <div class="notice--textbox">{{ gpu-notice | markdownify }}</div>

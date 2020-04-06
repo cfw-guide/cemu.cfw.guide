@@ -9,6 +9,9 @@ permalink: /site-navigation
 **Popular**
 
 + [Installing Cemu](installing-cemu)
++ [Dumping Games](dumping-games)
++ [Optimizing Cemu](optimizing-cemu)
++ [Online Play](online-play)
 
 {% endcapture %}
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
