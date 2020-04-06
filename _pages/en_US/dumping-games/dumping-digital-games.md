@@ -8,7 +8,7 @@ This process involves accessing the Wii U internal memory! If you don't follow t
 {: .notice--danger}
 
 Never modify any file on your Wii U internal storage unless you know what you're doing.
-{: .notice--warning}
+{: .notice--textbox}
 
 ## Requirements
 
@@ -16,11 +16,12 @@ Never modify any file on your Wii U internal storage unless you know what you're
 - An SD card reader for your PC
 - A [homebrewed Wii U](https://wiiu.hacks.guide/) with Custom Firmware
 - Enough space on your PC for the game dump
-  - The largest Wii U games is around 17GB, however very few actually are that big
+  - The largest Wii U game is around 17GB, however very few actually are that big
 
 ## Downloads
 
-- The latest release of [FTPiiU](https://github.com/FIX94/ftpiiu/releases) (FTP server)
+- If you use Haxchi or CBHC, download the latest release of [FTPiiU](https://github.com/FIX94/ftpiiu/releases) (FTP server)
+- If you use Mocha CFW, download this modified release of [FTPiiU](/assets/files/ftpiiu_everywhere.elf) (FTP Server)
 - The latest release of [FileZilla](https://filezilla-project.org/download.php?show_all=1) (FTP Client)
 
 ## Preparations

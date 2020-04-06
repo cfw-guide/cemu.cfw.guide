@@ -1,8 +1,8 @@
 ## Introduction
 
-For this method, we will be dumping a physical disk game to an SD card or USB storage device. This can take some time.
+For this method, we will be dumping a physical disc game to an SD card or USB storage device. This can take some time.
 
-After dumping, we copy the game over to the PC. Unfortunately, all Wii U disk images are encrypted, which means we need to decrypt them on our PC. Luckily this is quite easy.
+After dumping, we copy the game over to the PC. Unfortunately, all Wii U disc images are encrypted, which means we need to decrypt them on our PC. Luckily this is quite easy.
 
 ## Requirements
 
@@ -12,7 +12,7 @@ After dumping, we copy the game over to the PC. Unfortunately, all Wii U disk im
 - An SD card reader for your PC
 - A [homebrewed Wii U](https://wiiu.hacks.guide/) with Custom Firmware
 - Enough space on your PC for the game dump
-  - The largest Wii U games is around 17GB, however very few actually are that big
+  - The largest Wii U game is around 17GB, however very few actually are that big
 
 ## Downloads
 
@@ -30,11 +30,11 @@ After dumping, we copy the game over to the PC. Unfortunately, all Wii U disk im
 ## Dumping
 
 1. Power on your Wii U console
-1. Ensure your target game disk is **not** inserted in your Wii U
+1. Ensure your target game disc is **not** inserted in your Wii U
 1. Open the Homebrew Channel
-1. Run `disk2app`
+1. Run `disc2app`
 1. Press **(A)** to dump to the SD card, or **(B)** to dump to your USB storage
-1. Insert the game disk you'd like to dump when prompted
+1. Insert the game disc you'd like to dump when prompted
 1. The game will now be dumped to `\install\[TitleID]` on your SD/USB device
   - This may take a long time, be patient
   - TitleID will be a 16-character string of numbers and letters

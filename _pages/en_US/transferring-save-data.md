@@ -30,7 +30,8 @@ Never modify any file on your Wii U internal storage unless you know what you're
 
 ## Downloads
 
-- The latest release of [FTPiiU](https://github.com/FIX94/ftpiiu/releases) (FTP server)
+- If you use Haxchi or CBHC, download the latest release of [FTPiiU](https://github.com/FIX94/ftpiiu/releases) (FTP server)
+- If you use Mocha CFW, download this modified release of [FTPiiU](/assets/files/ftpiiu_everywhere.elf) (FTP Server)
 - The latest release of [FileZilla](https://filezilla-project.org/download.php?show_all=1) (FTP Client)
 
 ## Preparations
@@ -39,7 +40,7 @@ Never modify any file on your Wii U internal storage unless you know what you're
 1. Download and move the `ftpiiu.elf` file to the `\wiiu\apps` folder on your SD Card
 1. Eject your SD card from Windows and put it into your Wii U console
 
-## Dumping Files
+## Copying Files
 
 ### Connecting via FTP
 
@@ -59,7 +60,7 @@ Never modify any file on your Wii U internal storage unless you know what you're
 1. When warned about an insecure connection, ignore and continue
 1. You should now see your Wii U storage displayed on the right half of the FileZilla window
 
-### Transferring Files
+### Transferring saves
 
 1. If your game is stored on your Wii U internal memory, navigate to `storage_mlc/usr/save/00050000`
 1. If your game is stored on a USB storage device, navigate to `storage_usb/usr/save/00050000`
@@ -89,7 +90,12 @@ After this is finished, you can exit FileZilla and turn off your Wii U.
 
 The game should now boot with your save data installed. If it doesn't check your account settings and make sure you are using the default Cemu user `80000001`.
 
-Now we can start optimizing Cemu. This is a very crucial step which we thoroughly recommend. It can drastically improve performance in some cases and allows games to run the best they can.
+If you want to enable online multiplayer and play with people across the world on Nintendo servers, proceed to our online play guide.
 
-Continue to [Optimizing Cemu](optimizing-cemu)
+If you're not going to use online, skip ahead to our optimization guide to ensure you get the best performance.
+
+**1.** Continue to [Online Play](online-play)
+{: .notice--primary}
+
+**2.** Continue to [Optimizing Cemu](optimizing-cemu)
 {: .notice--info}

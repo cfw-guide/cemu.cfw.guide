@@ -28,7 +28,7 @@ permalink: /credits
 
 ## Credits
 
-I'd like to say a massive thank you to [Serfrost](https://twitter.com/sean_serfrost), for allowing me to use his [Wiki Guide](https://wiki.cemu.info/wiki/Serfrosts_Cemu_Setup_Guide) as a source and helping me out while I wrote this.
+I'd like to say a massive thank you to Serfrost, for allowing me to use his [Wiki Guide](https://wiki.cemu.info/wiki/Serfrosts_Cemu_Setup_Guide) as a source and helping me out while I wrote this.
 
 {% capture notice-1 %}<pre><br>
     + emiyl

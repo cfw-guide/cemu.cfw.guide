@@ -7,7 +7,7 @@ permalink: /dumping-updates-and-dlc
 
 In this section, we look at how to "dump" (copy) your updates and DLC from your Wii U system over to your PC.
 
-You will need to have a homebrewed Wii U for this, as system access is required to retrieve game files. You can do this quite easily if you follow the instructions in [wiiu.hacks.guide](https://wiiu.hacks.guide/). Once you've completed this, come back to this page and continue
+You will need to have a homebrewed Wii U for this, as system access is required to retrieve game files. You can do this quite easily if you follow the instructions in [wiiu.hacks.guide](https://wiiu.hacks.guide/). Once you've completed this, come back to this page and continue.
 
 These instructions are nearly identical to copying over digital games, however we will copy the update/DLC files to another place and install them a different way.
 {: .notice--info}
@@ -20,7 +20,7 @@ This process involves accessing the Wii U internal memory! If you don't follow t
 {: .notice--danger}
 
 Never modify any file on your Wii U internal storage unless you know what you're doing.
-{: .notice--warning}
+{: .notice--textbox}
 
 ## Requirements
 
@@ -31,7 +31,8 @@ Never modify any file on your Wii U internal storage unless you know what you're
 
 ## Downloads
 
-- The latest release of [FTPiiU](https://github.com/FIX94/ftpiiu/releases) (FTP server)
+- If you use Haxchi or CBHC, download the latest release of [FTPiiU](https://github.com/FIX94/ftpiiu/releases) (FTP server)
+- If you use Mocha CFW, download this modified release of [FTPiiU](/assets/files/ftpiiu_everywhere.elf) (FTP Server)
 - The latest release of [FileZilla](https://filezilla-project.org/download.php?show_all=1) (FTP Client)
 
 ## Preparations

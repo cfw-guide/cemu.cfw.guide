@@ -5,7 +5,7 @@ permalink: /dumping-games
 
 In this section, we look at how to "dump" (copy) your games from your Wii U system over to your PC.
 
-You will need to have a homebrewed Wii U for this, as system access is required to retrieve game files. You can do this quite easily if you follow the instructions in [wiiu.hacks.guide](https://wiiu.hacks.guide/). Once you've completed this, come back to this page and continue
+You will need to have a homebrewed Wii U for this, as system access is required to retrieve game files. You can do this quite easily if you follow the instructions in [wiiu.hacks.guide](https://wiiu.hacks.guide/). Once you've completed this, come back to this page and continue.
 
 ---
 
