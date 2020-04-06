@@ -4,6 +4,18 @@ main:
     title: Home
     url: /
   -
+    title: Optimizing Cemu
+    url: optimizing-cemu
+  -
+    title: Online Play
+    url: online-play
+  -
+    title: Motion Controls
+    url: motion-controls
+  -
+    title: Troubleshooting
+    url: troubleshooting
+  -
     title: FAQ
     url: faq
   -

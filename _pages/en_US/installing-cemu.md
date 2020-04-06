@@ -1,5 +1,6 @@
 ---
 title: Installing Cemu
+permalink: installing-cemu
 ---
 
 {% include toc title="Table of Contents" %}
@@ -17,7 +18,6 @@ When we finally launch the application, it will take us through the quick-start 
 On the next page, it'll ask you to configure your button inputs (this is where you set up your controller) and other settings.
 
 ### mlc01 path
----
 
 {% capture mlc01-notice %}
 The mlc01 path stores what the Wii U would normally store on its internal memory. It's essentially the emulated hard drive of the system. This means it stores all system files, game saves, updates and DLC.
@@ -30,7 +30,6 @@ Setting this is optional. If left unchecked, the mlc01 path will be stored in th
 <div class="notice--textbox">{{ mlc01-notice | markdownify }}</div>
 
 ### Games path
----
 
 {% capture games_path-notice %}
 This is rather self explanatory. Set this path to where you're going to keep your games.
@@ -41,7 +40,6 @@ If you don't have any games, don't worry, we're going to cover that later. For n
 <div class="notice--textbox">{{ games_path-notice | markdownify }}</div>
 
 ### Community Graphics Packs
----
 
 {% capture games_path-notice %}
 There's a button you can press called "Download community graphics packs". This will download a set of graphics packs for a select number of games that'll allow you to alter how games run.
@@ -53,9 +51,9 @@ This includes letting games run at higher resolutions, higher framerates, adjust
 
 ## Downloads
 
-- The latest release of [Cemu](https://cemu.info/#download){:target="_blank"}
+- The latest release of [Cemu](https://cemu.info/#download)
 
-## Preparing Cemu
+## Preparations
 
 1. Extract the Cemu `.zip` file to your Desktop
 1. Open the Cemu folder
@@ -69,7 +67,7 @@ This includes letting games run at higher resolutions, higher framerates, adjust
 1. Enable "Override high DPI scaling behaviour. Scaling performed by: Application"
 1. Click `Apply` -> `OK`
 
-## Configuring Cemu
+## Configuration
 
 1. Double click the Cemu application
 1. When prompted, grant administrator access
@@ -102,7 +100,14 @@ This includes letting games run at higher resolutions, higher framerates, adjust
 1. Enable "Automatically check for updates"
 1. Click `Close`
 
-Your Cemu set-up should now be complete, but there's a couple things we need to do first before we load some games onto the system, to make sure games run as fast as possible.
+Your Cemu set-up should now be complete, but there's one thing we're missing here -- games.
 
-Continue to [Optimizing Cemu](optimizing-cemu).
+The next section of the guide will take you through how to "dump" (copy) your games, updates, saves and more over from your system to your PC.
+
+If you already have your games sorted, work on optimization next.
+
+**1.** Continue to [Dumping Games](dumping-games).
+{: .notice--primary}
+
+**2.** Continue to [Optimizing Cemu](optimizing-cemu).
 {: .notice--info}
