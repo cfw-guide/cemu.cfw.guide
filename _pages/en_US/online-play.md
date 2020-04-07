@@ -14,8 +14,12 @@ We can use this to play games such as Super Smash Bros, Splatoon and Mario Kart 
 
 You will need to have a homebrewed Wii U for this, as system access is required to retrieve game files. You can do this by following the instructions on [wiiu.hacks.guide](https://wiiu.hacks.guide/). Once you've completed the process, come back to this page and continue.
 
-Since we will be connecting to <span style="text-decoration: underline">real Nintendo servers</span>, there will always be a chance of being banned. Do not use mods, cheats or hacks online.
-{: .notice--danger}
+As we will be connecting to real Nintendo servers, do not:
+- Use mods, cheats or hacks
+- Play on both your console and Cemu at the same time
+- Share your online files for other people to use
+
+Doing these may get your console banned, restricting you from online play.
 
 This process involves accessing the Wii U internal memory! If you don't follow the instructions correctly, you could potentially cause serious damage to your console.
 {: .notice--danger}
@@ -26,10 +30,8 @@ For this method, we will be copying update/DLC files over the internet using an 
 
 ## Requirements
 
-- An SD card
-- An SD card reader for your PC
-- A [homebrewed Wii U](https://wiiu.hacks.guide/) with Custom Firmware
-- Enough space on your PC for the update/DLC dump
+- A Wii U that runs a [Custom Firmware](https://wiiu.hacks.guide/) such as MochaCFW or (Coldboot) Haxchi
+- An SD card used for modding the Wii U
 
 ## Downloads
 

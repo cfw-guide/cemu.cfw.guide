@@ -22,11 +22,11 @@ This process is different for physical and digital games, so select the method t
 
 ## Notes
 
-You should now be able to run your game in Cemu. We now recommend that you dump any updates or DLC to install to Cemu as well. Some games, such as Breath of the Wild, require an update to actually boot the game.
+You should now have a copy of the game that you can run with Cemu. However, you probably should dump the updates of the game (and any DLC you've got) too! Many games require the latest update to run properly and graphic packs are usually only compatible with the latest version.
 
-If your game doesn't have any updates available, or you simply don't need to install them, you can continue to transferring your save data across to Cemu.
+If your game doesn’t have any updates available, or if you don’t need to install them, you can continue to transferring your save data across to Cemu.
 
-If you don't want updates _or_ save data, you can continue onto optimizing, to ensure that the game runs as best it can.
+If you don’t want updates or save data, you can continue onto optimizing, to ensure that the game runs as best it can.
 
 **1.** Continue to [Dumping Updates and DLC](dumping-updates-and-dlc)
 {: .notice--success}
