@@ -1,6 +1,6 @@
 ---
 title: Controller Configuration
-permalink: controller-configuration
+permalink: /controller-configuration
 ---
 
 In this section we'll be configuring controller inputs for Cemu, and setting up motion controls.

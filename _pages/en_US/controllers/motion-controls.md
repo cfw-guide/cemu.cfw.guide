@@ -1,6 +1,6 @@
 ---
 title: Motion Controls
-permalink: motion-controls
+permalink: /motion-controls
 ---
 
 In this section we'll be configuring controller inputs for Cemu, and setting up motion controls.

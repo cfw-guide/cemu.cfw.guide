@@ -1,6 +1,6 @@
 ---
 title: Optimizing Breath of the Wild
-permalink: optimizing-botw
+permalink: /optimizing-botw
 ---
 
 {% include toc title="Table of Contents" %}

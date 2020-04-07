@@ -1,8 +1,6 @@
 ---
 title: "FAQ"
 permalink: /faq
-redirect_from:
-  - help/faq
 ---
 
 {% include toc title="Table of Contents" %}

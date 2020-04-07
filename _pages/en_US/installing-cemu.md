@@ -1,6 +1,6 @@
 ---
 title: Installing Cemu
-permalink: installing-cemu
+permalink: /installing-cemu
 ---
 
 {% include toc title="Table of Contents" %}
