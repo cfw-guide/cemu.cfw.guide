@@ -45,4 +45,3 @@ Using triple or dualcore recompiler can cause some games to crash. If a game sto
 
 7. Navigate to the `Audio` tab
 1. Under `General`, change `API` to `XAudio2`
-1. We don't recommend reducing audio latency as it may cause crackling audio in games
