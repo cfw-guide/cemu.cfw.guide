@@ -1,5 +1,5 @@
 ---
-title: Dumping Games
+title: Dumping Updates and DLC
 permalink: /dumping-updates-and-dlc
 ---
 
