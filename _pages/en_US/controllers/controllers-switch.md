@@ -21,10 +21,16 @@
 1. In the bottom panel, it should say `Starting server on 127.0.0.1:26760`
   - `127.0.0.1` is the IP address of the motion controls server
   - `26760` is the port of the server
+
+    ![]({{ "/assets/images/betterjoy.png" | absolute_url }})
+
 1. Open the Cemu application
 1. On the top bar, go to `Settings` -> `Input settings`
 1. Click `Controller API` and select `DSUClient`
 1. Click `Settings` and ensure that `IP` and `Port` identical to what you saw in the BetterJoyForCemu LOG
+
+    ![]({{ "/assets/images/dsu-client.png" | absolute_url }})
+
 1. Click `Controller` and select `Client X`
 1. Proceed to map all your controller button inputs
 1. At the top, enter in a controller profile name, e.g. `Switch Controller`

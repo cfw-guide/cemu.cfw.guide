@@ -13,10 +13,17 @@
 1. Enable `Hide DS4 Controller`
 1. Enable `UDP Server`
   - This should say `127.0.0.1` with port `26760`
+
+    ![]({{ "/assets/images/ds4windows.png" | absolute_url }})
+    {: .notice--info}
+
 1. Open the Cemu application
 1. On the top bar, go to `Settings` -> `Input settings`
 1. Click `Controller API` and select `DSUClient`
 1. Click `Settings` and ensure that `IP` and `Port` identical to what you saw under `UDP Server`
+
+    ![]({{ "/assets/images/dsu-client.png" | absolute_url }})
+
 1. Click `Controller` and select `Client X`
 1. Proceed to map all your controller button inputs
 1. At the top, enter in a controller profile name, e.g. `DSU Controller`
