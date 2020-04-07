@@ -79,7 +79,7 @@ If you're running on a thinner laptop or other low-powered machine, you may be u
 
 <div class="notice--textbox">{{ gpu-notice | markdownify }}</div>
 
-A lot of users will want to play games at higher resolutions with better framerates. To do this, you will require better hardware than the guidelines listed above.
+A lot of users will want to play games at higher resolutions, with better framerates and other enhancements. To do this, you will require better hardware than the guidelines listed above.
 
 Now we know what specs we're dealing with, we can continue onto installing the application.
 
