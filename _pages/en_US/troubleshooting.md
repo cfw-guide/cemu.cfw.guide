@@ -5,6 +5,20 @@ permalink: /troubleshooting
 
 {% include toc title="Table of Contents" %}
 
+## Cemu
+
+### Can't initialise DirectInput
+
+This can be fixed by unplugging the controller and restarting Windows. Afterwards, plug the controller back in. Ensure you are using the latest official version of Cemu.
+
+### Stuck loading or crashing when booting a game
+
+This could be caused by a bad game dump. Try dumping your game from your Wii U again.
+
+It can also be caused by loading an update or DLC as a game, instead of the base game files. Ensure you're installing updates [properly](dumping-updates-and-dlc#installing-to-cemu).
+
+Modified illegitimate game copies may also cause this to happen. Dumping your game from your console will ensure you have a working version.
+
 ## The Legend of Zelda: Breath of the Wild
 
 [Full Cemu Wiki listing of issues](https://wiki.cemu.info/wiki/The_Legend_of_Zelda:_Breath_of_the_Wild)

@@ -5,12 +5,12 @@ permalink: /online-play
 
 {% include toc title="Table of Contents" %}
 
-In this section, we look at how to enable online play on Cemu.
+In this section, we look at how to enable online play on Cemu. This involves dumping a set of online files from your Wii U to make Nintendo think that the connection from Cemu is actually coming from your console.
 
 If you do not plan on using online services, we recommend you skip this section entirely to reduce the risk of a ban.
 {: .notice--primary}
 
-We can use this to play games such as Super Smash Bros, Splatoon and Mario Kart 8 online, using official Nintendo servers. This means that it'll be just like playing online on a real Wii U.
+After we've dumped the online files, you'll be able to play with other Wii U and Cemu players on Nintendo's official game servers.
 
 You will need to have a homebrewed Wii U for this, as system access is required to retrieve game files. You can do this by following the instructions on [wiiu.hacks.guide](https://wiiu.hacks.guide/). Once you've completed the process, come back to this page and continue.
 
@@ -90,8 +90,6 @@ For this method, we will be copying update/DLC files over the internet using an 
   JP: `1001500A`<br>
   US: `1001510A`<br>
   EU: `1001520A`
-
-Your game should now begin copying over to your computer. This will take a very long time and you may want to go do something else while this is happening.
 
 After this is finished, you can exit FileZilla and turn off your Wii U.
 
