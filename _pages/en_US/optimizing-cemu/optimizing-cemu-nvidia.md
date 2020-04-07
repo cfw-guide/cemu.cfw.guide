@@ -10,7 +10,6 @@
 Using triple or dualcore recompiler can cause some games to crash. If a game stops working because of this, try at a lower setting.
 
 ![]({{ "/assets/images/cemu-game-profile.png" | absolute_url }})
-{:.notice--info}
 
 ## GPU Settings
 
@@ -28,7 +27,6 @@ Using triple or dualcore recompiler can cause some games to crash. If a game sto
 1. If you have a compatible display, enable G-Sync
 
 ![]({{ "/assets/images/nvidia-gpu-settings.png" | absolute_url }})
-{:.notice--textbox}
 
 ## Cemu Settings
 

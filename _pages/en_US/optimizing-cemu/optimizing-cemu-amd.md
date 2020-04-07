@@ -10,7 +10,6 @@
 Using triple or dualcore recompiler can cause some games to crash. If a game stops working because of this, try at a lower setting.
 
 ![]({{ "/assets/images/cemu-game-profile.png" | absolute_url }})
-{:.notice--info}
 
 ## Cemu Settings
 
