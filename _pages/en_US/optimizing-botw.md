@@ -27,7 +27,7 @@ This section requires that you have installed Cemu's [community graphics packs](
 1. Right click on `The Legend of Zelda - Breath of the Wild`
 1. Click `Edit graphics packs`
 1. Navigate to the `Graphics` category
-1. Enable the `Resolution option`
+1. Enable the `Resolution` checkbox
   - If you have a more powerful GPU, you can change the resolution to a higher value, e.g. 1920x1080
   - If you have a weaker GPU, e.g. an iGPU, consider changing it to a lower value to increase performance
 1. Navigate to `Mods` -> `FPS++`
