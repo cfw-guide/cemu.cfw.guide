@@ -85,11 +85,11 @@ After this is finished, you can exit FileZilla and turn off your Wii U.
 
 1. Open the Cemu application
 1. On the top bar, navigate to `File` -> `Install game update or DLC`
-1. Go to the location of the update/DLC dump you just made
-1. Open the dump folder and open the `meta` folder
-1. Double click the `meta.xml` file
+1. Navigate to and open the folder of your update/DLC dump
+1. Open the `meta` folder
+1. Select the `meta.xml` file
 
-Cemu will now automatically install your update/DLC to your mlc01 storage folder. This may take a long time.
+Cemu will now automatically install your update/DLC to your mlc01 storage folder. This may take some time.
 
 When finished, your game should now run with the update/DLC automatically. We can then start on transferring save data from your console over to Cemu.
 
