@@ -88,7 +88,7 @@ After this is finished, you can exit FileZilla and turn off your Wii U.
   - This will make your old save data inaccessible until you rename it back
 1. Copy over your `8000000X` folder and rename it to `80000001` if it is not named that already
 
-The game should now boot with your save data installed. If it doesn't check your account settings and make sure you are using the default Cemu user `80000001`.
+The game should now boot with your save data installed. If it doesn't, check your account settings and make sure you are using the default Cemu user `80000001`.
 
 If you want to enable online multiplayer and play with people across the world on Nintendo servers, proceed to our online play guide.
 
