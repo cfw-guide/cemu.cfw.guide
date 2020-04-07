@@ -11,7 +11,7 @@ main:
     url: optimizing-cemu
   -
     title: Motion Controls
-    url: controller-configuration
+    url: motion-controls
   -
     title: Online Play
     url: online-play
