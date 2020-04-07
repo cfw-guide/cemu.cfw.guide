@@ -10,7 +10,8 @@
 1. Open the DS4Windows application
 1. Ensure your controller is registered with DS4Windows
 1. Navigate to the `Settings` tab
-1. At the bottom, ensure that `UDP Server` is enabled
+1. Enable `Hide DS4 Controller`
+1. Enable `UDP Server`
   - This should say `127.0.0.1` with port `26760`
 1. Open the Cemu application
 1. On the top bar, go to `Settings` -> `Input settings`
