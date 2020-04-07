@@ -86,37 +86,16 @@ This includes letting games run at higher resolutions, higher framerates, adjust
 1. Set your game folder clicking "Browse" under `Game paths`
 1. Click the `Download community graphics packs` button
 1. Click `Next`
-1. Ensure whichever controller (or keyboard) you'd like to use is connected to your computer
-1. Click `Configure input`
-
-### Controller set-up
----
-
-1. Select what Wii U controller you'd like to emulate
-  - If you plan on using motion controls in games such as Splatoon or BOTW, select `Wii U Gamepad`
-1. Select the controller API you're using
-  - If you're unsure, check XInput or DirectInput for your controller
-1. Select the controller you'd like to use
-1. Map each Wii U button to the preferred button on your controller
-1. Once you're finished, enter a profile name in the `Profile` text box and click `Save`
-
-![]({{ "/assets/images/cemu-input-settings.png" | absolute_url }})
-{:.notice--textbox}
 
 ### Finishing set-up
 ---
 
+1. For now, don't click `Configure Input`
+  - We will do this next in more detail
 1. Enable "Automatically check for updates"
 1. Click `Close`
 
-Your Cemu set-up should now be complete, but there's one thing we're missing here -- games.
+Now we've gone through the quickstart guide, we'll move onto properly mapping controller inputs, including enabling motion controls.
 
-The next section of the guide will take you through how to "dump" (copy) your games, updates, saves and more over from your system to your PC.
-
-If you already have your games sorted, work on optimization next.
-
-**1.** Continue to [Dumping Games](dumping-games).
-{: .notice--primary}
-
-**2.** Continue to [Optimizing Cemu](optimizing-cemu).
+Continue to [Controller Configuration](controller-configuration)
 {: .notice--info}
