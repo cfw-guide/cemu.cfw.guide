@@ -6,18 +6,16 @@ After dumping, we copy the game over to the PC. Unfortunately, all Wii U disc im
 
 ## Requirements
 
-- An SD card
-  - This must be large enough to store your dumped game on
-  - You may also use USB storage to dump the physical game to, however an SD card is still required to launch the dumping application
-- An SD card reader for your PC
-- A [homebrewed Wii U](https://wiiu.hacks.guide/) with Custom Firmware
-- Enough space on your PC for the game dump
-  - The largest Wii U game is around 17GB, however very few actually are that big
+- A Wii U that runs a [Custom Firmware](https://wiiu.hacks.guide/) such as MochaCFW or (Coldboot) Haxchi
+- An SD card used for modding the Wii U
+- (Optional) A USB storage device to dump the game to
+  - Only required if the game is too big for the SD card
+  - Wii U games can vary in size up to 17GB, but having 12GB of storage should be okay for most games
 
 ## Downloads
 
 - The latest release of [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
-- v2.0b of [Cdecrypt](/assets/files/Cdecrypt_v2.0b.zip)
+- [Cdecrypt v2.0b](/assets/files/Cdecrypt_v2.0b.zip)
 
 ## Preparations
 

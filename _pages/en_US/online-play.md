@@ -12,16 +12,13 @@ If you do not plan on using online services, we recommend you skip this section 
 
 We can use this to play games such as Super Smash Bros, Splatoon and Mario Kart 8 online, using official Nintendo servers. This means that it'll be just like playing online on a real Wii U.
 
-You will need to have a homebrewed Wii U for this, as system access is required to retrieve user files. You can do this quite easily if you follow the instructions in [wiiu.hacks.guide](https://wiiu.hacks.guide/). Once you've completed this, come back to this page and continue.
+You will need to have a homebrewed Wii U for this, as system access is required to retrieve game files. You can do this by following the instructions on [wiiu.hacks.guide](https://wiiu.hacks.guide/). Once you've completed the process, come back to this page and continue.
 
 Since we will be connecting to <span style="text-decoration: underline">real Nintendo servers</span>, there will always be a chance of being banned. Do not use mods, cheats or hacks online.
 {: .notice--danger}
 
 This process involves accessing the Wii U internal memory! If you don't follow the instructions correctly, you could potentially cause serious damage to your console.
 {: .notice--danger}
-
-Never modify any file on your Wii U internal storage unless you know what you're doing.
-{: .notice--textbox}
 
 ## Introduction
 

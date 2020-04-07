@@ -3,7 +3,7 @@ title: Optimizing Cemu
 permalink: /optimizing-cemu
 ---
 
-In this section, we make sure that Cemu is running the fast it possibly can. This involves changing some options in Cemu and your GPU settings to make sure we're getting the best performance.
+In this section, we make sure that Cemu is running as fast as possible. This involves changing some options in Cemu and your GPU settings to make sure we're getting the best performance.
 
 To continue, we need to know what GPU your system is using. If you don't know what type of graphics processor you have, open the Settings app on Windows 10. Then navigate to `System` -> `Display` -> `Advanced display settings`.
 
@@ -26,7 +26,7 @@ Please select your GPU brand below:
 
 ---
 
-Cemu should now be running the fastest it can, with a huge incrase in performance for some users. There are even more ways to improve framerates in Breath of the Wild. Follow our optimization guide for more info.
+Cemu should now be running the fastest it can, with a huge increase in performance for some users. There are even more ways to improve framerates in Breath of the Wild. Follow our optimization guide for more info.
 
 Continue to [Optimizing Breath of the Wild](optimizing-botw) (Optional)
 {: .notice--textbox}

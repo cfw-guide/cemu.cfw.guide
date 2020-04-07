@@ -2,8 +2,12 @@
 
 1. Open the Cemu main menu
 1. Right click on your game(s) and click `Edit game profile`
-1. Set "Mode" to `Triplecore-recompiler`
-  - Switch to `Dualcore-recompiler` or `Singlecore-recompiler` if this stops a game from working
+1. Set "Mode" to:
+  - If you use a hex-core or higher CPU, set to `Triplecore-recompiler`
+  - With a quad-core CPU, set to `Dualcore-recompiler`
+  - With a dual-core CPU, set to `Singlecore-recompiler`
+
+Using triple or dualcore recompiler can cause some games to crash. If a game stops working because of this, try at a lower setting.
 
 ![]({{ "/assets/images/cemu-game-profile.png" | absolute_url }})
 {:.notice--info}
@@ -21,10 +25,6 @@
 1. Under `OpenGL rendering GPU` select your main graphics processor
 1. Under `Power management` select `Prefer maximum performance`
 1. Enable the `Threaded optimization` option
-1. Enable the `Triple buffering` option
-1. Enable the `Vertical sync` option
-  - If you have a more powerful system, you can set it to `Fast` instead
-  - Enabling will reduce [screen tearing](https://en.wikipedia.org/wiki/Screen_tearing), however can increase input lag in some rare cases
 1. If you have a compatible display, enable G-Sync
 
 ![]({{ "/assets/images/nvidia-gpu-settings.png" | absolute_url }})

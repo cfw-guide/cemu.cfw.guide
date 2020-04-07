@@ -9,13 +9,11 @@ This section will take you through installing and configuring Cemu for the very 
 
 ## Introduction
 
-Installing Cemu is very simple. You simply need to extract a `.zip` file to somewhere on your PC. In this guide, we use the Desktop as this location.
+Cemu can be installed by extracting a `.zip` file to somewhere on your PC. In this guide, we use the Desktop as this location.
 
-Afterwards, we tweak the program slightly to run better, including fixing scaling issues and making sure it runs as administrator to ensure it has access to the files it needs.
+Before we launch it, we tweak the program slightly to run better, including fixing some scaling issues and making sure it runs as administrator. This is to ensure it has access to all the files it needs.
 
-When we finally launch the application, it will take us through the quick-start guide. This is very user friendly and explains everything very well. It takes you through setting up your mlc01 path, your games path and downloading graphics packs.
-
-On the next page, it'll ask you to configure your button inputs (this is where you set up your controller) and other settings.
+When we finally open the application, it will take us through the quick-start guide. This helps to set up the emulator properly with the necessary files and folders.
 
 ### mlc01 path
 
@@ -44,7 +42,7 @@ If you don't have any games, don't worry, we're going to cover that later. For n
 {% capture games_path-notice %}
 There's a button you can press called "Download community graphics packs". This will download a set of graphics packs for a select number of games that'll allow you to alter how games run.
 
-This includes letting games run at higher resolutions, higher framerates, adjusting bloom, anti-aliasing, shaders and other features. We recommend that you download these to tweak your games for better performance.
+This includes letting games run at higher resolutions, higher framerates, adjusting bloom, anti-aliasing, mods and other features. We recommend that you download these to tweak your games for better performance.
 {% endcapture %}
 
 <div class="notice--textbox">{{ games_path-notice | markdownify }}</div>

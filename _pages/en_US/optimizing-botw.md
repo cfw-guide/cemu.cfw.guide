@@ -14,9 +14,6 @@ Like the previous guide, some of these instructions are GPU specific, so make su
 Make sure you have followed our [Optimizing Cemu](optimizing-cemu) guide before proceeding.
 {: .notice--textbox}
 
-Ensure you are using [Triplecore Recompiling](optimizing-cemu).
-{: .notice--primary}
-
 If you don't know what type of GPU you have, open the Settings app on Windows 10. Then navigate to `System` -> `Display` -> `Advanced display settings`.
 
 Under your display name, it should say `Display #: Connected to [GPU]`. It should say either Intel, AMD or NVIDIA. That will tell you what brand of GPU you have.
@@ -29,9 +26,6 @@ This section requires that you have installed Cemu's [community graphics packs](
 1. Open the Cemu application
 1. Right click on `The Legend of Zelda - Breath of the Wild`
 1. Click `Edit graphics packs`
-1. Navigate to the `Enhancements` category
-1. Enable `No Depth of Field`
-  - This has been told to increase performance in some cases
 1. Navigate to the `Graphics` category
 1. Enable the `Resolution option`
   - If you have a more powerful GPU, you can change the resolution to a higher value, e.g. 1920x1080
@@ -39,7 +33,7 @@ This section requires that you have installed Cemu's [community graphics packs](
 1. Navigate to `Mods` -> `FPS++`
 1. Enable all of the options in this subcategory
 
-    Changing FPS to 60FPS can cause [some issues](https://wiki.cemu.info/wiki/The_Legend_of_Zelda:_Breath_of_the_Wild#Issues_arising_by_using_FPS.2B.2B_or_static_FPS.2B.2B) during gameplay. When these occur, simply set `Limit FPS (Required)` to 30FPS temporarily.
+    Changing FPS to 60FPS can cause [some issues](https://wiki.cemu.info/wiki/The_Legend_of_Zelda:_Breath_of_the_Wild#Issues_arising_by_using_FPS.2B.2B_or_static_FPS.2B.2B) during gameplay. When these occur, simply set `Limit FPS (Required)` to 30FPS temporarily until you're past that point in the game.
     {: .notice--info}
 
 1. Open the `Workarounds` category
@@ -50,7 +44,5 @@ This section requires that you have installed Cemu's [community graphics packs](
 1. If you're using Vulkan:
     1. Enable `Grass Swaying (Vulkan)`
     1. If using an iGPU, enable `Intel GPU Shadows (Vulkan)`
-
-These settings are optional, however may greatly improve performance and reduce graphical glitches.
 
 Once understanding what each setting does, we recommend you configure your own options. These settings should help, however.

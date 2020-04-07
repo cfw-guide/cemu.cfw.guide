@@ -23,7 +23,7 @@ These guides will always remain free, but you can [buy me a coffee](https://www.
   <div class="collapsible-content">
     <div class="content-inner">
       <li>If you have a 32-bit Windows system, this will not work.</li>
-      <li>Some users have managed to get Cemu running using [Wine](https://www.winehq.org/), however your mileage may vary.</li>
+      <li>Some users have managed to get Cemu running using <a href="https://www.winehq.org">Wine</a>, however your mileage may vary.</li>
     </div>
   </div>
 </div>
@@ -35,7 +35,7 @@ Thoroughly read all of the introductory pages (including this one!) before proce
 
 Cemu is experimental software used to emulate Wii U applications on your PC. This means that if you will be able to run commercial Wii U games directly off of your system.
 
-The majority of games are completely playable from start to finish. You can check compatibility [here](http://compat.cemu.info/)
+The majority of games are completely playable from start to finish. You can check to see if your game is playable on the [wiki](https://wiki.cemu.info/wiki/Category:List_of_games).
 
 ## How well can I run games?
 

@@ -7,7 +7,7 @@ permalink: /transferring-save-data
 
 In this section, we look at how to copy over your game saves from your Wii U system over to your PC.
 
-You will need to have a homebrewed Wii U for this, as system access is required to retrieve game files. You can do this quite easily if you follow the instructions in [wiiu.hacks.guide](https://wiiu.hacks.guide/). Once you've completed this, come back to this page and continue
+You will need to have a homebrewed Wii U for this, as system access is required to retrieve game files. You can do this by following the instructions on [wiiu.hacks.guide](https://wiiu.hacks.guide/). Once you've completed the process, come back to this page and continue.
 
 These instructions are nearly identical to copying over digital games/updates/DLC, however we will copy the save data to another place and install them a different way.
 {: .notice--info}
@@ -18,9 +18,6 @@ For this method, we will be copying save files over the internet using an FTP (F
 
 This process involves accessing the Wii U internal memory! If you don't follow the instructions correctly, you could potentially cause serious damage to your console.
 {: .notice--danger}
-
-Never modify any file on your Wii U internal storage unless you know what you're doing.
-{: .notice--warning}
 
 ## Requirements
 

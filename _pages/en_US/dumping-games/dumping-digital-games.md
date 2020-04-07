@@ -7,16 +7,13 @@ This is done over the internet using an FTP (File Transfer Protocol) server and 
 This process involves accessing the Wii U internal memory! If you don't follow the instructions correctly, you could potentially cause serious damage to your console.
 {: .notice--danger}
 
-Never modify any file on your Wii U internal storage unless you know what you're doing.
-{: .notice--textbox}
-
 ## Requirements
 
-- An SD card
-- An SD card reader for your PC
-- A [homebrewed Wii U](https://wiiu.hacks.guide/) with Custom Firmware
-- Enough space on your PC for the game dump
-  - The largest Wii U game is around 17GB, however very few actually are that big
+- A Wii U that runs a [Custom Firmware](https://wiiu.hacks.guide/) such as MochaCFW or (Coldboot) Haxchi
+- An SD card used for modding the Wii U
+- (Optional) A USB storage device to dump the game to
+  - Only required if the game is too big for the SD card
+  - Wii U games can vary in size up to 17GB, but having 12GB of storage should be okay for most games
 
 ## Downloads
 

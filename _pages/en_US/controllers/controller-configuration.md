@@ -97,7 +97,7 @@ Please select your controller type below:
 
 Your Cemu set-up should now be complete, but there's one thing we're missing here -- games.
 
-The next section of the guide will take you through how to "dump" (copy) your games, updates, saves and more over from your system to your PC.
+The next section of the guide will take you through how to "dump" (copy) your games, updates, saves and more over from your Wii U to your PC.
 
 If you already have your games sorted, work on optimization next.
 

@@ -1,6 +1,6 @@
 ## Instructions
 
-Motion controls are not available for Xbox controllers, make some features in games, such as shrine puzzles in Breath of the Wild, hard to use.
+Motion controls are not available for Xbox controllers, making some features in games, such as shrine puzzles in Breath of the Wild, hard to use.
 {: .notice--textbox}
 
 1. Connect your Xbox controller to Windows

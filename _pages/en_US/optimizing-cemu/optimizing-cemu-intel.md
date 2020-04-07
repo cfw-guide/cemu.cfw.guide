@@ -4,14 +4,18 @@ OpenGL and Vulkan are both rendering APIs, meaning that they help Cemu to emulat
 
 Vulkan is preferred, and if your iGPU supports Vulkan you may see a performance boost, however even fewer chips support it.
 
-You can check to see if your graphics processor is supported [here](https://www.intel.com/content/www/us/en/support/articles/000005524/graphics-drivers.html).
+You can check if your graphics processor is supported [here](https://www.intel.com/content/www/us/en/support/articles/000005524/graphics-drivers.html).
 
 ## Game Profiles
 
 1. Open the Cemu main menu
 1. Right click on your game(s) and click `Edit game profile`
-1. Set "Mode" to `Triplecore-recompiler`
-  - Switch to `Dualcore-recompiler` or `Singlecore-recompiler` if this stops a game from working
+1. Set "Mode" to:
+  - If you use a hex-core or higher CPU, set to `Triplecore-recompiler`
+  - With a quad-core CPU, set to `Dualcore-recompiler`
+  - With a dual-core CPU, set to `Singlecore-recompiler`
+
+Using triple or dualcore recompiler can cause some games to crash. If a game stops working because of this, try at a lower setting.
 
 ![]({{ "/assets/images/cemu-game-profile.png" | absolute_url }})
 {:.notice--info}
@@ -33,8 +37,7 @@ You can check to see if your graphics processor is supported [here](https://www.
     ---
 
 7. Navigate to the `Audio` tab
-1. Under `General`, change "API" to `XAudio2`
-1. We don't recommend reducing audio latency as it may cause crackling audio in games
+1. Under `General`, change `API` to `XAudio2`
 
 ## Windows, Shortcuts and Drivers
 
