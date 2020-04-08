@@ -10,6 +10,7 @@
 -->
 <html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
   <head>
+    <title>{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}</title>
     {% include head.html %}
     {% include head/custom.html %}
   </head>
