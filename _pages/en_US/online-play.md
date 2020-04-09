@@ -83,15 +83,15 @@ For this method, we will be copying update/DLC files over the internet using an 
 1. Copy over both the `ccserts` and `scerts` folders to the `online_files` folder
 1. Navigate to `storage_mlc/sys/title/0005001b/`
 1. Copy over the `10056000` folder to the `online_files` folder
-1. Navigate to `storage_mlc/usr/save/system/act/800000XX`
-  - The accounts will be numbered in order of creation starting at `80000001`
-1. Copy over the `account.dat` file to the `online_files` folder
-  - You can verify if the account belongs to you by opening up the `.dat` file in a text editor and checking the `AccountID` field
 1. Navigate to `storage_mlc/sys/title/00050030`
 1. Copy over the folder to `online_files` that corresponds to your region:<br>
   JP: `1001500A`<br>
   US: `1001510A`<br>
   EU: `1001520A`
+1. Navigate to `storage_mlc/usr/save/system/act/800000XX`
+  - The accounts will be numbered in order of creation starting at `80000001`
+1. Copy over the `account.dat` file to the `online_files` folder
+  - You can verify if the account belongs to you by opening up the `.dat` file in a text editor and checking the `AccountID` field
 
 After this is finished, you can exit FileZilla and turn off your Wii U.
 
