@@ -18,7 +18,7 @@ When we finally open the application, it will take us through the quick-start gu
 ### mlc01 path
 
 {% capture mlc01-notice %}
-The mlc01 path stores what the Wii U would normally store on its internal memory. It's essentially the emulated hard drive of the system. This means it stores all System Files, System Apps, installed Updates, DLC, and created Save Data.
+The mlc01 path stores what the Wii U would normally store on its internal memory. It's essentially the emulated hard drive of the system. This means it stores all system files, system apps, installed updates, DLC, and created save data.
 
 Setting this is optional. However, if left unchecked, the mlc01 path will be stored in the Cemu directory. If the drive you're using to store Cemu has a low amount of remaining space, we recommend you set this to store your mlc01 (and thus your Updates, DLC, and Save Data) on a different drive.  If you choose to do this, it's very important that you remember this location.
 
@@ -30,7 +30,7 @@ Setting this is optional. However, if left unchecked, the mlc01 path will be sto
 ### Games path
 
 {% capture games_path-notice %}
-This is rather self explanatory. Set this path to where you're going to keep your games. It's important to note that you `must not` store your Updates or DLCs in this directory and you cannot use the `mlc01` directory, either. We typically recommend to place a `Games` folder in your `Cemu` folder/directory for easy access.
+This is rather self explanatory. Set this path to where you're going to keep your games. It's important to note that you **must not** store your Updates or DLCs in this directory and you cannot use the `mlc01` directory, either. We typically recommend to place a `Games` folder in your `Cemu` folder/directory for easy access.
 
 If you don't have any games, don't worry, we're going to cover that later. For now, set it to where you're going to put those games.
 {% endcapture %}
@@ -97,7 +97,7 @@ This includes letting games display at higher resolutions, run with higher frame
   - If you don't wish to get update notifications, you may update Cemu manually with an option under the Help menu
 1. Click `Close`
 
-Now we've gone through the quickstart guide, we'll move onto properly mapping controller inputs, (including motion controls.)
+Now we've gone through the quickstart guide, we'll move onto properly mapping controller inputs, (including motion controls).
 
 Continue to [Controller Configuration](controller-configuration)
 {: .notice--info}
