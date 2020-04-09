@@ -17,6 +17,7 @@ Please select your controller type below:
 <button class="btn btn--large btn--info" id="abtn" onclick="showa()">Nintendo Switch</button>
 <button class="btn btn--large btn--info" id="bbtn" onclick="showb()">Dualshock 4</button>
 <button class="btn btn--large btn--info" id="cbtn" onclick="showc()">Xbox</button>
+<button class="btn btn--large btn--info" id="dbtn" onclick="showd()">Others</button>
 
 {% capture a-instructions %}{% include_relative controllers-switch.md %}{% endcapture %}
 <div id="ainstr">{{ a-instructions | markdownify }}</div>
@@ -26,6 +27,9 @@ Please select your controller type below:
 
 {% capture c-instructions %}{% include_relative controllers-xbox.md %}{% endcapture %}
 <div id="cinstr">{{ c-instructions | markdownify }}</div>
+
+{% capture d-instructions %}{% include_relative controllers-others.md %}{% endcapture %}
+<div id="dinstr">{{ d-instructions | markdownify }}</div>
 
 ---
 
@@ -42,11 +46,16 @@ Please select your controller type below:
   var cbtn = document.getElementById("cbtn");
   var cclr = "btn--success"
 
+  var d = document.getElementById("dinstr");
+  var dbtn = document.getElementById("dbtn");
+  var dclr = "btn--primary"
+
   var clr = "btn--info"
 
   a.style.display = "block";
   b.style.display = "none";
   c.style.display = "none";
+  d.style.display = "none";
 
   abtn.classList.remove("btn--info");
   abtn.classList.add(aclr);
@@ -55,41 +64,67 @@ Please select your controller type below:
     a.style.display = "block";
     b.style.display = "none";
     c.style.display = "none";
+    d.style.display = "none";
 
     abtn.classList.remove(clr);
     bbtn.classList.add(clr);
     cbtn.classList.add(clr);
+    dbtn.classList.add(clr);
 
     abtn.classList.add(aclr);
     bbtn.classList.remove(bclr);
     cbtn.classList.remove(cclr);
+    dbtn.classList.remove(dclr);
   }
 
   function showb() {
     a.style.display = "none";
     b.style.display = "block";
     c.style.display = "none";
+    d.style.display = "none";
 
     abtn.classList.add(clr);
     bbtn.classList.remove(clr);
     cbtn.classList.add(clr);
+    dbtn.classList.add(clr);
 
     abtn.classList.remove(aclr);
     bbtn.classList.add(bclr);
     cbtn.classList.remove(cclr);
+    dbtn.classList.remove(dclr);
   }
 
   function showc() {
     a.style.display = "none";
     b.style.display = "none";
     c.style.display = "block";
+    d.style.display = "none";
 
     abtn.classList.add(clr);
     bbtn.classList.add(clr);
     cbtn.classList.remove(clr);
+    dbtn.classList.add(clr);
 
     abtn.classList.remove(aclr);
     bbtn.classList.remove(bclr);
     cbtn.classList.add(cclr);
+    dbtn.classList.remove(dclr);
+  }
+
+  function showd() {
+    a.style.display = "none";
+    b.style.display = "none";
+    c.style.display = "none";
+    d.style.display = "block";
+
+    abtn.classList.add(clr);
+    bbtn.classList.add(clr);
+    cbtn.classList.add(clr);
+    dbtn.classList.remove(clr);
+
+    abtn.classList.remove(aclr);
+    bbtn.classList.remove(bclr);
+    cbtn.classList.remove(cclr);
+    dbtn.classList.add(dclr);
   }
 </script>
