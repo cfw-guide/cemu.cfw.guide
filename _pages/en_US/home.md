@@ -4,7 +4,7 @@ title: Cemu Guide
 excerpt: "A complete guide to installing CEMU and optimizing performance."
 permalink: /
 header:  
-  overlay_image: /assets/images/reshade.png
+  overlay_image: /assets/images/splash-image.png
   overlay_filter: 0.5
   overlay_color: "#1a1d24"
   cta_label: "Get Started"
