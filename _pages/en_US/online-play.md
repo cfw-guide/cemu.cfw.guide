@@ -80,7 +80,7 @@ For this method, we will be copying update/DLC files over the internet using an 
 ### Transferring data
 
 1. Navigate to the `storage_mlc/sys/title/0005001b/10054000/content` folder on your Wii U internal storage
-1. Copy over both the `ccserts` and `scerts` folders to the `online_files` folder to the `online_files` folder
+1. Copy over both the `ccserts` and `scerts` folders to the `online_files` folder
 1. Navigate to `storage_mlc/sys/title/0005001b/`
 1. Copy over the `10056000` folder to the `online_files` folder
 1. Navigate to `storage_mlc/usr/save/system/act/800000XX`
