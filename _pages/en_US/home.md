@@ -72,16 +72,16 @@ Using 8GB can be fine, and you will be able to run most games well, however for 
 
 NVIDIA GPUs are mainly recommended, being able to take some load off of the CPU. Our second choice would be an AMD GPU, but they can be very reliant on the performance of your CPU.
 
-For running any game in general, you should at the very least have an NVIDIA GTX 600 card or AMD HD 7000 Series card. We recommend something more powerful however. If you want increased FPS or resolution, consider looking for something more expensive.
+For running any game in general, the minimum recommendation is an NVIDIA GTX 600 card or AMD HD 7000 Series card. For better results, we recommend a GPU that's more powerful. If you want increased FPS or resolution, consider looking at more expensive options. Ideally you should not build your PC just for a singular emulator, so keep this in mind.
 
-If you're running on a thinner laptop or other low-powered machine, you may be using an iGPU instead. These integrated graphics are currently not supported on Cemu. While [some users](http://wiki.cemu.info/wiki/The_Legend_of_Zelda:_Breath_of_the_Wild#Testing) have reported playable framerates using Intel Graphics in games such as Breath of the Wild, we would recommend playing on a more powerful machine for better results.
+If you're running on a thinner laptop or other low-powered machine, you may be using an iGPU/APU instead. These integrated graphic cards are currently not supported very well on Cemu. While [some users](http://wiki.cemu.info/wiki/The_Legend_of_Zelda:_Breath_of_the_Wild#Testing) have reported playable framerates using integrated graphics in games such as Breath of the Wild, we highly stress that playing on a more powerful machine will yield much better results.
 {% endcapture %}
 
 <div class="notice--textbox">{{ gpu-notice | markdownify }}</div>
 
 A lot of users will want to play games at higher resolutions, with better framerates and other enhancements. To do this, you will require better hardware than the guidelines listed above.
 
-Now we know what specs we're dealing with, we can continue onto installing the application.
+Now that you're aware of the requirements, you may proceed with downloading and setting up the emulator.
 
 Continue to [Installing Cemu](installing-cemu).
 {: .notice--info}
