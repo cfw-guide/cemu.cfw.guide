@@ -5,7 +5,11 @@ permalink: /optimizing-cemu
 
 In this section, we make sure that Cemu is running as fast as possible. This involves changing some options in Cemu and your GPU settings to make sure we're getting the best performance.
 
-To continue, we need to know what GPU your system is using. If you don't know what type of graphics processor you have, open the Settings app on Windows 10. Then navigate to `System` -> `Display` -> `Advanced display settings`.
+To continue, we need to know how many threads your CPU has. You can find this by opening the Task Manager in Windows.
+
+Right click on the Windows button and click `Task Manager`. Next Click `More Details` and go to the `Performance` tab. Under `CPU` you should find `Logical processors`. This will tell you how many threads you have.
+
+We also need to know what GPU your system is using. If you don't know what type of graphics processor you have, open the Settings app on Windows 10. Then navigate to `System` -> `Display` -> `Advanced display settings`.
 
 Under your display name, it should say `Display #: Connected to [GPU]`. It should say either Intel, AMD or NVIDIA. That will tell you what brand of GPU you have.
 
