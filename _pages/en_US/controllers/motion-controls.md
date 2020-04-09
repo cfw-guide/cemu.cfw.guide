@@ -7,9 +7,6 @@ In this section we'll be configuring controller inputs for Cemu, and setting up 
 
 This can vary between controllers, as some controllers _do_ support motion controls (e.g. Switch and PS4), however some don't (e.g. Xbox controllers).
 
-For more motion control solutions, such as using a phone, visit the [Cemu Wiki](https://wiki.cemu.info/wiki/Motion_Controls#Motion_via_the_Cemuhook_API_.28for_the_Emulated_GamePad_and_emulated_Wii_Remote.29).
-{: .notice--info}
-
 If you have a generic controller, it may possibly simply emulate an Xbox controller. Try following the Xbox guide. If that doesn't work, try again but with the controller API set to `DirectInput` instead.
 
 Please select your controller type below:
