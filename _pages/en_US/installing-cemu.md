@@ -18,9 +18,9 @@ When we finally open the application, it will take us through the quick-start gu
 ### mlc01 path
 
 {% capture mlc01-notice %}
-The mlc01 path stores what the Wii U would normally store on its internal memory. It's essentially the emulated hard drive of the system. This means it stores all system files, game saves, updates and DLC.
+The mlc01 path stores what the Wii U would normally store on its internal memory. It's essentially the emulated hard drive of the system. This means it stores all system files, system apps, installed updates, DLC, and created save data.
 
-Setting this is optional. If left unchecked, the mlc01 path will be stored in the Cemu directory, however we recommend you store it somewhere else, so that if the Cemu folder is deleted, your saves will be kept.
+Setting this is optional. However, if left unchecked, the mlc01 path will be stored in the Cemu directory. If the drive you're using to store Cemu has a low amount of remaining space, we recommend you set this to store your mlc01 (and thus your Updates, DLC, and Save Data) on a different drive.  If you choose to do this, it's very important that you remember this location.
 
 ###### _Note: Default mlc01 path may be changed in the future_
 {% endcapture %}
@@ -30,7 +30,7 @@ Setting this is optional. If left unchecked, the mlc01 path will be stored in th
 ### Games path
 
 {% capture games_path-notice %}
-This is rather self explanatory. Set this path to where you're going to keep your games.
+This is rather self explanatory. Set this path to where you're going to keep your games. It's important to note that you **must not** store your Updates or DLCs in this directory and you cannot use the `mlc01` directory, either. We typically recommend to place a `Games` folder in your `Cemu` folder/directory for easy access.
 
 If you don't have any games, don't worry, we're going to cover that later. For now, set it to where you're going to put those games.
 {% endcapture %}
@@ -40,9 +40,9 @@ If you don't have any games, don't worry, we're going to cover that later. For n
 ### Community Graphics Packs
 
 {% capture games_path-notice %}
-There's a button you can press called "Download community graphics packs". This will download a set of graphics packs for a select number of games that'll allow you to alter how games run.
+There's a button you can press called "Download community graphics packs". This will download a set of graphics packs for a select number of games, these packs will allow you to alter a game visually or how it will run.
 
-This includes letting games run at higher resolutions, higher framerates, adjusting bloom, anti-aliasing, mods and other features. We recommend that you download these to tweak your games for better performance.
+This includes letting games display at higher resolutions, run with higher framerates, adjusting bloom, improve anti-aliasing, use game mods, and an assortment of other features. We recommend that you download these to allow tweaking your games for better performance.
 {% endcapture %}
 
 <div class="notice--textbox">{{ games_path-notice | markdownify }}</div>
@@ -65,6 +65,9 @@ This includes letting games run at higher resolutions, higher framerates, adjust
 1. Enable "Override high DPI scaling behaviour. Scaling performed by: Application"
 1. Click `Apply` -> `OK`
 
+    These options are set to help avoid issues on various Windows versions, file restrictions, or display resolutions.  That said, one or more of these options will not be necessary for everyone, but not setting them may result in complications.
+    {:.notice--textbox}
+
 ![]({{ "/assets/images/cemu-properties.png" | absolute_url }})
 {:.notice--textbox}
 
@@ -80,9 +83,9 @@ This includes letting games run at higher resolutions, higher framerates, adjust
     {:.notice--textbox}
 
 3. Set your Wii U internal storage folder by clicking "Browse" under `mlc01 path`
-  - Read the introductions if you don't know what this or the following are
-1. Set your game folder clicking "Browse" under `Game paths`
-1. Click the `Download community graphics packs` button
+  - Read the introductions at the top of this page if you do not know what the `mlc01 path` or `games path` are.
+1. Set your `Game paths` to your games folder by clicking "Browse"
+1. Click `Download community graphics packs` button to automatically download the latest packs
 1. Click `Next`
 
 ### Finishing set-up
@@ -90,10 +93,11 @@ This includes letting games run at higher resolutions, higher framerates, adjust
 
 1. For now, don't click `Configure Input`
   - We will do this next in more detail
-1. Enable "Automatically check for updates"
+1. Enable "Automatically check for updates" 
+  - If you don't wish to get update notifications, you may update Cemu manually with an option under the Help menu
 1. Click `Close`
 
-Now we've gone through the quickstart guide, we'll move onto properly mapping controller inputs, including enabling motion controls.
+Now we've gone through the quickstart guide, we'll move onto properly mapping controller inputs, (including motion controls).
 
 Continue to [Controller Configuration](controller-configuration)
 {: .notice--info}
