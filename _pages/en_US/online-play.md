@@ -67,7 +67,7 @@ For this method, we will be copying update/DLC files over the internet using an 
 ## Copying to Cemu
 
 1. Take your SD card out of your Wii U and put it in your PC
-1. Copy `otp.bin` and `seeprom.bin` to your Cemu directory
+1. Copy `otp.bin` and `seeprom.bin` from the root of your SD card to your Cemu directory
   - This is where `Cemu.exe` is located
 1. Copy **the contents** of `dumpling/online_files/mlc01` to your Cemu mlc01 folder
   - Overwrite any files if prompted
