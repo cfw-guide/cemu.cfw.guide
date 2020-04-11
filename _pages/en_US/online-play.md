@@ -61,7 +61,7 @@ For this method, we will be copying update/DLC files over the internet using an 
 1. Launch MochaCFW if it's not already running
 1. Run `dumpling.elf`
 1. Select `Online Files` and press the **(A)** button
-1. Once this is finished, optionally select `Friends List` and press the **(A)** button again
+1. Select `Friends List` and press the **(A)** button again
 1. Press the Home button to exit and then turn off your Wii U
 
 ## Copying to Cemu
@@ -69,10 +69,9 @@ For this method, we will be copying update/DLC files over the internet using an 
 1. Take your SD card out of your Wii U and put it in your PC
 1. Copy `otp.bin` and `seeprom.bin` to your Cemu directory
   - This is where `Cemu.exe` is located
-1. On your SD card, navigate to `dumpling/online_files/vol/storage_mlc01`
-1. Copy and paste this to your Cemu mlc01 folder
+1. Copy **the contents** of `dumpling/online_files/mlc01` to your Cemu mlc01 folder
   - Overwrite any files if prompted
-1. If you dumped the `Friends List` title, copy the contents of `dumpling/friends_list/sys/title/00050030` to your Cemu games directory
+1. Copy the `dumpling/friends_list` folder to your Cemu games directory
 
 ## Selecting your Account
 
