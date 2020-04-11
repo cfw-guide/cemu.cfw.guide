@@ -30,7 +30,7 @@ For this method, we will be copying update/DLC files over the internet using an 
 
 ## Requirements
 
-- A Wii U with [MochaCFW](https://gbatemp.net/threads/mocha-cfw-the-sweet-chocolate-to-your-latte.452940/)
+- A Wii U with [MochaCFW](https://wiiu.hacks.guide/)
 - An SD card used for modding the Wii U
 
 ## Downloads
