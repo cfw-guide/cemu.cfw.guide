@@ -12,7 +12,7 @@ If you do not plan on using online services, we recommend you skip this section 
 
 After we've dumped the online files, you'll be able to play with other Wii U and Cemu players on Nintendo's official game servers.
 
-You will need to have a homebrewed Wii U running MochacFW for this, as system access is required to retrieve game files. You can do this by following the instructions on [wiiu.hacks.guide](https://wiiu.hacks.guide/). Once you've completed the process, come back to this page and continue.
+You will need to have a homebrewed Wii U running MochaCFW for this, as system access is required to retrieve game files. You can do this by following the instructions on [wiiu.hacks.guide](https://wiiu.hacks.guide/). Once you've completed the process, come back to this page and continue.
 
 As we will be connecting to real Nintendo servers, do not:
 - Use mods, cheats or hacks
