@@ -40,7 +40,7 @@ For this method, we will be copying update/DLC files over the internet using an 
 
 ## Preparations
 
-1. Move the dumpling `.elf` file to the `\wiiu\apps` folder on your SD Card
+1. Extract the dumpling `.zip` file to the root of your SD card
 1. Extract the wiiu-nanddumper `.zip` file to the `\wiiu\apps` folder on your SD card
 1. Eject your SD card from Windows and put it into your Wii U console
 
