@@ -3,11 +3,15 @@ title: Optimizing Breath of the Wild
 permalink: /optimizing-botw
 ---
 
-{% include toc title="Table of Contents" %}
+<!--{% include toc title="Table of Contents" %}-->
 
 Breath of the Wild is a particularly demanding game for a lot of systems, so people have created modifications to help you get the best performance possible in the game.
 
 ![]({{ "/assets/images/reshade.png" | absolute_url }})
+{: .notice}
+
+This game is much more demanding on your GPU than other Wii U titles. We recommend a more powerful GPU than the ones recommended on the home page, especially if you are interested in playing at higher resolutions and framerates.
+{: .notice--info}
 
 Like the previous guide, some of these instructions are GPU specific, so make sure you know what type of GPU you have before proceeding. You'll also need to make note of what rendering API you're using, either OpenGL or Vulkan.
 
@@ -40,9 +44,11 @@ This section requires that you have installed Cemu's [community graphics packs](
 1. If you're using OpenGL:
     1. Enable `Kakariko Torch Shadows (OpenGL)` and `LWZX Crash (OpenGL)`
     1. Open the `GPU specific workarounds for OpenGL` subcategory
-    1. Enable all the options corresponding to your GPU
+    1. Enable all the options corresponding to your GPU (Intel, AMD or NVIDIA)
 1. If you're using Vulkan:
     1. Enable `Grass Swaying (Vulkan)`
-    1. If using an iGPU, enable `Intel GPU Shadows (Vulkan)`
+    1. If using an Intel GPU, enable `Intel GPU Shadows (Vulkan)`
 
-Once understanding what each setting does, we recommend you configure your own options. These settings should help, however.
+---
+
+Once understanding what each setting does, we recommend you configure your own options. These settings should work for most people as a base however.
