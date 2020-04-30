@@ -14,7 +14,7 @@ header:
 For complete guides to homebrew and custom firmware for other devices, check out [CFW.Guide](https://cfw.guide).
 {: .notice--primary}
 
-These guides will always remain free, but you can [buy me a coffee](https://www.buymeacoffee.com/emiyl) if you want!
+If you appreciate these guides, consider [donating](/donations) to support the guide.
 {: .notice--textbox}
 
 <div class="wrap-collabsible notice--danger">
