@@ -41,7 +41,7 @@ This is caused by the disabling of `Full Sync at GX2Drawdone()` on OpenGL. You c
 
 ### Black/grey sky
 
-This is caused by the latest NVIDIA graphics drivers on Vulkan. You can fix it for now by reverting to previous graphics drivers or switching to OpenGL.
+This is caused by NVIDIA graphics drivers version 445.87 when using Vulkan. You can fix it for now by reverting to drivers before 445.87 or switching to OpenGL.
 
 ### Cutscenes (Rito Village/Vah Medoh) cause the game to freeze
 
