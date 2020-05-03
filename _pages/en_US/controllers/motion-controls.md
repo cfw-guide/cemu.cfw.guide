@@ -3,11 +3,11 @@ title: Motion Controls
 permalink: /motion-controls
 ---
 
-In this section we'll be configuring controller inputs for Cemu, and setting up motion controls.
+In this section we'll be configuring controller inputs and motion controls for Cemu.
 
-This can vary between controllers, as some controllers _do_ support motion controls (e.g. Switch and PS4), however some don't (e.g. Xbox controllers).
+Only a select few controllers properly support motion controls. We recommend using either official Nintendo Switch controllers or a Dual Shock 4 controller.
 
-If you have a generic controller, it may possibly simply emulate an Xbox controller. Try following the Xbox guide. If that doesn't work, try again but with the controller API set to `DirectInput` instead.
+If you have an Xbox controller, this will not work as they don't have the hardware to support motion controls. For other controllers, please check the "Others" tab to see compatibility.
 
 Please select your controller type below:
 
@@ -22,7 +22,7 @@ Please select your controller type below:
 {% capture b-instructions %}{% include_relative controllers-ds4.md %}{% endcapture %}
 <div id="binstr">{{ b-instructions | markdownify }}</div>
 
-{% capture c-instructions %}{% include_relative controllers-xbox.md %}{% endcapture %}
+{% capture c-instructions %}{% include_relative controllers-xbox-motion.md %}{% endcapture %}
 <div id="cinstr">{{ c-instructions | markdownify }}</div>
 
 {% capture d-instructions %}{% include_relative controllers-others.md %}{% endcapture %}
