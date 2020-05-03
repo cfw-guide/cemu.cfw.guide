@@ -21,10 +21,6 @@ As we will be connecting to real Nintendo servers, do not:
 
 Doing these may get your console banned, restricting you from online play.
 
-## Introduction
-
-For this method, we will be copying update/DLC files over the internet using an FTP (File Transfer Protocol) server and client. This allows you to copy files over your local network directly to your computer.
-
 ## Requirements
 
 - A Wii U that runs a [Custom Firmware](https://wiiu.hacks.guide/) such as MochaCFW or (Coldboot) Haxchi
