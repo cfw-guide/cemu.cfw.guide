@@ -12,7 +12,7 @@ If you do not plan on using online services, we recommend you skip this section 
 
 After we've dumped the online files, you'll be able to play with other Wii U and Cemu players on Nintendo's official game servers.
 
-You will need to have a homebrewed Wii U running MochaCFW for this, as system access is required to retrieve game files. You can do this by following the instructions on [wiiu.hacks.guide](https://wiiu.hacks.guide/). Once you've completed the process, come back to this page and continue.
+You will need to have a homebrewed Wii U for this, as system access is required to retrieve game files. You can do this by following the instructions on [wiiu.hacks.guide](https://wiiu.hacks.guide/). Once you've completed the process, come back to this page and continue.
 
 As we will be connecting to real Nintendo servers, do not:
 - Use mods, cheats or hacks
@@ -21,16 +21,13 @@ As we will be connecting to real Nintendo servers, do not:
 
 Doing these may get your console banned, restricting you from online play.
 
-This process involves accessing the Wii U internal memory! If you don't follow the instructions correctly, you could potentially cause serious damage to your console.
-{: .notice--danger}
-
 ## Introduction
 
 For this method, we will be copying update/DLC files over the internet using an FTP (File Transfer Protocol) server and client. This allows you to copy files over your local network directly to your computer.
 
 ## Requirements
 
-- A Wii U with [MochaCFW](https://wiiu.hacks.guide/)
+- A Wii U that runs a [Custom Firmware](https://wiiu.hacks.guide/) such as MochaCFW or (Coldboot) Haxchi
 - An SD card used for modding the Wii U
 
 ## Downloads
@@ -58,7 +55,7 @@ For this method, we will be copying update/DLC files over the internet using an 
 ### Using dumpling
 
 1. Open the Homebrew Channel again
-1. Launch MochaCFW if it's not already running
+1. Run Haxchi or MochaCFW
 1. Run `dumpling.elf`
 1. Select `Account Data` using the **(A)** button
 1. Select `Friends List` using the **(A)** button
@@ -70,7 +67,7 @@ For this method, we will be copying update/DLC files over the internet using an 
 1. Take your SD card out of your Wii U and put it in your PC
 1. Copy `otp.bin` and `seeprom.bin` from the root of your SD card to your Cemu directory
   - This is where `Cemu.exe` is located
-1. Copy **the contents** of `dumpling/online_files/mlc01` to your Cemu mlc01 folder
+1. Copy **the contents** of `dumpling/account_data/mlc01` to your Cemu mlc01 folder
   - Overwrite any files if prompted
 1. Copy the `dumpling/friends_list_xx` folder to your Cemu games directory
   - `xx` will vary depending on your region

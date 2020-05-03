@@ -9,7 +9,7 @@ permalink: /site-navigation
 **Popular**
 
 + [Installing Cemu](installing-cemu)
-+ [Dumping Games](dumping-games)
++ [Dumping](dumping)
 + [Controller Configuration](controller-Configuration)
 + [Optimizing Cemu](optimizing-cemu)
 + [Online Play](online-play)
@@ -22,7 +22,7 @@ permalink: /site-navigation
 
 + [Controller Configuration](controller-Configuration)
 + [Credits](credits)
-+ [Dumping Games](dumping-games)
++ [Dumping](dumping)
 + [FAQ](faq)
 + [Home](/)
 + [Installing Cemu](installing-cemu)
@@ -30,7 +30,6 @@ permalink: /site-navigation
 + [Optimizing Breath of the Wild](optimizing-botw)
 + [Optimizing Cemu](optimizing-cemu)
 + [Site Navigation](site-navigation)
-+ [Transferring Save Data](transferring-save-data)
 + [Troubleshooting](troubleshooting)
 
 {% endcapture %}

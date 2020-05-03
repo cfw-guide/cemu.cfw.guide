@@ -15,7 +15,7 @@ This can be fixed by unplugging the controller and restarting Windows. Afterward
 
 This could be caused by a bad game dump. Try dumping your game from your Wii U again.
 
-It can also be caused by loading an update or DLC as a game, instead of the base game files. Ensure you're installing updates [properly](dumping-updates-and-dlc#installing-to-cemu).
+It can also be caused by loading an update or DLC as a game, instead of the base game files. Ensure you're installing updates [properly](dumping#updatesdlc).
 
 Modified illegitimate game copies may also cause this to happen. Dumping your game from your console will ensure you have a working version.
 
@@ -25,11 +25,11 @@ Modified illegitimate game copies may also cause this to happen. Dumping your ga
 
 ### System update requested at boot
 
-This is caused by the game not being updated. BOTW must have update version 1.4.0 or above to work. Follow our [Dumping Updates and DLC](dumping-updates-and-dlc) guide to dump and install the latest BOTW update to Cemu.
+This is caused by the game not being updated. BOTW must have update version 1.4.0 or above to work. Follow our [dumping guide](dumping) to dump and install the latest BOTW update to Cemu.
 
 ### Game freezing after "Open your eyes..."
 
-This is caused by the game not being updated. BOTW must have update version 1.4.0 or above to work. Follow our [Dumping Updates and DLC](dumping-updates-and-dlc) guide to dump and install the latest BOTW update to Cemu.
+This is caused by the game not being updated. BOTW must have update version 1.4.0 or above to work. Follow our [dumping guide](dumping) to dump and install the latest BOTW update to Cemu.
 
 ### Constant stuttering during gameplay
 
