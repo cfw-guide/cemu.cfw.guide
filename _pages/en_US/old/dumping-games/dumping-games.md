@@ -1,6 +1,6 @@
 ---
 title: Dumping Games
-permalink: /dumping-games
+permalink: /dumping-games-old
 ---
 
 In this section, we look at how to "dump" (copy) your games from your Wii U system over to your PC.

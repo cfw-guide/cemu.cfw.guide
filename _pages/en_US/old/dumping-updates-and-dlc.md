@@ -1,6 +1,6 @@
 ---
 title: Dumping Updates and DLC
-permalink: /dumping-updates-and-dlc
+permalink: /dumping-updates-and-dlc-old
 ---
 
 {% include toc title="Table of Contents" %}

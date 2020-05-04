@@ -1,6 +1,10 @@
 ---
 title: Dumping
 permalink: /dumping
+redirect_from:
+  - dumping-games
+  - dumping-updates-and-dlc
+  - transferring-save-data
 ---
 
 {% include toc title="Table of Contents" %}

@@ -1,6 +1,6 @@
 ---
 title: Transferring Save Data
-permalink: /transferring-save-data
+permalink: /transferring-save-data-old
 ---
 
 {% include toc title="Table of Contents" %}
