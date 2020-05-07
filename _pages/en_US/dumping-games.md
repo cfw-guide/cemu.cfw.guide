@@ -2,6 +2,7 @@
 title: Dumping Games
 permalink: /dumping-games
 redirect_from:
+  - dumping
   - dumping-updates-and-dlc
   - transferring-save-data
 ---
