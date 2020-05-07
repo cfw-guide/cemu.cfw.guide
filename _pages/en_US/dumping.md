@@ -1,8 +1,7 @@
 ---
-title: Dumping
-permalink: /dumping
+title: Dumping Games
+permalink: /dumping-games
 redirect_from:
-  - dumping-games
   - dumping-updates-and-dlc
   - transferring-save-data
 ---

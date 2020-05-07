@@ -5,7 +5,7 @@ main:
     url: /
   -
     title: Dumping Games
-    url: dumping
+    url: dumping-games
   -
     title: Optimizing Cemu
     url: optimizing-cemu

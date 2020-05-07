@@ -130,5 +130,5 @@ Your Cemu set-up should now be complete, but there's one thing we're missing her
 
 The next section of the guide will take you through how to "dump" (copy) your games, updates, saves and more over from your Wii U to your PC.
 
-Continue to [Dumping](dumping).
+Continue to [Dumping Games](dumping-games).
 {: .notice--info}

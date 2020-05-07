@@ -9,7 +9,7 @@ permalink: /site-navigation
 **Popular**
 
 + [Installing Cemu](installing-cemu)
-+ [Dumping](dumping)
++ [Dumping Games](dumping-games)
 + [Controller Configuration](controller-Configuration)
 + [Optimizing Cemu](optimizing-cemu)
 + [Online Play](online-play)
@@ -22,7 +22,7 @@ permalink: /site-navigation
 
 + [Controller Configuration](controller-Configuration)
 + [Credits](credits)
-+ [Dumping](dumping)
++ [Dumping-games](dumping-games)
 + [FAQ](faq)
 + [Home](/)
 + [Installing Cemu](installing-cemu)
