@@ -37,49 +37,44 @@ Cemu is experimental software used to emulate Wii U applications on your PC. Thi
 
 The majority of games are completely playable from start to finish. You can check to see if your game is playable on the [wiki](https://wiki.cemu.info/wiki/Category:List_of_games).
 
+## How do I get the games?
+
+The guide will take you through how to dump your game copies from your Wii U over to your PC for use in Cemu. This process is easy and quick to set up, and doesn't require any permanent modification to your console.
+
+If you don't have a Wii U console, you will not be able to dump games to your PC and therefore won't be able to use Cemu.
+
+## Can I play online?
+
+Yes! Cemu supports online play, using official Nintendo servers. To do this, we will need to dump your account data from your Wii U to use for connecting to the servers. This process is easy and quick to set up, and doesn't require any permanent modification to your console.
+
+If your account is banned, or if you don't own a Wii U console, you will not be able to use online play with Cemu.
+
 ## How well can I run games?
 
-It depends. A lot of people will be able to run most games at full speed, however you must take hardware requirements into account. While the Wii U is not a particularly demanding console, emulation requires a machine with much greater hardware than the original machine. Check below to see if your PC can cut it.
+It depends. A lot of people will be able to run most games at full speed, however you must take hardware requirements into account. While the Wii U is not a particularly demanding console, emulation requires a machine with much greater hardware than the original machine. Check below to see if your PC will work.
 
 ### CPU
 ---
 
-{% capture cpu-notice %}
-
-A good processor will definitely help speed things up. While modern video-games can be less dependent, emulation can rely quite heavily on CPU performance. We recommend an Intel or an AMD Ryzen chip.
+A good processor will definitely help speed things up. While modern video-games can be less dependent, emulation can rely quite heavily on CPU performance. We recommend at least an AMD Ryzen 3 or an Intel i5 processor.
 
 Non-Ryzen AMD chips are not recommended as they lack in single-core processing speed. These processors will struggle running demanding games on Cemu.
-{% endcapture %}
-
-<div class="notice--textbox">{{ cpu-notice | markdownify }}</div>
 
 ### RAM
 ---
 
-{% capture ram-notice %}
-
-The official [Cemu website](https://cemu.info/) states that it can run with a minimum of 4GB of RAM, with 8GB or more recommended, however most users will struggle immensely with 4GB, and will suffer extreme stuttering and other issues.
-
-Using 8GB can be fine, and you will be able to run most games well, however for maximum performance and compatibility we recommend 12GB or more.
-{% endcapture %}
-
-<div class="notice--textbox">{{ ram-notice | markdownify }}</div>
+For best performance across all games, we recommend using 8GB of RAM or more. While the Cemu website says it can run off of a minimum of 4GB of RAM, this is not recommended and may experience crashes, stuttering and general performance issues in a lot of games.
 
 ### GPU
 ---
 
-{% capture gpu-notice %}
+NVIDIA GPUs are recommended as they can take some of the load off of the CPU. AMD GPUs are also good, but heavily reliant on the performance of the CPU.
 
-NVIDIA GPUs are mainly recommended, being able to take some load off of the CPU. Our second choice would be an AMD GPU, but they can be very reliant on the performance of your CPU.
+For running any game in general, the bare minimum should be an NVIDIA GTX 700 card or AMD HD 7000 Series card, however you may want to consider something more powerful, especially for games such as Breath of the Wild.
 
-For running any game in general, the minimum recommendation is an NVIDIA GTX 600 card or AMD HD 7000 Series card. For better results, we recommend a GPU that's more powerful. If you want increased FPS or resolution, consider looking at more expensive options. Ideally you should not build your PC just for a singular emulator, so keep this in mind.
+If you're running on a thinner laptop or other low-powered machine, you may be using an iGPU instead, which is not officially supported by Cemu. While some users have reported playable framerates using integrated graphics, playing on a more powerful machine will yield much better results.
 
-If you're running on a thinner laptop or other low-powered machine, you may be using an iGPU/APU instead. These integrated graphic cards are currently not supported very well on Cemu. While [some users](http://wiki.cemu.info/wiki/The_Legend_of_Zelda:_Breath_of_the_Wild#Testing) have reported playable framerates using integrated graphics in games such as Breath of the Wild, we highly stress that playing on a more powerful machine will yield much better results.
-{% endcapture %}
-
-<div class="notice--textbox">{{ gpu-notice | markdownify }}</div>
-
-A lot of users will want to play games at higher resolutions, with better framerates and other enhancements. To do this, you will require better hardware than the guidelines listed above.
+---
 
 Now that you're aware of the requirements, you may proceed with downloading and setting up the emulator.
 
