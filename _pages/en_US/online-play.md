@@ -39,7 +39,7 @@ Doing these may get your console banned, restricting you from online play.
 
 ## Copying Files
 
-### Obtaining OTP and SEEPROM
+### Using nanddumper
 
 1. Power on your Wii U console
 1. Open the Homebrew Channel
