@@ -23,7 +23,8 @@ Using triple or dualcore recompiler can cause some games to crash. If a game sto
 1. If you are on a laptop with dual graphics, under "2. select the preferred graphics processor for this program" select `High-performance NVIDIA processor`
 1. Under `OpenGL rendering GPU` select your main graphics processor
 1. Under `Power management` select `Prefer maximum performance`
-1. Enable the `Threaded optimization` option
+1. Set `Threaded Optimization` to `On`
+1. Set `Triple Buffering` to `On`
 1. If you have a compatible display, enable G-Sync
 
 ![]({{ "/assets/images/nvidia-gpu-settings.png" | absolute_url }})
