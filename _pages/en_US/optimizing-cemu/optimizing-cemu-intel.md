@@ -11,9 +11,9 @@ You can check if your graphics processor is supported [here](https://www.intel.c
 1. Open the Cemu main menu
 1. Right click on your game(s) and click `Edit game profile`
 1. Set "Mode" to:
-  - If you use a CPU with 6 threads or higher, set to `Triplecore-recompiler`
-  - For a CPU with 4 threads, set to `Dualcore-recompiler`
-  - for a CPU with 2 threads, set to `Singlecore-recompiler`
+  - If you use a CPU with 6 logical processors or higher, set to `Triplecore-recompiler`
+  - For a CPU with 4 logical processors, set to `Dualcore-recompiler`
+  - for a CPU with 2 logical processors, set to `Singlecore-recompiler`
 
 Using triple or dualcore recompiler can cause some games to crash. If a game stops working because of this, try at a lower setting.
 
