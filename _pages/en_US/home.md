@@ -18,14 +18,13 @@ If you appreciate these guides, consider [donating](/donations) to support the g
 {: .notice--textbox}
 
 <div class="wrap-collabsible notice--danger">
-  <input id="collapsible" class="toggle" type="checkbox">
-  <label for="collapsible" class="lbl-toggle">Cemu can only run on 64-bit Windows systems.</label>
-  <div class="collapsible-content">
-    <div class="content-inner">
+  <details>
+    <summary>Cemu can only run on 64-bit Windows systems.</summary>
+    <ul>
       <li>If you have a 32-bit Windows system, this will not work.</li>
-      <li>Some users have managed to get Cemu running using <a href="https://www.winehq.org">Wine</a>, however your mileage may vary.</li>
-    </div>
-  </div>
+      <li>Some users have managed to get Cemu running using <a href="https://www.winehq.org">Wine</a>, however your mileage may vary.</li>- [Regression] The cheat menu now shows fewer items, this requires slower printing or cutting off part of the text to fix
+    </ul>
+  </details>
 </div>
 
 Thoroughly read all of the introductory pages (including this one!) before proceeding.

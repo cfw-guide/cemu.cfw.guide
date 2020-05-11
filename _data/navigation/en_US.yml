@@ -1,9 +1,6 @@
 ---
 main:
   -
-    title: Home
-    url: /
-  -
     title: Dumping Games
     url: dumping-games
   -
@@ -29,11 +26,14 @@ bottom:
     title: If you need further help, ask on the official <a href="https://discord.gg/5psYsup">Cemu Discord Server</a> for assistance.
 footer:
   -
-    title: Source
+    label: Source
     url: https://github.com/emiyl/cemu.cfw.guide
+    icon: fab fa-fw fa-github
   -
-    title: Credits
+    label: Credits
     url: credits
+    icon: fas fa-fw fa-users
   -
-    title: Site Navigation
+    label: Site Navigation
     url: site-navigation
+    icon: fas fa-fw fa-globe
