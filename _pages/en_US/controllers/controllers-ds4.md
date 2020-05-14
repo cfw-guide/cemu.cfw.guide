@@ -1,3 +1,5 @@
+{% include toc title="Table of Contents" %}
+
 ## Downloads
 
 - The latest release of [DS4Windows](https://github.com/Jays2Kings/DS4Windows/releases/latest)

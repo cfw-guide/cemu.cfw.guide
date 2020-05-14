@@ -1,15 +1,7 @@
-## Game Profiles
+{% include toc title="Table of Contents" %}
 
-1. Open the Cemu main menu
-1. Right click on your game(s) and click `Edit game profile`
-1. Set "Mode" to:
-  - If you use a CPU with 6 logical processors or higher, set to `Triplecore-recompiler`
-  - For a CPU with 4 logical processors, set to `Dualcore-recompiler`
-  - for a CPU with 2 logical processors, set to `Singlecore-recompiler`
-
-Using triple or dualcore recompiler can cause some games to crash. If a game stops working because of this, try at a lower setting.
-
-![]({{ "/assets/images/cemu-game-profile.png" | absolute_url }})
+Ensure you are running the [latest drivers](https://www.nvidia.com/Download/index.aspx) and that your GPU supports OpenGL 4.1 or Vulkan.
+{: .notice--textbox}
 
 ## GPU Settings
 
@@ -46,3 +38,37 @@ Using triple or dualcore recompiler can cause some games to crash. If a game sto
 
 7. Navigate to the `Audio` tab
 1. Under `General`, change `API` to `XAudio2`
+
+## Game Profiles
+
+{% capture otherIssues %}
+
+Doing this can cause other issues to occur:
+- This can cause extra heat which may reduce performance in devices with poor thermals (e.g. laptops)
+- This may cause some games to stop working or crash when enabled
+  - If this happens, set "Mode" to a lower setting
+
+{% endcapture %}
+
+<div class="notice--danger">{{ otherIssues | markdownify }}</div>
+
+We recommend only doing this if you are experiencing poor performance in low-end CPUs, where this can have a massive impact on framerates.
+{: .notice--primary}
+
+{% capture instructions %}
+
+To continue, we need to know how many logical processors your CPU has. You can find this by opening the Task Manager in Windows.
+
+Right click on the Windows button and click `Task Manager`. Next Click `More Details` and go to the `Performance` tab. Under `CPU` you should find `Logical processors`.
+
+1. Open the Cemu main menu
+1. Right click on your game(s) and click `Edit game profile`
+1. Set "Mode" to:
+  - If you use a CPU with 6 logical processors or higher, set to `Triplecore-recompiler`
+  - For a CPU with 4 logical processors, set to `Dualcore-recompiler`
+  - for a CPU with 2 logical processors, set to `Singlecore-recompiler`
+  1. Set "Thread Quantum" to `100000`
+
+  {% endcapture %}
+
+<div class="notice--info">{{ instructions | markdownify }}</div>

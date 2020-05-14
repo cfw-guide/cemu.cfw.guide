@@ -1,3 +1,5 @@
+{% include toc title="Table of Contents" %}
+
 ## Downloads
 
 - The latest release of [BetterJoyForCemu](https://github.com/Davidobot/BetterJoyForCemu/releases/latest)

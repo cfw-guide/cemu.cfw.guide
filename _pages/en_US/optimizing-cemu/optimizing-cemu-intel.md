@@ -1,23 +1,7 @@
-## Does my iGPU support OpenGL 4.1/Vulkan?
+{% include toc title="Table of Contents" %}
 
-OpenGL and Vulkan are both rendering APIs, meaning that they help Cemu to emulate the Wii U graphics on your system. Your iGPU **must** support at least OpenGL 4.1 for Cemu to run. If it does not, then you **will not** be able to run Cemu, and there is no way around this for now.
-
-Vulkan is preferred, and if your iGPU supports Vulkan you may see a performance boost, however even fewer chips support it.
-
-You can check if your graphics processor is supported [here](https://www.intel.com/content/www/us/en/support/articles/000005524/graphics-drivers.html).
-
-## Game Profiles
-
-1. Open the Cemu main menu
-1. Right click on your game(s) and click `Edit game profile`
-1. Set "Mode" to:
-  - If you use a CPU with 6 logical processors or higher, set to `Triplecore-recompiler`
-  - For a CPU with 4 logical processors, set to `Dualcore-recompiler`
-  - for a CPU with 2 logical processors, set to `Singlecore-recompiler`
-
-Using triple or dualcore recompiler can cause some games to crash. If a game stops working because of this, try at a lower setting.
-
-![]({{ "/assets/images/cemu-game-profile.png" | absolute_url }})
+Ensure you are running the [latest drivers](https://downloadcenter.intel.com/product/80939/Graphics-Drivers) and that your iGPU supports [OpenGL 4.1 or Vulkan](https://www.intel.com/content/www/us/en/support/articles/000005524/graphics-drivers.html).
+{: .notice--textbox}
 
 ## Cemu Settings
 
@@ -38,10 +22,44 @@ Using triple or dualcore recompiler can cause some games to crash. If a game sto
 7. Navigate to the `Audio` tab
 1. Under `General`, change `API` to `XAudio2`
 
-## Windows, Shortcuts and Drivers
+## Shortcuts and Drivers
 
 1. Ensure you are running in maximum performance mode.
 1. If a game isn't working, consider creating a shortcut to Cemu and add `-legacy` to the target
   - This may cause other games to stop working
 1. If it still doesn't work, update your iGPU driver.
 1. If the issue still persists, it's likely that game won't work for your iGPU, or it is too old to run
+
+## Game Profiles
+
+{% capture otherIssues %}
+
+Doing this can cause other issues to occur:
+- This can cause extra heat which may reduce performance in devices with poor thermals (e.g. laptops)
+- This may cause some games to stop working or crash when enabled
+  - If this happens, set "Mode" to a lower setting
+
+{% endcapture %}
+
+<div class="notice--danger">{{ otherIssues | markdownify }}</div>
+
+We recommend only doing this if you are experiencing poor performance in low-end CPUs, where this can have a massive impact on framerates.
+{: .notice--primary}
+
+{% capture instructions %}
+
+To continue, we need to know how many logical processors your CPU has. You can find this by opening the Task Manager in Windows.
+
+Right click on the Windows button and click `Task Manager`. Next Click `More Details` and go to the `Performance` tab. Under `CPU` you should find `Logical processors`.
+
+1. Open the Cemu main menu
+1. Right click on your game(s) and click `Edit game profile`
+1. Set "Mode" to:
+  - If you use a CPU with 6 logical processors or higher, set to `Triplecore-recompiler`
+  - For a CPU with 4 logical processors, set to `Dualcore-recompiler`
+  - for a CPU with 2 logical processors, set to `Singlecore-recompiler`
+  1. Set "Thread Quantum" to `100000`
+
+  {% endcapture %}
+
+<div class="notice--info">{{ instructions | markdownify }}</div>
