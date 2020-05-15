@@ -259,14 +259,6 @@
       }
     }
 
-    .links-menu{
-      right: 2.5rem;
-    }
-
-    .lang-menu{
-      right: .2rem;
-    }
-
     .hidden-links {
       position: absolute;
       top: 100%;
@@ -326,6 +318,10 @@
           border-bottom: none;
         }
       }
+    }
+
+    .links-menu{
+      right: 0.5rem;
     }
   }
 
