@@ -21,12 +21,13 @@
 
 1. Open the Cemu application
 1. On the top bar, go to `Settings` -> `Input settings`
-1. Click `Controller API` and select `DSUClient`
+1. Change `Emulate controller` to `Wii U Gamepad`
+1. Change `Controller API` to `DSUClient`
 1. Click `Settings` and ensure that `IP` and `Port` identical to what you saw under `UDP Server`
 
     ![]({{ "/assets/images/dsu-client.png" | absolute_url }})
 
-1. Click `Controller` and select `Client X`
+1. Change `Controller` to `Client X`
 1. Proceed to map all your controller button inputs
 1. At the top, enter in a controller profile name, e.g. `DSU Controller`
 1. Click `Save`
