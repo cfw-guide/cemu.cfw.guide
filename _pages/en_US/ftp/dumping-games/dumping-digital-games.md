@@ -1,3 +1,5 @@
+{% include toc title="Table of Contents" %}
+
 ## Introduction
 
 For this method, we will be directly copying game files from your Wii U storage over to your PC.
@@ -9,30 +11,46 @@ This process involves accessing the Wii U internal memory! If you don't follow t
 
 ## Requirements
 
-- A Wii U that runs a [Custom Firmware](https://wiiu.hacks.guide/) such as MochaCFW or (Coldboot) Haxchi
-- An SD card used for modding the Wii U
-- (Optional) A USB storage device to dump the game to
-  - Only required if the game is too big for the SD card
-  - Wii U games can vary in size up to 17GB, but having 12GB of storage should be okay for most games
+- An SD card for homebrew
 
 ## Downloads
 
-- If you use Haxchi or CBHC, download the latest release of [FTPiiU](https://github.com/FIX94/ftpiiu/releases) (FTP server)
-- If you use Mocha CFW, download this modified release of [FTPiiU](/assets/files/ftpiiu_everywhere.elf) (FTP Server)
+- The latest release of [MochaCFW](https://www.wiiubru.com/appstore/zips/mocha.zip)
+  - This will also work with (Coldboot) Haxchi
+- The Mocha [config](/assets/files/config.ini)
+- The latest release of [Homebrew Launcher Installer](https://github.com/wiiu-env/homebrew_launcher_installer/releases/latest)
+  - You will need to download the `payload.zip` file
+- The v1.4 release of [The Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4)
+  - You will need to download the v1.4 `homebrew_launcher.v1.4.zip` release of The Homebrew Launcher
+- A modified release of [FTPiiU](/assets/files/ftpiiu_everywhere.elf) (FTP Server)
+  - If you use (Coldboot) Haxchi, download the latest release of [FTPiiU](https://github.com/FIX94/ftpiiu/releases) (FTP server)
 - The latest release of [FileZilla](https://filezilla-project.org/download.php?show_all=1) (FTP Client)
 
 ## Preparations
 
 1. Download and install FileZilla to your computer
+1. Extract the `mocha.zip` file to the root of your SD card
+  - If prompted to, replace any pre-existing files
+1. Extract the `homebrew_launcher.v.1.4.zip` file to the root of your SD card
+1. Copy the `config.ini` file to the `/wiiu/apps/mocha` folder on your SD card
+1. Copy the `payload.elf` file from the `payload.zip` file to the `/wiiu` folder on your SD card
 1. Download and move the `ftpiiu.elf` file to the `\wiiu\apps` folder on your SD Card
 1. Ensure you have enough space on your PC for your game
 1. Eject your SD card from Windows and put it into your Wii U console
 
+## Launching MochaCFW
+
+1. Turn on your Wii U console
+1. Launch the internet browser and open `wiiuexploit.xyz`
+1. Tap `Run Homebrew Launcher!`
+  - If your console freezes for more than 10 seconds, hold down the Power button for 4 seconds and reboot
+  - Once rebooted, [reset the browser's save data](https://en-americas-support.nintendo.com/app/answers/detail/a_id/1507/~/how-to-delete-the-internet-browser-history) and try again
+1. Once in the Homebrew Launcher, launch MochaCFW
+  - This should return you back to the Homebrew Launcher
+
 ## Connecting to your Wii U
 
-1. Power on your Wii U console
-1. Open the Homebrew Channel
-1. Run `FTPiiU Everywhere`
+1. Run `FTPiiU Everywhere` from the Homebrew Launcher
 1. On your screen you should see a line saying:<br>
     `Listening for data connections at xxx.xxx.xxx.xxx:PORT`<br>
     where each `x` and `PORT` is a number

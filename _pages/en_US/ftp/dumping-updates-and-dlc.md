@@ -1,13 +1,15 @@
 ---
-title: Dumping Updates and DLC
-permalink: /dumping-updates-and-dlc-old
+title: Dumping Updates and DLC (FTP)
+permalink: /dumping-updates-and-dlc-(ftp)
+redirect_from:
+  - /dumping-updates-and-dlc-old
 ---
 
 {% include toc title="Table of Contents" %}
 
 In this section, we look at how to "dump" (copy) your updates and DLC from your Wii U system over to your PC.
 
-You will need to have a homebrewed Wii U for this, as system access is required to retrieve game files. You can do this by following the instructions on [wiiu.hacks.guide](https://wiiu.hacks.guide/). Once you've completed the process, come back to this page and continue.
+To do this, we're going to need to use a custom homebrew application to dump your updates/DLC. This is done using an exploit in the Wii U browser.
 
 These instructions are nearly identical to copying over digital games, however we will copy the update/DLC files to another place and install them a different way.
 {: .notice--info}
@@ -21,31 +23,48 @@ This process involves accessing the Wii U internal memory! If you don't follow t
 
 ## Requirements
 
-- An SD card
-- An SD card reader for your PC
-- A [homebrewed Wii U](https://wiiu.hacks.guide/) with Custom Firmware
-- Enough space on your PC for the update/DLC dump
+- An SD card for homebrew and dumping
 
 ## Downloads
 
-- If you use Haxchi or CBHC, download the latest release of [FTPiiU](https://github.com/FIX94/ftpiiu/releases) (FTP server)
-- If you use Mocha CFW, download this modified release of [FTPiiU](/assets/files/ftpiiu_everywhere.elf) (FTP Server)
+- The latest release of [MochaCFW](https://www.wiiubru.com/appstore/zips/mocha.zip)
+  - This will also work with (Coldboot) Haxchi
+- The Mocha [config](/assets/files/config.ini)
+- The latest release of [Homebrew Launcher Installer](https://github.com/wiiu-env/homebrew_launcher_installer/releases/latest)
+  - You will need to download the `payload.zip` file
+- The v1.4 release of [The Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4)
+  - You will need to download the v1.4 `homebrew_launcher.v1.4.zip` release of The Homebrew Launcher
+- A modified release of [FTPiiU](/assets/files/ftpiiu_everywhere.elf) (FTP Server)
+  - If you use (Coldboot) Haxchi, download the latest release of [FTPiiU](https://github.com/FIX94/ftpiiu/releases) (FTP server)
 - The latest release of [FileZilla](https://filezilla-project.org/download.php?show_all=1) (FTP Client)
 
 ## Preparations
 
 1. Download and install FileZilla to your computer
+1. Extract the `mocha.zip` file to the root of your SD card
+  - If prompted to, replace any pre-existing files
+1. Extract the `homebrew_launcher.v.1.4.zip` file to the root of your SD card
+1. Copy the `config.ini` file to the `/wiiu/apps/mocha` folder on your SD card
+1. Copy the `payload.elf` file from the `payload.zip` file to the `/wiiu` folder on your SD card
 1. Download and move the `ftpiiu.elf` file to the `\wiiu\apps` folder on your SD Card
-1. Ensure you have enough space on your PC for your update/DLC dump
+1. Ensure you have enough space on your PC for your game
 1. Eject your SD card from Windows and put it into your Wii U console
+
+## Launching MochaCFW
+
+1. Turn on your Wii U console
+1. Launch the internet browser and open `wiiuexploit.xyz`
+1. Tap `Run Homebrew Launcher!`
+  - If your console freezes for more than 10 seconds, hold down the Power button for 4 seconds and reboot
+  - Once rebooted, [reset the browser's save data](https://en-americas-support.nintendo.com/app/answers/detail/a_id/1507/~/how-to-delete-the-internet-browser-history) and try again
+1. Once in the Homebrew Launcher, launch MochaCFW
+  - This should return you back to the Homebrew Launcher
 
 ## Dumping Files
 
 ### Connecting via FTP
 
-1. Power on your Wii U console
-1. Open the Homebrew Channel
-1. Run `FTPiiU Everywhere`
+1. Run `FTPiiU Everywhere` from the Homebrew Launcher
 1. On your screen you should see a line saying:<br>
     `Listening for data connections at xxx.xxx.xxx.xxx:PORT`<br>
     where each `x` and `PORT` is a number
@@ -88,12 +107,5 @@ After this is finished, you can exit FileZilla and turn off your Wii U.
 
 Cemu will now automatically install your update/DLC to your mlc01 storage folder. This may take some time.
 
-When finished, your game should now run with the update/DLC automatically. We can then start on transferring save data from your console over to Cemu.
-
-If you don't want to use your Wii U's save data, simply skip ahead to optimizing.
-
-**1.** Continue to [Transferring Save Data](transferring-save-data)
-{: .notice--primary}
-
-**2.** Continue to [Optimizing Cemu](optimizing-cemu)
-{: .notice--info}
+Continue to [Transferring Save Data (FTP)](transferring-save-data-(ftp))
+{:.notice--info}

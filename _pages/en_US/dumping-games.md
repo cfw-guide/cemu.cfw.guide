@@ -11,37 +11,59 @@ redirect_from:
 
 In this section, we look at how to "dump" (copy) your games, updates, DLC and saves from your Wii U system over to your PC.
 
-You will need to have a homebrewed Wii U for this, as system access is required to retrieve game files. You can do this by following the instructions on [wiiu.hacks.guide](https://wiiu.hacks.guide/).
-
-Once you've completed the process, come back to this page and continue.
+To do this, we're going to need to use a custom homebrew application to dump your games. This is done using an exploit in the Wii U browser.
 
 ## Requirements
 
-- A Wii U that runs a [Custom Firmware](https://wiiu.hacks.guide/) such as MochaCFW or (Coldboot) Haxchi
-- An SD card used for modding the Wii U
+- An SD card for homebrew
 - (Optional) A USB storage device to dump the game to
   - Only required if the game is too big for the SD card
   - Wii U games can vary in size up to 17GB, but having 12GB of storage should be okay for most games
 
 ## Downloads
 
+- The latest release of [MochaCFW](https://www.wiiubru.com/appstore/zips/mocha.zip)
+  - This will also work with (Coldboot) Haxchi
+- The Mocha [config](/assets/files/config.ini)
+- The latest release of [Homebrew Launcher Installer](https://github.com/wiiu-env/homebrew_launcher_installer/releases/latest)
+  - You will need to download the `payload.zip` file
+- The v1.4 release of [The Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4)
+  - You will need to download the v1.4 `homebrew_launcher.v1.4.zip` release of The Homebrew Launcher
 - The latest release of [dumpling](https://github.com/emiyl/dumpling/releases/latest)
 
 ## Preparations
 
-1. Extract the dumpling `.zip` file to the root of your SD card
+1. Extract the `mocha.zip` file to the root of your SD card
+  - If prompted to, replace any pre-existing files
+1. Extract the `homebrew_launcher.v.1.4.zip` file to the root of your SD card
+1. Copy the `config.ini` file to the `/wiiu/apps/mocha` folder on your SD card
+1. Copy the `payload.elf` file from the `payload.zip` file to the `/wiiu` folder on your SD card
+1. Extract the `dumpling.zip` file to the root of your SD card
 1. Eject your SD card from Windows and put it into your Wii U console
+1. Plug a USB storage device into your Wii U if you want to dump to USB storage
+  - Some users have reported better performance using the back ports, however the front ports should be fine too
 
-## Dumping
+## Launching MochaCFW
 
 1. Turn on your Wii U console
-1. Run Haxchi or MochaCFW
-1. Open the Homebrew Channel
-1. Run `dumpling.elf`
-1. Plug in a FAT32 USB storage device if you want to dump to that instead of the SD
+1. Launch the internet browser and open `wiiuexploit.xyz`
+1. Tap `Run Homebrew Launcher!`
+  - If your console freezes for more than 10 seconds, hold down the Power button for 4 seconds and reboot
+  - Once rebooted, [reset the browser's save data](https://en-americas-support.nintendo.com/app/answers/detail/a_id/1507/~/how-to-delete-the-internet-browser-history) and try again
+1. Once in the Homebrew Launcher, launch MochaCFW
+  - This should return you back to the Homebrew Launcher, where we will now launch dumpling
+
+## Using dumpling
+
+If you notice slowdowns while using dumpling, try copying via [FTP or disc2app](dumping-games-(ftp)) instead. This is useful on large games such as Breath of the Wild.
+{: .notice--info}
+
+1. Run the dumpling app from the Homebrew Launcher
 1. Use **(ZL)** and **(ZR)** to toggle between dumping to your SD card or a FAT32 USB device
 1. Select `Account Data` using the **(A)** button
+  - If you'd like to dump a disc, also select "Disc dump"
 1. Press **(START)** to begin dumping
+  - If you're dumping a disc, skip to step 13
 1. Once finished, press **(X)** and wait for the metadata to be fetched
   - This can take up to 5 seconds for every title installed, be patient
 1. Use **(L)** and **(R)** to toggle between dumping from internal storage or from USB

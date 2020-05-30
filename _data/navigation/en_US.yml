@@ -4,8 +4,17 @@ main:
     title: Home
     url: /
   -
+    title: Credits
+    url: credits
+  -
+    title: Donations
+    url: donations
+  -
     title: Dumping Games
     url: dumping-games
+  -
+    title: Online Play
+    url: online-play
   -
     title: Optimizing Cemu
     url: optimizing-cemu
@@ -13,17 +22,8 @@ main:
     title: Motion Controls
     url: motion-controls
   -
-    title: Online Play
-    url: online-play
-  -
     title: Troubleshooting
     url: troubleshooting
-  -
-    title: Credits
-    url: credits
-  -
-    title: Donations
-    url: donations
 bottom:
   -
     title: If you need further help, ask on the official <a href="https://discord.gg/5psYsup">Cemu Discord Server</a> for assistance.
