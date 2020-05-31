@@ -83,7 +83,7 @@ This process involves accessing the Wii U internal memory! If you don't follow t
 1. If your game is stored on your Wii U internal memory, navigate to `storage_mlc/usr/title/`
 1. If your game is stored on a USB storage device, navigate to `storage_usb/usr/title/`
 1. If you want to dump an update, open the `0005000E` folder
-1. If you want to dump DLC, open the `0050000C` folder
+1. If you want to dump DLC, open the `0005000C` folder
 1. In this directory, you should see folders with 8 character names
   - This is the last 8 digits of each game's "Title ID", which allows to Wii U to uniquely identify each game by a number, instead of a name
 1. You can use the full list of each game's Title ID to identify which game is which, found [here](http://wiiubrew.org/wiki/Title_database#00050000:_eShop_and_disc_titles)
