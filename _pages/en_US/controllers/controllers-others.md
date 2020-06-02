@@ -7,7 +7,8 @@ Motion controls can be fully supported by a variety of other devices, including:
   - Should be supported natively by Cemu
   - Alternatively, [WiimoteHook](https://epigramx.github.io/WiimoteHook/)
 - Steam Controllers
-  - [Steam Gyro](https://github.com/FrogTheFrog/steam-gyro-for-cemuhook)
+  - [Information](https://github.com/FrogTheFrog/steam-gyro-for-cemuhook)
+  - [Latest Release](https://github.com/FrogTheFrog/steam-gyro-for-cemuhook/releases/latest)
 {% endcapture %}
 <div class="notice--success">{{ full-solutions | markdownify }}</div>
 
