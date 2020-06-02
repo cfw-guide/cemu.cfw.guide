@@ -25,7 +25,7 @@ Doing any of these may get your console banned, restricting you from accessing o
 
 {% capture onlineWarning %}
 
-Warning regarding Formatting or selling your Wii U Console:
+Warning regarding `Reformatting` or `Selling` your Wii U Console:
 
 - Reformatting your console will result in your NNID being unlinked from that console.  You will no longer be able to use online features on Cemu until you re-link your account to that console and re-obtain the files necessary for online play.
 
