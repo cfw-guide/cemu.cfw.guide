@@ -1,7 +1,8 @@
 {% capture full-solutions %}
 Motion controls can be fully supported by a variety of other devices, including:
 - Android/iOS devices with a gyroscope
-  - See the Android section of Cemuhook's webpage: [(Click Here)](https://cemuhook.sshnuke.net/padudpserver.html)
+  - Android - Bottom section of Cemuhook's webpage: [(Click Here)](https://cemuhook.sshnuke.net/padudpserver.html)
+  - iOS - Bottom of this Cemu Wiki Page: [(Click Here)](https://wiki.cemu.info/wiki/Motion_Controls)
 - MotionPlus WiiMotes
   - Should be supported natively by Cemu
   - Alternatively, [WiimoteHook](https://epigramx.github.io/WiimoteHook/)
@@ -13,21 +14,23 @@ Motion controls can be fully supported by a variety of other devices, including:
 {% capture limited-solutions %}
 Other limited solutions include:
 - Dualshock 3 controllers
-- Android/iOS devices with a magnetometer
-  - Will be slow and sluggish
+  - May not be as accurate or responsive as DS4 controllers.
+  - Covered by Cemuhook's webpage: [(Click Here)](https://cemuhook.sshnuke.net/padudpserver.html)
+- CemuNoGyro (Emulate Motion Axes using Controller Analog Sticks)
+  - [Information](https://github.com/quinton-ashley/cemu-no-gyro)
+  - [Latest Release](https://github.com/quinton-ashley/cemu-no-gyro/releases/latest)
+- Right-clicking within Cemu's window while a Gamepad is set as the emulated controller.
+  - If an alternative controller is being emulated, you may open the Separate Gamepad View to do the same.
 {% endcapture %}
 <div class="notice--warning">{{ limited-solutions | markdownify }}</div>
 
 {% capture partial-solutions %}
 Failing that, you _might_ be able to get by with:
-- CemuNoGyro (Emulate Motion using Controller Analog Sticks)
-  - [Information](https://github.com/quinton-ashley/cemu-no-gyro)
-  - [Latest Release](https://github.com/quinton-ashley/cemu-no-gyro/releases/latest)
-- Android/iOS devices with only an accelerometer
 - Non-MotionPlus WiiMotes
-- Right clicking and using the mouse wheel on the game with your mouse
+- Android/iOS devices with a magnetometer
+- Android/iOS devices with only an accelerometer
 {% endcapture %}
 <div class="notice--danger">{{ partial-solutions | markdownify }}</div>
 
-You can view how to use and install these on the [Cemu Wiki](https://wiki.cemu.info/wiki/Motion_Controls).
+You can view how to use and install most of these on the [Cemu Wiki](https://wiki.cemu.info/wiki/Motion_Controls) or [Cemuhook Motion Instructions](https://cemuhook.sshnuke.net/padudpserver.html) webpages.
 {: .notice--info}
