@@ -7,7 +7,7 @@ permalink: /online-play
 
 In this section, we look at how to enable online play on Cemu. This involves dumping a set of online files from your Wii U to make Nintendo think that the connection from Cemu is actually coming from your console.
 
-If you do not plan on using online services, we recommend you skip this section entirely to reduce the risk of a ban.
+If you do not plan on using online services you may skip this page. Using Cemu online has not resulted in any bans to date.
 {: .notice--primary}
 
 After we've dumped the online files, you'll be able to play with other Wii U and Cemu players on Nintendo's official game servers.
@@ -16,10 +16,12 @@ To do this, we're going to need to use a custom homebrew application to dump con
 
 As we will be connecting to real Nintendo servers, do not:
 - Use mods, cheats or hacks
-- Play on both your console and Cemu at the same time
 - Share your online files for other people to use
+- Play on both your console and Cemu at the same time
+  - No confirmed ban cases but this may still be unsafe.
+  - Using the same account will kick the other player offline.
 
-Doing these may get your console banned, restricting you from online play.
+Doing any of these may get your console banned, restricting you from accessing online play temporarily or permanently.
 
 ## Requirements
 
