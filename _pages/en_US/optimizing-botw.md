@@ -43,7 +43,8 @@ Please make sure to the read the descriptions and presets for every graphicPack 
 
 9. Open the `Workarounds` category
 
-a) If you're using OpenGL:
+a. If you're using OpenGL:
+{: .notice--info}
 
 1. Enable `Kakariko Torch Shadows (OpenGL)` and `LWZX Crash (OpenGL)`
   - Kakariko Torch Shadows resolves issues with square lighting around torches.
@@ -53,7 +54,8 @@ a) If you're using OpenGL:
   - Do not enable packs that are not meant for your GPU.
   - This means do not enabled Intel if you are not using your Intel GPU for Cemu.
 
-b) If you're using Vulkan:
+b. If you're using Vulkan:
+{: .notice--info}
 
 1. Enable `Grass Swaying (Vulkan)`
   - If you're using a compatible Vulkan 1.2 driver for Nvidia, this is no longer required.
