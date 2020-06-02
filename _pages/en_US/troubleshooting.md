@@ -17,35 +17,35 @@ This could be caused by a bad game dump. Try dumping your game from your Wii U a
 
 It can also be caused by loading an update or DLC as a game, instead of the base game files. Ensure you're installing updates [properly](dumping#updatesdlc).
 
-Modified illegitimate game copies may also cause this to happen. Dumping your game from your console will ensure you have a working version.
+Illegally obtained game copies will also cause this to happen. Dumping your game from your Wii U console is the only method that Cemu supports.
 
 ## The Legend of Zelda: Breath of the Wild
 
 [Full Cemu Wiki listing of issues](https://wiki.cemu.info/wiki/The_Legend_of_Zelda:_Breath_of_the_Wild)
 
-### System update requested at boot
+Please review the above link as it goes over nearly every problem that has been recorded to date!  Most (but not all) of the common issues are listed below.
 
-This is caused by the game not being updated. BOTW must have update version 1.4.0 or above to work. Follow our [dumping guide](dumping) to dump and install the latest BOTW update to Cemu.
+### System update requested at boot or freezing after "Open your eyes..."
 
-### Game freezing after "Open your eyes..."
-
-This is caused by the game not being updated. BOTW must have update version 1.4.0 or above to work. Follow our [dumping guide](dumping) to dump and install the latest BOTW update to Cemu.
+This is caused by the game's update not being installed to Cemu. BOTW must be using the latest update to work properly. Follow our [dumping guide](dumping) to dump and install the latest BOTW update to Cemu, make sure the game is updated on your console before doing so.
 
 ### Constant stuttering during gameplay
 
 This can be caused by shader compilation or Vulkan pipeline cache building. With OpenGL, the shader cache will build up over time and will become unnoticable. Vulkan pipeline cache will build quicker, however has to rebuild every time you update your GPU drivers.
 
+Nvidia and AMD users that have support for the latest drivers can mitigate this by using a supported Vulkan 1.2 driver for their GPU and navigating to Cemu's Debug > Experimental section, then enable the Async Compile feature.  Expect visual or physical glitches, these should only last during the first encounter; almost all Shaders and Pipelines will be compiled in the background while you're playing.
+
 ### Off-coloured "milky" sea/water
 
-This is caused by the disabling of `Full Sync at GX2Drawdone()` on OpenGL. You can either enable it, or switch to Vulkan which has it forcefully enabled.
+This is caused by the disabling of `Full Sync at GX2Drawdone()` on OpenGL. You can either enable it, or switch to Vulkan which has it forcefully enabled.  Another option is to try lowering your resolution and using FPS++'s Fence Method set to Accurate instead of Performance.
 
 ### Black/grey sky
 
-This is caused by NVIDIA graphics drivers version 445.87 when using Vulkan. You can fix it for now by reverting to drivers before 445.87 or switching to OpenGL.
+This is caused by some NVIDIA graphics drivers while using Vulkan. You can fix it by using the latest Vulkan 1.2 Beta Driver or using the latest Game Ready driver for your device.
 
 ### Cutscenes (Rito Village/Vah Medoh) cause the game to freeze
 
-This can be caused by setting the framerate to 60FPS. Set it to 30FPS temporarily, then set it back after the cutscene has finished.
+This can be caused by setting the framerate to 60FPS. Set it to 30FPS temporarily, then set it back after the cutscene has finished. If you can never reach 30FPS anyway, simply disable FPS++ until after this instance, then enable it again after restarting Cemu.
 
 ### Thunderblight Ganon disappears during battle
 
@@ -53,4 +53,4 @@ This can be caused by setting the framerate to 60FPS. Set it to 30FPS temporaril
 
 ### Flurry-rush attacks won't connect with enemy
 
-This can be caused by setting the framerate to 60FPS. We found that if you were close enough, all hits would land anyway. Setting framerate to 30FPS will fix this properly.
+This can be caused by setting the framerate to 60FPS. We found that if you were close enough, all hits would land anyway. Setting framerate to 30FPS will fix this properly.  This issue normally only affects larger enemies or bosses.
