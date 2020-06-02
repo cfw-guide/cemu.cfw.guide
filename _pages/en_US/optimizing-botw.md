@@ -52,7 +52,7 @@ a. If you're using OpenGL:
 2. Open the `GPU specific workarounds for OpenGL` subcategory
 3. Enable all the options corresponding to your GPU (Intel, AMD or NVIDIA)
   - Do not enable packs that are not meant for your GPU.
-  - This means do not enabled Intel if you are not using your Intel GPU for Cemu.
+  - This means do not enable Intel Fixes if you are not using your Intel GPU for Cemu.
 
 b. If you're using Vulkan:
 {: .notice--info}
