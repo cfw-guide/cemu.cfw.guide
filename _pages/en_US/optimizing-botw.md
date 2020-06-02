@@ -41,8 +41,9 @@ Please make sure to the read the descriptions and presets for every graphicPack 
     Changing FPS to 60FPS can cause [some issues](https://wiki.cemu.info/wiki/The_Legend_of_Zelda:_Breath_of_the_Wild#Issues_arising_by_using_FPS.2B.2B_or_static_FPS.2B.2B) during gameplay. When these occur, simply set `Limit FPS (Required)` to 30FPS temporarily until you're past that point in the game.
     {: .notice--info}
 
-1. Open the `Workarounds` category
-- If you're using OpenGL:
+- Open the `Workarounds` category
+
+If you're using OpenGL:
   1. Enable `Kakariko Torch Shadows (OpenGL)` and `LWZX Crash (OpenGL)`
     - Kakariko Torch Shadows resolves issues with square lighting around torches.
     - LWZX Crash prevents random crashes which can occur under specific circumstances.
@@ -50,7 +51,8 @@ Please make sure to the read the descriptions and presets for every graphicPack 
   1. Enable all the options corresponding to your GPU (Intel, AMD or NVIDIA)
     - Do not enable packs that are not meant for your GPU.
     - This means do not enabled Intel if you are not using your Intel GPU for Cemu.
-- If you're using Vulkan:
+
+If you're using Vulkan:
   1. Enable `Grass Swaying (Vulkan)`
     - If you're using a compatible Vulkan 1.2 driver for Nvidia, this is no longer required.
     - This is still required for AMD and Intel GPUs.
