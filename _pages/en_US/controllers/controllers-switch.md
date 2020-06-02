@@ -8,7 +8,7 @@
 
 1. Extract the BetterJoy `.zip` file to a folder
 1. Open the folder and then open the `Drivers` folder
-1. Run and install `ViGEmBus_Setup_1.16.166`
+1. Run and install `ViGEmBus_Setup`
 1. Enter the `HIDGuardian` folder
 1. Right click the `HIDGuardian Install (Run as Admin)` file
 1. Click "Run as Administrator"
@@ -24,7 +24,8 @@
 1. Open the BetterJoy application
 1. Your controller(s) should appear connected
 1. Navigate to the `Settings` tab
-1. In the bottom panel, it should say `Starting server on 127.0.0.1:26760`
+1. In the bottom panel, it should say 
+`Starting server on 127.0.0.1:26760`
   - `127.0.0.1` is the IP address of the motion controls server
   - `26760` is the port of the server
 
@@ -40,5 +41,6 @@
 
 1. Change `Controller` to `Client X`
 1. Proceed to map all your controller button inputs
-1. At the top, enter in a controller profile name, e.g. `Switch Controller`
+1. At the top, enter in a controller profile name, e.g. 
+`Switch Controller`
 1. Click `Save`
