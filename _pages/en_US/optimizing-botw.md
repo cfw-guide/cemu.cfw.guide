@@ -24,13 +24,13 @@ Under your display name, it should say `Display #: Connected to [GPU]`. It shoul
 
 ## Graphics Packs
 
-This section requires that you have installed Cemu's [community graphics packs](installing-cemu#configuration).
-{: .notice--danger}
+Please make sure to the read the descriptions and presets for every graphicPack that you consider using.{: .notice--danger}
 
 1. Open the Cemu application
 1. Right click on `The Legend of Zelda - Breath of the Wild`
 1. Click `Edit graphics packs`
-1. Navigate to the `Graphics` category
+1. On the bottom-right of the window, use the `Download Community GraphicPacks` button.
+1. After your packs are downloaded or verified, navigate to the `Graphics` category
 1. Enable the `Resolution` checkbox
   - If you have a more powerful GPU, you can change the resolution to a higher value, e.g. 1920x1080
   - If you have a weaker GPU, e.g. an iGPU, consider changing it to a lower value to increase performance
@@ -41,13 +41,20 @@ This section requires that you have installed Cemu's [community graphics packs](
     {: .notice--info}
 
 1. Open the `Workarounds` category
-1. If you're using OpenGL:
-    1. Enable `Kakariko Torch Shadows (OpenGL)` and `LWZX Crash (OpenGL)`
-    1. Open the `GPU specific workarounds for OpenGL` subcategory
-    1. Enable all the options corresponding to your GPU (Intel, AMD or NVIDIA)
-1. If you're using Vulkan:
-    1. Enable `Grass Swaying (Vulkan)`
-    1. If using an Intel GPU, enable `Intel GPU Shadows (Vulkan)`
+- If you're using OpenGL:
+  1. Enable `Kakariko Torch Shadows (OpenGL)` and `LWZX Crash (OpenGL)`
+    - Kakariko Torch Shadows resolves issues with square lighting around torches.
+    - LWZX Crash prevents random crashes which can occur under specific circumstances.
+  1. Open the `GPU specific workarounds for OpenGL` subcategory
+  1. Enable all the options corresponding to your GPU (Intel, AMD or NVIDIA)
+    - Do not enable packs that are not meant for your GPU.
+    - This means do not enabled Intel if you are not using your Intel GPU for Cemu.
+- If you're using Vulkan:
+  1. Enable `Grass Swaying (Vulkan)`
+    - If you're using a compatible Vulkan 1.2 driver for Nvidia, this is no longer required.
+    - This is still required for AMD and Intel GPUs.
+  1. If using an Intel GPU, enable `Intel GPU Shadows (Vulkan)`
+    - This may be resolved by Intel with future updates, feel free to test.
 
 ---
 
