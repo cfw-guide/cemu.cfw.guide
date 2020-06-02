@@ -24,7 +24,8 @@ Under your display name, it should say `Display #: Connected to [GPU]`. It shoul
 
 ## Graphics Packs
 
-Please make sure to the read the descriptions and presets for every graphicPack that you consider using.{: .notice--danger}
+Please make sure to the read the descriptions and presets for every graphicPack that you consider using.
+{: .notice--danger}
 
 1. Open the Cemu application
 1. Right click on `The Legend of Zelda - Breath of the Wild`
