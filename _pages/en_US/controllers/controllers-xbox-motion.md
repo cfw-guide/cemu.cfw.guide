@@ -1,6 +1,6 @@
 ## Instructions
 
-Motion controls are not available for Xbox controllers. Follow the below instructions on how to set up an Xbox controller as a normal controller.
+Motion controls are not available for Xbox controllers. Follow the below instructions on how to set up an Xbox controller as a normal controller. View the `Others` category for motion options while using an Xbox controller.
 {: .notice--danger}
 
 1. Connect your Xbox controller to Windows
