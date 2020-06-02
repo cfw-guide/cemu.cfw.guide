@@ -2,11 +2,11 @@
 
 ## Downloads
 
-- The latest release of [BetterJoyForCemu](https://github.com/Davidobot/BetterJoyForCemu/releases/latest)
+- The latest release of [BetterJoy](https://github.com/Davidobot/BetterJoy/releases/latest)
 
 ## Driver Install
 
-1. Extract the BetterJoyForCemu `.zip` file to a folder
+1. Extract the BetterJoy `.zip` file to a folder
 1. Open the folder and then open the `Drivers` folder
 1. Run and install `ViGEmBus_Setup_1.16.166`
 1. Enter the `HIDGuardian` folder
@@ -21,7 +21,7 @@
 
 1. Connect your Joy-cons or Switch Pro controller to Windows via Bluetooth
   - You will need to connect both joy-cons separately if you are using two
-1. Open the BetterJoyForCemu application
+1. Open the BetterJoy application
 1. Your controller(s) should appear connected
 1. Navigate to the `Settings` tab
 1. In the bottom panel, it should say `Starting server on 127.0.0.1:26760`
@@ -34,7 +34,7 @@
 1. On the top bar, go to `Settings` -> `Input settings`
 1. Change `Emulate controller` to `Wii U Gamepad`
 1. Change `Controller API` to `DSUClient`
-1. Click `Settings` and ensure that `IP` and `Port` identical to what you saw in the BetterJoyForCemu log
+1. Click `Settings` and ensure that `IP` and `Port` identical to what you saw in the BetterJoy log
 
     ![]({{ "/assets/images/dsu-client.png" | absolute_url }})
 
