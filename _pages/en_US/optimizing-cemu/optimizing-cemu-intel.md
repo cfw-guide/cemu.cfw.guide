@@ -1,6 +1,6 @@
 {% include toc title="Table of Contents" %}
 
-Ensure you are running the [latest drivers](https://downloadcenter.intel.com/product/80939/Graphics-Drivers) and that your iGPU supports [OpenGL 4.1 or Vulkan](https://www.intel.com/content/www/us/en/support/articles/000005524/graphics-drivers.html).
+Ensure you are running the [latest drivers](https://downloadcenter.intel.com/product/80939/Graphics-Drivers) and verify that your iGPU supports `at least` [OpenGL 4.1 or Vulkan](https://www.intel.com/content/www/us/en/support/articles/000005524/graphics-drivers.html).  OpenGL 4.1 to 4.4 will likely have many graphical issues, 4.5 or above is `highly recommended`.
 {: .notice--textbox}
 
 ## Cemu Settings
