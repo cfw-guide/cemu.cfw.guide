@@ -1,6 +1,6 @@
 {% include toc title="Table of Contents" %}
 
-Ensure you are running the [latest drivers](https://www.nvidia.com/Download/index.aspx) and that your GPU supports OpenGL 4.1 or Vulkan.
+Ensure you are running the [latest drivers](https://www.nvidia.com/Download/index.aspx) and that your GPU supports OpenGL 4.1 or Vulkan.  OpenGL 4.1 to 4.4 will likely have many graphical issues, 4.5 or above is highly recommended.
 {: .notice--textbox}
 
 ## GPU Settings
