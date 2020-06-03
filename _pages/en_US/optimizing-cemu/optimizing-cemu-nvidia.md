@@ -33,12 +33,16 @@ Ensure you are running the [latest drivers](https://www.nvidia.com/Download/inde
     ---
 
 3. Navigate to the `Graphics` tab
-1. Change the `Graphics API` to `OpenGL`
-  - This can cause stuttering when playing for the first time, but will go away after time
-1. Ensure that `Graphics Device` is correct and using your most powerful card in the case of devices with dual graphics
-1. Set `VSync` to triple buffering
+1. Change the `Graphics API` to:
+  - `Vulkan` can increase performance but reduces stability
+  - `OpenGL` is more stable and can reduce crashing
+1. For Vulkan, ensure that `Graphics Device` is correct and using your most powerful card in the case of devices with dual graphics
+1. Set `VSync` to:
+  - For Vulkan, set to `Triple buffering`
+  - For OpenGL, set to `On`
 
-    ---
+    You may not notice a difference in performance between OpenGL and Vulkan on some NVIDIA cards. Test yourself as to which is better for your configuration.
+    {: .notice--info}
 
 7. Navigate to the `Audio` tab
 1. Under `General`, change `API` to `XAudio2`

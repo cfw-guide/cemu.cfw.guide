@@ -24,7 +24,7 @@ Under your display name, it should say `Display #: Connected to [GPU]`. It shoul
 
 ## Graphics Packs
 
-Please make sure to the read the descriptions and presets for every graphic pack that you consider using.
+Please make sure to the read the descriptions and presets for each graphic pack that you consider using.
 {: .notice--danger}
 
 1. Open the Cemu application
@@ -35,6 +35,10 @@ Please make sure to the read the descriptions and presets for every graphic pack
 1. Enable the `Resolution` checkbox
   - If you have a more powerful GPU, you may be able to change the resolution to a higher value, e.g. 1920x1080
   - If you have a weaker GPU, you may want to leave this box unchecked or consider changing it to a lower value to increase performance
+
+    For higher resolutions, consider using the Vulkan rendering API for increased performance.
+    {:.notice--info}
+
 1. Navigate to `Mods` -> `FPS++`
 1. Enable all of the options in this subcategory
 
