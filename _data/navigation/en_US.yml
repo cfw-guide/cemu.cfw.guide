@@ -4,12 +4,6 @@ main:
     title: Home
     url: /
   -
-    title: Donations
-    url: donations
-  -
-    title: Dumping Games
-    url: dumping-games
-  -
     title: Online Play
     url: online-play
   -
@@ -18,6 +12,12 @@ main:
   -
     title: Motion Controls
     url: motion-controls
+  -
+    title: Dumping Games
+    url: dumping-games
+  -
+    title: Donations
+    url: donations
   -
     title: Troubleshooting
     url: troubleshooting
