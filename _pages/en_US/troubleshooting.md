@@ -31,25 +31,25 @@ This is caused by the game's update not being installed to Cemu. BOTW must be us
 
 ### Constant stuttering during gameplay
 
-This can be caused by `shaderCache` compilation or Vulkan's `pipeline cache` building. With OpenGL, the `shader cache` will build up over time and will become unnoticable. Vulkan `pipeline cache` will build quicker, however it has to rebuild every time you update your GPU drivers or Cemu itself as it becomes invalidated when either of these change.
+This can be caused by shader cache compilation or Vulkan's pipeline cache building. With OpenGL, the shader cache will build up over time and will become unnoticable. Vulkan pipeline cache will build quicker, however it has to rebuild every time you update your GPU drivers or Cemu itself as it becomes invalidated when either of these change.
 
-`Nvidia` and `AMD` users that have support for the latest drivers can mitigate this by using a supported `Vulkan 1.2` driver for their GPU and navigating to Cemu's `Debug > Experimental` section, then enable the `Async Compile` feature.  Expect visual or physical glitches, these should only last during the first encounter; almost all Shaders and Pipelines will be compiled in the background while you are playing, greatly reducing the amount of performance drops due to them.
+Nvidia and AMD users that have support for the latest drivers can mitigate this by using a supported Vulkan 1.2 driver for their GPU and navigating to Cemu's `Debug` -> `Experimental` section, then enable the `Async compile (Vulkan)` feature.  Expect visual or physical glitches, these should only last during the first encounter; almost all Shaders and Pipelines will be compiled in the background while you are playing, greatly reducing the amount of performance drops due to them.
 
 ### Off-coloured "milky" sea/water
 
-This is caused by disabling `Full Sync at GX2Drawdone()` on OpenGL within Cemu's `General Settings > Graphics` area. You can either enable it, or switch to Vulkan which has it forcefully enabled.  Another option is to try lowering your resolution and using FPS++'s `Fence Method` set to `Accurate` instead of `Performance`.
+This is caused by disabling `Full Sync at GX2Drawdone()` on OpenGL within Cemu's `Options` -> `General Settings` -> `Graphics` area. You can either enable it, or switch to Vulkan which has it forcefully enabled.  Another option is to try lowering your resolution and using FPS++'s `Fence Method` set to `Accurate` instead of `Performance`.
 
 ### Black/grey sky
 
-This is caused by some NVIDIA graphics drivers while using Vulkan. You can fix it by using the latest `Vulkan 1.2` Beta Driver or using the latest `Game Ready` driver for your device.
+This is caused by some NVIDIA graphics drivers while using Vulkan. You can fix it by using the latest Vulkan 1.2 Beta Driver or using the latest `Game Ready` driver for your device.
 
 ### Cutscenes (Rito Village/Vah Medoh) cause the game to freeze
 
-This can be caused by setting the framerate to 60FPS. `Set it to 30FPS` or `disable FPS++` temporarily, then set it back after the cutscene has finished; this may require a Cemu restart.
+This can be caused by setting the framerate to 60FPS. Set it to 30FPS or disable FPS++ temporarily, then set it back after the cutscene has finished; this may require a Cemu restart.
 
 ### Thunderblight Ganon disappears during battle
 
-This can be caused by setting the framerate to 60FPS. `Set it to 30FPS` or `disable FPS++` temporarily, then set it back after the cutscene has finished; this may require a Cemu restart.
+This can be caused by setting the framerate to 60FPS. Set it to 30FPS or disable FPS++ temporarily, then set it back after the cutscene has finished; this may require a Cemu restart.
 
 ### Flurry-rush attacks won't connect with enemy
 

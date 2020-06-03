@@ -14,9 +14,6 @@ header:
 For complete guides to homebrew and custom firmware for other devices, check out [CFW.Guide](https://cfw.guide).
 {: .notice--primary}
 
-If you appreciate these guides, consider [donating](/donations) to support the guide.
-{: .notice--textbox}
-
 <div class="wrap-collabsible notice--danger">
   <input id="collapsible" class="toggle" type="checkbox">
   <label for="collapsible" class="lbl-toggle">Cemu can only run on 64-bit Windows systems.</label>

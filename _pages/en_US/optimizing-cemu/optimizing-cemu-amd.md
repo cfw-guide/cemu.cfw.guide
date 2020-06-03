@@ -1,7 +1,10 @@
 {% include toc title="Table of Contents" %}
 
-Ensure you are running the [latest drivers](https://www.amd.com/en/support) and that your GPU supports OpenGL 4.1 or Vulkan.  OpenGL 4.1 to 4.4 will likely have many graphical issues, 4.5 or above is highly recommended.
-{: .notice--textbox}
+Ensure you are running the [latest drivers](https://www.amd.com/en/support) and that your GPU supports Vulkan or OpenGL 4.5.
+{: .notice--primary}
+
+ OpenGL 4.1 to 4.4 will work, however you may experience graphical issues.
+ {:.notice--info}
 
 ## Cemu Settings
 
