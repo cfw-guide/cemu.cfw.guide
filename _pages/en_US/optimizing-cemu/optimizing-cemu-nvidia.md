@@ -39,7 +39,7 @@ Ensure you are running the [latest drivers](https://www.nvidia.com/Download/inde
 1. For Vulkan, ensure that `Graphics Device` is correct and using your most powerful card in the case of devices with dual graphics
 1. Set `VSync` to:
   - For Vulkan, set to `Triple buffering`
-  - For OpenGL, set to `On`
+  - For OpenGL, set to `Off`
 
     You may not notice a difference in performance between OpenGL and Vulkan on some NVIDIA cards. Test yourself as to which is better for your configuration.
     {: .notice--info}
