@@ -30,6 +30,7 @@ Ensure you are running the [latest drivers](https://www.amd.com/en/support) and 
 {% capture otherIssues %}
 
 Doing this can cause other issues to occur:
+- With many processors, this can cause lower performance in games
 - This can cause extra heat which may reduce performance in devices with poor thermals (e.g. laptops)
 - This may cause some games to stop working or crash when enabled
   - If this happens, set "Mode" to a lower setting
