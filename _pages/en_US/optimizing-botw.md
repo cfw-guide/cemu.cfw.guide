@@ -18,6 +18,9 @@ Like the previous guide, some of these instructions are GPU specific, so make su
 Make sure you have followed our [Optimizing Cemu](optimizing-cemu) guide before proceeding.
 {: .notice--textbox}
 
+If you can, use [Multi-core Recompiling](/optimizing-cemu#game-profiles) for Breath of the Wild.
+{: .notice--primary}
+
 If you don't know what type of GPU you have, open the Settings app on Windows 10. Then navigate to `System` -> `Display` -> `Advanced display settings`.
 
 Under your display name, it should say `Display #: Connected to [GPU]`. It should say either Intel, AMD or NVIDIA. That will tell you what brand of GPU you have.

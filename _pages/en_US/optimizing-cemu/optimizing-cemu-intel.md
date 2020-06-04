@@ -35,34 +35,5 @@ OpenGL 4.1 to 4.4 will work, however you may experience graphical issues.
 
 ## Game Profiles
 
-{% capture otherIssues %}
-
-Doing this can cause other issues to occur:
-- This can cause extra heat which may reduce performance in devices with poor thermals (e.g. laptops)
-- This may cause some games to stop working or crash when enabled
-  - If this happens, set "Mode" to a lower setting
-
-{% endcapture %}
-
-<div class="notice--danger">{{ otherIssues | markdownify }}</div>
-
-We recommend only doing this if you are experiencing poor performance in low-end CPUs, where this can have a massive impact on framerates.
-{: .notice--primary}
-
-{% capture instructions %}
-
-To continue, we need to know how many logical processors your CPU has. You can find this by opening the Task Manager in Windows.
-
-Right click on the Windows button and click `Task Manager`. Next Click `More Details` and go to the `Performance` tab. Under `CPU` you should find `Logical processors`.
-
-1. Open the Cemu main menu
-1. Right click on your game(s) and click `Edit game profile`
-1. Set "Mode" to:
-  - If you use a CPU with 6 logical processors or higher, set to `Triplecore-recompiler`
-  - For a CPU with 4 logical processors, set to `Dualcore-recompiler`
-  - for a CPU with 2 logical processors, set to `Singlecore-recompiler`
-  1. Set "Thread Quantum" to `100000`
-
-  {% endcapture %}
-
-<div class="notice--info">{{ instructions | markdownify }}</div>
+{% capture game-profiles %}{% include_relative game-profiles.md %}{% endcapture %}
+{{ game-profiles | markdownify }}
