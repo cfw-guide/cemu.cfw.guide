@@ -1,6 +1,6 @@
 {% include toc title="Table of Contents" %}
 
-Ensure you are running the [latest drivers](https://downloadcenter.intel.com/product/80939/Graphics-Drivers) and that your iGPU supports [Vulkan or OpenGL 4.5](https://www.intel.com/content/www/us/en/support/articles/000005524/graphics-drivers.html).
+Ensure you are running the [latest drivers](https://downloadcenter.intel.com/product/80939/Graphics-Drivers) and that your iGPU supports [Vulkan or OpenGL 4.5+](https://www.intel.com/content/www/us/en/support/articles/000005524/graphics-drivers.html).
 {: .notice--primary}
 
 OpenGL 4.1 to 4.4 will work, however you may experience graphical issues.
