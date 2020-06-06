@@ -1,6 +1,6 @@
 {% include toc title="Table of Contents" %}
 
-Ensure you are running the [latest drivers](https://www.amd.com/en/support) and that your GPU supports Vulkan or OpenGL 4.5.
+Ensure you are running the [latest drivers](https://www.amd.com/en/support) and that your GPU supports Vulkan or OpenGL 4.5+.
 {: .notice--primary}
 
  OpenGL 4.1 to 4.4 will work, however you may experience graphical issues.
