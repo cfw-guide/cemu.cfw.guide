@@ -1,13 +1,12 @@
 {% capture full-solutions %}
 Motion controls can be fully supported by a variety of other devices, including:
 - Android/iOS devices with a gyroscope
-  - Android - Bottom section of Cemuhook's webpage: [(Click Here)](https://cemuhook.sshnuke.net/padudpserver.html)
-  - iOS - Bottom of this Cemu Wiki Page: [(Click Here)](https://wiki.cemu.info/wiki/Motion_Controls)
+  - Android & iOS: [(Click Here)](https://wiki.cemu.info/wiki/Motion_Controls#Phones.2FTablets_that_include_a_gyroscope)
 - MotionPlus WiiMotes
   - Should be supported natively by Cemu
   - Alternatively, [WiimoteHook](https://epigramx.github.io/WiimoteHook/)
 - Steam Controllers
-  - [Information](https://github.com/FrogTheFrog/steam-gyro-for-cemuhook)
+  - Steam Gyro [Information](https://github.com/FrogTheFrog/steam-gyro-for-cemuhook)
   - [Latest Release](https://github.com/FrogTheFrog/steam-gyro-for-cemuhook/releases/latest)
 {% endcapture %}
 <div class="notice--success">{{ full-solutions | markdownify }}</div>
@@ -17,10 +16,10 @@ Other limited solutions include:
 - Dualshock 3 controllers
   - May not be as accurate or responsive as DS4 controllers.
   - Covered by Cemuhook's webpage: [(Click Here)](https://cemuhook.sshnuke.net/padudpserver.html)
-- CemuNoGyro (Emulate Motion Axes using Controller Analog Sticks)
-  - [Information](https://github.com/quinton-ashley/cemu-no-gyro)
+- Emulate Motion Axes using Controller Analog Sticks
+  - CemuNoGyro [Information](https://github.com/quinton-ashley/cemu-no-gyro)
   - [Latest Release](https://github.com/quinton-ashley/cemu-no-gyro/releases/latest)
-- Right-clicking within Cemu's window while a Gamepad is set as the emulated controller.
+- Right-clicking within Cemu's window while a Gamepad is set as the current emulated controller.
   - If an alternative controller is being emulated, you may open the Separate Gamepad View to do the same.
 {% endcapture %}
 <div class="notice--warning">{{ limited-solutions | markdownify }}</div>
