@@ -22,26 +22,17 @@ To do this, we're going to need to use a custom homebrew application to dump you
 
 ## Downloads
 
-- The latest release of [MochaCFW](https://www.wiiubru.com/appstore/zips/mocha.zip)
-  - This will also work with (Coldboot) Haxchi
-- The Mocha [config](/assets/files/config.ini)
-- The latest release of [Homebrew Launcher Installer](https://github.com/wiiu-env/homebrew_launcher_installer/releases/latest)
-  - You will need to download the `payload.zip` file
-- The v1.4 release of [The Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4)
-  - You will need to download the v1.4 `homebrew_launcher.v1.4.zip` release of The Homebrew Launcher
-- The latest release of [dumpling](https://github.com/emiyl/dumpling/releases/latest)
+- The "Wii U Only" homebrew pack from [Here](http://wiiu.rikumax.net/)
+- The latest release of [Dumpling](https://github.com/emiyl/dumpling/releases/latest)
 
 ## Preparations
 
-1. Extract the `mocha.zip` file to the root of your SD card
+1. Extract the `Wii U Only.zip` homebrew pack to the root of your SD card - `SD:\`
   - If prompted to, replace any pre-existing files
-1. Extract the `homebrew_launcher.v.1.4.zip` file to the root of your SD card
-1. Copy the `config.ini` file to the `/wiiu/apps/mocha` folder on your SD card
-1. Copy the `payload.elf` file from the `payload.zip` file to the `/wiiu` folder on your SD card
 1. Extract the `dumpling.zip` file to the root of your SD card
 1. Eject your SD card from Windows and put it into your Wii U console
-1. Plug a USB storage device into your Wii U if you want to dump to USB storage
-  - Some users have reported better performance using the back ports, however the front ports should be fine too
+1. Plug a USB storage device into your Wii U if you want to dump your data to USB storage
+  - Some users have reported better performance using the back ports, however the front ports should be fine as well
 
 ## Launching MochaCFW
 
