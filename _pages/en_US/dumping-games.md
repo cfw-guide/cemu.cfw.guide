@@ -54,7 +54,7 @@ If you notice slowdowns while using dumpling, try copying via [FTP or disc2app](
 1. Select `Account Data` using the **(A)** button
   - If you'd like to dump a disc, also select "Disc dump"
 1. Press **(START)** to begin dumping
-  - If you're dumping a disc, skip to step 13
+  - If you're dumping a disc, skip to step 11
 1. Once finished, press **(X)** and wait for the metadata to be fetched
   - This can take up to 5 seconds for every title installed, be patient
 1. Use **(L)** and **(R)** to toggle between dumping from internal storage or from USB
@@ -64,7 +64,7 @@ If you notice slowdowns while using dumpling, try copying via [FTP or disc2app](
   - This will apply to all titles you selected previously
 1. Press **(SELECT)** to begin dumping
   - This can take a very long time
-1. Once finished, turn off your Wii U and put your SD/USB that you dumped to into your computer
+1. Once finished, dump your next game at Step 1 or turn off your Wii U and put your SD/USB that you dumped to into your computer
 
 ## Installing to Cemu
 
