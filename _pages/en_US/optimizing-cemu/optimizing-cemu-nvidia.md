@@ -21,6 +21,7 @@ Ensure you are running the [latest drivers](https://www.nvidia.com/Download/inde
 1. Under `Power management` select `Prefer maximum performance`
 1. Set `Threaded Optimization` to `On`
 1. Set `Triple Buffering` to `On`
+ - Disable this if you use the Vulkan rendering API
 1. If you have a compatible display, enable G-Sync
 
 ![]({{ "/assets/images/nvidia-gpu-settings.png" | absolute_url }})
