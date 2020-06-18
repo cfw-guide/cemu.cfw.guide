@@ -9,6 +9,12 @@ To continue, we need to know what GPU your system is using. If you don't know wh
 
 Under your display name, it should say `Display #: Connected to [GPU]`. This should start with Intel, AMD or NVIDIA. That will tell you what brand of GPU you have.
 
+![]({{ "/assets/images/get_gpu.png" | absolute_url }})
+{: .notice--info}
+
+Follow our [Using Async](using-async) guide to reduce shader compilation stuttering
+{: .notice--info}
+
 Please select your GPU brand below:
 
 <button class="btn btn--large btn--info" id="nvidiabtn" onclick="shownvidia()">NVIDIA</button>

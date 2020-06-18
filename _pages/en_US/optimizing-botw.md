@@ -21,9 +21,15 @@ Make sure you have followed our [Optimizing Cemu](optimizing-cemu) guide before 
 If you can, use [Multi-core Recompiling](/optimizing-cemu#game-profiles) for Breath of the Wild.
 {: .notice--primary}
 
+Follow our [Using Async](using-async) guide to reduce shader compilation stuttering
+{: .notice--info}
+
 If you don't know what type of GPU you have, open the Settings app on Windows 10. Then navigate to `System` -> `Display` -> `Advanced display settings`.
 
 Under your display name, it should say `Display #: Connected to [GPU]`. It should say either Intel, AMD or NVIDIA. That will tell you what brand of GPU you have.
+
+![]({{ "/assets/images/get_gpu.png" | absolute_url }})
+{: .notice--info}
 
 ## Graphics Packs
 

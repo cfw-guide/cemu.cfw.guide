@@ -34,6 +34,7 @@ permalink: /site-navigation
 + [Site Navigation](site-navigation)
 + [Transferring Save Data (FTP)](transferring-save-data-(ftp))
 + [Troubleshooting](troubleshooting)
++ [Using Async](using-async)
 
 {% endcapture %}
 <div class="notice">{{ notice-2 | markdownify }}</div>
