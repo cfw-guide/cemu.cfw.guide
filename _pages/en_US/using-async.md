@@ -40,6 +40,7 @@ Be aware that beta drivers can cause issues with other games and emulators using
 
 - The latest Vulkan 1.2 beta drivers
     - [NVIDIA Beta Drivers](https://developer.nvidia.com/vulkan-driver)
+        - The normal drivers, not DCH drivers
     - [Intel iGPU Beta Drivers](https://downloadcenter.intel.com/download/29616/Intel-Graphics-Windows-10-DCH-Drivers?product=80939)
     - [Latest AMD Drivers](https://www.amd.com/en/support)
 
