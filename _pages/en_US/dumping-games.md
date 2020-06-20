@@ -23,7 +23,7 @@ To do this, we're going to need to use a custom homebrew application to dump you
 ## Downloads
 
 - The "Wii U Only" homebrew pack from [Here](http://wiiu.rikumax.net/)
-- The latest release of [Dumpling](https://github.com/emiyl/dumpling/releases/latest)
+- The latest release of [dumpling](https://github.com/emiyl/dumpling/releases/latest)
 
 ## Preparations
 
