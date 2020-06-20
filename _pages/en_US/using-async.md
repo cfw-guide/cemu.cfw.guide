@@ -38,7 +38,7 @@ Be aware that beta drivers can cause issues with other games and emulators using
 
 ## Downloads
 
-- The latest Vulkan 1.2 beta drivers
+- The latest Vulkan **1.2** beta drivers
     - [NVIDIA Beta Drivers](https://developer.nvidia.com/vulkan-driver)
         - The normal drivers, not DCH drivers
         - The driver version number will be lesser than the latest stable drivers, despite the beta drivers being newer
