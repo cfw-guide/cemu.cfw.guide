@@ -20,9 +20,7 @@ When we finally open the application, it will take us through the quick-start gu
 {% capture mlc01-notice %}
 The mlc01 path stores what the Wii U would normally store on its internal memory. It's essentially the emulated hard drive of the system. This means it stores all system files, system apps, installed updates, DLC, and created save data.
 
-Setting this is optional. However, if left unchecked, the mlc01 path will be stored in the Cemu directory. If the drive you're using to store Cemu has a low amount of remaining space, we recommend you set this to store your mlc01 (and thus your Updates, DLC, and Save Data) on a different drive.  If you choose to do this, it's very important that you remember this location.
-
-###### _Note: Default mlc01 path may be changed in the future_
+Setting this is optional. By default, the mlc01 path will be stored in the Cemu directory. We recommend not changing this unless you have limited space available on the current disk.
 {% endcapture %}
 
 <div class="notice--textbox">{{ mlc01-notice | markdownify }}</div>
@@ -30,9 +28,7 @@ Setting this is optional. However, if left unchecked, the mlc01 path will be sto
 ### Games path
 
 {% capture games_path-notice %}
-This is rather self explanatory. Set this path to where you're going to keep your games. It's important to note that you **must not** store your Updates or DLCs in this directory and you cannot use the `mlc01` directory, either. We typically recommend to place a `Games` folder in your `Cemu` folder/directory for easy access.
-
-If you don't have any games, don't worry, we're going to cover that later. For now, set it to where you're going to put those games.
+This is rather self explanatory, it's a folder where you keep your games. Due to the way that Cemu now installs games, this is unnecessary.
 {% endcapture %}
 
 <div class="notice--textbox">{{ games_path-notice | markdownify }}</div>
@@ -82,16 +78,17 @@ This includes letting games display at higher resolutions, run with higher frame
     ![]({{ "/assets/images/cemu-quickstart-guide.png" | absolute_url }})
     {:.notice--textbox}
 
-3. Set your Wii U internal storage folder by clicking "Browse" under `mlc01 path`
-  - Read the introductions at the top of this page if you do not know what the `mlc01 path` or `games path` are.
-1. Set your `Game paths` to your games folder by clicking "Browse"
+3. Leave the `Custom mlc01 path` field blank
+  - If you wish to store your Cemu system on an external drive, please select it here instead of leaving it blank
+1. Leave the `Game paths` field blank
+  - In newer Cemu versions, games are stored in the `mlc01 path` instead of here
 1. Click `Download community graphics packs` button to automatically download the latest packs
 1. Click `Next`
 
 ### Finishing set-up
 ---
 
-1. For now, don't click `Configure Input`
+1. For now, do not click `Configure Input`
   - We will do this next in more detail
 1. Enable "Automatically check for updates" 
   - If you don't wish to get update notifications, you may update Cemu manually with an option under the Help menu
