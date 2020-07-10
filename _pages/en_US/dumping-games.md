@@ -68,28 +68,16 @@ If you notice slowdowns while using dumpling, try copying via [FTP or disc2app](
 
 ## Installing to Cemu
 
-### Games
-
-1. When installing Cemu, you should've selected a "Game path" to put your games in
-1. Copy the contents of the `dumpling/games` folder from your SD/USB to that folder
-1. Open the Cemu application
-1. Right click on the screen and click `Refresh game list`
-
-    ---
-
-5. If you haven't made a game path, copy the `dumpling/games` folder from your SD/USB to somewhere safe on your computer
-1. Open the Cemu application
-1. On the top bar, click `Options` -> `General Settings`
-1. Under `Game Paths` click `Add`
-1. Navigate to the directory of your newly dumped games
-
-### Updates/DLC
+### Games, Updates and DLC
 
 1. Open the Cemu application
-1. On the top bar, click `File` -> `Install game update or DLC`
-1. Navigate to the `dumpling/updates/GAME` or `dumpling/dlc/GAME` folder on your SD/USB in your dump folder
+1. On the top bar, click `File` -> `Install game title, update or DLC`
+1. Navigate to the `dumpling` folder on your SD card
+1. Open the relevant folder corresponding to what you want to install
+  - This is either the `games`, `updates` or `dlc` folder
+1. Open the folder of what you'd like to install
 1. Open the `meta` folder and select `meta.xml`
-1. Cemu should now automatically install the update for you
+1. Cemu should now automatically install the files for you
 
 ### Saves
 
