@@ -4,6 +4,9 @@ main:
     title: Home
     url: /
   -
+    title: Dumping Games
+    url: dumping-games
+  -
     title: Online Play
     url: online-play
   -
