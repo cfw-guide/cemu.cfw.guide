@@ -38,10 +38,10 @@ Be aware that beta drivers can cause issues with other games and emulators using
 
 ## Downloads
 
-- The latest Vulkan **1.2** beta drivers
+- The latest Vulkan 1.2 **Beta** Driver
     - [NVIDIA Beta Drivers](https://developer.nvidia.com/vulkan-driver)
-        - The normal drivers, not DCH drivers
-        - The driver version number will be lesser than the latest stable drivers, despite the beta drivers being newer
+        - Nvidia's Vulkan Beta Drivers may not have the latest OpenGL/DirectX changes included in "Game Ready" drivers.
+        - If applications outside of Cemu behave poorly, feel free to return to your previous driver.
     - [Intel iGPU Beta Drivers](https://downloadcenter.intel.com/download/29616/Intel-Graphics-Windows-10-DCH-Drivers?product=80939)
     - [Latest AMD Drivers](https://www.amd.com/en/support)
 
