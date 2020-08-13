@@ -46,26 +46,19 @@ Warning regarding reformatting or selling your Wii U Console:
 If you set up homebrew before when using dumpling, you'll only need to download `wiiu-nanddumper`.
 {:.notice--info}
 
-- The latest release of [MochaCFW](https://www.wiiubru.com/appstore/zips/mocha.zip)
-  - This will also work with (Coldboot) Haxchi
-- The Mocha [config](/assets/files/config.ini)
-- The latest release of [Homebrew Launcher Installer](https://github.com/wiiu-env/homebrew_launcher_installer/releases/latest)
-  - You will need to download the `payload.zip` file
-- The v1.4 release of [The Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4)
-  - You will need to download the v1.4 `homebrew_launcher.v1.4.zip` release of The Homebrew Launcher
+- The "Wii U Only" [homebrew pack](http://wiiu.rikumax.net/)
 - The latest release of [wiiu-nanddumper](https://github.com/koolkdev/wiiu-nanddumper/releases/latest)
 - The latest release of [dumpling](https://github.com/emiyl/dumpling/releases/latest)
 
 ## Preparations
 
-1. Extract the `mocha.zip` file to the root of your SD card
+1. Extract the `Wii U Only.zip` homebrew pack to the root of your SD card - `SD:\`
   - If prompted to, replace any pre-existing files
-1. Extract the `homebrew_launcher.v.1.4.zip` file to the root of your SD card
-1. Copy the `config.ini` file to the `/wiiu/apps/mocha` folder on your SD card
-1. Copy the `payload.elf` file from the `payload.zip` file to the `/wiiu` folder on your SD card
-1. Extract the dumpling `.zip` file to the root of your SD card
+1. Extract the `dumpling.zip` file to the root of your SD card
 1. Extract the wiiu-nanddumper `.zip` file to the `\wiiu\apps` folder on your SD card
 1. Eject your SD card from Windows and put it into your Wii U console
+1. Plug a USB storage device into your Wii U if you want to dump your data to USB storage
+  - Some users have reported better performance using the back ports, however the front ports should be fine as well
 
 ## Dumping Files
 
@@ -93,10 +86,12 @@ If you set up homebrew before when using dumpling, you'll only need to download 
 ### Using dumpling
 
 1. Run the dumpling app from the Homebrew Launcher
-1. Select `Account Data` using the **(A)** button
-  - If you did this before while dumping games, this isn't necessary
-1. Select `Friends List` using the **(A)** button
-1. Press **(START)** to begin dumping
+1. Select `Dump files to use Cemu online`
+1. Change the dump destination and account accordingly
+1. Select `Start` to begin dumping
+1. Select `Dump compatibility files for Cemu`
+1. Change the dump destination accordingly
+1. Select `Start` to begin dumping
 1. Press the Home button to exit and then turn off your Wii U
 
 ## Copying to Cemu
@@ -104,10 +99,15 @@ If you set up homebrew before when using dumpling, you'll only need to download 
 1. Take your SD card out of your Wii U and put it in your PC
 1. Copy `otp.bin` and `seeprom.bin` from the root of your SD card to your Cemu directory
   - This is where `Cemu.exe` is located
-1. Copy **the contents** of `dumpling/account_data/mlc01` to your Cemu mlc01 folder
+1. Copy **the contents** of `dumpling/Onlines Files/mlc01` from your SD card or USB device to your Cemu mlc01 folder
   - Overwrite any files if prompted
-1. Copy the `dumpling/friends_list_xx` folder to your Cemu games directory
-  - `xx` will vary depending on your region
+
+## Installing the Friend List application
+1. Open the Cemu application
+1. On the top bar, click `File` -> `Install game title, update or DLC`
+1. Navigate to the `dumpling/System Applications/Friend List/meta` folder on your SD card or USB device
+1. Select `meta.xml`
+1. Cemu should now automatically install the files for you
 
 ## Selecting your Account
 

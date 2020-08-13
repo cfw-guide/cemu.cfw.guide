@@ -22,13 +22,13 @@ To do this, we're going to need to use a custom homebrew application to dump you
 
 ## Downloads
 
-- The "Wii U Only" homebrew pack from [Here](http://wiiu.rikumax.net/)
+- The "Wii U Only" [homebrew pack](http://wiiu.rikumax.net/)
 - The latest release of [dumpling](https://github.com/emiyl/dumpling/releases/latest)
 
 ## Preparations
 
-1. Extract the `Wii U Only.zip` homebrew pack to the root of your SD card - `SD:\`
-  - If prompted to, replace any pre-existing files
+1. Extract the `Wii U Only.zip` homebrew pack to the root of your SD card
+  - If prompted, replace any pre-existing files
 1. Extract the `dumpling.zip` file to the root of your SD card
 1. Eject your SD card from Windows and put it into your Wii U console
 1. Plug a USB storage device into your Wii U if you want to dump your data to USB storage
@@ -46,23 +46,17 @@ To do this, we're going to need to use a custom homebrew application to dump you
 
 ## Using dumpling
 
-If you notice slowdowns while using dumpling, try copying via [FTP or disc2app](dumping-games-(ftp)) instead. This is useful on large games such as Breath of the Wild.
-{: .notice--info}
-
+1. Insert any USB devices or game discs you'd like to use beforehand
 1. Run the dumpling app from the Homebrew Launcher
-1. Use **(ZL)** and **(ZR)** to toggle between dumping to your SD card or a FAT32 USB device
-1. Select `Account Data` using the **(A)** button
-  - If you'd like to dump a disc, also select "Disc dump"
-1. Press **(START)** to begin dumping
-  - If you're dumping a disc, skip to step 11
-1. Once finished, press **(X)** and wait for the metadata to be fetched
-  - This can take up to 5 seconds for every title installed, be patient
-1. Use **(L)** and **(R)** to toggle between dumping from internal storage or from USB
-1. Press **(A)** to select the titles you'd like to dump
-1. Press **(START)** to continue
-1. Press **(A)** to select which parts of the title you'd like to dump
-  - This will apply to all titles you selected previously
-1. Press **(SELECT)** to begin dumping
+1. Select `Dump files to use Cemu online`
+    - This will be used for ensuring that the saves copy across seamlessly
+1. Change the dump destination and account accordingly
+1. Select `Start` to begin dumping
+1. Select `Dump digital games` or `Dump a game disc` depending on your scenario
+1. Select all the games you'd like to dump using the **(A)** button and then press **(START)**
+    - Skip this step when dumping a game disc
+1. Change the dump destination and account accordingly
+1. Select `Start` to begin dumping
   - This can take a very long time
 1. Once finished, dump your next game at Step 1 or turn off your Wii U and put your SD/USB that you dumped to into your computer
 
@@ -74,7 +68,7 @@ If you notice slowdowns while using dumpling, try copying via [FTP or disc2app](
 1. On the top bar, click `File` -> `Install game title, update or DLC`
 1. Navigate to the `dumpling` folder on your SD card
 1. Open the relevant folder corresponding to what you want to install
-  - This is either the `games`, `updates` or `dlc` folder
+  - This is either the `Games`, `Updates` or `DLC` folder
 1. Open the folder of what you'd like to install
 1. Open the `meta` folder and select `meta.xml`
 1. Cemu should now automatically install the files for you
@@ -84,9 +78,10 @@ If you notice slowdowns while using dumpling, try copying via [FTP or disc2app](
 1. Open the Cemu application
 1. Right click on the game you'd like to transfer the save to
 1. Click `Save directory`
-1. Copy over the contents of the `dumpling/save/GAME` folder from your SD/USB to the save directory
+1. Copy over the contents of the `dumpling/Saves/[game]` folder from your SD card or USB device to the save directory
+    - Replace `[game]` with whichever game you want to copy over
 1. Navigate to the root of your mlc01 directory
-1. Copy over the contents of `dumpling/account_data/mlc01` from your SD/USB to the mlc01 directory and replace any files if prompted
+1. Copy over the contents of `dumpling/Online Files/mlc01` from your SD card or USB device to the mlc01 directory and replace any files if prompted
 1. Close Cemu and re-open it again
 1. On the top bar, click `Options` -> `Active Account`
 1. Select the account used from your Wii U
