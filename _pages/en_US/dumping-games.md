@@ -48,10 +48,6 @@ To do this, we're going to need to use a custom homebrew application to dump you
 
 1. Insert any USB devices or game discs you'd like to use beforehand
 1. Run the dumpling app from the Homebrew Launcher
-1. Select `Dump files to use Cemu online`
-    - This will be used for ensuring that the saves copy across seamlessly
-1. Change the dump destination and account accordingly
-1. Select `Start` to begin dumping
 1. Select `Dump digital games` or `Dump a game disc` depending on your scenario
 1. Select all the games you'd like to dump using the **(A)** button and then press **(START)**
     - Skip this step when dumping a game disc
