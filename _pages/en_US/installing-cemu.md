@@ -1,6 +1,7 @@
 ---
 title: Installing Cemu
 permalink: /installing-cemu
+excerpt: Installing and configuring Cemu for the first time.
 ---
 
 {% include toc title="Table of Contents" %}
@@ -90,7 +91,7 @@ This includes letting games display at higher resolutions, run with higher frame
 
 1. For now, do not click `Configure Input`
   - We will do this next in more detail
-1. Enable "Automatically check for updates" 
+1. Enable "Automatically check for updates"
   - If you don't wish to get update notifications, you may update Cemu manually with an option under the Help menu
 1. Click `Close`
 

@@ -1,6 +1,7 @@
 ---
 title: Controller Configuration
 permalink: /controller-configuration
+excerpt: Setting up different controller types for use in the Cemu emulator.
 ---
 
 In this section we'll be configuring controller inputs for Cemu, and setting up motion controls.

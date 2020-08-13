@@ -1,6 +1,7 @@
 ---
 title: "Using Async"
 permalink: /using-async
+excerpt: Enabling asynchronous shader compilation for a smoother gameplay experience.
 ---
 
 {% include toc title="Table of Contents" %}

@@ -1,6 +1,7 @@
 ---
 title: "FAQ"
 permalink: /faq
+excerpt: Answers to commonly asked questions about the Cemu emulator.
 ---
 
 {% include toc title="Table of Contents" %}

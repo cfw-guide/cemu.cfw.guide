@@ -1,6 +1,7 @@
 ---
 title: "Troubleshooting"
 permalink: /troubleshooting
+excerpt: Common issues and their solutions.
 ---
 
 {% include toc title="Table of Contents" %}

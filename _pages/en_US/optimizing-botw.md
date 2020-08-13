@@ -1,6 +1,7 @@
 ---
 title: Optimizing Breath of the Wild
 permalink: /optimizing-botw
+excerpt: Improving gameplay and performance of Breath of the Wild in the Cemu emulator.
 ---
 
 <!--{% include toc title="Table of Contents" %}-->

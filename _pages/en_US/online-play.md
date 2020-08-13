@@ -1,6 +1,7 @@
 ---
 title: Online Play
 permalink: /online-play
+excerpt: Enabling online play on the Cemu emulator.
 ---
 
 {% include toc title="Table of Contents" %}

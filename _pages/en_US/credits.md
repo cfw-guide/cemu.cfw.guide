@@ -1,6 +1,7 @@
 ---
 title: "Credits"
 permalink: /credits
+excerpt: The writers and contributers to cemu.cfw.guide.
 ---
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">

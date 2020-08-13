@@ -1,6 +1,7 @@
 ---
 title: Motion Controls
 permalink: /motion-controls
+excerpt: Setting up motion controls for different controllers in the Cemu emulator.
 ---
 
 In this section we'll be configuring controller inputs and motion controls for Cemu.

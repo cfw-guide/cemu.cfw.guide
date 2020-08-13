@@ -1,6 +1,7 @@
 ---
 title: Donations
 permalink: /donations
+excerpt: Support the guide by donating!
 ---
 
 These guides will always remain free, but you can [buy me a coffee](https://www.buymeacoffee.com/emiyl) if you want.

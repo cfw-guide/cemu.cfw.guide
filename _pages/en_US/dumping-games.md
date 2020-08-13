@@ -1,6 +1,7 @@
 ---
 title: Dumping Games
 permalink: /dumping-games
+excerpt: Dumping decrypted Wii U games for use in Cemu.
 redirect_from:
   - dumping
   - dumping-updates-and-dlc

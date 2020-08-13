@@ -1,6 +1,7 @@
 ---
 title: Optimizing Cemu
 permalink: /optimizing-cemu
+excerpt: Improving gameplay and performance in the Cemu emulator.
 ---
 
 In this section, we make sure that Cemu is running as fast as possible. This involves changing some options in Cemu and your GPU settings to make sure we're getting the best performance.
