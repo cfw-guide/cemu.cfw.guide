@@ -29,8 +29,9 @@ Go to the `Performance` tab. Under `CPU` you should find `Logical processors`.
 1. Set "Mode" to:
   - If you use a CPU with 6 logical processors or higher, set to `Triplecore-recompiler`
   - For a CPU with 4 logical processors, set to `Dualcore-recompiler`
-  - for a CPU with 2 logical processors, set to `Singlecore-recompiler`
-  1. Set "Thread Quantum" to `100000`
+  - For a CPU with 2 logical processors, set to `Singlecore-recompiler`
+1. Keep "Thread Quantum" set to `45000` for stable Audio performance.
+  - If set to 100,000 - gives a 1~3FPS boost but you may encounter staticy audio or other unknown problems.
 
-If your CPU overheats while using the triple-core recompiler, but you need multi-core for performance, consider using dual-core instead.
+If your CPU overheats while using the Triplecore-recompiler, but you need multi-core for performance, consider using Dualcore-recompiler instead.
 {:.notice--info}
