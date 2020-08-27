@@ -58,7 +58,8 @@ If you set up homebrew before when using dumpling, you'll only need to download 
 1. Extract the `dumpling.zip` file to the root of your SD card
 1. Extract the wiiu-nanddumper `.zip` file to the `\wiiu\apps` folder on your SD card
 1. Eject your SD card from Windows and put it into your Wii U console
-1. Plug a USB storage device into your Wii U if you want to dump your data to USB storage
+1. If desired, insert a USB device into your Wii U to dump your data to USB storage
+  - Do not let the Wii U format the USB, the USB must be FAT32, 32KB Cluster.
   - Some users have reported better performance using the back ports, however the front ports should be fine as well
 
 ## Dumping Files
@@ -88,25 +89,22 @@ If you set up homebrew before when using dumpling, you'll only need to download 
 
 1. Run the dumpling app from the Homebrew Launcher
 1. Select `Dump files to use Cemu online`
-1. Change the dump destination and account accordingly
+1. Change the dump destination and the desired account accordingly
 1. Select `Start` to begin dumping
-1. Select `Dump compatibility files for Cemu`
-1. Change the dump destination accordingly
-1. Select `Start` to begin dumping
-1. Press the Home button to exit and then turn off your Wii U
+1. When finished you may turn off your Wii U
 
 ## Copying to Cemu
 
-1. Take your SD card out of your Wii U and put it in your PC
-1. Copy `otp.bin` and `seeprom.bin` from the root of your SD card to your Cemu directory
+1. Take your SD (and if used, your USB) out of your Wii U and put it in your PC
+1. Copy `otp.bin` and `seeprom.bin` from the root of your SD to your Cemu directory
   - This is where `Cemu.exe` is located
-1. Copy **the contents** of `dumpling/Onlines Files/mlc01` from your SD card or USB device to your Cemu mlc01 folder
+1. Copy the `sys` & `usr` folders from `dumpling/Online Files/mlc01` on your SD/USB device to the mlc01 folder for Cemu.
   - Overwrite any files if prompted
 
 ## Installing the Friend List application
 1. Open the Cemu application
 1. On the top bar, click `File` -> `Install game title, update or DLC`
-1. Navigate to the `dumpling/System Applications/Friend List/meta` folder on your SD card or USB device
+1. Navigate to the `dumpling/System Applications/Friend List/meta` folder on your SD/USB device
 1. Select `meta.xml`
 1. Cemu should now automatically install the files for you
 
