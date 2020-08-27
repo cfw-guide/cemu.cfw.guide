@@ -79,11 +79,16 @@ This includes letting games display at higher resolutions, run with higher frame
     ![]({{ "/assets/images/cemu-quickstart-guide.png" | absolute_url }})
     {:.notice--textbox}
 
-3. Leave the `Custom mlc01 path` field blank
-  - If you wish to store your Cemu system on an external drive, please select it here instead of leaving it blank
-1. Leave the `Game paths` field blank
-  - In newer Cemu versions, games are stored in the `mlc01 path` instead of here
-1. Click `Download community graphics packs` button to automatically download the latest packs
+3. `Custom mlc01 path`
+  - On a storage drive that Cemu will always have access to, with a lot of free space, create a folder in a safe location named `mlc01`. Otherwise, leave this field blank to have `mlc01` default to be next to Cemu.exe in Cemu's folder. `mlc01` contains all of your game installs, installed updates, DLCs, and game save files. If you delete this folder everything will be gone. If this path ever gets reset, make sure to set it again in `Options > General Settings`
+1. `Game paths`
+  - You can leave this field blank and install RPX format titles to Cemu's `mlc01` storage with `File > Install ...` but keep in mind that you will need double the space of the game while installing it. You will likely want to remove the source installation files after you are done to save space.
+  - Alternatively, on a storage drive that Cemu will always have access to, with a lot of free space, create a folder in a safe location named `Games` or equivalent. In this directory you can place your WUD/WUX format games, or if you have extracted RPX format titles, make a folder for each game (labeled for the game) to place their `code` `content` and `meta` folders. Once you set your `Game paths` to the `Games` folder itself, it will list all of the games in Cemu.
+  
+    If your hardware changes where the storage drive letters change, this can disrupt Cemu from finding your `mlc01` path or your `Game paths`, if you ever start Cemu and something is missing, make sure to restart your computer - otherwise, please make sure you verify your paths are set correctly!
+    {:.notice--textbox}
+  
+5. Click `Download community graphics packs` button to automatically download the latest packs
 1. Click `Next`
 
 ### Finishing set-up
