@@ -1,7 +1,8 @@
 {% capture full-solutions %}
 Motion controls can be fully supported by a variety of other devices, including:
-- Android/iOS devices with a gyroscope
-  - Android & iOS: [(Click Here)](https://wiki.cemu.info/wiki/Motion_Controls#Phones.2FTablets_that_include_a_gyroscope)
+- Android/iOS/Windows Phone devices with a gyroscope
+  - CemuNoGyro with Web Server: [(Click Here)](https://github.com/quinton-ashley/cemu-no-gyro)
+  - MotionSource App & Web Server: [(Click Here)](https://wiki.cemu.info/wiki/Motion_Controls#Phones.2FTablets_that_include_a_gyroscope)
 - MotionPlus WiiMotes
   - Should be supported natively by Cemu
   - Alternatively, [WiimoteHook](https://epigramx.github.io/WiimoteHook/)
