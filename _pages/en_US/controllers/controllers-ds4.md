@@ -3,6 +3,8 @@
 ## Downloads
 
 - The latest release of [DS4Windows](https://ryochan7.github.io/ds4windows-site/)
+- The latest release of [Cemuhook](https://cemuhook.sshnuke.net/)
+    - If you installed Cemuhook earlier, you don't need to download this
 
 ## Instructions
 
@@ -22,12 +24,14 @@
 1. Open the Cemu application
 1. On the top bar, go to `Settings` -> `Input settings`
 1. Change `Emulate controller` to `Wii U Gamepad`
-1. Change `Controller API` to `DSUClient`
-1. Click `Settings` and ensure that `IP` and `Port` identical to what you saw under `UDP Server`
-
-    ![]({{ "/assets/images/dsu-client.png" | absolute_url }})
-
-1. Change `Controller` to `Client X`
+1. Change `Controller API` to `XInput`
+1. Change `Controller` to `Controller X`
 1. Proceed to map all your controller button inputs
-1. At the top, enter in a controller profile name, e.g. `DSU Controller`
+1. At the top, enter in a controller profile name, e.g. `DS4 Controller`
 1. Click `Save`
+
+## Motion Controls
+
+1. On the top bar, go to `Settings` -> `Gamepad Motion Source`
+1. Select your controller from this list
+1. Select `By slot`

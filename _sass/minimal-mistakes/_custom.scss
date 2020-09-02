@@ -53,49 +53,48 @@ table {
   border: 1px solid #bdc1c4;
 }
 
-.wrap-collabsible {
-  margin-bottom: 1.2rem 0;
+.wrap-collabsible, .wrap-collabsible-2, .wrap-collabsible-3 {
+    margin-bottom: 1.2rem 0;
+    padding-left: .5em;
 }
 
 input[type='checkbox'] {
   display: none;
 }
 
-.lbl-toggle {
-  -webkit-user-select: none; /* Safari */
-  -moz-user-select: none; /* Firefox */
-  -ms-user-select: none; /* IE10+/Edge */
-  user-select: none; /* Standard */
+.lbl-toggle, .lbl-toggle-2, .lbl-toggle-3 {
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
 }
 
-.lbl-toggle::before {
-  content: ' ';
-  display: inline-block;
-
-  border-top: 5px solid transparent;
-  border-bottom: 5px solid transparent;
-  border-left: 5px solid currentColor;
-  vertical-align: middle;
-  margin-right: .7rem;
-  transform: translateY(-2px);
-
-  transition: transform .2s ease-out;
+.lbl-toggle::before, .lbl-toggle-2::before, .lbl-toggle-3::before {
+    content: ' ';
+    display: inline-block;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid currentColor;
+    vertical-align: middle;
+    margin-right: .7rem;
+    transform: translateY(-2px);
+    transition: transform .2s ease-out;
 }
 
-.toggle:checked + .lbl-toggle::before {
-  transform: rotate(90deg) translateX(-3px);
+.toggle:checked + .lbl-toggle::before, .toggle-2:checked + .lbl-toggle-2::before, .toggle-3:checked + .lbl-toggle-3::before {
+    transform: rotate(90deg) translateX(-3px);
 }
 
-.collapsible-content {
-  max-height: 0px;
-  overflow: hidden;
-  transition: max-height .25s ease-in-out;
+.collapsible-content, .collapsible-content-2, .collapsible-content-3 {
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height .25s ease-in-out;
 }
 
-.toggle:checked + .lbl-toggle + .collapsible-content {
-  max-height: 100vh;
+.toggle:checked + .lbl-toggle + .collapsible-content, .toggle-2:checked + .lbl-toggle-2 + .collapsible-content-2, .toggle-3:checked + .lbl-toggle-3 + .collapsible-content-3 {
+    max-height: 100vh;
 }
 
-.collapsible-content .content-inner {
-  padding: .5rem;
+.collapsible-content .content-inner, .collapsible-content-2 .content-inner-2, .collapsible-content-3 .content-inner-3 {
+    padding: .5rem;
 }

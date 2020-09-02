@@ -3,8 +3,21 @@
 ## Downloads
 
 - The latest release of [BetterJoy](https://github.com/Davidobot/BetterJoy/releases/latest)
+- The latest release of [Cemuhook](https://cemuhook.sshnuke.net/)
+    - If you installed Cemuhook earlier, you don't need to download this
 
-## Driver Install
+## Installing Cemuhook
+
+1. Extract the contents of the Cemuhook `.zip` file to the Cemu directory
+1. Open the Cemu application
+1. In the bottom-right-hand corner, it should say `Cemu plugin x.x.x.x by rajkosto`
+    - This means Cemuhook has been successfully installed
+    - If doesn't say this, ensure that your Cemu directory looks like this:
+
+![]({{ "/assets/images/cemuhook.png" | absolute_url }})
+{:.notice--textbox}
+
+## Installing Drivers
 
 1. Extract the BetterJoy `.zip` file to a folder
 1. Open the folder and then open the `Drivers` folder
@@ -23,22 +36,18 @@
   - You will need to connect both joy-cons separately if you are using two
 1. Open the BetterJoy application
 1. Your controller(s) should appear connected
-1. Navigate to the `Settings` tab
-1. In the bottom panel, it should say `Starting server on 127.0.0.1:26760`
-  - `127.0.0.1` is the IP address of the motion controls server
-  - `26760` is the port of the server
-
-    ![]({{ "/assets/images/betterjoy.png" | absolute_url }})
-
 1. Open the Cemu application
 1. On the top bar, go to `Settings` -> `Input settings`
 1. Change `Emulate controller` to `Wii U Gamepad`
-1. Change `Controller API` to `DSUClient`
-1. Click `Settings` and ensure that `IP` and `Port` identical to what you saw in the BetterJoy log
-
-    ![]({{ "/assets/images/dsu-client.png" | absolute_url }})
-
-1. Change `Controller` to `Client X`
+1. Change `Controller API` to `XInput`
+1. Change `Controller` to `Controller X`
 1. Proceed to map all your controller button inputs
 1. At the top, enter in a controller profile name, e.g. `Switch Controller`
 1. Click `Save`
+1. Exit the Input Settings
+
+## Motion Controls
+
+1. On the top bar, go to `Settings` -> `Gamepad Motion Source`
+1. Select your controller from this list
+1. Select `By slot`
