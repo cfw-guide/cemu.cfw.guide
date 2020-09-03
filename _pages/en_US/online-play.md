@@ -91,9 +91,12 @@ If you set up homebrew before when using dumpling, you'll only need to download 
 1. Select `Dump files to use Cemu online`
 1. Change the dump destination and the desired account accordingly
 1. Select `Start` to begin dumping
+1. When finished, go back to the Dumpling main menu.
+1. Next, select `Dump System Applications`
+1. Select the Friend List to dump and begin the process.
 1. When finished you may turn off your Wii U
 
-## Copying to Cemu
+## Copying the Online Files to Cemu
 
 1. Take your SD (and if used, your USB) out of your Wii U and put it in your PC
 1. Copy `otp.bin` and `seeprom.bin` from the root of your SD to your Cemu directory
@@ -101,12 +104,13 @@ If you set up homebrew before when using dumpling, you'll only need to download 
 1. Copy the `sys` & `usr` folders from `dumpling/Online Files/mlc01` on your SD/USB device to the mlc01 folder for Cemu.
   - Overwrite any files if prompted
 
-## Installing the Friend List application
-1. Open the Cemu application
-1. On the top bar, click `File` -> `Install game title, update or DLC`
-1. Navigate to the `dumpling/System Applications/Friend List/meta` folder on your SD/USB device
-1. Select `meta.xml`
-1. Cemu should now automatically install the files for you
+## Adding the Friend List application
+1. Create a folder in Cemu's directory named `System Apps`
+1. Navigate to the `dumpling/System Applications` folder on your SD/USB device
+1. Copy the `Friend List` to `System Apps` in your Cemu folder.
+1. Open Cemu and navigate to `Options` -> `General Settings`
+1. At the bottom, add the `System Apps` folder to your `Game Paths`
+1. Refresh or restart Cemu and your Friend List app should appear.
 
 ## Selecting your Account
 
