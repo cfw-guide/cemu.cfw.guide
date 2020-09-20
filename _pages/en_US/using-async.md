@@ -18,7 +18,7 @@ This feature is still experimental and may cause other graphical issues and inst
 {% capture async-gif %}
 ![]({{ "/assets/images/async.gif" | absolute_url }})
 
-Asynchronous shader compilation in Cemu v1.19.2b
+Asynchronous shader compilation in Cemu as of 1.19.2b
 {% endcapture %}
 
 <div class="notice">{{ async-gif | markdownify }}</div>
@@ -32,21 +32,28 @@ Under your display name, it should say `Display #: Connected to [GPU]`. This sho
 
 Before enabling async, we need to first download new drivers that support Vulkan 1.2 features. This is already included with the latest AMD and NVIDIA GPU drivers.
 
-For Intel iGPUs, a beta driver is required to be installed. You must have a 6th gen iGPU or later to use async.
+For Intel iGPUs, a beta driver may be required to be installed. You must have a 6th gen iGPU or later to use Async.
 
-Be aware that beta drivers can cause issues with other games and emulators using Vulkan. If you are experiencing issues with other Vulkan games on the beta drivers, please revert to the latest stable drivers.
+Be aware that beta drivers can cause issues. If you are experiencing issues on a beta driver, please revert to the latest stable driver.
 {: .notice--primary}
 
 ## Downloads
 
-- The latest GPU drivers
-    - [NVIDIA Beta Drivers](https://www.nvidia.com/Download/index.aspx?lang=en-us)
-    - [Latest AMD Drivers](https://www.amd.com/en/support)
-    - [Intel iGPU Beta Drivers](https://downloadcenter.intel.com/download/29616/Intel-Graphics-Windows-10-DCH-Drivers?product=80939)
+- The latest available Vulkan 1.2-supported Driver
+    - [Latest Nvidia Drivers]
+        - Geforce Experience - https://www.nvidia.com/en-us/geforce/geforce-experience/
+        - Driver Search - https://www.nvidia.com/Download/index.aspx
+    - [Latest AMD Drivers]
+        - Radeon & Driver Search - https://www.amd.com/en/support
+    - [Intel iGPU Beta Drivers] 6th Gen or Newer
+        - Latest or Beta Intel Driver - https://downloadcenter.intel.com/product/80939/Graphics
+
+Async on Intel may or may not be fully supported by the driver and may result in more problems on Cemu than not using Async. Please make sure you install a proper driver for your Intel GPU as supported by your GPU and by your OS, especially if you're using a Laptop with a Dual Graphics design.
+{: .notice--info}
 
 ## Instructions
 
-1. Download and install the relevant drivers
+1. Download and install the relevant driver
 1. Restart your PC
 1. Open the Cemu emulator
 1. On the top bar, click `Options` -> `General Settings`
@@ -57,4 +64,4 @@ Be aware that beta drivers can cause issues with other games and emulators using
 1. On the top bar, click `Debug` -> `Experimental`
 1. Enable `Async compile (Vulkan)`
 
-Cemu should now start compiling shaders and pipelines asynchronously. If you have downloaded new drivers, you will have to recompile all pipelines again.
+Cemu should now start compiling shaders and pipelines asynchronously. If you have downloaded new drivers or update Cemu, you will have to recompile all pipelines while playing again.
