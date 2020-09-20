@@ -40,13 +40,9 @@ Be aware that beta drivers can cause issues. If you are experiencing issues on a
 ## Downloads
 
 - The latest available Vulkan 1.2-supported Driver
-    - [Latest Nvidia Drivers]
-        - Geforce Experience - https://www.nvidia.com/en-us/geforce/geforce-experience/
-        - Driver Search - https://www.nvidia.com/Download/index.aspx
-    - [Latest AMD Drivers]
-        - Radeon & Driver Search - https://www.amd.com/en/support
-    - [Intel iGPU Beta Drivers] 6th Gen or Newer
-        - Latest or Beta Intel Driver - https://downloadcenter.intel.com/product/80939/Graphics
+    - [Latest Nvidia Drivers](https://www.nvidia.com/Download/index.aspx)
+    - [Latest AMD Drivers](https://www.amd.com/en/support)
+    - [Intel iGPU Drivers - 6th Gen or Newer](https://downloadcenter.intel.com/product/80939/Graphics)
 
 Async on Intel may or may not be fully supported by the driver and may result in more problems on Cemu than not using Async. Please make sure you install a proper driver for your Intel GPU as supported by your GPU and by your OS, especially if you're using a Laptop with a Dual Graphics design.
 {: .notice--info}
