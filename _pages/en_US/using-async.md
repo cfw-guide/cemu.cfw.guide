@@ -30,26 +30,23 @@ Under your display name, it should say `Display #: Connected to [GPU]`. This sho
 ![]({{ "/assets/images/get_gpu.png" | absolute_url }})
 {: .notice--info}
 
-Before enabling async, we need to first download new drivers that support Vulkan 1.2 features. This is already included with the latest stable AMD GPU drivers.
+Before enabling async, we need to first download new drivers that support Vulkan 1.2 features. This is already included with the latest AMD and NVIDIA GPU drivers.
 
-For NVIDIA and Intel iGPUs, a beta driver is required to be installed. You must have a 6th gen iGPU or later to use async.
+For Intel iGPUs, a beta driver is required to be installed. You must have a 6th gen iGPU or later to use async.
 
 Be aware that beta drivers can cause issues with other games and emulators using Vulkan. If you are experiencing issues with other Vulkan games on the beta drivers, please revert to the latest stable drivers.
 {: .notice--primary}
 
 ## Downloads
 
-- The latest Vulkan 1.2 **Beta** Driver
-    - [NVIDIA Beta Drivers](https://developer.nvidia.com/vulkan-driver)
-        - Nvidia's Vulkan Beta Drivers may not have the latest OpenGL/DirectX changes included in "Game Ready" drivers.
-        - If applications outside of Cemu behave poorly, feel free to return to your previous driver.
-    - [Intel iGPU Beta Drivers](https://downloadcenter.intel.com/download/29616/Intel-Graphics-Windows-10-DCH-Drivers?product=80939)
+- The latest GPU drivers
+    - [NVIDIA Beta Drivers](https://www.nvidia.com/Download/index.aspx?lang=en-us)
     - [Latest AMD Drivers](https://www.amd.com/en/support)
+    - [Intel iGPU Beta Drivers](https://downloadcenter.intel.com/download/29616/Intel-Graphics-Windows-10-DCH-Drivers?product=80939)
 
 ## Instructions
 
 1. Download and install the relevant drivers
-    - If you already have the latest AMD GPU drivers, you can skip this step
 1. Restart your PC
 1. Open the Cemu emulator
 1. On the top bar, click `Options` -> `General Settings`
