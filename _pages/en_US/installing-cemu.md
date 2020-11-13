@@ -107,7 +107,7 @@ We recommend that you download these to allow tweaking your games for better per
         </div>
         <div class="content-inner-2 notice--textbox">
           <div style="padding:.5em;">
-            <p>Alternatively, on a storage drive that Cemu will always have access to, with a lot of free space, create a folder in a safe location named `Games` or equivalent.</p>
+            <p>Alternatively, on a storage drive that Cemu will always have access to, with a lot of free space, create a folder in a safe location named <code>Games</code> or equivalent.</p>
             <p>In this directory you can place your WUD/WUX format games, or if you have extracted RPX format titles, make a folder for each game (labeled for the game) to place their <code>code</code>, <code>content</code> and <code>meta</code> folders.</p>
             <p>Once you set your <code>Game paths</code> to the <code>Games</code> folder itself, it will list all of the games in Cemu.</p>
           </div>
