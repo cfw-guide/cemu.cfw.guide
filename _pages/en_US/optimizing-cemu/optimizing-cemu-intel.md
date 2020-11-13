@@ -32,8 +32,3 @@ OpenGL 4.1 to 4.4 will work, however you may experience graphical issues.
   - This may cause other games to stop working
 1. If it still doesn't work, update your iGPU driver.
 1. If the issue still persists, it's likely that game won't work for your iGPU, or it is too old to run
-
-## Game Profiles
-
-{% capture game-profiles %}{% include_relative game-profiles.md %}{% endcapture %}
-{{ game-profiles | markdownify }}

@@ -36,6 +36,9 @@ Please select your GPU brand below:
 Cemu should now be running the fastest it can, with a huge increase in performance for some users. There are even more ways to improve framerates in Breath of the Wild. Follow our optimization guide for more info.
 
 Continue to [Optimizing Breath of the Wild](optimizing-botw) (Optional)
+{: .notice--info}
+
+Read through the [Multi-core Recompiling](multicore-recompiling) page (Optional)
 {: .notice--textbox}
 
 <script>

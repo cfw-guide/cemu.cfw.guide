@@ -24,8 +24,3 @@ Ensure you are running the [latest drivers](https://www.amd.com/en/support) and 
 
 7. Navigate to the `Audio` tab
 1. Under `General`, change `API` to `XAudio2`
-
-## Game Profiles
-
-{% capture game-profiles %}{% include_relative game-profiles.md %}{% endcapture %}
-{{ game-profiles | markdownify }}
