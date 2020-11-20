@@ -38,9 +38,6 @@ Cemu should now be running the fastest it can, with a huge increase in performan
 Continue to [Optimizing Breath of the Wild](optimizing-botw) (Optional)
 {: .notice--info}
 
-Read through the [Multi-core Recompiling](multicore-recompiling) page (Optional)
-{: .notice--textbox}
-
 <script>
   var nvidia = document.getElementById("nvidiainstr");
   var nvidiabtn = document.getElementById("nvidiabtn");

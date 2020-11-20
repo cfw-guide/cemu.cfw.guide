@@ -19,9 +19,6 @@ Like the previous guide, some of these instructions are GPU specific, so make su
 Make sure you have followed our [Optimizing Cemu](optimizing-cemu) guide before proceeding.
 {: .notice--textbox}
 
-Ensure that you are using [Multi-core Recompiling](/multicore-recompiling) for Breath of the Wild.
-{: .notice--primary}
-
 Follow our [Using Async](using-async) guide to reduce shader compilation stuttering
 {: .notice--info}
 
