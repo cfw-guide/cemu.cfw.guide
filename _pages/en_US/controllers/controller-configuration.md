@@ -6,21 +6,21 @@ excerpt: Setting up different controller types for use in the Cemu emulator.
 
 In this section we'll be configuring controller inputs for Cemu, and setting up motion controls.
 
-This can vary between controllers, as some controllers _do_ support motion controls (e.g. Switch and PS4), however some don't (e.g. Xbox controllers).
+This can vary between controllers, as some controllers _do_ support motion controls (e.g. Switch and Playstation), however some don't (e.g. Xbox controllers).
 
 If you have a generic controller, it may possibly simply emulate an Xbox controller. Try following the Xbox guide. If that doesn't work, try again but with the controller API set to `DirectInput` instead.
 
 Please select your controller type below:
 
 <button class="btn btn--large btn--info" id="abtn" onclick="showa()">Nintendo Switch</button>
-<button class="btn btn--large btn--info" id="bbtn" onclick="showb()">Dualshock 4</button>
+<button class="btn btn--large btn--info" id="bbtn" onclick="showb()">Playstation</button>
 <button class="btn btn--large btn--info" id="cbtn" onclick="showc()">Xbox</button>
 <button class="btn btn--large btn--info" id="dbtn" onclick="showd()">Others</button>
 
 {% capture a-instructions %}{% include_relative controllers-switch.md %}{% endcapture %}
 <div id="ainstr">{{ a-instructions | markdownify }}</div>
 
-{% capture b-instructions %}{% include_relative controllers-ds4.md %}{% endcapture %}
+{% capture b-instructions %}{% include_relative controllers-ps.md %}{% endcapture %}
 <div id="binstr">{{ b-instructions | markdownify }}</div>
 
 {% capture c-instructions %}{% include_relative controllers-xbox.md %}{% endcapture %}
