@@ -6,21 +6,21 @@ excerpt: Setting up motion controls for different controllers in the Cemu emulat
 
 In this section we'll be configuring controller inputs and motion controls for Cemu.
 
-Only a select few controllers properly support motion controls. We recommend using either official Nintendo Switch controllers or a Dual Shock 4 controller.
+Only a select few controllers properly support motion controls. We recommend using either official Nintendo Switch or PlayStation controllers.
 
 If you have an Xbox controller, this will not work as they don't have the hardware to support motion controls. For other controllers, please check the "Others" tab to see compatibility.
 
 Please select your controller type below:
 
 <button class="btn btn--large btn--info" id="abtn" onclick="showa()">Nintendo Switch</button>
-<button class="btn btn--large btn--info" id="bbtn" onclick="showb()">Dualshock 4</button>
+<button class="btn btn--large btn--info" id="bbtn" onclick="showb()">PlayStation</button>
 <button class="btn btn--large btn--info" id="cbtn" onclick="showc()">Xbox</button>
 <button class="btn btn--large btn--info" id="dbtn" onclick="showd()">Others</button>
 
 {% capture a-instructions %}{% include_relative controllers-switch.md %}{% endcapture %}
 <div id="ainstr">{{ a-instructions | markdownify }}</div>
 
-{% capture b-instructions %}{% include_relative controllers-ds4.md %}{% endcapture %}
+{% capture b-instructions %}{% include_relative controllers-ps.md %}{% endcapture %}
 <div id="binstr">{{ b-instructions | markdownify }}</div>
 
 {% capture c-instructions %}{% include_relative controllers-xbox-motion.md %}{% endcapture %}

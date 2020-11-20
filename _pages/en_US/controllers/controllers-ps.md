@@ -10,11 +10,11 @@
 
 1. Download and extract DS4Windows to your computer
   - Select the `_x64.zip` file
-1. Connect your Dualshock 4 controller to Windows via Bluetooth
+1. Connect your DualShock 4 or DualSense controller to Windows via USB or Bluetooth
+  - Motion controls with the DualSense currently only supports USB connections
 1. Open the DS4Windows application
 1. Ensure your controller is registered with DS4Windows
 1. Navigate to the `Settings` tab
-1. Enable `Hide DS4 Controller`
 1. Enable `UDP Server`
   - This should say `127.0.0.1` with port `26760`
 
