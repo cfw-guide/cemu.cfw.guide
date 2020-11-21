@@ -9,7 +9,7 @@ excerpt: The writers and contributers to cemu.cfw.guide.
 <div>
   <div class="credits">
     <div class="user">
-      <img src="https://avatars.io/twitter/emiyl0/large">
+      <img src="/assets/images/bio-photo.jpg">
     </div>
     <div class="user">
       <h3>emiyl</h3>
@@ -39,6 +39,7 @@ I'd like to say a massive thank you to Serfrost, for allowing me to use his [Wik
     + Crementif
     + BSoD Gaming
     + Elpunical
+    + slashiee
 
 
 </pre>{% endcapture %}

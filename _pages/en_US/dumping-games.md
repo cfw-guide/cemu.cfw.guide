@@ -35,15 +35,13 @@ To do this, we're going to need to use a custom homebrew application to dump you
 1. Plug a USB storage device into your Wii U if you want to dump your data to USB storage
   - Some users have reported better performance using the back ports, however the front ports should be fine as well
 
-## Launching MochaCFW
+## Opening the Homebrew Launcher
 
 1. Turn on your Wii U console
 1. Launch the internet browser and open `wiiuexploit.xyz`
 1. Tap `Run Homebrew Launcher!`
   - If your console freezes for more than 10 seconds, hold down the Power button for 4 seconds and reboot
   - Once rebooted, [reset the browser's save data](https://en-americas-support.nintendo.com/app/answers/detail/a_id/1507/~/how-to-delete-the-internet-browser-history) and try again
-1. Once in the Homebrew Launcher, launch MochaCFW
-  - This should return you back to the Homebrew Launcher, where we will now launch dumpling
 
 ## Using dumpling
 
@@ -76,7 +74,7 @@ To do this, we're going to need to use a custom homebrew application to dump you
 1. Right click on the game you'd like to transfer the save to
 1. Click `Save directory`
 1. Copy over the contents of the `dumpling/Saves/[game]` folder from your SD card or USB device to the save directory
-    - Replace `[game]` with whichever game you want to copy over
+    - Where `[game]` is whichever game you want to copy over
 1. Navigate to the root of your mlc01 directory
 1. Copy over the contents of `dumpling/Online Files/mlc01` from your SD card or USB device to the mlc01 directory and replace any files if prompted
 1. Close Cemu and re-open it again
