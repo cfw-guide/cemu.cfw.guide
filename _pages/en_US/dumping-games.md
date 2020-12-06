@@ -23,8 +23,8 @@ To do this, we're going to need to use a custom homebrew application to dump you
 
 ## Downloads
 
-- The "Wii U Only" [homebrew pack](http://wiiu.rikumax.net/)
-- The latest release of [dumpling](https://github.com/emiyl/dumpling/releases/latest)
+- The "Wii U Only" [homebrew pack](https://jorgev259.github.io/wiiusetup/)
+  - If you have already homebrewed your Wii U before, you will only need the latest release of [dumpling](https://github.com/emiyl/dumpling/releases/latest)
 
 ## Preparations
 
