@@ -30,7 +30,6 @@ To do this, we're going to need to use a custom homebrew application to dump you
 
 1. Extract the `Wii U Only.zip` homebrew pack to the root of your SD card
   - If prompted, replace any pre-existing files
-1. Extract the `dumpling.zip` file to the root of your SD card
 1. Eject your SD card from Windows and put it into your Wii U console
 1. Plug a USB storage device into your Wii U if you want to dump your data to USB storage
   - Some users have reported better performance using the back ports, however the front ports should be fine as well
