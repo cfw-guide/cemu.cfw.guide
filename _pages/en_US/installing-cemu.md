@@ -40,7 +40,6 @@ We recommend that you download these to allow tweaking your games for better per
 1. Click `Properties`
 1. Navigate to the `Compatibility` tab
 1. Enable the option "Disable fullscreen optimizations"
-1. Enable "Run this program as administrator"
 1. Click on `Change high DPI settings`
 1. Enable "Use this setting to fix scaling programs for this program instead of the one in settings"
 1. Enable "Override high DPI scaling behaviour. Scaling performed by: Application"
