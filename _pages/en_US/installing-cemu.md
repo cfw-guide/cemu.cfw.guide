@@ -45,8 +45,8 @@ We recommend that you download these to allow tweaking your games for better per
 1. Enable "Override high DPI scaling behaviour. Scaling performed by: Application"
 1. Click `Apply` -> `OK`
 
-    These options are set to help avoid issues on various Windows versions, file restrictions, or display resolutions.  That said, one or more of these options will not be necessary for everyone, but not setting them may result in complications.
-    {:.notice--textbox}
+These options are set to help avoid issues on various Windows versions, file restrictions, or display resolutions.  That said, one or more of these options will not be necessary for everyone, but not setting them may result in complications.
+{:.notice--textbox}
 
 ![]({{ "/assets/images/cemu-properties.png" | absolute_url }})
 {:.notice--textbox}
