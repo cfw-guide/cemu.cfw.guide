@@ -37,7 +37,7 @@ We recommend that you download these to allow tweaking your games for better per
 
 1. Extract the Cemu `.zip` file to your Desktop
   - **Do not** extract it to any folders that require admin permissions, such as Program Files
-1.. Right click on the Cemu executable
+1. Right click on the Cemu executable
 1. Click `Properties`
 1. Navigate to the `Compatibility` tab
 1. Enable the option "Disable fullscreen optimizations"
