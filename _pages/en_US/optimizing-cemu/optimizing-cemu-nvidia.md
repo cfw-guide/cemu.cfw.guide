@@ -47,5 +47,6 @@ Ensure you are running the [latest drivers](https://www.nvidia.com/Download/inde
 
 7. Enable `Async shader compiler`
   - This will cause graphical bugs on first playthroughs in exchange for a smoother experience
+  - Ensure that you have the latest GPU drivers before enabling this
 1. Navigate to the `Audio` tab
 1. Under `General`, change `API` to `XAudio2`
