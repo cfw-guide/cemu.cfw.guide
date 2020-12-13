@@ -21,6 +21,7 @@ Ensure you are running the [latest drivers](https://www.amd.com/en/support) and 
 1. Set `VSync` to triple buffering
 1. Enable `Async shader compiler`
   - This will cause graphical bugs on first playthroughs in exchange for a smoother experience
+  - Ensure that you have the latest GPU drivers before enabling this
 
     ---
 
