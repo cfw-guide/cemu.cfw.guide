@@ -21,6 +21,8 @@ OpenGL 4.1 to 4.4 will work, however you may experience graphical issues.
 1. Set "VSync" to double or triple buffering
 1. Enable `Async shader compiler`
   - This will cause graphical bugs on first playthroughs in exchange for a smoother experience
+  - Ensure that you have the latest GPU drivers before enabling this
+  - This only works on 6th-gen CPUs and above
 
     ---
 
