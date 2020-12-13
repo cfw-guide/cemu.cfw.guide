@@ -19,6 +19,8 @@ OpenGL 4.1 to 4.4 will work, however you may experience graphical issues.
   - This can increase performance and decreases graphical issues
   - However it can cause stuttering when playing for the first time or after a driver update, but will go away after time
 1. Set "VSync" to double or triple buffering
+1. Enable `Async shader compiler`
+  - This will cause graphical bugs on first playthroughs in exchange for a smoother experience
 
     ---
 
