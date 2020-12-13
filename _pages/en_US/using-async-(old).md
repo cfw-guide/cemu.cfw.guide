@@ -1,6 +1,6 @@
 ---
 title: "Using Async"
-permalink: /using-async
+permalink: /using-async-(old)
 excerpt: Enabling asynchronous shader compilation for a smoother gameplay experience.
 ---
 
