@@ -45,5 +45,7 @@ Ensure you are running the [latest drivers](https://www.nvidia.com/Download/inde
     You may not notice a difference in performance between OpenGL and Vulkan on some NVIDIA cards. Test yourself as to which is better for your configuration.
     {: .notice--info}
 
-7. Navigate to the `Audio` tab
+7. Enable `Async shader compiler`
+  - This will cause graphical bugs on first playthroughs in exchange for a smoother experience
+1. Navigate to the `Audio` tab
 1. Under `General`, change `API` to `XAudio2`
