@@ -19,6 +19,8 @@ Ensure you are running the [latest drivers](https://www.amd.com/en/support) and 
   - This can cause stuttering when playing for the first time or after a driver update, but will go away after time
 1. Ensure that `Graphics Device` is correct and using your most powerful card in the case of devices with dual graphics
 1. Set `VSync` to triple buffering
+1. Enable `Async shader compiler`
+  - This will cause graphical bugs on first playthroughs in exchange for a smoother experience
 
     ---
 
