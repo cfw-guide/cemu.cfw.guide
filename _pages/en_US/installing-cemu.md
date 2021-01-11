@@ -70,10 +70,10 @@ These options are set to help avoid issues on various Windows versions, file res
     ![]({{ "/assets/images/cemu-quickstart-guide.png" | absolute_url }})
     {:.notice--textbox}
 
-1. <div class="wrap-collabsible">
-      <input id="collapsible" class="toggle" type="checkbox">
-      <label for="collapsible" class="lbl-toggle"><a>Create a folder in a safe location named "mlc01"</a></label>
-      <div class="collapsible-content">
+1. <div class="wrap-collabsible-1">
+      <input id="collapsible-1" class="toggle-1" type="checkbox">
+      <label for="collapsible-1" class="lbl-toggle-1"><a>Create a folder in a safe location named "mlc01"</a></label>
+      <div class="collapsible-content-1">
         <div class="content-inner notice--info">
           <div style="padding:.5em;">
             <p>The mlc01 path stores the emulated Wii U internal memory, including:</p>
@@ -99,20 +99,20 @@ These options are set to help avoid issues on various Windows versions, file res
       <input id="collapsible-2" class="toggle-2" type="checkbox">
       <label for="collapsible-2" class="lbl-toggle-2"><a>Leave the "Game paths" field blank</a></label>
       <div class="collapsible-content-2">
-        <div class="content-inner-2 notice--info">
+        <div class="content-inner notice--info">
           <div style="padding:.5em;">
             <p>This will allow Cemu to install RPX format titles to the <code>mlc01</code> storage with <code>File</code> -> <code>Install ...</code></p>
             <p>You will need double the space of the game while installing it. You will likely want to remove the source installation files after you are done to save space.</p>    
            </div>
         </div>
-        <div class="content-inner-2 notice--textbox">
+        <div class="content-inner notice--textbox">
           <div style="padding:.5em;">
             <p>Alternatively, on a storage drive that Cemu will always have access to, with a lot of free space, create a folder in a safe location named <code>Games</code> or equivalent.</p>
             <p>In this directory you can place your WUD/WUX format games, or if you have extracted RPX format titles, make a folder for each game (labeled for the game) to place their <code>code</code>, <code>content</code> and <code>meta</code> folders.</p>
             <p>Once you set your <code>Game paths</code> to the <code>Games</code> folder itself, it will list all of the games in Cemu.</p>
           </div>
         </div>
-        <div class="content-inner-2 notice--primary">
+        <div class="content-inner notice--primary">
           <div style="padding:.5em;">
             <p>If your hardware changes where the storage drive letters change, this can disrupt Cemu from finding your <code>mlc01</code> path or your <code>Game paths</code>.</p>
             <p>If you ever start Cemu and something is missing, make sure to restart your computer. Otherwise, please ensure that your paths are set correctly.</p>
@@ -125,7 +125,7 @@ These options are set to help avoid issues on various Windows versions, file res
       <input id="collapsible-3" class="toggle-3" type="checkbox">
       <label for="collapsible-3" class="lbl-toggle-3"><a>Click "Download community graphics packs"</a></label>
       <div class="collapsible-content-3">
-        <div class="content-inner-3 notice--info">
+        <div class="content-inner notice--info">
           <div style="padding:.5em;">
             <p>Community graphics packs allow you to alter a game visually or how it will run, including:</p>
             <ul>

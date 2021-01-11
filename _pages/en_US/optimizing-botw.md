@@ -4,7 +4,7 @@ permalink: /optimizing-botw
 excerpt: Improving gameplay and performance of Breath of the Wild in the Cemu emulator.
 ---
 
-<!--{% include toc title="Table of Contents" %}-->
+{% include toc title="Table of Contents" %}
 
 Breath of the Wild is a particularly demanding game for a lot of systems, so people have created modifications to help you get the best performance possible in the game.
 
@@ -37,40 +37,67 @@ Please make sure to the read the descriptions and presets for each graphic pack 
 1. Open the Cemu application
 1. Right click on `The Legend of Zelda - Breath of the Wild`
 1. Click `Edit graphics packs`
-1. On the bottom-right of the window, use the `Download latest community graphic packs` button.
-1. After your packs are downloaded or verified, navigate to the `Graphics` category
-1. Enable the `Resolution` checkbox
-  - If you have a more powerful GPU, you may be able to change the resolution to a higher value, e.g. 1920x1080
-  - If you have a weaker GPU, you may want to leave this box unchecked or consider changing it to a lower value to increase performance
+1. On the bottom-right of the window, use the `Download latest community graphic packs` button
+1. Once the download has finished, select and enable the `Graphics` checkbox
+1. You should see a menu on the right half of the window, where you can edit graphical settings
+- <div class="wrap-collabsible-1">
+      <input id="collapsible-1" class="toggle-1" type="checkbox">
+      <label for="collapsible-1" class="lbl-toggle-1"><a>Aspect Ratio</a></label>
+      <div class="collapsible-content-1">
+        <div class="content-inner notice--info">
+          <div style="padding:.5em;">
+            <p>Breath of the Wild runs on a 16:9 aspect ratio on the Wii U. If you have a monitor that isn't 16:9, you may change the aspect ratio to match it in Cemu. Please be aware that UI elements can stretch to fit the screen, which requires modifications to fix.</p>          
+          </div>
+        </div>
+      </div>
+- <div class="wrap-collabsible-2">
+      <input id="collapsible-2" class="toggle-2" type="checkbox">
+      <label for="collapsible-2" class="lbl-toggle-2"><a>Resolution</a></label>
+      <div class="collapsible-content-2">
+        <div class="content-inner notice--info">
+        <div style="padding:.5em;">
+          <p>If you have a more powerful GPU, you may be able to change the resolution to a higher value, e.g. 1080p or 1440p.</p>
+          <p>If you have a weaker GPU, you may want to leave this box unchecked or consider changing it to a lower value to increase performance.</p>
+          <p>Run the game with different resolutions to see which works best for you.</p>          
+        </div>
+      </div>
+        <div class="content-inner notice--textbox">
+        <div style="padding:.5em;">
+          <p>For higher resolutions, consider using the Vulkan rendering API for increased performance.</p>          
+        </div>
+      </div>
+- <div class="wrap-collabsible-3">
+      <input id="collapsible-3" class="toggle-3" type="checkbox">
+      <label for="collapsible-3" class="lbl-toggle-3"><a>Anti-Aliasing</a></label>
+      <div class="collapsible-content-3">
+        <div class="content-inner notice--info">
+        <div style="padding:.5em;">
+          <p>BOTW has anti-aliasing enabled by default. If you would like to use NVIDIA's implementation, or disable it entirely, you can switch to that here.</p>
+        </div>
+      </div>
+- <div class="wrap-collabsible-4">
+      <input id="collapsible-4" class="toggle-4" type="checkbox">
+      <label for="collapsible-4" class="lbl-toggle-4"><a>Shadows</a></label>
+      <div class="collapsible-content-4">
+        <div class="content-inner notice--info">
+        <div style="padding:.5em;">
+          <p>This setting increases the resolution of the shadows. You can increase it up to 400% to make it sharper, or down to 50% to save performance.</p>
+        </div>
+      </div>
+        <div class="content-inner notice--danger">
+        <div style="padding:.5em;">
+          <p>Setting this to 400% can cause some instabilities so we recommend a maximum of 300%.</p>
+        </div>
+      </div>
 
-    For higher resolutions, consider using the Vulkan rendering API for increased performance.
-    {:.notice--info}
+1. Navigate to the `Mods` category
+1. Select and enable the `FPS++` checkbox
 
-1. Navigate to `Mods` -> `FPS++`
-1. Enable all of the options in this subcategory
-
-    Changing FPS to 60FPS can cause [some issues](https://wiki.cemu.info/wiki/The_Legend_of_Zelda:_Breath_of_the_Wild#Issues_arising_by_using_FPS.2B.2B_or_static_FPS.2B.2B) during gameplay. When these occur, simply set `Limit FPS (Required)` to 30FPS temporarily until you're past that point in the game.
+    By default, this is set to 60FPS. This increases the smoothness of gameplay, however [some issues](https://wiki.cemu.info/wiki/The_Legend_of_Zelda:_Breath_of_the_Wild#Issues_arising_by_using_FPS.2B.2B_or_static_FPS.2B.2B) during gameplay. When these occur, simply set `Temporary 30FPS Limit` to `Enabled` temporarily until you're past that point in the game.
     {: .notice--info}
 
-1. Open the `Workarounds` category
-
-### OpenGL Instructions
-
-1. Enable `Kakariko Torch Shadows (OpenGL)` and `LWZX Crash (OpenGL)`
-  - Kakariko Torch Shadows resolves issues with square lighting around torches.
-  - LWZX Crash prevents random crashes which can occur under specific circumstances.
-1. Open the `GPU specific workarounds for OpenGL` subcategory
-1. Enable all the options corresponding to your GPU (Intel, AMD or NVIDIA)
-  - Do not enable packs that are not meant for your GPU.
-  - This means do not enable Intel fixes if you are not using your Intel GPU for Cemu.
-
-### Vulkan Instructions
-
-1. Enable `Grass Swaying (Vulkan)`
-  - If you're using a compatible Vulkan 1.2 driver for Nvidia, this is no longer required.
-  - This is still required for AMD and Intel GPUs.
-1. If using an Intel GPU, enable `Intel GPU Shadows (Vulkan)`
-  - This may be resolved by Intel with future updates, feel free to test.
+    If you have a 144Hz monitor, we suggest setting `FPS Limit` to 72 FPS. Running at 144FPS can cause the menu to be hard to navigate and some physics to act incorrectly.
+    {: .notice--warning}
 
 ---
 

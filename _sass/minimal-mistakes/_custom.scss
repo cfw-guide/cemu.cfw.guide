@@ -53,7 +53,9 @@ table {
   border: 1px solid #bdc1c4;
 }
 
-.wrap-collabsible, .wrap-collabsible-2, .wrap-collabsible-3 {
+// yes i know this is awful
+
+.wrap-collabsible-1, .wrap-collabsible-2, .wrap-collabsible-3, .wrap-collabsible-4 {
     margin-bottom: 1.2rem 0;
     padding-left: .5em;
 }
@@ -62,14 +64,14 @@ input[type='checkbox'] {
   display: none;
 }
 
-.lbl-toggle, .lbl-toggle-2, .lbl-toggle-3 {
+.lbl-toggle-1, .lbl-toggle-2, .lbl-toggle-3, .lbl-toggle-4 {
     -webkit-user-select: none; /* Safari */
     -moz-user-select: none; /* Firefox */
     -ms-user-select: none; /* IE10+/Edge */
     user-select: none; /* Standard */
 }
 
-.lbl-toggle::before, .lbl-toggle-2::before, .lbl-toggle-3::before {
+.lbl-toggle-1::before, .lbl-toggle-2::before, .lbl-toggle-3::before, .lbl-toggle-4::before {
     content: ' ';
     display: inline-block;
     border-top: 5px solid transparent;
@@ -81,20 +83,20 @@ input[type='checkbox'] {
     transition: transform .2s ease-out;
 }
 
-.toggle:checked + .lbl-toggle::before, .toggle-2:checked + .lbl-toggle-2::before, .toggle-3:checked + .lbl-toggle-3::before {
+.toggle-1:checked + .lbl-toggle-1::before, .toggle-2:checked + .lbl-toggle-2::before, .toggle-3:checked + .lbl-toggle-3::before, .toggle-4:checked + .lbl-toggle-4::before {
     transform: rotate(90deg) translateX(-3px);
 }
 
-.collapsible-content, .collapsible-content-2, .collapsible-content-3 {
+.collapsible-content-1, .collapsible-content-2, .collapsible-content-3, .collapsible-content-4 {
     max-height: 0px;
     overflow: hidden;
     transition: max-height .25s ease-in-out;
 }
 
-.toggle:checked + .lbl-toggle + .collapsible-content, .toggle-2:checked + .lbl-toggle-2 + .collapsible-content-2, .toggle-3:checked + .lbl-toggle-3 + .collapsible-content-3 {
+.toggle-1:checked + .lbl-toggle-1 + .collapsible-content-1, .toggle-2:checked + .lbl-toggle-2 + .collapsible-content-2, .toggle-3:checked + .lbl-toggle-3 + .collapsible-content-3, .toggle-4:checked + .lbl-toggle-4 + .collapsible-content-4 {
     max-height: 100vh;
 }
 
-.collapsible-content .content-inner, .collapsible-content-2 .content-inner-2, .collapsible-content-3 .content-inner-3 {
+.content-inner .collapsible-content-1 .collapsible-content-2 .collapsible-content-3 .collapsible-content-4 {
     padding: .5rem;
 }
