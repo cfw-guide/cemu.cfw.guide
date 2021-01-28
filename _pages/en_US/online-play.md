@@ -40,12 +40,11 @@ Warning regarding reformatting or selling your Wii U Console:
 
 ## Requirements
 
-- An SD card for homebrew
+- An SD card to use with all Homebrew
+  - Must be formatted to Fat32 32KB (32768) allocation.
+  - SD is larger than 32GB? [Click Here](https://fat32-format.en.softonic.com/)
 
 ## Downloads
-
-If you set up homebrew before when using dumpling, you'll only need to download `wiiu-nanddumper`.
-{:.notice--info}
 
 - The "Wii U Only" [homebrew pack](http://wiiu.rikumax.net/)
 - The latest release of [dumpling](https://github.com/emiyl/dumpling/releases/latest)
@@ -55,9 +54,18 @@ If you set up homebrew before when using dumpling, you'll only need to download 
 1. Extract the `Wii U Only.zip` homebrew pack to the root of your SD card - `SD:\`
   - If prompted to, replace any pre-existing files
 1. Eject your SD card from Windows and put it into your Wii U console
-1. If desired, insert a USB device into your Wii U to dump your data to USB storage
-  - Do not let the Wii U format the USB, the USB must be FAT32, 32KB Cluster.
-  - Some users have reported better performance using the back ports, however the front ports should be fine as well
+  
+{% capture usbWarning %}
+
+(Optional) A USB storage device for dumping everything into:
+
+- Do not let the Wii U Format USB devices you plan to use with Dumpling.
+- USB devices must be formatted to Fat32 32KB (32768) allocation.
+  - USB is larger than 32GB? [Click Here](https://fat32-format.en.softonic.com/)
+
+{% endcapture %}
+
+<div class="notice--danger">{{ usbWarning | markdownify }}</div>
 
 Your SD card should look like this:
 
