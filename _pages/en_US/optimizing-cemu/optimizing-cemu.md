@@ -15,9 +15,6 @@ Under your display name, it should say `Display #: Connected to [GPU]`. This sho
 ![]({{ "/assets/images/get_gpu.png" | absolute_url }})
 {: .notice--info}
 
-Follow our [Using Async](using-async) guide to reduce shader compilation stuttering
-{: .notice--info}
-
 Please select your GPU brand below:
 
 <button class="btn btn--large btn--info" id="nvidiabtn" onclick="shownvidia()">NVIDIA</button>
