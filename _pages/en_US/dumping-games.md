@@ -16,10 +16,24 @@ To do this, we're going to need to use a custom homebrew application to dump you
 
 ## Requirements
 
-- An SD card for homebrew
-- (Optional) A USB storage device to dump the game to
-  - Only required if the game is too big for the SD card
-  - Wii U games can vary in size up to 17GB, but having 12GB of storage should be okay for most games
+- An SD card to use with all Homebrew
+  - Must be formatted to Fat32 32KB (32768) allocation.
+  - SD is larger than 32GB? [Click Here](https://fat32-format.en.softonic.com/)
+  
+{% capture usbWarning %}
+
+(Optional) A USB storage device for dumping everything into:
+
+- Only required if the game is too big for the SD card
+- Wii U games can vary in size up to 17GB, the average is 12GB or less
+
+- Do not let the Wii U Format USB devices you plan to use with Dumpling.
+- USB devices must be formatted to Fat32 32KB (32768) allocation.
+  - USB is larger than 32GB? [Click Here](https://fat32-format.en.softonic.com/)
+
+{% endcapture %}
+
+<div class="notice--danger">{{ usbWarning | markdownify }}</div>
 
 ## Downloads
 
@@ -31,8 +45,7 @@ To do this, we're going to need to use a custom homebrew application to dump you
 1. Extract the `Wii U Only.zip` homebrew pack to the root of your SD card
   - If prompted, replace any pre-existing files
 1. Eject your SD card from Windows and put it into your Wii U console
-1. Plug a USB storage device into your Wii U if you want to dump your data to USB storage
-  - Some users have reported better performance using the back ports, however the front ports should be fine as well
+1. Insert your correctly formatted USB Device if you're using one
 
 ## Opening the Homebrew Launcher
 
@@ -42,17 +55,21 @@ To do this, we're going to need to use a custom homebrew application to dump you
   - If your console freezes for more than 10 seconds, hold down the Power button for 4 seconds and reboot
   - Once rebooted, [reset the browser's save data](https://en-americas-support.nintendo.com/app/answers/detail/a_id/1507/~/how-to-delete-the-internet-browser-history) and try again
 
-## Using dumpling
+## Using the dumpling app
 
-1. Insert any USB devices or game discs you'd like to use beforehand
-1. Run the dumpling app from the Homebrew Launcher
+1. Before launching the dumpling app, be sure to:
+  - Insert a correctly formatted USB device if you plan to use one
+  - Insert your targeted game's Disc
+  - Your game's Updates & DLCs must be installed and ready.
+1. Run the Dumpling app from the Homebrew Launcher
 1. Select `Dump digital games` or `Dump a game disc` depending on your scenario
-1. Select all the games you'd like to dump using the **(A)** button and then press **(START)**
-    - Skip this step when dumping a game disc
-1. Change the dump destination and account accordingly
+  - For Digital, select your games then press **(START)**
+  - For Disc, continue below
+1. Verify that the dump's destination is correct (SD or USB)
+1. Ensure your desired Wii U Account is set
 1. Select `Start` to begin dumping
-  - This can take a very long time
-1. Once finished, dump your next game at Step 1 or turn off your Wii U and put your SD/USB that you dumped to into your computer
+  - This can take a very long time, we encourage you to dump one game at first.
+1. Once finished, dump your next game at Step 1 or turn off your Wii U and put your SD or USB that you dumped to into your computer
 
 ## Installing to Cemu
 
