@@ -26,7 +26,7 @@ Under your display name, it should say `Display #: Connected to [GPU]`. It shoul
 ![]({{ "/assets/images/get_gpu.png" | absolute_url }})
 {: .notice--info}
 
-## Graphics Packs
+## Graphic Packs
 
 Please make sure to the read the descriptions and presets for each graphic pack that you consider using.
 {: .notice--danger}
@@ -43,7 +43,7 @@ Please make sure to the read the descriptions and presets for each graphic pack 
       <div class="collapsible-content-1">
         <div class="content-inner notice--info">
           <div style="padding:.5em;">
-            <p>Breath of the Wild runs on a 16:9 aspect ratio on the Wii U. If you have a monitor that isn't 16:9, you may change the aspect ratio to match it in Cemu. Please be aware that UI elements can stretch to fit the screen, which requires modifications to fix.</p>          
+            <p>Breath of the Wild runs on a 16:9 aspect ratio on the Wii U. If you have a monitor that isn't 16:9, you may change the aspect ratio to match it in Cemu. Please be aware that UI elements will stretch on wide screens and cannot be fixed at this time.</p>          
           </div>
         </div>
       </div>
@@ -54,7 +54,6 @@ Please make sure to the read the descriptions and presets for each graphic pack 
         <div class="content-inner notice--info">
         <div style="padding:.5em;">
           <p>If you have a more powerful GPU, you may be able to change the resolution to a higher value, e.g. 1080p or 1440p.</p>
-          <p>If you have a weaker GPU, you may want to leave this box unchecked or consider changing it to a lower value to increase performance.</p>
           <p>Run the game with different resolutions to see which works best for you.</p>          
         </div>
       </div>
@@ -90,12 +89,17 @@ Please make sure to the read the descriptions and presets for each graphic pack 
 1. Navigate to the `Mods` category
 1. Select and enable the `FPS++` checkbox
 
-    By default, this is set to 60FPS. This increases the smoothness of gameplay, however [some issues](https://wiki.cemu.info/wiki/The_Legend_of_Zelda:_Breath_of_the_Wild#Issues_arising_by_using_FPS.2B.2B_or_static_FPS.2B.2B) during gameplay. When these occur, simply set `Temporary 30FPS Limit` to `Enabled` temporarily until you're past that point in the game.
+    By default, this is set to 60FPS. This increases the smoothness of gameplay, however there are some issues [(Click Here)](https://wiki.cemu.info/wiki/The_Legend_of_Zelda:_Breath_of_the_Wild#Issues_arising_by_using_FPS.2B.2B_or_static_FPS.2B.2B). When these occur, simply set `Temporary 30FPS Limit` to `Enabled` until you've gotten beyond that point.
+    {: .notice--info}
+    
+    For anyone using settings above 60, we recommend you enable the "Menu Cursor Fix", otherwise it will become difficult to use your cursor in any menus.
     {: .notice--info}
 
-    If you have a 144Hz monitor, we suggest setting `FPS Limit` to 72 FPS. Running at 144FPS can cause the menu to be hard to navigate and some physics to act incorrectly.
+    If you have a 144Hz monitor, we suggest setting `FPS Limit` to 72 FPS. Running at 144FPS can cause some in-game physics to behave incorrectly.
     {: .notice--warning}
 
 ---
 
 Once understanding what each setting does, we recommend you configure your own options. These settings should work for most people as a base however.
+
+**If you're not sure what a Graphic Pack does, please click on it and read the description before using it!**
