@@ -65,7 +65,7 @@ Warning regarding reformatting or selling your Wii U Console:
 
 {% endcapture %}
 
-<div class="notice--danger">{{ usbWarning | markdownify }}</div>
+<div class="notice--textbox">{{ usbWarning | markdownify }}</div>
 
 Your SD card should look like this:
 
@@ -73,6 +73,21 @@ Your SD card should look like this:
 {:.notice--textbox}
 
 ## Dumping Files
+
+{% capture accountWarning %}
+
+Please ensure your NNID Password is being saved.
+
+1. On your Wii U, load up the account you are going to use online.
+1. To switch accounts, open the top-left avatar.
+1. After you're on the correct account, open the top-left avatar once again.
+1. Scroll down and turn on the "Save password?" feature.
+
+**Not doing this will result in bad Online Files**
+
+{% endcapture %}
+
+<div class="notice--textbox">{{ accountWarning | markdownify }}</div>
 
 ### Opening the Homebrew Launcher
 
