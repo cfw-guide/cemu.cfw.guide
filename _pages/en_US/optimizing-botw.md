@@ -89,14 +89,11 @@ Please make sure to the read the descriptions and presets for each graphic pack 
 1. Navigate to the `Mods` category
 1. Select and enable the `FPS++` checkbox
 
-    By default, this is set to 60FPS. This increases the smoothness of gameplay, however there are some issues [(Click Here)](https://wiki.cemu.info/wiki/The_Legend_of_Zelda:_Breath_of_the_Wild#Issues_arising_by_using_FPS.2B.2B_or_static_FPS.2B.2B). When these occur, simply set `Temporary 30FPS Limit` to `Enabled` until you've gotten beyond that point.
+    By default, this is set to 60FPS. This increases the smoothness of gameplay, however it can cause some issues [(click here)](https://wiki.cemu.info/wiki/The_Legend_of_Zelda:_Breath_of_the_Wild#Issues_arising_by_using_FPS.2B.2B_or_static_FPS.2B.2B). When these occur, simply set `Temporary 30FPS Limit` to `Enabled` until you've gotten beyond that point.
     {: .notice--info}
     
-    For anyone using settings above 60, we recommend you enable the "Menu Cursor Fix", otherwise it will become difficult to use your cursor in any menus.
+    If you use a framerate above 72 FPS, set "Mode" to "Advanced Settings" and set "Menu Cursor Fix (Experimental)" to "Enabled At 72FPS And Higher (Recommended)", otherwise it will become difficult to use your cursor in any menus.
     {: .notice--info}
-
-    If you have a 144Hz monitor, we suggest setting `FPS Limit` to 72 FPS. Running at 144FPS can cause some in-game physics to behave incorrectly.
-    {: .notice--warning}
 
 ---
 
