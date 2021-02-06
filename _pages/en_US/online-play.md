@@ -46,7 +46,7 @@ Warning regarding reformatting or selling your Wii U Console:
 
 ## Downloads
 
-- The "Wii U Only" [homebrew pack](http://wiiu.rikumax.net/)
+- The "Wii U Only" [homebrew pack](https://wiiusetup.chitowarlock.com/)
 - The latest release of [dumpling](https://github.com/emiyl/dumpling/releases/latest)
 
 ## Preparations
