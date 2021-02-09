@@ -55,7 +55,7 @@ It depends. A lot of people will be able to run most games at full speed, howeve
 
 A good processor will definitely help speed things up. While modern video-games can be less dependent, emulation can rely quite heavily on CPU performance. We recommend at least an AMD Ryzen 3 or an Intel i5 processor.
 
-Non-Ryzen AMD chips are not recommended as they lack in single-core processing speed. These processors will struggle running demanding games on Cemu.
+Non-Ryzen AMD chips are not recommended as they lack in single-core processing speed. These processors will struggle running most games on Cemu.
 
 ### RAM
 ---
