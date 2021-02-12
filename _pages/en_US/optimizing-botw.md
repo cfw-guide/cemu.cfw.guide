@@ -56,7 +56,7 @@ Run the game with different resolutions to see which works best for you.
 
 {% capture anti-aliasing-description %}
 
-BOTW has anti-aliasing enabled by default. If you would like to use NVIDIA's implementation, or disable it entirely, you can switch to that here. NVIDIA anti-aliasing can give smoother edges at the cost of performance.
+BOTW has anti-aliasing enabled by default. If you would like to use NVIDIA's implementation, or disable it entirely, you can switch to that here. We recommend leaving this at the default setting.
 {% endcapture %}
 
 {% capture shadows-description-1 %}
