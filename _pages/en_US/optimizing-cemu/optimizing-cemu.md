@@ -2,7 +2,7 @@
 title: Optimizing Cemu
 permalink: /optimizing-cemu
 redirect_from:
-  - /iusing-async
+  - /using-async
 excerpt: Improving gameplay and performance in the Cemu emulator.
 ---
 
