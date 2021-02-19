@@ -43,7 +43,7 @@ Ensure you have enough storage space for your dump. The largest Wii U game is 17
 1. Turn on your Wii U console
   - If prompted, **do not** format any USB devices through the Wii U
 1. Ensure that the title you want to dump has the latest update and any relevant DLC installed
-  - Some games, such as Breath of the Wild, require an update to be functional in Cemu
+  - Some games, such as Breath of the Wild, require an update to function correctly in Cemu
 1. Launch the internet browser and open `wiiuexploit.xyz`
 1. Tap `Run Homebrew Launcher!`
   - If your console freezes for more than 10 seconds, hold down the Power button for 4 seconds and reboot
@@ -78,7 +78,7 @@ Ensure you have enough storage space for your dump. The largest Wii U game is 17
 1. Open the `meta` folder and select `meta.xml`
 1. Cemu should now automatically install the files for you
 
-Some games, such as Breath of the Wild, require the latest update to function correctly.
+Some games, such as Breath of the Wild, require the latest update to function correctly in Cemu.
 {:.notice--info}
 
 ### Saves
