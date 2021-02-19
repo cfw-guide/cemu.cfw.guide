@@ -16,7 +16,6 @@ Ensure you are running the [latest drivers](https://www.amd.com/en/support) and 
 3. Navigate to the `Graphics` tab
 1. Change the `Graphics API` to `Vulkan`
   - This is very important and will increase performance by up to 50% on AMD GPUs
-  - This can cause stuttering when playing for the first time or after a driver update, but will go away after time
 1. Ensure that `Graphics Device` is correct and using your most powerful card in the case of devices with dual graphics
 1. Set `VSync` to triple buffering
 1. Enable `Async shader compiler`
