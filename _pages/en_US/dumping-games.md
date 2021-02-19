@@ -78,7 +78,7 @@ Ensure you have enough storage space for your dump. The largest Wii U game is 17
 1. Open the `meta` folder and select `meta.xml`
 1. Cemu should now automatically install the files for you
 
-Some games, such as Breath of the Wild, require the latest update to function correctly in Cemu.
+Some games, such as [Breath of the Wild](https://wiki.cemu.info/wiki/The_Legend_of_Zelda:_Breath_of_the_Wild), require the latest update to function correctly in Cemu.
 {:.notice--info}
 
 ### Saves
