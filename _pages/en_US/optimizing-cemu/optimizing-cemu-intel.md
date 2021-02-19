@@ -16,8 +16,7 @@ OpenGL 4.1 to 4.4 will work, however you may experience graphical issues.
 3. Navigate to the `Graphics` tab
 1. Open the drop down menu `Graphics API`
 1. If Vulkan appears, select it
-  - This can increase performance and decreases graphical issues
-  - However it can cause stuttering when playing for the first time or after a driver update, but will go away after time
+  - This can increase performance and decrease graphical issues
 1. Set "VSync" to double or triple buffering
 1. Enable `Async shader compiler`
   - This will cause graphical bugs on first playthroughs in exchange for a smoother experience
