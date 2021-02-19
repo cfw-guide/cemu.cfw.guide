@@ -16,24 +16,15 @@ To do this, we're going to need to use a custom homebrew application to dump you
 
 ## Requirements
 
-- An SD card to use with all Homebrew
-  - Must be formatted to Fat32 32KB (32768) allocation.
-  - SD is larger than 32GB? [Click Here](https://fat32-format.en.softonic.com/)
+- An SD card for homebrew
+- A USB storage device to dump your games to (Optional)
+  - You can use your SD card instead, however USB can be faster and more convenient
+
+All storage devices must be formatted to FAT32 with 32KB (32768) allocation. For storage devices larger than 32GB, use [FAT32 Format](https://fat32-format.en.softonic.com/) to format it correctly.
+{:.notice--info}
   
-{% capture usbWarning %}
-
-(Optional) A USB storage device for dumping everything into:
-
-- Only required if the game is too big for the SD card
-- Wii U games can vary in size up to 17GB, the average is 12GB or less
-
-- Do not let the Wii U Format USB devices you plan to use with Dumpling.
-- USB devices must be formatted to Fat32 32KB (32768) allocation.
-  - USB is larger than 32GB? [Click Here](https://fat32-format.en.softonic.com/)
-
-{% endcapture %}
-
-<div class="notice--danger">{{ usbWarning | markdownify }}</div>
+Ensure you have enough storage space for your dump. The largest Wii U game is 17GB, however the majority of games won't need that much space.
+{:.notice--warning}
 
 ## Downloads
 
@@ -50,6 +41,9 @@ To do this, we're going to need to use a custom homebrew application to dump you
 ## Opening the Homebrew Launcher
 
 1. Turn on your Wii U console
+  - If prompted, **do not** format any USB devices through the Wii U
+1. Ensure that the title you want to dump has the latest update and any relevant DLC installed
+  - Some games, such as Breath of the Wild, require an update to be functional in Cemu
 1. Launch the internet browser and open `wiiuexploit.xyz`
 1. Tap `Run Homebrew Launcher!`
   - If your console freezes for more than 10 seconds, hold down the Power button for 4 seconds and reboot
@@ -83,6 +77,9 @@ To do this, we're going to need to use a custom homebrew application to dump you
 1. Open the folder of what you'd like to install
 1. Open the `meta` folder and select `meta.xml`
 1. Cemu should now automatically install the files for you
+
+Some games, such as Breath of the Wild, require the latest update to function correctly.
+{:.notice--info}
 
 ### Saves
 
