@@ -40,9 +40,10 @@ Warning regarding reformatting or selling your Wii U Console:
 
 ## Requirements
 
-- An SD card to use with all Homebrew
-  - Must be formatted to Fat32 32KB (32768) allocation.
-  - SD is larger than 32GB? [Click Here](https://fat32-format.en.softonic.com/)
+- An SD card for homebrew
+
+Your SD card must be formatted to FAT32 with 32KB (32768) allocation. For SD cards larger than 32GB, use [FAT32 Format](https://fat32-format.en.softonic.com/) to format it correctly.
+{:.notice--info}
 
 ## Downloads
 
