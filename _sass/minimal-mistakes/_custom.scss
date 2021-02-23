@@ -94,7 +94,7 @@ input[type='checkbox'] {
 }
 
 .toggle-1:checked + .lbl-toggle-1 + .collapsible-content-1, .toggle-2:checked + .lbl-toggle-2 + .collapsible-content-2, .toggle-3:checked + .lbl-toggle-3 + .collapsible-content-3, .toggle-4:checked + .lbl-toggle-4 + .collapsible-content-4 {
-    max-height: 100vh;
+    max-height: 9999vh;
 }
 
 .content-inner .collapsible-content-1 .collapsible-content-2 .collapsible-content-3 .collapsible-content-4 {
