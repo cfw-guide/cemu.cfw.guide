@@ -14,11 +14,11 @@ header:
 For complete guides to homebrew and custom firmware for other devices, check out [CFW.Guide](https://cfw.guide).
 {: .notice--primary}
 
-<div class="wrap-collabsible notice--danger">
-  <input id="collapsible" class="toggle" type="checkbox">
-  <label for="collapsible" class="lbl-toggle">Cemu can only run on 64-bit Windows systems.</label>
-  <div class="collapsible-content">
-    <div class="content-inner">
+<div class="wrap-collabsible-1 notice--danger">
+  <input id="collapsible-1" class="toggle-1" type="checkbox">
+  <label for="collapsible-1" class="lbl-toggle-1">Cemu can only run on 64-bit Windows systems.</label>
+  <div class="collapsible-content-1">
+    <div class="content-inner" style="padding-top: .5em; color: #ffdede;">
       <li>If you have a 32-bit Windows system, this will not work.</li>
       <li>Some users have managed to get Cemu running using <a href="https://www.winehq.org">Wine</a>, however your mileage may vary.</li>
     </div>
