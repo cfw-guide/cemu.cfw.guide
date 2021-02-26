@@ -548,6 +548,11 @@
              background-color: $info-color;
              border-left: 3px solid mix(#fff, $info-color, 40%);
          }
+
+         a:hover {
+             background-color: mix(#000, $info-color, 15%);
+             text-decoration: none !important;
+         }
      }
 
      /*> li:last-child {
@@ -557,11 +562,17 @@
    }*/
 
     li ul {
-        > li a {
-          margin-left: 1rem;
-          font-weight: normal;
-          background-color: mix(#000, $info-color, 20%);
-          border-left: 3px solid mix(#fff, $info-color, 30%);
+        > li {
+          a {
+            margin-left: 1rem;
+            font-weight: normal;
+            background-color: mix(#000, $info-color, 20%);
+            border-left: 3px solid mix(#fff, $info-color, 30%);
+          }
+
+          a:hover {
+            background-color: mix(#000, mix(#000, $info-color, 20%), 15%);
+          }
         }
 
         > li:first-child {
