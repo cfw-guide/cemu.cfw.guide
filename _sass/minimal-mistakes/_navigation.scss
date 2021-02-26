@@ -542,9 +542,10 @@
      }
 
      li {
-         margin-bottom: .4em;
+         margin-bottom: .6em;
          a {
-             border-left: 3px solid $border-color;
+             background-color: $info-color;
+             border-left: 3px solid mix(#fff, $info-color, 40%);
          }
      }
 
@@ -555,17 +556,15 @@
    }*/
 
     li ul {
-        > li a {
+        > li {
           margin-left: 1rem;
           font-weight: normal;
+          background-color: mix(#fff, $info-color, 10%);
+          border-left: 3px solid mix(#fff, $info-color, 50%);
         }
 
         > li:first-child {
             margin-top: 0.6em;
-        }
-
-        > li {
-            margin-bottom: 0em;
         }
     }
 

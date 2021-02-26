@@ -8,8 +8,6 @@ sidebar:
   nav: guide
 ---
 
-{% include toc title="Table of Contents" %}
-
 In this section, we look at how to enable online play on Cemu. This involves dumping a set of online files from your Wii U to make Nintendo think that the connection from Cemu is actually coming from your console.
 
 If you do not plan on using online services you may skip this page. Using Cemu online has not resulted in any bans to date.
