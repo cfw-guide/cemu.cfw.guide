@@ -496,6 +496,7 @@
   font-weight: bold;
   text-transform: uppercase;
   border-bottom: 1px solid $border-color;
+  margin-bottom: 1em;
 }
 
 /*
@@ -559,8 +560,8 @@
         > li a {
           margin-left: 1rem;
           font-weight: normal;
-          background-color: mix(#fff, $info-color, 10%);
-          border-left: 3px solid mix(#fff, $info-color, 50%);
+          background-color: mix(#000, $info-color, 20%);
+          border-left: 3px solid mix(#fff, $info-color, 30%);
         }
 
         > li:first-child {
