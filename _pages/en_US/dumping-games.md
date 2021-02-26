@@ -67,38 +67,9 @@ Ensure you have enough storage space for your dump. The largest Wii U game is 17
   - This can take a very long time, we encourage you to dump one game at first.
 1. Once finished, dump your next game at Step 1 or turn off your Wii U and put your SD or USB that you dumped to into your computer
 
-## Installing to Cemu
+---
 
-### Games, Updates and DLC
+Now you've got your dumps, you can proceed to the next step which takes you through how to install your games in Cemu.
 
-1. Open the Cemu application
-1. On the top bar, click `File` -> `Install game title, update or DLC`
-1. Navigate to the `dumpling` folder on your SD card
-1. Open the relevant folder corresponding to what you want to install
-  - This is either the `Games`, `Updates` or `DLC` folder
-1. Open the folder of what you'd like to install
-1. Open the `meta` folder and select `meta.xml`
-1. Cemu should now automatically install the files for you
-
-Some games, such as [Breath of the Wild](https://wiki.cemu.info/wiki/The_Legend_of_Zelda:_Breath_of_the_Wild), require the latest update to function correctly in Cemu.
-{:.notice--info}
-
-### Saves
-
-1. Open the Cemu application
-1. Right click on the game you'd like to transfer the save to
-1. Click `Save directory`
-1. Copy over the contents of the `dumpling/Saves/[game]` folder from your SD card or USB device to the save directory
-    - Where `[game]` is whichever game you want to copy over
-1. Navigate to the root of your mlc01 directory
-1. Copy over the contents of `dumpling/Online Files/mlc01` from your SD card or USB device to the mlc01 directory and replace any files if prompted
-1. Close Cemu and re-open it again
-1. On the top bar, click `Options` -> `Active Account`
-1. Select the account used from your Wii U
-
-You should now have any games, updates, DLC and saves installed onto Cemu.
-
-We will now enable online multiplayer and play with people across the world on Nintendo servers in our online play guide.
-
-Continue to [Online Play](online-play)
+Continue to [Installing Games](installing-games)
 {: .notice--info}

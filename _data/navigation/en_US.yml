@@ -41,6 +41,8 @@ guide:
         url: /controller-configuration
       - title: "Dumping Games"
         url: /dumping-games
+      - title: "Installing Games"
+        url: /installing-games
   - title: "Finishing Setup"
     children:
       - title: "Online Play"
