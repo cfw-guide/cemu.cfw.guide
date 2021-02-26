@@ -16,7 +16,10 @@
      //   transform: translate3d(0, 0, 0);
      // }
 
+     display: none;
+
      @include breakpoint($large) {
+       display: block;
        float: left;
        width: calc(#{$right-sidebar-width-narrow} - 1em);
        opacity: 0.75;
@@ -78,8 +81,10 @@
 
    .sidebar__right {
      margin-bottom: 1em;
+     margin-top: 1em;
 
      @include breakpoint($large) {
+       margin-top: 0;
        position: absolute;
        top: 0;
        right: 0;
