@@ -215,6 +215,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-redirect-from
+  - jekyll-include-cache
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -270,7 +271,6 @@ defaults:
     values:
       layout: single
       author_profile: false
-      sidebar: false
   - scope:
       path: "_pages/af_ZA"
       type: pages

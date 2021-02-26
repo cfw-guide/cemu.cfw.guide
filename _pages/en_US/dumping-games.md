@@ -6,9 +6,11 @@ redirect_from:
   - dumping
   - dumping-updates-and-dlc
   - transferring-save-data
+toc: true
+toc_sticky: true
+sidebar:
+  nav: guide
 ---
-
-{% include toc title="Table of Contents" %}
 
 In this section, we look at how to "dump" (copy) your games, updates, DLC and saves from your Wii U system over to your PC.
 
@@ -22,7 +24,7 @@ To do this, we're going to need to use a custom homebrew application to dump you
 
 All storage devices must be formatted to FAT32 with 32KB (32768) allocation. For storage devices larger than 32GB, use [FAT32 Format](https://fat32-format.en.softonic.com/) to format it correctly.
 {:.notice--info}
-  
+
 Ensure you have enough storage space for your dump. The largest Wii U game is 17GB, however the majority of games won't need that much space.
 {:.notice--warning}
 

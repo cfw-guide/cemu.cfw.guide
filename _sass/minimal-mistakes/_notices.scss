@@ -13,7 +13,7 @@
 @mixin notice($notice-color) {
   margin: 2em 0 !important;  /* override*/
   padding: 1em;
-  color: #eaeaea;
+  color: $text-color;
   font-family: $global-font-family;
   font-size: $type-size-6 !important;
   text-indent: initial; /* override*/
@@ -23,6 +23,7 @@
   h4 {
     margin-top: 0 !important; /* override*/
     margin-bottom: 0.75em;
+    line-height: inherit;
   }
 
   @at-root .page__content #{&} h4 {
@@ -57,6 +58,10 @@
     background-color: mix(#000, $notice-color, 35%)
   }
 
+	pre code {
+		background-color: inherit;
+	}
+
   ul {
     &:last-child {
       margin-bottom: 0; /* override*/
@@ -70,7 +75,7 @@
   @include notice($default-color);
 }
 
-/* Custom notice */
+/* Textbox notice */
 
 .notice--textbox {
   @include notice($textbox-color);

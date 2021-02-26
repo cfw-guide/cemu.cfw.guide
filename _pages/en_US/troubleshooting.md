@@ -2,9 +2,11 @@
 title: "Troubleshooting"
 permalink: /troubleshooting
 excerpt: Common issues and their solutions.
+toc: true
+toc_sticky: true
+sidebar:
+  nav: guide
 ---
-
-{% include toc title="Table of Contents" %}
 
 ## Cemu
 

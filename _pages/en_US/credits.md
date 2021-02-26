@@ -2,6 +2,8 @@
 title: "Credits"
 permalink: /credits
 excerpt: The writers and contributers to cemu.cfw.guide.
+sidebar:
+  nav: guide
 ---
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
@@ -13,7 +15,7 @@ excerpt: The writers and contributers to cemu.cfw.guide.
     </div>
     <div class="user">
       <h3>emiyl</h3>
-      <p>guide writer</p>
+      <p>Guide writer</p>
       <a class="social-icon" href="https://twitter.com/emiyl0" target="_blank">
         <i class="fab fa-twitter"></i>
       </a>

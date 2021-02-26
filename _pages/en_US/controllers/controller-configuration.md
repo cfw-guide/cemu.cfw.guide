@@ -2,6 +2,10 @@
 title: Controller Configuration
 permalink: /controller-configuration
 excerpt: Setting up different controller types for use in the Cemu emulator.
+toc: true
+toc_sticky: true
+sidebar:
+  nav: guide
 ---
 
 In this section we'll be configuring controller inputs for Cemu, and setting up motion controls.
@@ -48,12 +52,27 @@ Please select your controller type below:
   var dbtn = document.getElementById("dbtn");
   var dclr = "btn--primary"
 
+  var toc0 = document.getElementById("toc0");
+  var toc1 = document.getElementById("toc1");
+  var toc2 = document.getElementById("toc2");
+  var toc3 = document.getElementById("toc3");
+  var toc4 = document.getElementById("toc4");
+  var toc5 = document.getElementById("toc5");
+  var toc6 = document.getElementById("toc6");
+  var toc7 = document.getElementById("toc7");
+  var toc8 = document.getElementById("toc8");
+
   var clr = "btn--info"
 
   a.style.display = "block";
   b.style.display = "none";
   c.style.display = "none";
   d.style.display = "none";
+
+  toc5.style.display = "none";
+  toc6.style.display = "none";
+  toc7.style.display = "none";
+  toc8.style.display = "none";
 
   abtn.classList.remove("btn--info");
   abtn.classList.add(aclr);
@@ -63,6 +82,16 @@ Please select your controller type below:
     b.style.display = "none";
     c.style.display = "none";
     d.style.display = "none";
+
+    toc0.style.display = "block";
+    toc1.style.display = "block";
+    toc2.style.display = "block";
+    toc3.style.display = "block";
+    toc4.style.display = "block";
+    toc5.style.display = "none";
+    toc6.style.display = "none";
+    toc7.style.display = "none";
+    toc8.style.display = "none";
 
     abtn.classList.remove(clr);
     bbtn.classList.add(clr);
@@ -81,6 +110,16 @@ Please select your controller type below:
     c.style.display = "none";
     d.style.display = "none";
 
+    toc0.style.display = "none";
+    toc1.style.display = "none";
+    toc2.style.display = "none";
+    toc3.style.display = "none";
+    toc4.style.display = "none";
+    toc5.style.display = "block";
+    toc6.style.display = "block";
+    toc7.style.display = "block";
+    toc8.style.display = "none";
+
     abtn.classList.add(clr);
     bbtn.classList.remove(clr);
     cbtn.classList.add(clr);
@@ -98,6 +137,16 @@ Please select your controller type below:
     c.style.display = "block";
     d.style.display = "none";
 
+    toc0.style.display = "none";
+    toc1.style.display = "none";
+    toc2.style.display = "none";
+    toc3.style.display = "none";
+    toc4.style.display = "none";
+    toc5.style.display = "none";
+    toc6.style.display = "none";
+    toc7.style.display = "none";
+    toc8.style.display = "block";
+
     abtn.classList.add(clr);
     bbtn.classList.add(clr);
     cbtn.classList.remove(clr);
@@ -114,6 +163,16 @@ Please select your controller type below:
     b.style.display = "none";
     c.style.display = "none";
     d.style.display = "block";
+
+    toc0.style.display = "none";
+    toc1.style.display = "none";
+    toc2.style.display = "none";
+    toc3.style.display = "none";
+    toc4.style.display = "none";
+    toc5.style.display = "none";
+    toc6.style.display = "none";
+    toc7.style.display = "none";
+    toc8.style.display = "none";
 
     abtn.classList.add(clr);
     bbtn.classList.add(clr);

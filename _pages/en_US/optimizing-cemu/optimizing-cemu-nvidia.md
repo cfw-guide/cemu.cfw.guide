@@ -1,5 +1,3 @@
-{% include toc title="Table of Contents" %}
-
 Ensure you are running the [latest drivers](https://www.nvidia.com/Download/index.aspx) and that your GPU supports Vulkan or OpenGL 4.5+.
 {: .notice--primary}
 

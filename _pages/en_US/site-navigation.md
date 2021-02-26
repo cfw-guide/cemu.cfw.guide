@@ -3,6 +3,8 @@ title: "Site Navigation" #
 layout: single-no-ads
 sitemap: false
 permalink: /site-navigation
+sidebar:
+  nav: guide
 ---
 
 {% capture notice-1 %}

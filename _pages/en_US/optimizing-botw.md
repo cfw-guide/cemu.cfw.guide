@@ -2,9 +2,11 @@
 title: Optimizing Breath of the Wild
 permalink: /optimizing-botw
 excerpt: Improving gameplay and performance of Breath of the Wild in the Cemu emulator.
+toc: true
+toc_sticky: true
+sidebar:
+  nav: guide
 ---
-
-{% include toc title="Table of Contents" %}
 
 Breath of the Wild is a particularly demanding game for a lot of systems, so people have created modifications to help you get the best performance possible in the game.
 
@@ -24,7 +26,7 @@ Under your display name, it should say `Display #: Connected to [GPU]`. It shoul
 ![]({{ "/assets/images/get_gpu.png" | absolute_url }})
 {: .notice--info}-->
 
-## Graphic Packs
+## Installing Graphic Packs
 
 If you're not sure what a Graphic Pack does, please click on it and read the description before using it.
 {: .notice--danger}
@@ -146,6 +148,9 @@ Setting this to 400% may cause some instabilities so we recommend a maximum of 3
 1. Right click on `The Legend of Zelda - Breath of the Wild`
 1. Click `Edit graphics packs`
 1. On the bottom-right of the window, use the `Download latest community graphic packs` button
+
+## Increasing FPS
+
 1. Once the download has finished, navigate to the `Mods` category
 1. Select and enable the `FPS++` checkbox
 
@@ -154,6 +159,8 @@ Setting this to 400% may cause some instabilities so we recommend a maximum of 3
 
     If you use a framerate above 72 FPS, set `Mode` to `Advanced Settings` and `Menu Cursor Fix (Experimental)` to `Enabled At 72FPS And Higher (Recommended)` otherwise it will become difficult to use your cursor in any menus.
     {: .notice--warning}
+
+## Graphics and Enhancements
 
 1. Minimize the mods category
 1. Select and enable the `Graphics` checkbox

@@ -1,5 +1,3 @@
-{% include toc title="Table of Contents" %}
-
 ## Downloads
 
 - The latest release of [BetterJoy](https://github.com/Davidobot/BetterJoy/releases/latest)

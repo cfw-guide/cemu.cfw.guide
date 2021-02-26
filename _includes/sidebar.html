@@ -1,10 +1,50 @@
-{% if page.sidebar %}
-
-<!--<div class="sidebar sticky" style="display: none;">
-    {% include nav_list %}
-</div>-->
-
-<!-- 300x250/300x600 -->
-<div id="waldo-tag-8535"></div>
-
+{% if page.author_profile or layout.author_profile or page.sidebar %}
+  <div class="sidebar sticky">
+  {% if page.author_profile or layout.author_profile %}{% include author-profile.html %}{% endif %}
+  {% if page.sidebar %}
+    {% for s in page.sidebar %}
+      {% if s.image %}
+        <img src="{{ s.image | relative_url }}"
+             alt="{% if s.image_alt %}{{ s.image_alt }}{% endif %}">
+      {% endif %}
+      {% if s.title %}<h3>{{ s.title }}</h3>{% endif %}
+      {% if s.text %}{{ s.text | markdownify }}{% endif %}
+      {% if s.nav %}{% include nav_list nav=s.nav %}{% endif %}
+    {% endfor %}
+    {% if page.sidebar.nav %}
+      {% include nav_list nav=page.sidebar.nav %}
+    {% endif %}
+  {% endif %}
+  </div>
 {% endif %}
+
+<!--{% if page.sidebar %}
+<div class="sidebar sticky">
+    <nav class="nav__list">
+        <input id="ac-toc" name="accordion-toc" type="checkbox">
+        <label for="ac-toc">Toggle Menu</label>
+        <ul class="nav__items">
+            <li>
+                <span class="nav__sub-title">Getting Started</span>
+                <ul>
+                    <li><a href="/installing-cemu">Installing Cemu</a></li>
+                    <li><a href="/controller-configuration">Controller Configuration</a></li>
+                    <li><a href="/minimal-mistakes/docs/installation/">Installation</a></li>
+                    <li><a href="/minimal-mistakes/docs/upgrading/">Upgrading</a></li>
+                </ul>
+            </li>
+            <li>
+                <span class="nav__sub-title">Customization</span>
+                <ul>
+                    <li><a href="/minimal-mistakes/docs/configuration/">Configuration</a></li>
+                    <li><a href="/minimal-mistakes/docs/overriding-theme-defaults/">Overriding Theme Defaults</a></li>
+                    <li><a href="/minimal-mistakes/docs/navigation/">Navigation</a></li>
+                    <li><a href="/minimal-mistakes/docs/ui-text/">UI Text</a></li>
+                    <li><a href="/minimal-mistakes/docs/authors/">Authors</a></li>
+                    <li><a href="/minimal-mistakes/docs/layouts/">Layouts</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</div>
+{% endif %}-->

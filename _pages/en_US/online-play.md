@@ -2,6 +2,10 @@
 title: Online Play
 permalink: /online-play
 excerpt: Enabling online play on the Cemu emulator.
+toc: true
+toc_sticky: true
+sidebar:
+  nav: guide
 ---
 
 {% include toc title="Table of Contents" %}
@@ -55,7 +59,7 @@ Your SD card must be formatted to FAT32 with 32KB (32768) allocation. For SD car
 1. Extract the `Wii U Only.zip` homebrew pack to the root of your SD card - `SD:\`
   - If prompted to, replace any pre-existing files
 1. Eject your SD card from Windows and put it into your Wii U console
-  
+
 {% capture usbWarning %}
 
 (Optional) A USB storage device for dumping everything into:

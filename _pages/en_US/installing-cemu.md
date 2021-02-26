@@ -2,9 +2,11 @@
 title: Installing Cemu
 permalink: /installing-cemu
 excerpt: Installing and configuring Cemu for the first time.
+toc: true
+toc_sticky: true
+sidebar:
+  nav: guide
 ---
-
-{% include toc title="Table of Contents" %}
 
 This section will take you through installing and configuring Cemu for the very first time. It is important you read all of the text here before proceeding to fully understand the instructions.
 

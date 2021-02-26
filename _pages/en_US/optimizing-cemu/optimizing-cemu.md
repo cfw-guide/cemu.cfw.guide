@@ -4,6 +4,10 @@ permalink: /optimizing-cemu
 redirect_from:
   - /using-async
 excerpt: Improving gameplay and performance in the Cemu emulator.
+toc: true
+toc_sticky: true
+sidebar:
+  nav: guide
 ---
 
 In this section, we make sure that Cemu is running as fast as possible. This involves changing some options in Cemu and your GPU settings to make sure we're getting the best performance.
@@ -53,6 +57,18 @@ Continue to [Optimizing Breath of the Wild](optimizing-botw) (Optional)
   nvidiabtn.classList.remove("btn--info");
   nvidiabtn.classList.add("btn--nvidia");
 
+  var toc0 = document.getElementById("toc0");
+  var toc1 = document.getElementById("toc1");
+  var toc2 = document.getElementById("toc2");
+  var toc3 = document.getElementById("toc3");
+  var toc4 = document.getElementById("toc4");
+
+  toc0.style.display = "block";
+  toc1.style.display = "block";
+  toc2.style.display = "none";
+  toc3.style.display = "none";
+  toc4.style.display = "none";
+
   function shownvidia() {
     nvidia.style.display = "block";
     amd.style.display = "none";
@@ -64,6 +80,12 @@ Continue to [Optimizing Breath of the Wild](optimizing-botw) (Optional)
     intelbtn.classList.remove("btn--intel");
     intelbtn.classList.add("btn--info");
     nvidiabtn.classList.add("btn--nvidia");
+
+    toc0.style.display = "block";
+    toc1.style.display = "block";
+    toc2.style.display = "none";
+    toc3.style.display = "none";
+    toc4.style.display = "none";
   }
 
   function showamd() {
@@ -77,6 +99,12 @@ Continue to [Optimizing Breath of the Wild](optimizing-botw) (Optional)
     intelbtn.classList.remove("btn--intel");
     intelbtn.classList.add("btn--info");
     amdbtn.classList.add("btn--danger");
+
+    toc0.style.display = "none";
+    toc1.style.display = "none";
+    toc2.style.display = "block";
+    toc3.style.display = "none";
+    toc4.style.display = "none";
   }
 
   function showintel() {
@@ -90,5 +118,11 @@ Continue to [Optimizing Breath of the Wild](optimizing-botw) (Optional)
     amdbtn.classList.remove("btn--danger");
     amdbtn.classList.add("btn--info");
     intelbtn.classList.add("btn--intel");
+
+    toc0.style.display = "none";
+    toc1.style.display = "none";
+    toc2.style.display = "none";
+    toc3.style.display = "block";
+    toc4.style.display = "block";
   }
 </script>

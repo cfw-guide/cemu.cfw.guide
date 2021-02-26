@@ -2,9 +2,11 @@
 title: "FAQ"
 permalink: /faq
 excerpt: Answers to commonly asked questions about the Cemu emulator.
+toc: true
+toc_sticky: true
+sidebar:
+  nav: guide
 ---
-
-{% include toc title="Table of Contents" %}
 
 ## Does Cemu support 32-bit systems?
 

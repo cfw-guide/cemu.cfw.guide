@@ -1,3 +1,5 @@
+// Credits
+
 .credits {
   margin-top: 2em;
   display: table;
@@ -36,6 +38,8 @@
   }
 }
 
+// Fix code css
+
 tt,
 code,
 kbd,
@@ -49,16 +53,13 @@ pre {
   background-color: #252b35 !important;
 }
 
+// Tables
+
 table {
   border: 1px solid #bdc1c4;
 }
 
-// yes i know this is awful
-
-.wrap-collabsible-1, .wrap-collabsible-2, .wrap-collabsible-3, .wrap-collabsible-4 {
-    margin-bottom: 1.2rem 0;
-    padding-left: .5em;
-}
+// Drop-down CSS
 
 input[type='checkbox'] {
   display: none;
