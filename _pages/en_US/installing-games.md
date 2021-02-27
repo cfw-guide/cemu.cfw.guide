@@ -39,9 +39,6 @@ Do this as many times as you need until everything you dumped is installed.
 1. Click `Save directory`
 1. Copy over the contents of the `dumpling/Saves/[game]` folder from your SD card or USB device to the save directory
     - Where `[game]` is whichever game you want to copy over
-1. Navigate to the root of your mlc01 directory
-1. Copy over the contents of `dumpling/Online Files/mlc01` from your SD card or USB device to the mlc01 directory and replace any files if prompted
-1. Close Cemu and re-open it again
 
 ---
 
