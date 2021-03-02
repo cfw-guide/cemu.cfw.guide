@@ -15,10 +15,10 @@ Ensure you are running the [latest drivers](https://www.nvidia.com/Download/inde
 1. In "1. Select a program to customise" click `Add` -> `Browse`
 1. Navigate to your Cemu folder and select the Cemu executable
 1. If you are on a laptop with dual graphics, under "2. select the preferred graphics processor for this program" select `High-performance NVIDIA processor`
-1. Under `OpenGL rendering GPU` select your main graphics processor
-1. Under `Power management` select `Prefer maximum performance`
-1. Set `Threaded Optimization` to `On`
-1. Set `Triple Buffering` to `On`
+1. Under "OpenGL rendering GPU" select your main graphics processor
+1. Under "Power management" select `Prefer maximum performance`
+1. Set "Threaded Optimization" to `On`
+1. Set "Triple Buffering" to `On`
  - Disable this if you use the Vulkan rendering API
 1. If you have a compatible display, enable G-Sync
 
@@ -32,12 +32,12 @@ Ensure you are running the [latest drivers](https://www.nvidia.com/Download/inde
     ---
 
 3. Navigate to the `Graphics` tab
-1. Change the `Graphics API` to:
+1. Change the "Graphics API" to:
   - `Vulkan` can increase performance but reduces stability
-  - `OpenGL` is more stable and can reduce crashing
+  - `OpenGL` is more stable and less prone to crashing
 1. For Vulkan, ensure that `Graphics Device` is correct and using your most powerful card in the case of devices with dual graphics
-1. Set `VSync` to:
-  - For Vulkan, set to `Triple buffering`
+1. Set "VSync" to:
+  - For Vulkan, set to `Match emulated display (Experimental)`
   - For OpenGL, set to `Off`
 
     You may not notice a difference in performance between OpenGL and Vulkan on some NVIDIA cards. Test yourself as to which is better for your configuration.
@@ -47,4 +47,4 @@ Ensure you are running the [latest drivers](https://www.nvidia.com/Download/inde
   - This will cause graphical bugs on first playthroughs in exchange for a smoother experience
   - Ensure that you have the latest GPU drivers before enabling this
 1. Navigate to the `Audio` tab
-1. Under `General`, change `API` to `XAudio2`
+1. Under `General`, change "API" to `XAudio2`

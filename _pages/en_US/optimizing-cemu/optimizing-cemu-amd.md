@@ -12,15 +12,15 @@ Ensure you are running the [latest drivers](https://www.amd.com/en/support) and 
     ---
 
 3. Navigate to the `Graphics` tab
-1. Change the `Graphics API` to `Vulkan`
+1. Change the "Graphics API" to `Vulkan`
   - This is very important and will increase performance by up to 50% on AMD GPUs
 1. Ensure that `Graphics Device` is correct and using your most powerful card in the case of devices with dual graphics
-1. Set `VSync` to `Triple buffering`
-1. Enable `Async shader compiler`
+1. Set "VSync" to `Match emulated display (Experimental)`
+1. Enable "Async shader compiler"
   - This will cause graphical bugs on first playthroughs in exchange for a smoother experience
   - Ensure that you have the latest GPU drivers before enabling this
 
     ---
 
 7. Navigate to the `Audio` tab
-1. Under `General`, change `API` to `XAudio2`
+1. Under `General`, change "API" to `XAudio2`

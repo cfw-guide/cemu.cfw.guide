@@ -12,11 +12,13 @@ OpenGL 4.1 to 4.4 will work, however you may experience graphical issues.
     ---
 
 3. Navigate to the `Graphics` tab
-1. Open the drop down menu `Graphics API`
+1. Open the "Graphics API" drop-down menu 
 1. If Vulkan appears, select it
   - This can increase performance and decrease graphical issues
-1. Set `VSync` to `Triple buffering`
-1. Enable `Async shader compiler`
+1. Set "VSync" to:
+  - For Vulkan, set to `Match emulated display (Experimental)`
+  - For OpenGL, set to `Off`
+1. For Vulkan, enable "Async shader compiler"
   - This will cause graphical bugs on first playthroughs in exchange for a smoother experience
   - Ensure that you have the latest GPU drivers before enabling this
   - This only works on 6th-gen CPUs and above
@@ -24,7 +26,7 @@ OpenGL 4.1 to 4.4 will work, however you may experience graphical issues.
     ---
 
 7. Navigate to the `Audio` tab
-1. Under `General`, change `API` to `XAudio2`
+1. Under `General`, change "API" to `XAudio2`
 
 ## Shortcuts and Drivers
 
