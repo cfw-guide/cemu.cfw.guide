@@ -62,12 +62,26 @@ Continue to [Optimizing Breath of the Wild](optimizing-botw) (Optional)
   var toc2 = document.getElementById("toc2");
   var toc3 = document.getElementById("toc3");
   var toc4 = document.getElementById("toc4");
+  var toc5 = document.getElementById("toc5");
+  var toc6 = document.getElementById("toc6");
+  var toc7 = document.getElementById("toc7");
+  var toc8 = document.getElementById("toc8");
+  var toc9 = document.getElementById("toc9");
+  var toc10 = document.getElementById("toc10");
 
   toc0.style.display = "block";
   toc1.style.display = "block";
-  toc2.style.display = "none";
-  toc3.style.display = "none";
-  toc4.style.display = "none";
+  toc2.style.display = "block";
+  toc3.style.display = "block";
+  toc4.style.display = "block";
+  toc5.style.display = "none";
+  toc6.style.display = "none";
+  toc7.style.display = "none";
+  toc8.style.display = "none";
+  toc9.style.display = "none";
+  toc10.style.display = "none";
+  toc11.style.display = "none";
+  toc12.style.display = "none";
 
   function shownvidia() {
     nvidia.style.display = "block";
@@ -81,11 +95,19 @@ Continue to [Optimizing Breath of the Wild](optimizing-botw) (Optional)
     intelbtn.classList.add("btn--info");
     nvidiabtn.classList.add("btn--nvidia");
 
-    toc0.style.display = "block";
-    toc1.style.display = "block";
-    toc2.style.display = "none";
-    toc3.style.display = "none";
-    toc4.style.display = "none";
+	toc0.style.display = "block";
+	toc1.style.display = "block";
+	toc2.style.display = "block";
+	toc3.style.display = "block";
+	toc4.style.display = "block";
+	toc5.style.display = "none";
+	toc6.style.display = "none";
+	toc7.style.display = "none";
+	toc8.style.display = "none";
+	toc9.style.display = "none";
+	toc10.style.display = "none"
+	toc11.style.display = "none";
+	toc12.style.display = "none";
   }
 
   function showamd() {
@@ -102,9 +124,17 @@ Continue to [Optimizing Breath of the Wild](optimizing-botw) (Optional)
 
     toc0.style.display = "none";
     toc1.style.display = "none";
-    toc2.style.display = "block";
+    toc2.style.display = "none";
     toc3.style.display = "none";
     toc4.style.display = "none";
+	toc5.style.display = "block";
+	toc6.style.display = "block";
+	toc7.style.display = "block";
+	toc8.style.display = "none";
+	toc9.style.display = "none";
+	toc10.style.display = "none"
+	toc11.style.display = "none";
+	toc12.style.display = "none";
   }
 
   function showintel() {
@@ -122,7 +152,15 @@ Continue to [Optimizing Breath of the Wild](optimizing-botw) (Optional)
     toc0.style.display = "none";
     toc1.style.display = "none";
     toc2.style.display = "none";
-    toc3.style.display = "block";
-    toc4.style.display = "block";
+    toc3.style.display = "none";
+    toc4.style.display = "none";
+	toc5.style.display = "none";
+	toc6.style.display = "none";
+	toc7.style.display = "none"
+	toc8.style.display = "block";
+	toc9.style.display = "block";
+	toc10.style.display = "block";
+	toc11.style.display = "block";
+	toc12.style.display = "block";
   }
 </script>
