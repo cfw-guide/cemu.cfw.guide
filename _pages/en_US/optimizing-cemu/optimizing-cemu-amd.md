@@ -16,7 +16,7 @@ Ensure you are running the [latest drivers](https://www.amd.com/en/support) and 
   - This is very important and will increase performance by up to 50% on AMD GPUs
 1. Ensure that `Graphics Device` is correct and using your most powerful card in the case of devices with dual graphics
 1. Set "VSync" to `Match emulated display (Experimental)`
-  - If you use a display with variable refresh rate (FreeSync), set this to `Triple buffering` instead
+  - If you use a display with variable refresh rate (FreeSync), set this to `Off` instead
   
     This feature is experimental and may cause issues. If you experience instabilities or other issues, disable it.
 	{:.notice--danger}
