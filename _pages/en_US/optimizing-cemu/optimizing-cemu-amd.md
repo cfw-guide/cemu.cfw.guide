@@ -15,7 +15,7 @@ Ensure you are running the [latest drivers](https://www.amd.com/en/support) and 
 1. Change the `Graphics API` to `Vulkan`
   - This is very important and will increase performance by up to 50% on AMD GPUs
 1. Ensure that `Graphics Device` is correct and using your most powerful card in the case of devices with dual graphics
-1. Set `VSync` to triple buffering
+1. Set `VSync` to `Triple buffering`
 1. Enable `Async shader compiler`
   - This will cause graphical bugs on first playthroughs in exchange for a smoother experience
   - Ensure that you have the latest GPU drivers before enabling this
