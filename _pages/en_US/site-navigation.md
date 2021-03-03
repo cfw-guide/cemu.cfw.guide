@@ -11,8 +11,8 @@ sidebar:
 **Popular**
 
 + [Installing Cemu](installing-cemu)
-+ [Dumping Games](dumping-games)
 + [Controller Configuration](controller-Configuration)
++ [Dumping Games](dumping-games)
 + [Optimizing Cemu](optimizing-cemu)
 + [Online Play](online-play)
 
@@ -24,15 +24,19 @@ sidebar:
 
 + [Controller Configuration](controller-Configuration)
 + [Credits](credits)
++ [Donations](donations)
 + [Dumping Games](dumping-games)
 + [Dumping Games (FTP and disc2app)](dumping-games-(ftp-and-disc2app))
 + [Dumping Updates and DLC (FTP)](dumping-updates-and-dlc-(ftp))
 + [FAQ](faq)
 + [Home](/)
 + [Installing Cemu](installing-cemu)
++ [Installing Games](installing-games)
++ [Multicore Recompiling](multicore-recompiling)
 + [Online Play](online-play)
 + [Optimizing Breath of the Wild](optimizing-botw)
 + [Optimizing Cemu](optimizing-cemu)
++ [Optimizing Cemu (OpenGL)](optimizing-cemu-(opengl))
 + [Site Navigation](site-navigation)
 + [Transferring Save Data (FTP)](transferring-save-data-(ftp))
 + [Troubleshooting](troubleshooting)

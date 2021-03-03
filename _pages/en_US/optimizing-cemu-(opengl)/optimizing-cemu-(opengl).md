@@ -1,8 +1,6 @@
 ---
-title: Optimizing Cemu
-permalink: /optimizing-cemu
-redirect_from:
-  - /using-async
+title: Optimizing Cemu (OpenGL)
+permalink: /optimizing-cemu-(opengl)
 excerpt: Improving gameplay and performance in the Cemu emulator.
 toc: true
 toc_sticky: true
@@ -10,7 +8,7 @@ sidebar:
   nav: guide
 ---
 
-In this section, we make sure that Cemu is running as fast as possible. This involves changing some options in Cemu and your GPU settings to make sure we're getting the best performance.
+In this section, we make sure that Cemu is running as fast as it can. This involves changing some options in Cemu and your GPU settings to make sure we're getting the best performance.
 
 To continue, we need to know what GPU your system is using. If you don't know what type of graphics processor you have, open the Settings app on Windows 10. Then navigate to `System` -> `Display` -> `Advanced display settings`.
 
@@ -36,7 +34,7 @@ Please select your GPU brand below:
 
 ---
 
-Cemu should now be running the fastest it can, with a huge increase in performance for some users. There are even more ways to improve framerates in Breath of the Wild. Follow our optimization guide for more info.
+Cemu should now be running the fastest it can on OpenGL. There are even more ways to improve framerates in Breath of the Wild. Follow our optimization guide for more info.
 
 Continue to [Optimizing Breath of the Wild](optimizing-botw) (Optional)
 {: .notice--info}
@@ -62,26 +60,12 @@ Continue to [Optimizing Breath of the Wild](optimizing-botw) (Optional)
   var toc2 = document.getElementById("toc2");
   var toc3 = document.getElementById("toc3");
   var toc4 = document.getElementById("toc4");
-  var toc5 = document.getElementById("toc5");
-  var toc6 = document.getElementById("toc6");
-  var toc7 = document.getElementById("toc7");
-  var toc8 = document.getElementById("toc8");
-  var toc9 = document.getElementById("toc9");
-  var toc10 = document.getElementById("toc10");
 
   toc0.style.display = "block";
   toc1.style.display = "block";
-  toc2.style.display = "block";
-  toc3.style.display = "block";
-  toc4.style.display = "block";
-  toc5.style.display = "none";
-  toc6.style.display = "none";
-  toc7.style.display = "none";
-  toc8.style.display = "none";
-  toc9.style.display = "none";
-  toc10.style.display = "none";
-  toc11.style.display = "none";
-  toc12.style.display = "none";
+  toc2.style.display = "none";
+  toc3.style.display = "none";
+  toc4.style.display = "none";
 
   function shownvidia() {
     nvidia.style.display = "block";
@@ -97,17 +81,9 @@ Continue to [Optimizing Breath of the Wild](optimizing-botw) (Optional)
 
 	toc0.style.display = "block";
 	toc1.style.display = "block";
-	toc2.style.display = "block";
-	toc3.style.display = "block";
-	toc4.style.display = "block";
-	toc5.style.display = "none";
-	toc6.style.display = "none";
-	toc7.style.display = "none";
-	toc8.style.display = "none";
-	toc9.style.display = "none";
-	toc10.style.display = "none"
-	toc11.style.display = "none";
-	toc12.style.display = "none";
+	toc2.style.display = "none";
+	toc3.style.display = "none";
+	toc4.style.display = "none";
   }
 
   function showamd() {
@@ -124,17 +100,9 @@ Continue to [Optimizing Breath of the Wild](optimizing-botw) (Optional)
 
     toc0.style.display = "none";
     toc1.style.display = "none";
-    toc2.style.display = "none";
+    toc2.style.display = "block";
     toc3.style.display = "none";
     toc4.style.display = "none";
-	toc5.style.display = "block";
-	toc6.style.display = "block";
-	toc7.style.display = "block";
-	toc8.style.display = "none";
-	toc9.style.display = "none";
-	toc10.style.display = "none"
-	toc11.style.display = "none";
-	toc12.style.display = "none";
   }
 
   function showintel() {
@@ -152,15 +120,7 @@ Continue to [Optimizing Breath of the Wild](optimizing-botw) (Optional)
     toc0.style.display = "none";
     toc1.style.display = "none";
     toc2.style.display = "none";
-    toc3.style.display = "none";
-    toc4.style.display = "none";
-	toc5.style.display = "none";
-	toc6.style.display = "none";
-	toc7.style.display = "none"
-	toc8.style.display = "block";
-	toc9.style.display = "block";
-	toc10.style.display = "block";
-	toc11.style.display = "block";
-	toc12.style.display = "block";
+    toc3.style.display = "block";
+    toc4.style.display = "block";
   }
 </script>

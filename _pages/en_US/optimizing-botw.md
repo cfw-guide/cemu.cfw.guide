@@ -10,14 +10,14 @@ sidebar:
 
 Breath of the Wild is a particularly demanding game for a lot of systems, so people have created modifications to help you get the best performance possible in the game.
 
-![]({{ "/assets/images/reshade.png" | absolute_url }})
+![]({{ "/assets/images/reshade.png" | absolute_url }}){: .align-center}
 
 This game is much more demanding on your graphics card than other Wii U titles. We recommend a more powerful GPU than the ones recommended on the home page, especially if you are interested in playing at higher resolutions and framerates.
 
 <!--Like the previous guide, some of these instructions are GPU specific, so make sure you know what type of GPU you have before proceeding. You'll also need to make note of what rendering API you're using, either OpenGL or Vulkan.-->
 
 Make sure you have followed our [Optimizing Cemu](optimizing-cemu) guide before proceeding.
-{: .notice--textbox}
+{: .notice--primary}
 
 <!--If you don't know what type of GPU you have, open the Settings app on Windows 10. Then navigate to `System` -> `Display` -> `Advanced display settings`.
 
@@ -29,7 +29,7 @@ Under your display name, it should say `Display #: Connected to [GPU]`. It shoul
 ## Installing Graphic Packs
 
 If you're not sure what a Graphic Pack does, please click on it and read the description before using it.
-{: .notice--danger}
+{: .notice--warning}
 
 {% capture aspect-ratio-description-1 %}
 
