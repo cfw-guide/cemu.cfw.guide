@@ -58,18 +58,6 @@ Your SD card must be formatted to FAT32 with 32KB (32768) allocation. For SD car
   - If prompted to, replace any pre-existing files
 1. Eject your SD card from Windows and put it into your Wii U console
 
-{% capture usbWarning %}
-
-(Optional) A USB storage device for dumping everything into:
-
-- Do not let the Wii U Format USB devices you plan to use with Dumpling.
-- USB devices must be formatted to Fat32 32KB (32768) allocation.
-  - USB is larger than 32GB? [Click Here](https://fat32-format.en.softonic.com/)
-
-{% endcapture %}
-
-<div class="notice--textbox">{{ usbWarning | markdownify }}</div>
-
 Your SD card should look like this:
 
 ![]({{ "/assets/images/sd-card.png" | absolute_url }})
