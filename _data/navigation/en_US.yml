@@ -7,7 +7,7 @@ main:
   - title: Optimizing Cemu
     url: optimizing-cemu
   - title: Motion Controls
-    url: motion-controls
+    url: controller-configuration
   - title: Donations
     url: donations
   - title: Troubleshooting

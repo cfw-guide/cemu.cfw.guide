@@ -6,51 +6,37 @@ toc: true
 toc_sticky: true
 sidebar:
   nav: guide
+redirect_from:
+  - /motion-controls
 ---
 
 In this section we'll be configuring controller inputs for Cemu, and setting up motion controls.
 
-This can vary between controllers, as some controllers _do_ support motion controls (e.g. Switch and Playstation), however some don't (e.g. Xbox controllers).
+This can vary between controllers. Nintendo Switch, Dualshock 4 and DualSense controllers all have support for motion controls.
 
-If you have a generic controller, it may possibly simply emulate an Xbox controller. Try following the Xbox guide. If that doesn't work, try again but with the controller API set to `DirectInput` instead.
+Other controllers, such as Xbox controllers, don't support motion controls and will need to use an alternate method.
 
 Please select your controller type below:
 
-<button class="btn btn--large btn--info" id="abtn" onclick="showa()">Nintendo Switch</button>
-<button class="btn btn--large btn--info" id="bbtn" onclick="showb()">Playstation</button>
-<button class="btn btn--large btn--info" id="cbtn" onclick="showc()">Xbox</button>
-<button class="btn btn--large btn--info" id="dbtn" onclick="showd()">Others</button>
+<button class="btn btn--large btn--info" id="abtn" onclick="showa()">Nintendo Switch / Playstation</button>
+<button class="btn btn--large btn--info" id="bbtn" onclick="showb()">Xbox / Others</button>
 
-{% capture a-instructions %}{% include_relative controllers-switch.md %}{% endcapture %}
+{% capture a-instructions %}{% include_relative controllers-ds4windows.md %}{% endcapture %}
 <div id="ainstr">{{ a-instructions | markdownify }}</div>
 
-{% capture b-instructions %}{% include_relative controllers-ps.md %}{% endcapture %}
+{% capture b-instructions %}{% include_relative controllers-others.md %}{% endcapture %}
 <div id="binstr">{{ b-instructions | markdownify }}</div>
-
-{% capture c-instructions %}{% include_relative controllers-xbox.md %}{% endcapture %}
-<div id="cinstr">{{ c-instructions | markdownify }}</div>
-
-{% capture d-instructions %}{% include_relative controllers-others.md %}{% endcapture %}
-<div id="dinstr">{{ d-instructions | markdownify }}</div>
 
 ---
 
 <script>
   var a = document.getElementById("ainstr");
   var abtn = document.getElementById("abtn");
-  var aclr = "btn--danger"
+  var aclr = "btn--primary"
 
   var b = document.getElementById("binstr");
   var bbtn = document.getElementById("bbtn");
-  var bclr = "btn--facebook"
-
-  var c = document.getElementById("cinstr");
-  var cbtn = document.getElementById("cbtn");
-  var cclr = "btn--success"
-
-  var d = document.getElementById("dinstr");
-  var dbtn = document.getElementById("dbtn");
-  var dclr = "btn--primary"
+  var bclr = "btn--primary"
 
   var toc0 = document.getElementById("toc0");
   var toc1 = document.getElementById("toc1");
@@ -66,28 +52,25 @@ Please select your controller type below:
 
   a.style.display = "block";
   b.style.display = "none";
-  c.style.display = "none";
-  d.style.display = "none";
 
+  abtn.classList.remove("btn--info");
+  abtn.classList.add(aclr);
+
+  toc4.style.display = "none";
   toc5.style.display = "none";
   toc6.style.display = "none";
   toc7.style.display = "none";
   toc8.style.display = "none";
 
-  abtn.classList.remove("btn--info");
-  abtn.classList.add(aclr);
-
   function showa() {
     a.style.display = "block";
     b.style.display = "none";
-    c.style.display = "none";
-    d.style.display = "none";
 
     toc0.style.display = "block";
     toc1.style.display = "block";
     toc2.style.display = "block";
     toc3.style.display = "block";
-    toc4.style.display = "block";
+    toc4.style.display = "none";
     toc5.style.display = "none";
     toc6.style.display = "none";
     toc7.style.display = "none";
@@ -95,94 +78,30 @@ Please select your controller type below:
 
     abtn.classList.remove(clr);
     bbtn.classList.add(clr);
-    cbtn.classList.add(clr);
-    dbtn.classList.add(clr);
 
     abtn.classList.add(aclr);
     bbtn.classList.remove(bclr);
-    cbtn.classList.remove(cclr);
-    dbtn.classList.remove(dclr);
   }
 
   function showb() {
     a.style.display = "none";
     b.style.display = "block";
-    c.style.display = "none";
-    d.style.display = "none";
 
     toc0.style.display = "none";
     toc1.style.display = "none";
     toc2.style.display = "none";
     toc3.style.display = "none";
-    toc4.style.display = "none";
+    toc4.style.display = "block";
     toc5.style.display = "block";
     toc6.style.display = "block";
     toc7.style.display = "block";
-    toc8.style.display = "none";
-
-    abtn.classList.add(clr);
-    bbtn.classList.remove(clr);
-    cbtn.classList.add(clr);
-    dbtn.classList.add(clr);
-
-    abtn.classList.remove(aclr);
-    bbtn.classList.add(bclr);
-    cbtn.classList.remove(cclr);
-    dbtn.classList.remove(dclr);
-  }
-
-  function showc() {
-    a.style.display = "none";
-    b.style.display = "none";
-    c.style.display = "block";
-    d.style.display = "none";
-
-    toc0.style.display = "none";
-    toc1.style.display = "none";
-    toc2.style.display = "none";
-    toc3.style.display = "none";
-    toc4.style.display = "none";
-    toc5.style.display = "none";
-    toc6.style.display = "none";
-    toc7.style.display = "none";
     toc8.style.display = "block";
 
     abtn.classList.add(clr);
-    bbtn.classList.add(clr);
-    cbtn.classList.remove(clr);
-    dbtn.classList.add(clr);
+    bbtn.classList.remove(clr);
 
     abtn.classList.remove(aclr);
-    bbtn.classList.remove(bclr);
-    cbtn.classList.add(cclr);
-    dbtn.classList.remove(dclr);
-  }
-
-  function showd() {
-    a.style.display = "none";
-    b.style.display = "none";
-    c.style.display = "none";
-    d.style.display = "block";
-
-    toc0.style.display = "none";
-    toc1.style.display = "none";
-    toc2.style.display = "none";
-    toc3.style.display = "none";
-    toc4.style.display = "none";
-    toc5.style.display = "none";
-    toc6.style.display = "none";
-    toc7.style.display = "none";
-    toc8.style.display = "none";
-
-    abtn.classList.add(clr);
-    bbtn.classList.add(clr);
-    cbtn.classList.add(clr);
-    dbtn.classList.remove(clr);
-
-    abtn.classList.remove(aclr);
-    bbtn.classList.remove(bclr);
-    cbtn.classList.remove(cclr);
-    dbtn.classList.add(dclr);
+    bbtn.classList.add(bclr);
   }
 </script>
 
