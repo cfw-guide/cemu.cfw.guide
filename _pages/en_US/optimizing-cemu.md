@@ -50,8 +50,8 @@ Vulkan also allows us to use a new experimental VSync technique which allows Cem
 1. Open the Cemu main menu
 1. Click `Options` -> `General settings` on the top bar
 1. Navigate to the `Graphics` tab
-1. Change the "Graphics API" to `Vulkan`
-  - If this doesn't appear, or you have problems using Vulkan, read the [OpenGL Guide](/optimizing-cemu-(opengl))
+1. Change the "Graphics API" to `Vulkan` if it is not already
+  - If this doesn't appear, or you have problems using Vulkan, read the [OpenGL Optimization Guide](/optimizing-cemu-(opengl))
 1. Ensure that your "Graphics Device" is set to use your most powerful GPU if your device has dual graphics
 1. Set "VSync" to `Match emulated display (Experimental)`
   - If you use a display with variable refresh rate (G-SYNC), set this to `Off` instead
