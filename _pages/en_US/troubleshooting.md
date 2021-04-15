@@ -22,11 +22,15 @@ sidebar:
 
 ### Constant stuttering or visual lag during gameplay
 
-This can be caused by shader cache compilation or Vulkan's pipeline cache building. With OpenGL, the shader cache will build up over time and will become unnoticable. Vulkan pipeline cache will build quicker, however it has to rebuild every time you update your GPU drivers or Cemu itself as it becomes invalidated when either of these change.
+This can be caused by shader cache compilation or Vulkan's pipeline cache building. With OpenGL and Vulkan, the shader cache will build up over time and will become unnoticable. Vulkan also requires a pipeline cache - this cache type will build quicker, however it has to be rebuilt from scratch every time you update your GPU driver or Cemu as it becomes invalidated when either of these change.
 
-Nvidia and AMD users that have support for the latest drivers can mitigate this by using a supported Vulkan 1.2 driver for their GPU and navigating to Cemu's `Options` -> `General Settings` -> `Graphics` section, then enable the `Async shader compile` feature.  Expect visual or physical glitches, these should only last during the first encounter; almost all Shaders and Pipelines will be compiled in the background while you are playing, greatly reducing the amount of performance drops due to them.
+Nvidia and AMD users that have support for the latest drivers (that use Vulkan 1.2) should navigate to Cemu's `Options` -> `General Settings` -> `Graphics` section, then enable the `Async shader compile` feature. Expect visual glitches such as "pop-in" graphics; these should only last during the first encounter. Almost all Shaders and Pipelines will be compiled at the same time while you are playing, greatly reducing the amount of gameplay stalling due to them previously.
 
 Newer Intel iGPUs should support this feature as long as they both support Vulkan 1.2 and are using the latest available drivers. If you encounter issues while using this feature, please disable it and try again after a future driver update.
+
+### When I use Steam to launch Cemu while Async Shader Compile is enabled, my game fails to load a lot of assets
+
+Steam caches shaders on its own unless you turn this off, this conflicts greatly with `Async Shader Compile`. Look for the Shader Precaching option within Steam's settings and disable it to resolve the issue. We recommend that you do not use 3rd party launchers to launch Cemu due to potential problems that we have no control over.
 
 ### My GPU doesn't show up when I select Vulkan / Crash when using Vulkan
 
