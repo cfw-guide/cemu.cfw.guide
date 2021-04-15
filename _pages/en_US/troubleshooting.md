@@ -28,6 +28,16 @@ Nvidia and AMD users that have support for the latest drivers can mitigate this 
 
 Newer Intel iGPUs should support this feature as long as they both support Vulkan 1.2 and are using the latest available drivers. If you encounter issues while using this feature, please disable it and try again after a future driver update.
 
+### My GPU doesn't show up when I select Vulkan / Crash when using Vulkan
+
+1. Verify that your GPU supports the Vulkan API; if it does, it is included with the latest driver.
+
+2. If you're already using the latest driver, reinstall your GPU driver by specifically following this guide:
+
+https://www.wagnardsoft.com/content/ddu-guide-tutorial
+
+If this fails to help then it's time to see what our Discord Server has to say.
+
 ### Crashing with `Options` -> `General Settings`
 
 This is uncommon. We recommend you do a clean installation of Cemu to see if this problem is a result of your current Cemu. If you cannot resolve this problem, feel free to ask for assistance on our Discord Server.
