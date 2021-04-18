@@ -58,11 +58,9 @@ Steam caches shaders on its own unless you turn this off, this majorly conflicts
 
 ### My GPU doesn't show up when I select Vulkan / I crash when using Vulkan
 
-1. If you have an Nvidia 16, 20, or 30 series GPU, please avoid Driver Version 465.xx - Use 461.xx or a newer driver that is confirmed to have this bug patched.
+1. Verify that your GPU supports the Vulkan API and is up-to-date with Nvidia/AMD/Intel's latest driver version.
 
-1. Verify that your GPU supports the Vulkan API and that your driver is relatively updated.
-
-1. If you're already using a new driver, please reinstall your GPU driver by specifically following this guide:
+1. If you're already using the latest driver, please reinstall your GPU driver by specifically following this guide:
 
 [DDU - Display Driver Uninstaller Guide](https://www.wagnardsoft.com/content/ddu-guide-tutorial)
 
