@@ -3,7 +3,6 @@ title: "Troubleshooting Steps"
 permalink: /troubleshooting
 excerpt: Common issues and their solutions.
 toc: true
-toc_sticky: true
 sidebar:
   nav: guide
 ---
