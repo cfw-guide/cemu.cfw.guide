@@ -15,11 +15,15 @@ We encourage our users to submit their testing results and to otherwise keep the
 
 ### Stuck on "Loading..." / Crash to Desktop (CTD) when starting a game
 
-1. Accidentally loading an Update or DLC as a game by using `File` -> `Load` can cause this. Alternatively if you accidentally merged the Update or DLC into the Base Game, this will break the Base Game - it will need to be redumped from your Wii U and replaced. Ensure you're launching the game correctly or otherwise that Update and DLC data is being installed [properly](dumping#updatesdlc).
+Cause #1) Open `Task Manager` on Windows -> Click the `(^) More Details` button if necessary -> Navigate to the `Details` tab. Please make sure Cemu.exe is not available in your process list before trying to run Cemu again - that it is otherwise fully closed. There is an issue recently where Cemu.exe can get stuck in the background which will cause issues for saving your games, running games, loading your shaderCache, and other problems. 
 
-1. This could be caused by a bad Base Game / Update / DLC copy. Try redumping the data from your Wii U again. Reinstalling any game data will not affect your saves.
+Cause #2) Open your Cemu folder and temporarily rename your `shaderCache` folder. This will allow you to test a fresh cache to see if the problem was related to the cache that was being used. If renaming the `shaderCache` folder did not help, ensure Cemu is fully closed and then rename your earlier `shaderCache` folder back to the name "shaderCache"; you will need to delete the one that was created by Cemu after you renamed your original copy.
 
-1. Illicitly obtained game data will also cause this to happen. Dumping your game data as covered in this guide is the only method that Cemu provides support for.
+Cause #3) Accidentally loading an Update or DLC as a game by using `File` -> `Load` can cause this. Alternatively if you accidentally merged the Update or DLC into the Base Game, this will break the Base Game - it will need to be [redumped](dumping-games) from your Wii U and replaced. Ensure you're launching the game correctly or otherwise that Update and DLC data is being installed [properly](installing-games#games-updates-and-dlc).
+
+Cause #4) To continue off of Cause #3, this could be caused by an incomplete or otherwise corrupt dump of your Base Game / Update / DLC copy. Sometimes Dumping software just doesn't work the way it's intended to, but it's better than not having it available. Try [redumping](dumping-games) the data from your Wii U again - reinstalling any game data will not affect your saves.
+
+Cause #5) Illicitly obtained game data will also cause this to happen. [Dumping](dumping-games) your game data is the only method that Cemu provides support for.
 
 ### "Error: This title is encrypted. To run this application ..."
 
@@ -33,9 +37,9 @@ This error means the key that came with your encrypted game dump is not in your 
 
 This is caused by shaderCache creation or Vulkan's pipelineCache creation. With OpenGL and Vulkan, the shaderCache will build as you play and will eventually become nearly unnoticable. As mentioned, Vulkan also requires a pipelineCache - this cache type will build quickly and have minor stutter. Keep in mind that it has to be rebuilt from scratch every time you update your GPU driver or Cemu as a sideeffect from becoming invalidated when either of these change.
 
-To alleviate gameplay stalls caused by shader and pipeline building, see `About Async Compile` further below.
+To alleviate gameplay stalls caused by shader and pipeline building, see [About Async Compile](troubleshooting#about-async-compile) further below.
 
-### How do I turn shaders off? Can't I just download shaders? Create them before I play?
+### Can I disable shaders? Can I download shaders? Can I create or preload them before I play?
 
 If you're simply wanting to turn the notification off that tells you they are being made, you can do this in `Options` -> `General Settings` -> `Overlay`
 
@@ -43,7 +47,7 @@ On the contrary, no, you cannot magically create a cache before playing the game
 
 If you happen to get impatient and think downloading a cache is a good idea, please think again. Not only are caches from outside sources not reliable due to inconsistencies between game versions, data corruption, GPU vendors, etc - but due to these, external caches often cause severe graphical problems, performance drops, and otherwise inexplainable crashes. Only use your own cache. If you had tried to download one, please remove the cache before asking for assistance - it might actually fix your issue.
 
-### About Async Compile (Highly Recommended)
+### About Async Compile
 
 This feature is only available for GPUs with drivers that support Vulkan 1.2 or newer.
 
@@ -54,6 +58,8 @@ Newer Intel iGPUs should support this feature as long as they both support Vulka
 ### When I use Steam to launch Cemu, why does my game fail to load a lot of stuff?
 
 Steam caches shaders on its own unless you turn this off, this majorly conflicts with `Async Shader Compile`. Look for the Shader Precaching option within Steam's settings and disable it to resolve the issue. We recommend that you do not use 3rd party launchers to launch Cemu due to potential problems that we have no control over.
+
+Otherwise, for similar behavior on Breath of the Wild without Steam, please refer to this: [Click Here](troubleshooting#a-lot-of-buildings-or-other-assets-arent-loading-in-or-take-several-minutes-to-load))
 
 ### My GPU doesn't show up when I select Vulkan / I crash when using Vulkan
 
@@ -71,7 +77,7 @@ This is uncommon. We recommend you do a clean installation of Cemu to see if thi
 
 ### Crashing with `File` -> `Install Game Title, Update, or DLC` or `File` -> `Load`
 
-This is a longstanding issue that's caused by either:
+This refers to when the Window's File Explorer window is supposed to pop up. This is a longstanding issue that's caused by either:
 
 1. Incompatibility with a 3rd party program installed on your PC, usually one that edits how Windows visually looks or those that edit the Taskbar/Tray.
 
@@ -128,6 +134,8 @@ This is an infrequent issue on Vulkan, a simple Cemu restart should resolve the 
 1. Disable the Extended Memory and Draw Distance GraphicPacks, then test the game.
 
 1. Use FPS++'s `Advanced Settings` and set the `Fence Method` to `Accurate` instead of `Performance`
+
+It's recommended that if you use Steam to launch Cemu you refer to this: [Click Here](troubleshooting#when-i-use-steam-to-launch-cemu-why-does-my-game-fail-to-load-a-lot-of-stuff)
 
 If none of these helped, this is a sign that your game's data is corrupt and needs replaced. You should replace the Update and DLC as well.
 
