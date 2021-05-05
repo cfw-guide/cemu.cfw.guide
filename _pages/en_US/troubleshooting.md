@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting Steps"
+title: "Troubleshooting"
 permalink: /troubleshooting
 excerpt: Common issues and their solutions.
 toc: true
@@ -9,7 +9,7 @@ sidebar:
 
 ## Cemu
 
-The first step is to ensure the game you are wanting to play has been deemed playable, as many games are either: not yet supported, are only known to boot but simply crash, or they have regressions in compatibility due to Cemu updates or issues with new GPU Drivers. You can check the [Game Compatibility List](http://compat.cemu.info/) and subsequent Wiki entries, just be aware of outdated testing results. 
+The first step is to ensure the game you are wanting to play has been deemed playable, as many games are either: not yet supported, are only known to boot but simply crash, or they have regressions in compatibility due to Cemu updates or issues with new GPU Drivers. Before asking for any help, please check the [Game Compatibility List](http://compat.cemu.info/) and subsequent Wiki entries, just be aware of outdated testing results. 
 
 We encourage our users to submit their testing results and to otherwise keep the wiki up-to-date so that everyone's questions may be answered.
 
@@ -17,7 +17,7 @@ We encourage our users to submit their testing results and to otherwise keep the
 
 - Cause #1
 
-Open `Task Manager` on Windows -> Click the `(^) More Details` button if necessary -> Navigate to the `Details` tab. Please make sure Cemu.exe is not available in your process list before trying to run Cemu again - that it is otherwise fully closed. There is an issue recently where Cemu.exe can get stuck in the background which will cause issues for saving your games, running games, loading your shaderCache, and other problems. 
+Open `Task Manager` on Windows -> Click the `(^) More Details` button if necessary -> Navigate to the `Details` tab. Please make sure Cemu.exe is not available in your process list before trying to run Cemu again - that it is otherwise fully closed. There is an issue recently where Cemu.exe can get stuck in the background which will cause issues for saving your games, running games, loading your shaderCache, and a wider assortment of other complications. 
 
 - Cause #2
 
@@ -25,7 +25,7 @@ Open your Cemu folder and temporarily rename your `shaderCache` folder. This wil
 
 - Cause #3
 
-Accidentally loading an Update or DLC as a game by using `File` -> `Load` can cause this. Alternatively if you accidentally merged the Update or DLC into the Base Game, this will break the Base Game - it will need to be [redumped](dumping-games) from your Wii U and replaced. Ensure you're launching the game correctly or otherwise that Update and DLC data is being installed [properly](installing-games#games-updates-and-dlc).
+Accidentally loading an Update or DLC as a game by using `File` -> `Load` can cause this. Alternatively if you accidentally merged the Update or DLC data into the Base Game trying to save space, this will break the Base Game - all of the game's data will need to be [redumped](dumping-games) from your Wii U and replaced. Ensure you're launching the game correctly or otherwise that Update and DLC data is being installed [properly](installing-games#games-updates-and-dlc).
 
 - Cause #4
 
@@ -33,7 +33,7 @@ To continue off of Cause #3, this could be caused by an incomplete or otherwise 
 
 - Cause #5
 
-Illicitly obtained game data will also cause this to happen. [Dumping](dumping-games) your game data is the only method that Cemu provides support for.
+Illicitly obtained game data will also cause this to happen. [Dumping](dumping-games) your game data is the only method that Cemu provides support for. Asking for help with illegally downloading that data will result in an immediate ban or warning.
 
 ### "Error: This title is encrypted. To run this application ..."
 
@@ -42,6 +42,10 @@ If you followed this guide you should not be dealing with this type of problem. 
 This error means the key that came with your encrypted game dump is not in your keys.txt file. Random keys from the internet will not work. To get the correct keys from your console without redumping the game again, you must follow this small guide:
 
 [Obtaining your Wii U Common Key and Encryption Keys for your keys.txt](https://wiki.cemu.info/wiki/Obtaining_Keys_for_Keys.txt)
+
+### "Error: Can't initialise DirectInput"
+
+This can be fixed by unplugging the controller and restarting Windows. After your PC has fully booted plug the controller back in. Ensure you are using the latest official version of Cemu, it is also encouraged to be using the latest version of Windows 10.
 
 ### Constant stuttering / visual lag during gameplay
 
@@ -53,15 +57,15 @@ To alleviate gameplay stalls caused by shader and pipeline building, see [About 
 
 If you're simply wanting to turn the notification off that tells you they are being made, you can do this in `Options` -> `General Settings` -> `Overlay`
 
-On the contrary, no, you cannot magically create a cache before playing the game nor can you disable shader or pipelines to prevent stalling. Cache is what allows your games to work on your GPU, otherwise your PC. No shaders or cache? No game - the emulator becomes a black square.
+On the contrary, no, you cannot magically create a cache before playing the game nor can you disable Shader or Pipelines to prevent stalling. Shaders and Pipelines are what allow your games to work on your GPU. No Shaders or Pipelines = No game - the emulator becomes a black square with only some music.
 
-If you happen to get impatient and think downloading a cache is a good idea, please think again. Not only are caches from outside sources not reliable due to inconsistencies between game versions, data corruption, GPU vendors, etc - but due to these, external caches often cause severe graphical problems, performance drops, and otherwise inexplainable crashes. 
+If you happen to get impatient and think downloading a cache is a good idea, please think again. Not only are caches from outside sources not reliable due to inconsistencies between game versions, data corruption, GPU vendors, etc - but due to these, external caches often cause severe graphical problems, performance drops, and otherwise inexplainable crashes. Cache distribution is also illegal by technicality, as they contain copyrighted data from within the games themselves.
 
-Only use your own cache. If you had tried to download one, please remove the cache before asking for assistance.
+Only use your own cache and use Async Shader Compile. If you had tried to download one, please remove the cache before asking for assistance.
 
 ### Async Shader Compile
 
-This feature is only available for GPUs with drivers that support Vulkan 1.2 or newer.
+This feature is only available for GPUs with drivers that support Vulkan 1.2 or newer; not Vulkan 1.1!
 
 Users that fit this criteria should navigate to Cemu's `Options` -> `General Settings` -> `Graphics` section, then enable the `Async shader compile` feature. While using `Async Shader Compile` almost all Shaders and Pipelines will be built at the same time while you are playing, greatly reducing the amount of gameplay stalling that you could encounter without this option; some temporary graphical issues should be expected. Not all shaders and pipelines can be created in this way and will still result in some minor stalling.
 
@@ -79,31 +83,30 @@ Otherwise, beyond problems with Async Shader Compile, you may also experience so
 
 Such problems include:
 
-1. There is no Vulkan option even though my GPU should have Vulkan Support.
-2. I have a Vulkan option but my GPU doesn't show up in the dropdown.
-3. When I try to launch a game with Vulkan, that's supposed to work, it immediately crashes.
+- There is no Vulkan option even though my GPU should have Vulkan Support.
+- I have a Vulkan option but my GPU doesn't show up in the dropdown.
+- When I try to launch a game with Vulkan, that's supposed to work, it immediately crashes.
 
 If you experience any of the above symptoms, please do the following:
 
-1. Verify that your GPU supports Vulkan 1.1 or newer and is up-to-date with Nvidia/AMD/Intel's latest driver version. [Click Here](https://vulkan.gpuinfo.org/)
+(1.) Verify that your GPU supports Vulkan 1.1 or newer and is up-to-date with Nvidia/AMD/Intel's latest driver version. 
 
-If the above list yielded no results, please check the official listings for your support:
-- All-in-one Support List: [Here](https://www.khronos.org/conformance/adopters/conformant-products#vulkan) & [here](https://en.wikipedia.org/wiki/Vulkan_(API)#Hardware)
+- Multi-vendor Lists: [Here](https://vulkan.gpuinfo.org/), [here](https://www.khronos.org/conformance/adopters/conformant-products#vulkan), & [here](https://en.wikipedia.org/wiki/Vulkan_(API)#Hardware)
 - Nvidia GPU Support: [Here](https://developer.nvidia.com/vulkan-driver)
 - AMD GPU Support: [Here](https://www.amd.com/en/technologies/vulkan)
 - Intel GPU Support: [Here](https://www.intel.com/content/www/us/en/support/articles/000005524/graphics.html)
 
-2. If you've confirmed your support and it still fails, please reinstall your GPU driver with DDU:
+(2.) If you've confirmed your support and it still fails, please reinstall your GPU driver with DDU:
 
 [DDU - Display Driver Uninstaller Guide](https://www.wagnardsoft.com/content/ddu-guide-tutorial)
 
-If this fails to help then it's time to see what our Discord Server has to say.
+If this fails to help then it's time to see what our Discord Server has to say; you may also try downgrading your GPU driver to an earlier version. Please do some research on the subject to see if any other people with your GPU have had issues with Vulkan in other games (not specifically Cemu.)
 
-### Crashing when opening `General Settings`
+### Crashing with `[General Settings]`
 
 This is uncommon. We recommend you do a clean installation of Cemu to see if this problem is a result of your current Cemu. If you cannot resolve this problem, feel free to ask for assistance on our Discord Server.
 
-### Crashing when opening `Install Game Title, Update, or DLC` or `File` -> `Load`
+### Crashing with `[File] -> [Load]` or `[Install Game Title, Update, or DLC]`
 
 This refers to when the Window's File Explorer window is supposed to pop up. This is a longstanding issue that's caused by either:
 
@@ -111,13 +114,7 @@ This refers to when the Window's File Explorer window is supposed to pop up. Thi
 2. If your PC supports Intel Optane / RST, you must keep the drivers and features for it installed. Not having the software available can cause this issue; if you removed them or never installed them, it is encouraged for you to do so, but only if your motherboard supports this feature and you get this type of crash.
 3. A broken or semi-corrupt Windows installation.
 
-We encourage you to try and find the afflicting program and remove it, otherwise you should consider installing the latest version of Windows 10, cleanly. Migrations, in-place upgrades, "Refresh" and any other non-fresh installation methods can result in many issues and will likely just bring the problem over to your newer installation. 
-
-If you are not sure of how to do a clean Windows reinstallation, we suggest you follow a tutorial. Please be smart and back-up any files and settings you want to transfer beforehand.
-
-### "Error: Can't initialise DirectInput"
-
-This can be fixed by unplugging the controller and restarting Windows. After your PC has fully booted plug the controller back in. Ensure you are using the latest official version of Cemu, it is also encouraged to be using the latest version of Windows 10.
+We encourage you to try and find the afflicting program and remove it, otherwise you should consider installing the latest version of Windows 10, cleanly. Migrations, in-place upgrades, "refresh" and any other non-clean installation methods can result in the problem migrating with you to your newer installation. If you are not sure of how to do a clean Windows reinstallation, we suggest you follow a tutorial. Please be smart and back-up any files, settings, and programs / program names / product keys that you want to transfer beforehand.
 
 ## The Legend of Zelda: Breath of the Wild
 
@@ -155,15 +152,15 @@ This is an infrequent issue on Vulkan, a simple Cemu restart should resolve the 
 
 ### A lot of objects or other assets aren't appearing
 
+It's recommended that if you use Steam to launch Cemu that you refer to this: [Click Here](troubleshooting#i-use-steam-to-launch-cemu-what-can-happen)
+
 1. Disable any 3rd party mods if you downloaded and installed any, then test the game.
 2. Disable the Extended Memory and Draw Distance GraphicPacks, then test the game.
 3. Test FPS++'s `Advanced Settings`'s `Fence Method` set to `Accurate` instead of `Performance`
 
-It's recommended that if you use Steam to launch Cemu that you refer to this: [Click Here](troubleshooting#i-use-steam-to-launch-cemu-what-can-happen?)
-
 If none of these helped, this is a sign that your game's data is corrupt and needs replaced. You should replace the Update and DLC as well.
 
-### I get a black screen when a cutscene is supposed to start
+### I get a white or black screen when a cutscene is supposed to start
 
 This is a sign that your game's data is corrupt and needs replaced. You should replace the Update and DLC as well.
 
@@ -171,13 +168,13 @@ This is a sign that your game's data is corrupt and needs replaced. You should r
 
 This should only affect Linux users for now. You must have Cemuhook installed and correctly hooked into Cemu and have the `Debug` -> `Use Cemuhook H264` option enabled. If you do not know how to do this, visit the #Linux channel on the Cemu Discord server for assistance. This should no longer be required after Cemu's H264 support is updated / after Cemu gets a native Linux build.
 
-If you are also getting this behavior on Windows, try using `Debug` -> `Use Cemuhook H264` or otherwise request assistance on our Discord Server.
+If you are also getting this behavior on Windows, try using `Debug` -> `Use Cemuhook H264`. If you are already using this option and you are an older Intel iGPU user, try disabling `Use Cemuhook H264` instead. Otherwise you may request assistance on our Discord Server.
 
 ## Other miscellaneous issues with any game on Cemu
 
 Emulation isn't a perfect science and new or old problems can surface, or ones that don't match other descriptions. If you do encounter something that isn't listed here, check the [Game Compatibility List](http://compat.cemu.info/) as each game has its own wiki entry.
 
-If what you're having problems with is not listed there, please [make sure that your GPU supports Vulkan 1.1 or OpenGL 4.5](troubleshooting#Problems-with-Vulkan-within-Cemu); if it doesn't you will not have full support, which will result in a multitude of game-breaking bugs that you cannot fix.
+If what you're having problems with is not listed there, please [make sure that your GPU supports Vulkan 1.1 or OpenGL 4.5](troubleshooting#problems-with-vulkan-within-cemu); if it doesn't you will not have full support, which will result in a multitude of game-breaking bugs that you cannot fix.
 
 If you do have confirmed support, the safest bet is to:
 
