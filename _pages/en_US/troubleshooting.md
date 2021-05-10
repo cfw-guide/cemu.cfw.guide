@@ -91,26 +91,22 @@ Such problems include:
 
 If you experience any of the above symptoms, please do the following:
 
-(1.) Verify that your GPU supports Vulkan 1.1 or newer and is up-to-date with Nvidia/AMD/Intel's latest driver version. 
+(1.) Ensure Cemu is fully up-to-date; issues with older Cemu versions will not be available for troubleshooting support.
+
+(2.) Verify that your GPU supports Vulkan 1.1 or newer and is up-to-date with Nvidia/AMD/Intel's latest driver version. 
 
 - Multi-vendor Lists: [Here](https://vulkan.gpuinfo.org/), [here](https://www.khronos.org/conformance/adopters/conformant-products#vulkan), & [here](https://en.wikipedia.org/wiki/Vulkan_(API)#Hardware)
 - Nvidia GPU Support: [Here](https://developer.nvidia.com/vulkan-driver)
 - AMD GPU Support: [Here](https://www.amd.com/en/technologies/vulkan)
 - Intel GPU Support: [Here](https://www.intel.com/content/www/us/en/support/articles/000005524/graphics.html)
 
-(2.) If you've confirmed your support and yet it still fails, please reinstall both your iGPU/APU & dGPU drivers with DDU:
+(3.) If you've confirmed your support and yet it still fails, please reinstall both your iGPU/APU & dGPU drivers with DDU:
 
 [DDU - Display Driver Uninstaller Guide](https://www.wagnardsoft.com/content/ddu-guide-tutorial)
 
 Yes, you must install both the iGPU/APU and dGPU drivers; skipping one will likely cause the issue to not be resolved.
 
 If this fails to help then it's time to see what our Discord Server has to say; you may also try downgrading your GPU driver to an earlier version. Please do some research on the subject to see if any other people with your GPU have had issues with Vulkan in other games (not specifically Cemu.)
-
-### Crashing with `[General Settings]`
-
-This is caused by an outdated iGPU/APU driver. The problem stems from Laptop OEMs issuing outdated drivers to their customers and then never updating the driver page for their hardware.  To resolve this, please follow the section about Vulkan directly before this segment.  The problem can only be resolved by using DDU and reinstalling the latest drivers for both the iGPU/APU and your discrete GPU to restore their driver compatibility with eachother.
-
-In the future our developers hope to at least prevent the crash, but a reinstallation of your iGPU/APU & discrete GPU drivers will likely still be necessary if you wish to use the Vulkan API on Cemu.
 
 ### Crashing with `[File] -> [Load]` or `[Install Game Title, Update, or DLC]`
 
