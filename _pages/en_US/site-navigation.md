@@ -11,7 +11,7 @@ sidebar:
 **Popular**
 
 + [Installing Cemu](installing-cemu)
-+ [Controller Configuration](controller-Configuration)
++ [Controller Configuration](controller-configuration)
 + [Dumping Games](dumping-games)
 + [Optimizing Cemu](optimizing-cemu)
 + [Online Play](online-play)
@@ -22,7 +22,7 @@ sidebar:
 {% capture notice-2 %}
 **All**
 
-+ [Controller Configuration](controller-Configuration)
++ [Controller Configuration](controller-configuration)
 + [Credits](credits)
 + [Donations](donations)
 + [Dumping Games](dumping-games)
