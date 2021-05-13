@@ -1,9 +1,9 @@
 ## Downloads
 
-DualShock 3 controllers are not compatible with DS4Windows. Please refer to the "Xbox / Others" section.
+DualShock 3 controller motion support may not be compatible with DS4Windows. Please refer to the "Xbox / Others" section.
 {:.notice--danger}
 
-- The latest release of [DS4Windows](https://ryochan7.github.io/ds4windows-site/)
+- The latest release of [DS4Windows by Ryochan7](https://ryochan7.github.io/ds4windows-site/)
 - The latest release of [Cemuhook](https://cemuhook.sshnuke.net/)
     - If you installed Cemuhook earlier, you don't need to download this
 
@@ -24,9 +24,10 @@ DualShock 3 controllers are not compatible with DS4Windows. Please refer to the 
   - Select the `_x64.zip` file
 1. Connect your controller to Windows via USB or Bluetooth
 1. Open the DS4Windows application
-1. Ensure your controller is registered with DS4Windows
-1. Navigate to the `Settings` tab
-1. Enable `UDP Server`
+2. Microsoft .NET 5.0 or newer is required; install it if asked
+3. Ensure your controller is registered with DS4Windows
+4. Navigate to the `Settings` tab
+5. Enable `UDP Server`
   - This should say `127.0.0.1` with port `26760`
 
     ![]({{ "/assets/images/ds4windows.png" | absolute_url }})
