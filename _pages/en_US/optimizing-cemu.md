@@ -25,7 +25,7 @@ The video below shows loading Breath of the Wild for the first time using asynch
 {% capture async-gif %}
 ![]({{ "/assets/images/async.gif" | absolute_url }}){: .align-center}
 
-<i>Asynchronous shader compilation in an older, slower Cemu version. More recent builds can do this in under 1/10th of a second depending on the CPU.</i>
+<i>Asynchronous shader compilation in an older, slower Cemu version. More recent builds can do this in under 1/10th of a second, depending on the CPU.</i>
 
 {% endcapture %}
 
