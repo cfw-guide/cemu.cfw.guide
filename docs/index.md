@@ -27,7 +27,7 @@ Thoroughly read all of the introductory pages (including this one!) before proce
 :::
 ## What is Cemu?
 
-Cemu is experimental software used to emulate Wii U applications on your PC. This means that if you will be able to run commercial Wii U games directly off of your system.
+Cemu is experimental software used to emulate Wii U applications on your PC. This means that you will be able to run commercial Wii U games directly off of your computer.
 
 The majority of games are completely playable from start to finish. You can check to see if your game is playable on the [wiki](https://wiki.cemu.info/wiki/Category:List_of_games).
 
