@@ -22,7 +22,7 @@ Thoroughly read all of the introductory pages (including this one!) before proce
 ::: details Cemu can only run on 64-bit Windows systems.
 
 - If you have a 32-bit Windows system, this will not work
-- Cemu can be run on Linux using [Wine](https://www.winehq.org) and [Lutris](https://lutris.net/)
+- Cemu can run on Linux using [Wine](https://www.winehq.org) and [Lutris](https://lutris.net/)
 
 :::
 ## What is Cemu?
