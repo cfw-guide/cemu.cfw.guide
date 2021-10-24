@@ -29,7 +29,7 @@ export default defineUserConfig<DefaultThemeOptions>({
   },
   
   head: [
-    ['script', {src: 'https://cdn.thisiswaldo.com/static/js/8531.js'}],
+    ['script', {src: 'https://cdn.thisiswaldo.com/static/js/8530.js'}],
     ['script', {src: 'https://www.googletagmanager.com/gtag/js?id=UA-152619365-1'}],
     ['script', {src: '/assets/js/analytics.js'}],
   ],
