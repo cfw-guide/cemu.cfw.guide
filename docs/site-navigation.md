@@ -18,7 +18,7 @@ title: "Site Navigation"
 + [Donations](/donations)
 + [Dumping Games](/dumping-games)
 + [Dumping Games (FTP and disc2app)](/ftp/dumping-games/)
-+ [Dumping Updates and DLC (FTP)](/ftp/dumping-games-and-updates)
++ [Dumping Updates and DLC (FTP)](/ftp/dumping-updates-and-dlc)
 + [FAQ](/faq)
 + [Home](/)
 + [Installing Cemu](/installing-cemu)
