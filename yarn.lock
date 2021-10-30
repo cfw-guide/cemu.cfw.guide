@@ -511,6 +511,11 @@
     "@vuepress/core" "2.0.0-beta.26"
     prismjs "^1.24.1"
 
+"@vuepress/plugin-search@^1.8.2":
+  version "1.8.2"
+  resolved "https://registry.yarnpkg.com/@vuepress/plugin-search/-/plugin-search-1.8.2.tgz#74b92f663acf6b4560e15dc0442a84c4e874e206"
+  integrity sha512-JrSJr9o0Kar14lVtZ4wfw39pplxvvMh8vDBD9oW09a+6Zi/4bySPGdcdaqdqGW+OHSiZNvG+6uyfKSBBBqF6PA==
+
 "@vuepress/plugin-theme-data@2.0.0-beta.26":
   version "2.0.0-beta.26"
   resolved "https://registry.yarnpkg.com/@vuepress/plugin-theme-data/-/plugin-theme-data-2.0.0-beta.26.tgz#d12a5016616d970f7e48fe2e453443ab4976ce8a"

@@ -27,6 +27,19 @@ export default defineUserConfig<DefaultThemeOptions>({
       },
     },
   },
+
+	plugins: [
+		[
+			"@vuepress/plugin-search",
+			{
+				locales: {
+					"/": {
+						placeholder: "Search"
+					},
+				}
+			}
+		],
+	],
   
   head: [
     ['script', {src: 'https://cdn.thisiswaldo.com/static/js/8530.js'}],
