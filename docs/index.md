@@ -1,5 +1,5 @@
 ---
-title: Cemu Guide
+title: Home
 description: "A complete guide to installing CEMU and optimizing performance."
 home: true
 header:  
