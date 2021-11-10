@@ -7,6 +7,8 @@ In this section, we look at how to "dump" (copy) your games, updates, DLC and sa
 
 To do this, we're going to need to use a custom homebrew application to dump your games. This is done using an exploit in the Wii U browser.
 
+If your games are stored on USB storage, it may be faster to use the [DumpsterU](https://github.com/GaryOderNichts/DumpsterU) tool instead.
+
 ## Requirements
 
 - An SD card for homebrew
