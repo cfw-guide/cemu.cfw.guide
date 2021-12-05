@@ -24,7 +24,7 @@ The video below shows loading Breath of the Wild for the first time using asynch
 Vulkan also allows us to use a new experimental VSync technique which allows Cemu to use the game's built-in frame-pacing instead. This avoids tearing and reduces input latency compared to previous methods.
 
 ::: details Ensure you are running the latest drivers and that your GPU supports Vulkan.
-If your GPU doesn't support Vulkan, follow the [OpenGL Guide](/optimizing-cemu-(opengl)/).
+If your GPU doesn't support Vulkan, follow the <router-link to="/optimizing-cemu-(opengl)">OpenGL Guide</router-link>.
 :::
 
 ## Cemu Settings
@@ -33,7 +33,7 @@ If your GPU doesn't support Vulkan, follow the [OpenGL Guide](/optimizing-cemu-(
 1. Click `Options` -> `General settings` on the top bar
 1. Navigate to the `Graphics` tab
 1. Change the "Graphics API" to `Vulkan` if it is not already
-    - If this doesn't appear, or you have problems using Vulkan, read the [OpenGL Optimization Guide](/optimizing-cemu-(opengl)/)
+    - If this doesn't appear, or you have problems using Vulkan, read the <router-link to="/optimizing-cemu-(opengl)">OpenGL Optimization Guide</router-link>
 1. Ensure that your "Graphics Device" is set to use your most powerful GPU if your device has dual graphics
 1. Set "VSync" to `Match emulated display (Experimental)`
     - If you use a display with variable refresh rate (G-SYNC), set this to `Off` instead

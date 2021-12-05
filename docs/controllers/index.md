@@ -11,5 +11,5 @@ Other controllers, such as Xbox controllers, don't support motion controls and w
 
 Please select your controller type below:
 
-- [Nintendo Switch / Playstation](ds4windows)
-- [Xbox / Others](xbox)
+- <router-link to="ds4windows">Nintendo Switch / Playstation</router-link>
+- <router-link to="xbox">Xbox / Others</router-link>

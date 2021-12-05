@@ -12,6 +12,6 @@ Under your display name, it should say `Display #: Connected to [GPU]`. This sho
 ![A screenshot of a window showing GPU brand](/assets/images/get_gpu.png)
 
 Please select your GPU brand below:
-- [NVIDIA](nvidia/)
-- [AMD](amd/)
-- [Intel](intel/)
+- <router-link to="nvidia">NVIDIA</router-link>
+- <router-link to="amd">AMD</router-link>
+- <router-link to="intel/">Intel</router-link>

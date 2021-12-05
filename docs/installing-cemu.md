@@ -60,9 +60,9 @@ These options are set to help avoid issues on various Windows versions, file res
 1. When prompted, grant administrator access
 1. You will now be greeted with the Cemu quickstart guide
     - This will take you through setting up the emulator for first use
-1. Create a folder in a safe location named "[mlc01](/faq/#what-is-the-mlc01-folder)"
+1. Create a folder in a safe location named "<router-link to="/faq/#what-is-the-mlc01-folder">mlc01</router-link>"
 1. Leave the "Game paths" field blank
-1. Click "Download [community graphics packs](/faq/#what-are-community-graphics-packs)"
+1. Click "Download <router-link to="/faq/#what-are-community-graphics-packs">community graphics packs</router-link>"
 1. Click `Next`
 
 ![A screenshot of the Cemu quickstart guide](/assets/images/cemu-quickstart-guide.png)

@@ -30,15 +30,15 @@ There is an issue recently where Cemu.exe can get stuck in the background which 
 
 #### Cause #3
 
-Accidentally loading an Update or DLC as a game by using `File` -> `Load` can cause this. Alternatively if you accidentally merged the Update or DLC data into the Base Game trying to save space, this will break the Base Game - all of the game's data will need to be [redumped](/dumping-games/) from your Wii U and replaced. Ensure you're launching the game correctly or otherwise that Update and DLC data is being installed [properly](/installing-games/#games-updates-and-dlc).
+Accidentally loading an Update or DLC as a game by using `File` -> `Load` can cause this. Alternatively if you accidentally merged the Update or DLC data into the Base Game trying to save space, this will break the Base Game - all of the game's data will need to be <router-link to="/dumping-games">redumped</router-link> from your Wii U and replaced. Ensure you're launching the game correctly or otherwise that Update and DLC data is being installed <router-link to="/installing-games/#games-updates-and-dlc">properly</router-link>.
 
 #### Cause #4
 
-To continue off of Cause #3, this could be caused by an incomplete or otherwise corrupt dump of your Base Game / Update / DLC copy. Sometimes dumping software just doesn't work the way it's intended to, but it's better than not having it available. Try [redumping](/dumping-games/) the data from your Wii U again - reinstalling any game data will not affect your saves.
+To continue off of Cause #3, this could be caused by an incomplete or otherwise corrupt dump of your Base Game / Update / DLC copy. Sometimes dumping software just doesn't work the way it's intended to, but it's better than not having it available. Try <router-link to="/dumping-games">redumping</router-link> the data from your Wii U again - reinstalling any game data will not affect your saves.
 
 #### Cause #5
 
-Illicitly obtained game data will also cause this to happen. [Dumping](/dumping-games/) your game data is the only method that Cemu provides support for. Asking for help with illegally downloading that data will result in an immediate ban or warning.
+Illicitly obtained game data will also cause this to happen. <router-link to="/dumping-games">Dumping</router-link> your game data is the only method that Cemu provides support for. Asking for help with illegally downloading that data will result in an immediate ban or warning.
 
 ### "Error: This title is encrypted. To run this application ..."
 
@@ -128,7 +128,7 @@ Please review the above link as it goes over nearly every problem that has been 
 
 ### "A System update is required" / White or Yellow Screen after "Open your eyes..."
 
-This is caused by the game's latest update not being installed. Breath of the Wild must be using the latest update to work properly. Follow our [dumping guide](/dumping-games/) to rip and then install the latest game update on Cemu, make sure the game is updated on your Wii U console before proceeding.
+This is caused by the game's latest update not being installed. Breath of the Wild must be using the latest update to work properly. Follow our <router-link to="/dumping-games">dumping guide</router-link> to rip and then install the latest game update on Cemu, make sure the game is updated on your Wii U console before proceeding.
 
 ### Game is stuck at around 20~30FPS
 
@@ -185,6 +185,6 @@ If you do have confirmed support, the safest bet is to:
 1. Disable all 3rd-party game mods and test the result; many mods cause problems.
 2. Disable all graphicPacks (excluding FPS++) and then see if the issue stops.
 3. Try renaming your shaderCache folder to see if it's the cause of the problem. If the shaderCache isn't the culprit, you can rename your shaderCache folder back to its original name in order to resume using it after a Cemu restart.
-4. Unfortunately not all issues are repairable; you should always try to [fully redump the game, update, and DLC](/dumping-games/) from your Wii U console.
+4. Unfortunately not all issues are repairable; you should always try to <router-link to="/dumping-games">fully redump the game, update, and DLC</router-link> from your Wii U console.
 
 You may always visit us on our Discord to see if we can figure out the problem together.

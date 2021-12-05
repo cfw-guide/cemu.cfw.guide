@@ -6,7 +6,7 @@ description: Setting up different controller types for use in the Cemu emulator.
 ## Downloads
 
 ::: warning
-DualShock 3 controller motion support may not be compatible with DS4Windows. Please refer to the "[Xbox / Others](xbox)" section.
+DualShock 3 controller motion support may not be compatible with DS4Windows. Please refer to the "<router-link to="xbox">Xbox / Others</router-link>" section.
 :::
 
 - The latest release of [DS4Windows by Ryochan7](https://ryochan7.github.io/ds4windows-site/)
