@@ -1,6 +1,7 @@
 ---
 title: Controller Configuration
 description: Setting up different controller types for use in the Cemu emulator.
+redirect_from: /motion-controls
 ---
 
 In this section we’ll be configuring controller inputs for Cemu, and setting up motion controls.
