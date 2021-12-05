@@ -25,6 +25,7 @@ export default defineUserConfig<DefaultThemeOptions>({
 				}
 			}
 		],
+    require('./plugins/redirectPlugin/lib/'),
 	],
   
   themeConfig: {
