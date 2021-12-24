@@ -24,5 +24,7 @@ Cemuhook was previously required for motion controls, however Cemu now natively 
 1. Set `Controller` to your desired controller
     - If it doesn't appear, try changing your controller API
 1. Proceed to map all your controller button inputs
+1. If you would like to add another controller input, press the `+` button next to the `Controller` field
+    - This has many uses, such as using two Nintendo Switch Joy-cons, or using a phone for motion input
 1. At the top, enter in a controller profile name, e.g. "Gamepad Controller"
 1. Click `Save`
