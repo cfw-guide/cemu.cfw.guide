@@ -28,7 +28,6 @@ We recommend that you download these to allow tweaking your games for better per
 ## Downloads
 
 - The latest release of [Cemu](https://cemu.info/#download)
-- The latest release of [Cemuhook](https://cemuhook.sshnuke.net/)
 
 ## Preparations
 
@@ -46,13 +45,6 @@ We recommend that you download these to allow tweaking your games for better per
 These options are set to help avoid issues on various Windows versions, file restrictions, or display resolutions.  That said, one or more of these options will not be necessary for everyone, but not setting them may result in complications.
 
 ![A screenshot of the settings necessary for Cemu](/assets/images/cemu-properties.png)
-
-## Installing Cemuhook
-
-1. Extract the contents of the Cemuhook `.zip` file to the Cemu directory
-1. Ensure that your Cemu directory looks like this:
-
-![A screenshot of the Cemu directory with Cemuhook installed](/assets/images/cemuhook.png)
 
 ## Configuration
 
