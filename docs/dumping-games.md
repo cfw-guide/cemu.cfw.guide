@@ -16,7 +16,7 @@ If your games are stored on USB storage, it may be faster to use the [DumpsterU]
   - You can use your SD card instead, however USB can be faster and more convenient
 
 ::: tip
-All storage devices must be formatted to FAT32 with 32KB (32768) allocation. For storage devices larger than 32GB, use [FAT32 Format](https://fat32-format.en.softonic.com/) to format it correctly.
+All storage devices must be formatted to FAT32 with 32KB (32768) allocation. For storage devices larger than 32GB, use [guiformat](http://ridgecrop.co.uk/index.htm?guiformat.htm) to format it correctly.
 :::
 
 ::: warning
