@@ -6,9 +6,9 @@ redirect_from: /motion-controls
 
 In this section we’ll be configuring controller inputs for Cemu, and setting up motion controls.
 
-This can vary between controllers. Nintendo Switch, Dualshock 4 and DualSense controllers all have support for motion controls. Using the SDL controller API, this will be automatically detected.
+Motion control support can vary between controllers. Nintendo Switch, Dualshock 4 and DualSense controllers all have support for motion controls. Using the SDL controller API, this will be automatically detected.
 
-Other controllers, such as Xbox controllers, don’t support motion controls and will need to use an alternate method.
+Other controllers, such as Xbox controllers, do not support motion and will require alternate methods to enable motion controls. Regular buttons should still work, however.
 
 ::: tip
 Cemuhook was previously required for motion controls, however Cemu now natively supports motion controls using the SDL controller API. If you've used Cemuhook in the past for motion controls, make sure to change `Settings` -> `GamePad motion source` to "Default".
