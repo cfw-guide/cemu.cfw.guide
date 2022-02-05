@@ -11,48 +11,30 @@ If your games are stored on USB storage, it may be faster to use the [DumpsterU]
 
 ## Requirements
 
-- An SD card for homebrew
-- A USB storage device to dump your games to (Optional)
-  - You can use your SD card instead, however USB can be faster and more convenient
+- A USB storage device or SD card to dump your games to
 
 ::: tip
 All storage devices must be formatted to FAT32 with 32KB (32768) allocation. For storage devices larger than 32GB, use [guiformat](http://ridgecrop.co.uk/index.htm?guiformat.htm) to format it correctly.
 :::
 
 ::: warning
-Ensure you have enough storage space for your dump. The largest Wii U game is 17GB, however the majority of games won't need that much space.
-:::
+Ensure you have enough storage space for your dump. The largest Wii U game is 17GB, however the majority of games won't need that much.
 
-## Downloads
-
-- The "Wii U Only" [homebrew pack](https://jorgev259.github.io/wiiusetup/)
-  - If you have already homebrewed your Wii U before, you will only need the latest release of [dumpling](https://github.com/emiyl/dumpling/releases/latest)
-
-## Preparations
-
-1. Extract the `Wii U Only.zip` homebrew pack to the root of your SD card
-    - If prompted, replace any pre-existing files
-1. Eject your SD card from Windows and put it into your Wii U console
-1. Insert your correctly formatted USB Device if you're using one
-
-## Opening the Homebrew Launcher
+## Launching dumpling
 
 1. Turn on your Wii U console
     - If prompted, **do not** format any USB devices through the Wii U
 1. Ensure that the title you want to dump has the latest update and any relevant DLC installed
     - Some games, such as Breath of the Wild, require an update to function correctly in Cemu
-1. Launch the internet browser and open `wiiuexploit.xyz`
-1. Tap `Run Homebrew Launcher!`
+1. If using a disk, ensure it is inserted before launching dumpling
+1. Insert your USB storage device or SD card
+1. Launch the internet browser and open `crementif.github.io/dumpling-launcher`
+1. Tap `Launch dumpling`
     - If your console freezes for more than 10 seconds, hold down the Power button for 4 seconds and reboot
     - Once rebooted, [reset the browser's save data](https://en-americas-support.nintendo.com/app/answers/detail/a_id/1507/~/how-to-delete-the-internet-browser-history) and try again
 
 ## Using the dumpling app
 
-1. Before launching the dumpling app, be sure to:
-    - Insert a correctly formatted USB device if you plan to use one
-    - Insert your targeted game's Disc
-    - Your game's Updates & DLCs must be installed and ready.
-1. Run the Dumpling app from the Homebrew Launcher
 1. Select `Dump digital games` or `Dump a game disc` depending on your scenario
     - For Digital, select your games then press **(START)**
     - For Disc, continue below
