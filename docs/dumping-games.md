@@ -20,6 +20,7 @@ All storage devices must be formatted to FAT32 with 32KB (32768) allocation. For
 
 ::: warning
 Ensure you have enough storage space for your dump. The largest Wii U game is 17GB, however the majority of games won't need that much.
+:::
 
 ## Launching dumpling
 
