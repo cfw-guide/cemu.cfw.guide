@@ -12,6 +12,7 @@ If your games are stored on USB storage, it may be faster to use the [DumpsterU]
 ## Requirements
 
 - A USB storage device or SD card to dump your games to
+- A FAT32 SD card must be inserted into the system to launch dumpling (this will be fixed soon)
 
 ::: tip
 All storage devices must be formatted to FAT32 with 32KB (32768) allocation. For storage devices larger than 32GB, use [guiformat](http://ridgecrop.co.uk/index.htm?guiformat.htm) to format it correctly.
@@ -28,7 +29,7 @@ Ensure you have enough storage space for your dump. The largest Wii U game is 17
     - Some games, such as Breath of the Wild, require an update to function correctly in Cemu
 1. If using a disk, ensure it is inserted before launching dumpling
 1. Insert your USB storage device or SD card
-1. Launch the internet browser and open `crementif.github.io/dumpling-launcher`
+1. Launch the internet browser and open `dumplingapp.com`
 1. Tap `Launch dumpling`
     - If your console freezes for more than 10 seconds, hold down the Power button for 4 seconds and reboot
     - Once rebooted, [reset the browser's save data](https://en-americas-support.nintendo.com/app/answers/detail/a_id/1507/~/how-to-delete-the-internet-browser-history) and try again
