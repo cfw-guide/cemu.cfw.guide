@@ -6,12 +6,14 @@ description: Enabling online play on the Cemu emulator.
 In this section, we look at how to enable online play on Cemu. This involves dumping a set of online files from your Wii U to make Nintendo think that the connection from Cemu is actually coming from your console.
 
 ::: tip
+
 If you do not plan on using online services you may skip this page. Using Cemu online has not resulted in any bans to date.
+
 :::
 
 After we've dumped the online files, you'll be able to play with other Wii U and Cemu players on Nintendo's official game servers.
 
-To do this, we're going to need to use a custom homebrew application to dump console files. This is done using an exploit in the Wii U browser.
+To do this, we're going to run a dumping application through the Wii U browser to transfer your account information to a USB storage device or SD card.
 
 As we will be connecting to real Nintendo servers, do not:
 - Use mods, cheats or hacks
@@ -36,28 +38,15 @@ Doing any of these may get your console banned, restricting you from accessing o
 
 ## Requirements
 
-- An SD card for homebrew
+- A FAT32 formatted USB storage device or SD card
 
 ::: tip
-Your SD card must be formatted to FAT32 with 32KB (32768) allocation. For SD cards larger than 32GB, use [FAT32 Format](https://fat32-format.en.softonic.com/) to format it correctly.
+
+All storage devices must be formatted to FAT32 with 32KB (32768) allocation. For storage devices larger than 32GB, use [guiformat](http://ridgecrop.co.uk/index.htm?guiformat.htm) to format it correctly.
+
 :::
 
-## Downloads
-
-- The "Wii U Only" [homebrew pack](https://wiiusetup.chitowarlock.com/)
-- The latest release of [dumpling](https://github.com/emiyl/dumpling/releases/latest)
-
-## Preparations
-
-1. Extract the `Wii U Only.zip` homebrew pack to the root of your SD card - `SD:\`
-    - If prompted to, replace any pre-existing files
-1. Eject your SD card from Windows and put it into your Wii U console
-
-Your SD card should look like this:
-
-![A screenshot of a correctly set-up SD card](/assets/images/sd-card.png)
-
-### Ensuring your password is saved
+## Ensuring your password is saved
 
 1. Turn on your Wii U console
 1. Load up the account you are going to use online.
@@ -65,16 +54,17 @@ Your SD card should look like this:
 1. After you're on the correct account, open the top-left avatar once again.
 1. Scroll down and turn on the "Save password?" feature.
 
-## Dumping Files
+## Launching dumpling
 
-### Opening the Homebrew Launcher
-
-1. Launch the Internet Browser on your Wii U and open `wiiuexploit.xyz`
-1. Tap `Run Homebrew Launcher!`
+1. Turn on your Wii U console
+    - If prompted, **do not** format any USB devices through the Wii U
+1. Insert your USB storage device or SD card
+1. Launch the internet browser and open `dumplingapp.com`
+1. Tap `Launch dumpling`
     - If your console freezes for more than 10 seconds, hold down the Power button for 4 seconds and reboot
     - Once rebooted, [reset the browser's save data](https://en-americas-support.nintendo.com/app/answers/detail/a_id/1507/~/how-to-delete-the-internet-browser-history) and try again
 
-### Using dumpling
+## Using dumpling
 
 1. Run the dumpling app from the Homebrew Launcher
 1. Next, select `Dump files to use Cemu online`
@@ -90,7 +80,7 @@ Your SD card should look like this:
 
 ## Copying the Online Files to Cemu
 
-1. Take your SD (and if used, your USB) out of your Wii U and put it in your PC
+1. Take your USB storage device or SD card out of your Wii U and put it in your PC
 1. Copy `otp.bin` and `seeprom.bin` from the `/dumpling/Online Files` folder to your Cemu directory
     - This is where `Cemu.exe` is located
 1. Copy the `sys` and `usr` folders from `dumpling/Online Files/mlc01` on your SD/USB device to the mlc01 folder for Cemu

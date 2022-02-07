@@ -11,7 +11,7 @@ If your games are stored on USB storage, it may be faster to use the [DumpsterU]
 
 ## Requirements
 
-- A USB storage device or SD card to dump your games to
+- A FAT32 formatted USB storage device or SD card
 
 ::: tip
 
@@ -21,6 +21,7 @@ All storage devices must be formatted to FAT32 with 32KB (32768) allocation. For
 
 
 ::: warning
+
 Ensure you have enough storage space for your dump. The largest Wii U game is 17GB, however the majority of games won't need that much.
 
 :::
