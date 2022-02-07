@@ -5,21 +5,24 @@ description: Dumping decrypted Wii U games for use in Cemu.
 
 In this section, we look at how to "dump" (copy) your games, updates, DLC and saves from your Wii U system over to your PC.
 
-To do this, we're going to need to use a custom homebrew application to dump your games. This is done using an exploit in the Wii U browser.
+To do this, we're going to run a dumping application through the Wii U browser to transfer your games to a USB storage device or SD card.
 
 If your games are stored on USB storage, it may be faster to use the [DumpsterU](https://github.com/GaryOderNichts/DumpsterU) tool instead.
 
 ## Requirements
 
 - A USB storage device or SD card to dump your games to
-- A FAT32 SD card must be inserted into the system to launch dumpling (this will be fixed soon)
 
 ::: tip
+
 All storage devices must be formatted to FAT32 with 32KB (32768) allocation. For storage devices larger than 32GB, use [guiformat](http://ridgecrop.co.uk/index.htm?guiformat.htm) to format it correctly.
+
 :::
+
 
 ::: warning
 Ensure you have enough storage space for your dump. The largest Wii U game is 17GB, however the majority of games won't need that much.
+
 :::
 
 ## Launching dumpling
