@@ -28,9 +28,3 @@ Cemuhook was previously required for motion controls, however Cemu now natively 
     - This has many uses, such as using two Nintendo Switch Joy-cons, or using a phone for motion input
 1. At the top, enter in a controller profile name, e.g. "Gamepad Controller"
 1. Click `Save`
-
-::: warning
-
-Some users have reported issues with motion controls on the latest version of Cemu. If you encounter these, try downgrading to [v1.25.6](https://cemu.info/releases/cemu_1.25.6.zip) of Cemu.
-
-:::
