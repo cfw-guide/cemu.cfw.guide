@@ -4,18 +4,22 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<script>
-		[
-			{ slot: '/22046652915/cemu-0', size: ['fluid'], id: 'div-gpt-ad-1645090614268-0' },
-			{ slot: '/22046652915/cemu-1', size: ['fluid'], id: 'div-gpt-ad-1645090778201-0' }
-		].map(function(ad) {
-			window.googletag = window.googletag || {cmd: []};
-			googletag.cmd.push(function() {
-				console.log(ad.slot);
-				googletag.defineSlot(ad.slot, ad.size, ad.id).addService(googletag.pubads());
-				googletag.pubads().enableSingleRequest();
-				googletag.enableServices();
-			});
-		})
+		window.googletag = window.googletag || {cmd: []};
+		googletag.cmd.push(function() {
+			console.log('/22046652915/cemu-0');
+			googletag.defineSlot('/22046652915/cemu-0', ['fluid'], 'div-gpt-ad-1645090614268-0').addService(googletag.pubads());
+			googletag.pubads().enableSingleRequest();
+			googletag.enableServices();
+		});
+	</script>
+	<script>
+		window.googletag = window.googletag || {cmd: []};
+		googletag.cmd.push(function() {
+			console.log('/22046652915/cemu-1');
+			googletag.defineSlot('/22046652915/cemu-1', ['fluid'], 'div-gpt-ad-1645090778201-0').addService(googletag.pubads());
+			googletag.pubads().enableSingleRequest();
+			googletag.enableServices();
+		});
 	</script>
 	<style>
 		:root {
