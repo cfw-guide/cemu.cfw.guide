@@ -2,13 +2,13 @@ const { navbar, sidebar } = require('./configs')
 const path = require('path')
 
 const adArr = [
-  { name: '/22046652915/cemu-0', size: "['fluid']", id: 'div-gpt-ad-1645090614268-0' },
-  { name: '/22046652915/cemu-1', size: "['fluid']", id: 'div-gpt-ad-1645090778201-0' }
+  { name: '/22046652915/cemu-0', size: ['fluid'], id: 'div-gpt-ad-1645090614268-0' },
+  { name: '/22046652915/cemu-1', size: ['fluid'], id: 'div-gpt-ad-1645090778201-0' }
 ]
 
 const headAdScripts = adArr.map(ad => [ 'script', {}, `window.googletag = window.googletag || {cmd: []};
 googletag.cmd.push(function() {
-  googletag.defineSlot('${ad.name}', ${ad.size}, '${ad.id}').addService(googletag.pubads());
+  googletag.defineSlot('${ad.name}', ${JSON.stringify(ad.size)}, '${ad.id}').addService(googletag.pubads());
   googletag.pubads().enableSingleRequest();
   googletag.enableServices();
 });`])
@@ -54,6 +54,7 @@ module.exports = {
   head: [
     ['script', {src: 'https://www.googletagmanager.com/gtag/js?id=UA-152619365-1'}],
     ['script', {src: '/assets/js/analytics.js'}],
+    ['script', {src: 'https://securepubads.g.doubleclick.net/tag/js/gpt.js'}],
     ...headAdScripts,
   ],
 
