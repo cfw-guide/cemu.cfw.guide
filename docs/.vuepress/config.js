@@ -8,6 +8,7 @@ const adArr = [
 
 const headAdScripts = adArr.map(ad => [ 'script', {}, `window.googletag = window.googletag || {cmd: []};
 googletag.cmd.push(function() {
+  console.log('defineSlot: ${ad.name}')
   googletag.defineSlot('${ad.name}', ${JSON.stringify(ad.size)}, '${ad.id}').addService(googletag.pubads());
   googletag.pubads().enableSingleRequest();
   googletag.enableServices();
