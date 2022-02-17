@@ -30,11 +30,9 @@ export default defineUserConfig<DefaultThemeOptions>({
   
   themeConfig: {
     repo: 'cfw-guide/cemu.cfw.guide',
-    adTagOne: 'waldo-tag-8533',
-    adTagTwo: 'waldo-tag-8534',
     adArr: [
-      '1645090614268',
-      '1645090778201'
+      { name: '/22046652915/cemu-0', size: "['fluid']", id: 'div-gpt-ad-1645090614268-0' },
+      { name: '/22046652915/cemu-1', size: "['fluid']", id: 'div-gpt-ad-1645090778201-0' }
     ],
     locales: {
       '/': {
