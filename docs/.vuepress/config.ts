@@ -32,11 +32,9 @@ export default defineUserConfig<DefaultThemeOptions>({
     repo: 'cfw-guide/cemu.cfw.guide',
     adTagOne: 'waldo-tag-8533',
     adTagTwo: 'waldo-tag-8534',
-    splashAd: [
-      {
-        id: 'div-gpt-ad-1644457402236-0',
-        size: [970, 90]
-      }
+    adArr: [
+      '1645090614268',
+      '1645090778201'
     ],
     locales: {
       '/': {
