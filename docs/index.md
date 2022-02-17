@@ -2,7 +2,9 @@
 title: Home
 description: "A complete guide to installing CEMU and optimizing performance."
 home: true
-header:  
+header:
+  overlay_title: Cemu Guide
+  overlay_excerpt: A complete guide to installing CEMU and optimizing performance.
   overlay_image: /assets/images/splash-image.png
   overlay_filter: 0.5
   overlay_color: "#1a1d24"
