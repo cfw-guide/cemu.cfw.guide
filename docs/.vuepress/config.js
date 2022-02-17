@@ -6,7 +6,12 @@ const adArr = [
   { name: '/22046652915/cemu-1', size: "['fluid']", id: 'div-gpt-ad-1645090778201-0' }
 ]
 
-const headAdScripts = adArr.map(ad => [ 'script', {}, `window.googletag = window.googletag || {cmd: []};googletag.cmd.push(function() {googletag.defineSlot('${ad.name}', ${ad.size}, '${ad.id}').addService(googletag.pubads());googletag.pubads().enableSingleRequest();googletag.enableServices();});`])
+const headAdScripts = adArr.map(ad => [ 'script', {}, `window.googletag = window.googletag || {cmd: []};
+googletag.cmd.push(function() {
+  googletag.defineSlot('${ad.name}', ${ad.size}, '${ad.id}').addService(googletag.pubads());
+  googletag.pubads().enableSingleRequest();
+  googletag.enableServices();
+});`])
 
 module.exports = {
   base: '/',
