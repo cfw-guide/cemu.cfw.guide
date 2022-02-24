@@ -2,8 +2,8 @@ const { navbar, sidebar } = require('./configs')
 const path = require('path')
 
 const adArr = [
-  { slot: '/22046652915/cemu-0', size: [[728, 90], [970, 90], [320, 50]], id: 'div-gpt-ad-1645090614268-0' },
-  { slot: '/22046652915/cemu-1', size: [[728, 90], [970, 90], [320, 50]], id: 'div-gpt-ad-1645090778201-0' }
+  { slot: '/22046652915/cemu-0', size: [[728, 90], [320, 50]], id: 'div-gpt-ad-1645090614268-0' },
+  { slot: '/22046652915/cemu-1', size: [[728, 90], [320, 50]], id: 'div-gpt-ad-1645090778201-0' }
 ]
 
 module.exports = {
