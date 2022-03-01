@@ -23,6 +23,12 @@ Some games, such as [Breath of the Wild](https://wiki.cemu.info/wiki/The_Legend_
 1. Open the `meta` folder and select `meta.xml`
 1. Cemu should now automatically install the files for you
 
+::: warning
+
+Linux users may have issues installing updates/DLC. You may have to extract the title directly to the installation directory: `mlc01/usr/title`. If using Lutris, please read the [notes](https://lutris.net/games/cemu/) under the script provided.
+
+:::
+
 Repeat this as many times as you need until everything you dumped is installed.
 
 ## Saves

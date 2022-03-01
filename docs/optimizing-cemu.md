@@ -19,6 +19,12 @@ The video below shows loading Breath of the Wild for the first time using asynch
 
 *Asynchronous shader compilation in an older, slower Cemu version. More recent builds can do this in under 1/10th of a second, depending on the CPU.*
 
+### Importing shader caches
+
+Asynchronous shader compilation goes a long way to speed up running games for the first time, however we can also simply download the shaders needed to run each game from the internet. If another user has previously compiled the shaders, they can upload them for other users to import into Cemu.
+
+If you're using OpenGL, you will only need to download the shader cache. If you're using Vulkan, you will need to download both the shader cache and pipeline cache. Shader caches work on each game regardless of its region, while pipeline caches are locked to the region of the game that they were generated on.
+
 ### VSync Matching
 
 Vulkan also allows us to use a new experimental VSync technique which allows Cemu to use the game's built-in frame-pacing instead. This avoids tearing and reduces input latency compared to previous methods.
@@ -41,6 +47,15 @@ If your GPU doesn't support Vulkan, follow the <router-link to="/optimizing-cemu
 1. Enable `Async shader compiler`
 1. Navigate to the `Audio` tab
 1. Under `General`, change "API" to `XAudio2`
+
+## Importing shader caches
+
+1. Make a note of the title and region of the game which shader cache you want to import (e.g. `Mario Kart 8`, `USA`)
+1. Open [chriztr.github.io/cemu_shader_and_pipeline_caches](https://chriztr.github.io/cemu_shader_and_pipeline_caches/) in your browser
+1. Scroll down to the game and region that you want to download
+1. Download the shader and pipeline `.bin` files
+1. Copy the `.bin` files to the `shaderCache/transferable` in your Cemu folder
+1. Repeat this for every game needed
 
 ---
 

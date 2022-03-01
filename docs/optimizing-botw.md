@@ -35,10 +35,6 @@ If you're not sure what a Graphic Pack does, please click on it and read the des
 
 By default, this is set to 60FPS. This increases the smoothness of gameplay, however it can cause [some issues](https://wiki.cemu.info/wiki/The_Legend_of_Zelda:_Breath_of_the_Wild#Issues_arising_by_using_FPS.2B.2B_or_static_FPS.2B.2B). When these occur, simply set the limit to `30` until you've gotten beyond the point where the issue occurs.
 
-::: warning
-If you use a framerate above 72 FPS, use the `Advanced Settings` and set `Menu Cursor Fix (Experimental)` to `Enabled At 72FPS And Higher (Recommended)` otherwise it will become difficult to use your cursor in any menus.
-:::
-
 ## Graphics and Enhancements
 
 1. Minimize the mods category
@@ -48,8 +44,6 @@ If you use a framerate above 72 FPS, use the `Advanced Settings` and set `Menu C
 ::: details Aspect Ratio
 
 Breath of the Wild runs on a 16:9 aspect ratio on the Wii U. If you have a monitor that isn’t 16:9, you may change the aspect ratio to match it in Cemu.
-
-Please be aware that while the game will render correctly at different aspect ratios, the UI elements will become stretched. This can be fixed by using [mods](https://gamebanana.com/gamefiles/10266) for supported aspect ratios.
 
 :::
 
@@ -74,6 +68,14 @@ BOTW has anti-aliasing enabled by default. If you would like to use NVIDIA's imp
 This setting changes the resolution of the shadows. Increasing it makes shadows sharper and more accurate, while decreasing it can gain performance while sacrificing quality.
 
 Setting this to 400% may cause some instabilities so we recommend a maximum of 300%.
+
+:::
+
+::: details Shadow Draw Distance
+
+This setting changes the draw distance of the shadows. Increasing it makes shadows render further away, but can make shadows blurrier.
+
+We recommend setting to "Very High" to increase draw distance without sacrificing too much shadow detail.
 
 :::
 

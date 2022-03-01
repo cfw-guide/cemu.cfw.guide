@@ -28,6 +28,7 @@ We recommend that you download these to allow tweaking your games for better per
 ## Downloads
 
 - The latest release of [Cemu](https://cemu.info/#download)
+    - Linux users can use a [Lutris script](https://lutris.net/games/cemu/) to run Cemu _(Linux is not officially supported; your mileage may vary)_
 
 ## Preparations
 
