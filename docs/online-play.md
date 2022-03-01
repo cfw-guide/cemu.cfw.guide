@@ -66,9 +66,9 @@ All storage devices must be formatted to FAT32 with 32KB (32768) allocation. For
 
 ## Using dumpling
 
-1. Run the dumpling app from the Homebrew Launcher
-1. Next, select `Dump files to use Cemu online`
-1. Change the desired dump destination and account accordingly
+1. Select `Dump files to use Cemu online`
+1. Verify that the dump's destination is correct (SD or USB)
+1. Ensure your desired Wii U Account is set
 1. Select `Start` to begin dumping
 1. Select `Dump Wii U applications (e.g. Friend List, Browser etc.)`
 1. Change the desired dump destination accordingly
@@ -76,7 +76,6 @@ All storage devices must be formatted to FAT32 with 32KB (32768) allocation. For
 1. Select `Start` to begin dumping
 1. When finished, go back to the Dumpling main menu
 1. Exit the dumpling app
-1. When finished, turn off your Wii U
 
 ## Copying the Online Files to Cemu
 

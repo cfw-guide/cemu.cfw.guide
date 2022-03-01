@@ -1,4 +1,5 @@
 const { navbar, sidebar } = require('./configs')
+const container = require('markdown-it-container');
 const path = require('path')
 
 const adArr = [
@@ -28,6 +29,12 @@ module.exports = {
 				}
 			}
 		],
+		[
+			'@vuepress/register-components',
+			{
+				componentsDir: path.resolve(__dirname, './components')
+			}
+		],
     require('./plugins/redirectPlugin/lib/')
 	],
   
@@ -53,7 +60,29 @@ module.exports = {
 
   theme: path.resolve(__dirname, './vuepress-theme'),
   extendsMarkdown: (md) => {
-      md.use(require('markdown-it-include'))
+    md.use(require('markdown-it-include'))
+
+		md.use(container, "tabs", {
+			render: (tokens, idx) => {
+				const token = tokens[idx];
+				if (token.nesting === 1) {
+					return `<Tabs ${token.info}>\n`;
+				} else {
+					return `</Tabs>\n`;
+				}
+			}
+		});
+	
+		md.use(container, 'tab', {
+			render: (tokens, idx) => {
+				const token = tokens[idx];
+				if (token.nesting === 1) {
+					return `<Tab ${token.info}>\n`;
+				} else {
+					return `</Tab>\n`;
+				}
+			}
+		});
   },
   
 	templateDev: path.join(__dirname, 'templates', 'index.dev.html'),

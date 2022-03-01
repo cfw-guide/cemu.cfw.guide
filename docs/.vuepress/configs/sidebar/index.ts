@@ -28,7 +28,10 @@ export const en: SidebarConfig = {
       children: [
         '/installing-cemu',
         '/controller-configuration',
-        '/dumping-games',
+        {
+          text: 'Dumping Games',
+          link: '/dumping-games',
+        },
         '/installing-games',
         '/online-play',
         {
@@ -48,7 +51,10 @@ export const en: SidebarConfig = {
       children: [
         '/installing-cemu',
         '/controller-configuration',
-        '/dumping-games',
+        {
+          text: 'Dumping Games',
+          link: '/dumping-games',
+        },
         '/installing-games',
         '/online-play',
         {
@@ -129,7 +135,10 @@ export const en: SidebarConfig = {
             },
           ],
         },
-        '/dumping-games',
+        {
+          text: 'Dumping Games',
+          link: '/dumping-games',
+        },
         '/installing-games',
         '/online-play',
         {
