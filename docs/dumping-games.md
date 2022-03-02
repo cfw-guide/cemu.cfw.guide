@@ -7,8 +7,6 @@ In this section, we look at how to "dump" (copy) your games, updates, DLC and sa
 
 To do this, we're going to run a dumping application through the Wii U browser to transfer your games to a USB storage device or SD card.
 
-If your games are stored on USB storage, it may be faster to use the [DumpsterU](https://github.com/GaryOderNichts/DumpsterU) tool instead.
-
 ## Requirements
 
 - A FAT32 formatted USB storage device or SD card
