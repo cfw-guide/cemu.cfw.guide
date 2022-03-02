@@ -19,12 +19,6 @@ All storage devices must be formatted to FAT32 with 32KB (32768) allocation. For
 
 :::
 
-::: warning
-
-Ensure you have enough storage space for your dump. The largest Wii U game is 17GB, however the majority of games won't need that much.
-
-:::
-
 <br>
 
 ::::: tabs
@@ -68,12 +62,20 @@ This method doesn't actually dump games, but dumps the account information from 
 1. Take your USB storage device or SD card out of your Wii U and put it in your PC
 1. Copy `otp.bin` and `seeprom.bin` from the `/dumpling/Online Files` folder to your Cemu directory
     - This is where `Cemu.exe` is located
-1. Copy the `sys` and `usr` folders from `dumpling/Online Files/mlc01` on your SD/USB device to the mlc01 folder for Cemu
+1. Copy the `sys` and `usr` folders from `dumpling/Online Files/mlc01` on your SD/USB device to the `mlc01` folder
+    - By default, the `mlc01` folder is located in the Cemu folder
+    - If you are unsure where it is, check in `Options` -> `General settings` under "MLC Path"
     - Overwrite any files if prompted
 
 ::::
 
 :::: tab name="General dumping"
+
+::: warning
+
+Ensure you have enough storage space for your dump. The largest Wii U game is 17GB, however the majority of games won't need that much.
+
+:::
 
 ### Launching dumpling
 
@@ -100,8 +102,5 @@ This method doesn't actually dump games, but dumps the account information from 
 ::::
 
 :::::
-
-
----
 
 Now you've got your dumps, you can proceed to the next step which takes you through how to install your games in Cemu.

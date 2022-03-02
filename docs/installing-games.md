@@ -59,8 +59,6 @@ Linux users may have issues installing updates/DLC. You may have to extract the 
 
 :::::
 
----
-
 You should now have all the games you dumped installed onto Cemu.
 
 In the next step, we will enable online multiplayer which allows us to play on Nintendo servers with other Wii U owners.

@@ -50,7 +50,6 @@ If your GPU doesn't support Vulkan, follow the <router-link to="/optimizing-cemu
 
 ## Importing shader caches
 
-1. Make a note of the title and region of the game which shader cache you want to import (e.g. `Mario Kart 8`, `USA`)
 1. Open [chriztr.github.io/cemu_shader_and_pipeline_caches](https://chriztr.github.io/cemu_shader_and_pipeline_caches/) in your browser
 1. Scroll down to the game and region that you want to download
 1. Download the shader and pipeline `.bin` files
