@@ -7,6 +7,8 @@ In this section, we look at how to "dump" (copy) your games, updates, DLC and sa
 
 To do this, we're going to run a dumping application through the Wii U browser to transfer your games to a USB storage device or SD card.
 
+For digital games, it's easier to simply dump the account data from your Wii U, then use that to download the games from the eShop directly to your computer. If you have a weaker internet connection however, you can also dump digital games directly from the console using the dumping app.
+
 ## Requirements
 
 - A FAT32 formatted USB storage device or SD card
@@ -22,8 +24,6 @@ All storage devices must be formatted to FAT32 with 32KB (32768) allocation. For
 ::::: tabs
 
 :::: tab name="Digital titles" :default="true"
-
-This method doesn't actually dump games, but dumps the account information from your Wii U to re-download your digital games from the eShop directly to your computer. If you have a weaker internet connection, you can also dump games directly from the console using dumpling.
 
 ### Ensuring your password is saved
 
