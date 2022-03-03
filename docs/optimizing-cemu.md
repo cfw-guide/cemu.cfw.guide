@@ -52,8 +52,9 @@ If your GPU doesn't support Vulkan, follow the <router-link to="/optimizing-cemu
 
 1. Open [chriztr.github.io/cemu_shader_and_pipeline_caches](https://chriztr.github.io/cemu_shader_and_pipeline_caches/) in your browser
 1. Scroll down to the game and region that you want to download
-1. Download the shader and pipeline `.bin` files
-1. Copy the `.bin` files to the `shaderCache/transferable` in your Cemu folder
+1. Click the download icon ( <i class="fas fa-download"></i> )
+    - Alternatively, click the "Download all" button near the top of the page
+1. Extract the contents of the `.zip` file to your Cemu folder
 1. Repeat this for every game needed
 
 ---
