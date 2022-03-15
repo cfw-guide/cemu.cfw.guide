@@ -11,4 +11,4 @@ To do this, we're going to need to use a custom homebrew application to dump you
 This process is different for physical and digital games, so select the method that applies to you.
 
 - <router-link to="/ftp/dumping-games/digital">Digital</router-link>
-- <router-link to="/ftp/dumping-games/digital">Physical</router-link>
+- <router-link to="/ftp/dumping-games/physical">Physical</router-link>
