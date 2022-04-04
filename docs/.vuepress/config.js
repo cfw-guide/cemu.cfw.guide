@@ -3,8 +3,8 @@ const container = require('markdown-it-container');
 const path = require('path')
 
 const adArr = [
-  { slot: '/22046652915/cemu-0', size: [[728, 90], [320, 50]], id: 'div-gpt-ad-1645090614268-0' },
-  { slot: '/22046652915/cemu-1', size: [[728, 90], [320, 50]], id: 'div-gpt-ad-1645090778201-0' }
+  { slot: '/22046652915/cemu-0', size: [[728, 90], [320, 50]], id: 'div-gpt-ad-1649072918209-0' },
+  { slot: '/22046652915/cemu-1', size: [[728, 90], [320, 50]], id: 'div-gpt-ad-1649072940529-0' }
 ]
 
 module.exports = {
