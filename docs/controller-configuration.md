@@ -11,13 +11,13 @@ Motion control support can vary between controllers. Nintendo Switch, Dualshock 
 Other controllers, such as Xbox controllers, do not support motion and will require alternate methods to enable motion controls. Regular buttons should still work, however.
 
 ::: tip
-Cemuhook was previously required for motion controls, however Cemu now natively supports motion controls using the SDL controller API. If you've used Cemuhook in the past for motion controls, make sure to change `Settings` -> `GamePad motion source` to "Default".
+Cemuhook was previously required for motion controls, however Cemu now natively supports motion controls using the SDL controller API. If you've used Cemuhook in the past for motion controls, make sure to change `Options` -> `GamePad motion source` to "Default".
 :::
 
 ## Instructions
 
 1. Open the Cemu application
-1. On the top bar, go to `Settings` -> `Input settings`
+1. On the top bar, go to `Options` -> `Input settings`
 1. Change `Emulated controller` to "Wii U Gamepad"
 1. Click on the `Controller` field
 1. Set `API` to "SDLController" 
