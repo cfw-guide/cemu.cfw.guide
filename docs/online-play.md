@@ -82,7 +82,8 @@ All storage devices must be formatted to FAT32 with 32KB (32768) allocation. For
 1. Take your USB storage device or SD card out of your Wii U and put it in your PC
 1. Copy `otp.bin` and `seeprom.bin` from the `/dumpling/Online Files` folder to your Cemu directory
     - This is where `Cemu.exe` is located
-1. Copy the `sys` and `usr` folders from `dumpling/Online Files/mlc01` on your SD/USB device to the mlc01 folder for Cemu
+1. Copy the `sys` and `usr` folders from `dumpling/Online Files/[Your Account Name]/mlc01` on your SD/USB device to the mlc01 folder for Cemu
+    - If you've changed your MLC path in your `Options` -> `General Settings`, you'll need to put it in that instead of the mlc01 folder next to your Cemu.exe.
     - Overwrite any files if prompted
 
 ## Adding the Friend List application
