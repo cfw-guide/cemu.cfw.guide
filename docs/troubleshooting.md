@@ -6,7 +6,7 @@ sidebarDepth: 1
 
 ## Cemu
 
-The first step is to ensure the game you are wanting to play has been deemed playable, as many games are either: not yet supported, are only known to boot but simply crash, or they have regressions in compatibility due to Cemu updates or issues with new GPU Drivers. Before asking for any help, please check the [Game Compatibility List](http://compat.cemu.info/) and subsequent Wiki entries, just be aware of outdated testing results. 
+The first step is to ensure the game you are wanting to play has been deemed playable, as many games are either: not yet supported, are only known to boot but simply crash, or they have regressions in compatibility due to Cemu updates or issues with new GPU drivers. Before asking for any help, please check the [Game Compatibility List](http://compat.cemu.info/) and subsequent Wiki entries, just be aware of outdated testing results.
 
 We encourage our users to submit their testing results and to otherwise keep the wiki up-to-date so that everyone's questions may be answered.
 
@@ -15,22 +15,22 @@ We encourage our users to submit their testing results and to otherwise keep the
 #### Cause #1
 
 1. Open `Task Manager` on Windows
-1. Click the `(^) More Details` button if necessary
+1. Click the `(^) More details` button if necessary
 1. Navigate to the `Details` tab
 1. Make sure Cemu.exe is not available in your process list before trying to run Cemu again - that it is otherwise fully closed
 
-There is an issue recently where Cemu.exe can get stuck in the background which will cause issues for saving your games, running games, loading your shaderCache, and a wider assortment of other complications. 
+There is an issue recently where Cemu.exe can get stuck in the background which will cause issues for saving your games, running games, loading your shaderCache, and a wider assortment of other complications.
 
 #### Cause #2
 
 1. Open your Cemu folder and temporarily rename your `shaderCache` folder
     - This will allow you to test a fresh cache to see if the problem was related to the cache that was being used
 1. If renaming the `shaderCache` folder did not help, ensure Cemu is fully closed and then rename your earlier `shaderCache` folder back to the name "shaderCache"
-    - You will need to delete the one that was created by Cemu after you renamed your original copy.
+    - You will need to delete the one that was created by Cemu after you renamed your original copy
 
 #### Cause #3
 
-Accidentally loading an Update or DLC as a game by using `File` -> `Load` can cause this. Alternatively if you accidentally merged the Update or DLC data into the Base Game trying to save space, this will break the Base Game - all of the game's data will need to be <router-link to="/dumping-games">redumped</router-link> from your Wii U and replaced. Ensure you're launching the game correctly or otherwise that Update and DLC data is being installed <router-link to="/installing-games/#games-updates-and-dlc">properly</router-link>.
+Accidentally loading an Update or DLC as a game by using `File` -> `Load` can cause this. Alternatively if you accidentally merged the Update or DLC data into the Base Game trying to save space, this will break the Base Game - all of the game's data will need to be <router-link to="/dumping-games">redumped</router-link> from your Wii U and replaced. Ensure you're launching the game correctly or otherwise that Update and DLC data are being installed <router-link to="/installing-games/#games-updates-and-dlc">properly</router-link>.
 
 #### Cause #4
 
@@ -38,7 +38,7 @@ To continue off of Cause #3, this could be caused by an incomplete or otherwise 
 
 #### Cause #5
 
-Illicitly obtained game data will also cause this to happen. <router-link to="/dumping-games">Dumping</router-link> your game data is the only method that Cemu provides support for. Asking for help with illegally downloading that data will result in an immediate ban or warning.
+Illicitly obtained game data will also cause this to happen. <router-link to="/dumping-games">Dumping</router-link> your game data is the only method that Cemu provides support for. Asking for help with illegally downloaded data will result in an immediate ban or warning.
 
 ### "Error: This title is encrypted. To run this application ..."
 
@@ -50,7 +50,7 @@ This error means the key that came with your encrypted game dump is not in your 
 
 ### "Error: Can't initialise DirectInput"
 
-This can be fixed by unplugging the controller and restarting Windows. After your PC has fully booted plug the controller back in. Ensure you are using the latest official version of Cemu, it is also encouraged to be using the latest version of Windows 10.
+This can be fixed by unplugging the controller and restarting Windows. After your PC has fully booted, plug the controller back in. Ensure you are using the latest official version of Cemu, it is also encouraged to be using the latest version of Windows 10.
 
 ### Constant stuttering / visual lag during gameplay
 
@@ -60,19 +60,19 @@ To alleviate gameplay stalls caused by shader and pipeline building, read [Async
 
 ### Can I disable, preload, or download shadersCaches?
 
-If you're simply wanting to turn the notification off that tells you they are being made, you can do this in `Options` -> `General Settings` -> `Overlay`
+If you simply want to turn off the notification that tells you they are being made, you can do this in `Options` -> `General settings` -> `Overlay`.
 
 On the contrary, no, you cannot magically create a cache before playing the game nor can you disable Shader or Pipelines to prevent stalling. Shaders and Pipelines are what allow your games to work on your GPU. No Shaders or Pipelines = No game - the emulator becomes a black square with only some music.
 
 If you happen to get impatient and think downloading a cache is a good idea, please think again. Not only are caches from outside sources not reliable due to inconsistencies between game versions, data corruption, GPU vendors, etc - but due to these, external caches often cause severe graphical problems, performance drops, and otherwise inexplainable crashes. Cache distribution is also illegal by technicality, as they contain copyrighted data from within the games themselves.
 
-Only use your own cache and use Async Shader Compile. If you had tried to download one, please remove the cache before asking for assistance.
+Only use your own cache and Async Shader Compile. If you have tried to download one, please remove the cache before asking for assistance.
 
 ### Async Shader Compile
 
 This feature is only available for GPUs with drivers that support Vulkan 1.2 or newer; not Vulkan 1.1!
 
-Users that fit this criteria should navigate to Cemu's `Options` -> `General Settings` -> `Graphics` section, then enable the `Async shader compile` feature. While using `Async Shader Compile` almost all Shaders and Pipelines will be built at the same time while you are playing, greatly reducing the amount of gameplay stalling that you could encounter without this option; some temporary graphical issues should be expected. Not all shaders and pipelines can be created in this way and will still result in some minor stalling.
+Users that fit this criteria should navigate to Cemu's `Options` -> `General settings` -> `Graphics` section, then enable the `Async shader compile` feature. While using `Async Shader Compile` almost all Shaders and Pipelines will be built at the same time while you are playing, greatly reducing the amount of gameplay stalling that you could encounter without this option; some temporary graphical issues should be expected. Not all shaders and pipelines can be created in this way and will still result in some minor stalling.
 
 Newer Intel iGPUs support this feature as long as they both support Vulkan 1.2 and are using the latest available drivers. If you encounter issues while using this feature, please disable it and try again after a future driver update.
 
