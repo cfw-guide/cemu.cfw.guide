@@ -13,7 +13,7 @@ When running games in Cemu, graphical shaders need to be re-compiled to work on 
 
 Doing this asynchronously allows the emulator to run the process in the background. This means that when the shader is first called, it skips being rendered to the screen, and is instead stored for the next time it's used, providing a much smoother experience.
 
-The video below shows loading Breath of the Wild for the first time using asynchronous shader complation. After these shaders have been recompiled and cached, they won't need to be converted again, so the graphical glitches stop.
+The video below shows loading Breath of the Wild for the first time using asynchronous shader compilation. After these shaders have been recompiled and cached, they won't need to be converted again, so the graphical glitches stop.
 
 ![A gif of asynchronous shader compilation](/assets/images/async.gif)
 
