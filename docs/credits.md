@@ -1,6 +1,6 @@
 ---
 title: "Credits"
-description: The writers and contributers to cemu.cfw.guide.
+description: The writers and contributors to cemu.cfw.guide.
 ---
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
@@ -35,6 +35,5 @@ I'd like to say a massive thank you to Serfrost, for allowing me to use his [Wik
     + BSoD Gaming
     + Elpunical
     + slashiee
-
 
 If I forgot you here, contact me and I'll add your name.

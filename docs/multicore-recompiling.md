@@ -3,13 +3,14 @@ title: Multi-core Recompiling
 description: Configuring Cemu's recompiler to work best for your system.
 ---
 
-In newer versions of Cemu, the recompiler will automatically be set to what's best for your system.
+In newer versions of Cemu, the recompiler will automatically be set to what is best for your system.
 
 By default, this is set by the number of CPU cores in your PC, such that:
-- 1-3 cores use single-core recompiling
-- 4+ cores use multi-core recompiling
 
-Multi-core recompiling is the fastest and uses up to three threads, dynamically scaling for each game. **For most systems, this setting is left fine as default and does not need to be modified.**
+- 1-3 cores will use single-core recompiling
+- 4+ cores will use multi-core recompiling
+
+Multi-core recompiling is the fastest and uses up to three threads, dynamically scaling for each game. **For most systems, this setting is best left as default and does not need to be modified.**
 
 ::: tip
 In rare cases, some games may perform worse using multi-core recompiling. Do your own testing to see what works best for you.
