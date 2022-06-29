@@ -1,6 +1,6 @@
 ---
 title: Home
-description: "A complete guide to installing CEMU and optimizing performance."
+description: A complete guide to installing CEMU and optimizing performance.
 home: true
 header:
   overlay_title: Cemu Guide
@@ -66,4 +66,4 @@ NVIDIA GPUs are recommended as they can take some of the load off of the CPU. AM
 
 Generally, the bare minimum should be an NVIDIA GTX 700 card or AMD HD 7000 Series card, however you may want to consider something more powerful, especially for games such as Breath of the Wild.
 
-If you are running on a thinner laptop or other low-powered machine, you may be using an iGPU instead, which is not officially supported by Cemu. While some users have reported playable framerates using integrated graphics, playing on a more powerful machine will yield much better results.
+If you are running on a thin laptop or other low-powered machine, you may be using an iGPU instead, which is not officially supported by Cemu. While some users have reported playable framerates using integrated graphics, playing on a more powerful machine will yield much better results.

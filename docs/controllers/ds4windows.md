@@ -1,5 +1,5 @@
 ---
-title: Controller Configuration (DS4Windows)
+title: Controller configuration (DS4Windows)
 description: Setting up different controller types for use in the Cemu emulator.
 ---
 
@@ -11,7 +11,7 @@ DualShock 3 controller motion support may not be compatible with DS4Windows. Ple
 
 - The latest release of [DS4Windows by Ryochan7](https://ryochan7.github.io/ds4windows-site/)
 - The latest release of [Cemuhook](https://cemuhook.sshnuke.net/)
-    - If you installed Cemuhook earlier, you don't need to download this
+    - If you installed Cemuhook earlier, you will not need to download this
 
 ## Installing Cemuhook
 
@@ -19,7 +19,7 @@ DualShock 3 controller motion support may not be compatible with DS4Windows. Ple
 1. Open the Cemu application
 1. In the bottom-right-hand corner, it should say `Cemu plugin x.x.x.x by rajkosto`
     - This means Cemuhook has been successfully installed
-    - If doesn't say this, ensure that your Cemu directory looks like this:
+    - If it does not output this, ensure that your Cemu directory looks like this:
 
 ![A screenshot of Cemuhook correctly set up](/assets/images/cemuhook.png)
 
@@ -29,8 +29,8 @@ DualShock 3 controller motion support may not be compatible with DS4Windows. Ple
     - Select the `_x64.zip` file
 1. Connect your controller to Windows via USB or Bluetooth
 1. Open the DS4Windows application
-2. Microsoft .NET 5.0 or newer is required; install it if asked
-3. Ensure your controller is registered with DS4Windows
+2. Microsoft .NET 5.0 or newer is required; install it if prompted
+3. Ensure your controller is registered within DS4Windows
 4. Navigate to the `Settings` tab
 5. Enable `UDP Server`
     - This should say `127.0.0.1` with port `26760`
@@ -40,13 +40,13 @@ DualShock 3 controller motion support may not be compatible with DS4Windows. Ple
 1. Change `Controller API` to `XInput`
 1. Change `Controller` to `Controller X`
 1. Proceed to map all your controller button inputs
-1. At the top, enter in a controller profile name, e.g. `Gamepad Controller`
+1. At the top, enter in a controller profile name, e.g. `GamePad Controller`
 1. Click `Save`
 
 ![](/assets/images/ds4windows.png)
 
-## Motion Controls
+## Motion controls
 
-1. On the top bar, go to `Settings` -> `Gamepad Motion Source`
+1. On the top bar, go to `Settings` -> `GamePad Motion Source`
 1. Select your controller from this list
 1. Select `By slot`

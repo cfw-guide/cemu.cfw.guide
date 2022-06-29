@@ -1,6 +1,6 @@
 ---
-title: Online Play
-description: Enabling online play on the Cemu emulator.
+title: Online play
+description: Enabling online play in the Cemu emulator.
 ---
 
 In this section, we look at how to enable online play on Cemu. This involves dumping a set of online files from your Wii U to make Nintendo think that the connection from Cemu is actually coming from your console.
@@ -77,7 +77,7 @@ All storage devices must be formatted to FAT32 with a 32KB (32768) allocation. F
 1. When finished, go back to the Dumpling main menu
 1. Exit the Dumpling app
 
-## Copying the Online Files to Cemu
+## Copying the online files to Cemu
 
 1. Take your USB storage device or SD card out of your Wii U and connect it to your PC
 1. Copy `otp.bin` and `seeprom.bin` from the `/dumpling/Online Files` folder to your Cemu directory
@@ -87,7 +87,7 @@ All storage devices must be formatted to FAT32 with a 32KB (32768) allocation. F
     - If you are unsure where it is, check in `Options` -> `General settings` under "MLC Path"
     - Overwrite any files if prompted
 
-## Adding the Friend List application
+## Adding the friend list application
 
 1. Open the Cemu application
 1. On the top bar, select `File` -> `Install game title, update or DLC`
@@ -95,7 +95,7 @@ All storage devices must be formatted to FAT32 with a 32KB (32768) allocation. F
 1. Enter the `/Friends List/meta` application folder
 1. Select the `meta.xml` file
 
-## Enabling Online Mode
+## Enabling online mode
 
 1. Open the Cemu emulator
 1. On the top bar, go to `Options` -> `General settings`
@@ -104,5 +104,7 @@ All storage devices must be formatted to FAT32 with a 32KB (32768) allocation. F
 1. Check the box `Enable online mode`
 
 ![A screenshot of a Cemu online account](/assets/images/cemu-account-settings.png)
+
+---
 
 Your Wii U should now be ready to go online. If you ever want to disable online features, simply uncheck the box `Enable online mode`.

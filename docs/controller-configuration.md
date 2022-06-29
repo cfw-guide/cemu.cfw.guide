@@ -1,5 +1,5 @@
 ---
-title: Controller Configuration
+title: Controller configuration
 description: Setting up different controller types for use in the Cemu emulator.
 redirect_from: /motion-controls
 ---

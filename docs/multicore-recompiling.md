@@ -1,5 +1,5 @@
 ---
-title: Multi-core Recompiling
+title: Multi-core recompiling
 description: Configuring Cemu's recompiler to work best for your system.
 ---
 
@@ -20,7 +20,7 @@ In rare cases, some games may perform worse using multi-core recompiling. Do you
 Beware that when you use multi-core recompiling, the CPU will generate more heat and games can become less stable. If you experience overheating or crashing, try manually setting the recompiler to single-core.
 :::
 
-## Manual Settings
+## Manual settings
 
 1. Open the Cemu main menu
 1. Right click on your game(s) and click `Edit game profile`

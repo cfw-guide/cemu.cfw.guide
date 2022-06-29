@@ -1,6 +1,6 @@
 ---
 title: Optimizing Breath of the Wild
-description: Improving gameplay and performance of Breath of the Wild in the Cemu emulator.
+description: Improving Breath of the Wild's gameplay and performance in the Cemu emulator.
 ---
 
 Breath of the Wild is a particularly demanding game for a lot of systems, so people have created modifications to help you get the best performance possible in the game.
@@ -17,15 +17,15 @@ Under your display name, it should say `Display #: Connected to [GPU]`. It shoul
 
 ![](/assets/images/get_gpu.png)-->
 
-## Installing Graphic Packs
+## Installing graphic packs
 
 ::: tip
-If you're not sure what a Graphic Pack does, please click on it and read the description before using it.
+If you are not sure what a graphic pack does, please click on it and read the description before using it.
 :::
 
 1. Open the Cemu application
 1. Right click on `The Legend of Zelda - Breath of the Wild`
-1. Click `Edit graphics packs`
+1. Click `Edit graphic packs`
 1. On the bottom-right of the window, use the `Download latest community graphic packs` button
 
 ## Increasing FPS
@@ -33,17 +33,17 @@ If you're not sure what a Graphic Pack does, please click on it and read the des
 1. Once the download has finished, navigate to the `Mods` category
 1. Select and enable the `FPS++` checkbox
 
-By default, this is set to 60FPS. This increases the smoothness of gameplay, however it can cause [some issues](https://wiki.cemu.info/wiki/The_Legend_of_Zelda:_Breath_of_the_Wild#Issues_arising_by_using_FPS.2B.2B_or_static_FPS.2B.2B). When these occur, simply set the limit to `30` until you've gotten beyond the point where the issue occurs.
+By default, this is set to 60FPS. This increases the smoothness of gameplay, though it can cause [some issues](https://wiki.cemu.info/wiki/The_Legend_of_Zelda:_Breath_of_the_Wild#Issues_arising_by_using_FPS.2B.2B_or_static_FPS.2B.2B). When these occur, simply set the limit to `30` until you have gotten beyond the point where the issue occurs.
 
-## Graphics and Enhancements
+## Graphics and enhancements
 
 1. Minimize the mods category
 1. Select and enable the `Graphics` checkbox
-1. You should see a menu on the right half of the window, where you can edit graphical settings
+1. You should now see a menu on the right half of the window, where you can edit graphical settings
 
 ::: details Aspect Ratio
 
-Breath of the Wild runs on a 16:9 aspect ratio on the Wii U. If you have a monitor that isn’t 16:9, you may change the aspect ratio to match it in Cemu.
+Breath of the Wild runs on a 16:9 aspect ratio on the Wii U. If you have a monitor that is not 16:9, you may change the aspect ratio to match it in Cemu.
 
 :::
 
@@ -67,18 +67,18 @@ BOTW has anti-aliasing enabled by default. If you would like to use NVIDIA's imp
 
 This setting changes the resolution of the shadows. Increasing it makes shadows sharper and more accurate, while decreasing it can gain performance while sacrificing quality.
 
-Setting this to 400% may cause some instabilities so we recommend a maximum of 300%.
+Setting this to 400% may cause some instabilities, so we recommend a maximum of 300%.
 
 :::
 
 ::: details Shadow Draw Distance
 
-This setting changes the draw distance of the shadows. Increasing it makes shadows render further away, but can make shadows blurrier.
+This setting changes the draw distance of the shadows. Increasing it makes shadows render further away, but can make them blurrier.
 
-We recommend setting to "Very High" to increase draw distance without sacrificing too much shadow detail.
+We recommend setting it to "Very High" to increase the draw distance without sacrificing too much shadow detail.
 
 :::
 
 ---
 
-Once understanding what each setting does, we recommend you configure your own options. These settings should work for most people as a base however.
+Once you understand what each setting does, we recommend you to configure your own options. However, these settings should work for most people as a base.

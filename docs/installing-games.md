@@ -1,6 +1,6 @@
 ---
-title: Installing Games
-excerpt: Installing decrypted Wii U dumps for use in Cemu
+title: Installing games
+excerpt: Installing decrypted Wii U dumps for use in Cemu.
 ---
 
 This page will take you through the installation of decrypted game dumps in Cemu. Ensure that you have your main game, the latest update, and any DLC wanted first beforehand.
@@ -60,5 +60,7 @@ Linux users may have issues installing updates/DLC. You may have to extract the 
 :::::
 
 You should now have all the games you dumped installed onto Cemu.
+
+---
 
 In the next step, we will enable online multiplayer, which will allow us to play on Nintendo servers with other Wii U owners.

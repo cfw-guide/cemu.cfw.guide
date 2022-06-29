@@ -1,5 +1,5 @@
 ---
-title: "Credits"
+title: Credits
 description: The writers and contributors to cemu.cfw.guide.
 ---
 

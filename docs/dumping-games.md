@@ -55,7 +55,7 @@ All storage devices must be formatted to FAT32 with a 32KB (32768) allocation. F
 1. When finished, go back to the Dumpling main menu
 1. Exit the Dumpling app
 
-### Copying the Online Files to Cemu
+### Copying the online files to Cemu
 
 1. Take your USB storage device or SD card out of your Wii U and put it in your PC
 1. Copy `otp.bin` and `seeprom.bin` from the `/dumpling/Online Files` folder to your Cemu directory
@@ -100,5 +100,7 @@ Ensure you have enough storage space for your dump. The largest Wii U game is 17
 ::::
 
 :::::
+
+---
 
 Now that you have got your dumps, you can proceed to the next step which takes you through how to install your games in Cemu.
