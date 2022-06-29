@@ -15,7 +15,7 @@ When we finally open the application, it will take us through the quick-start gu
 
 ## Community Graphic Packs
 
-Community graphic packs allow you to alter a game visually or how it will run, including:
+Community graphic packs allow you to visually alter a game and how it will run, including:
 
 - Displaying at higher resolutions
 - Running at higher framerates

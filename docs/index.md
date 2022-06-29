@@ -27,6 +27,7 @@ Thoroughly read all of the introductory pages (including this one!) before proce
 - Cemu can run on Linux using [Wine](https://www.winehq.org) and [Lutris](https://lutris.net/)
 
 :::
+
 ## What is Cemu?
 
 Cemu is an experimental software used to emulate Wii U applications on your PC. This means that you will be able to run commercial Wii U games directly off of your computer.
@@ -35,15 +36,15 @@ The majority of games are completely playable from start to finish. You can chec
 
 ## How do I get the games?
 
-The guide will take you through how to dump your game copies from your Wii U over to your PC for use in Cemu. This process is easy and quick to set up, and doesn't require any permanent modification to your console.
+The guide will take you through how to dump your game copies from your Wii U over to your PC for use in Cemu. This process is easy and quick to set up, and does not require any permanent modification to your console.
 
-If you don't have a Wii U console, you will not be able to dump games to your PC and therefore won't be able to use Cemu.
+If you do not have a Wii U console, you will not be able to dump games to your PC and therefore you will not be able to use Cemu.
 
 ## Can I play online?
 
-Yes! Cemu supports online play, using official Nintendo servers. To do this, we will need to dump your account data from your Wii U to use for connecting to the servers. This process is easy and quick to set up, and doesn't require any permanent modification to your console.
+Yes! Cemu supports online play, using official Nintendo servers. To do this, we will need to dump your account data from your Wii U to use for connecting to the servers. This process is easy and quick to set up, and does not require any permanent modification to your console.
 
-If your account is banned, or if you don't own a Wii U console, you will not be able to use online play with Cemu.
+If your account is banned, or if you do not own a Wii U console, you will not be able to use online play with Cemu.
 
 ## How well can I run games?
 
@@ -65,4 +66,4 @@ NVIDIA GPUs are recommended as they can take some of the load off of the CPU. AM
 
 Generally, the bare minimum should be an NVIDIA GTX 700 card or AMD HD 7000 Series card, however you may want to consider something more powerful, especially for games such as Breath of the Wild.
 
-If you're running on a thinner laptop or other low-powered machine, you may be using an iGPU instead, which is not officially supported by Cemu. While some users have reported playable framerates using integrated graphics, playing on a more powerful machine will yield much better results.
+If you are running on a thinner laptop or other low-powered machine, you may be using an iGPU instead, which is not officially supported by Cemu. While some users have reported playable framerates using integrated graphics, playing on a more powerful machine will yield much better results.
