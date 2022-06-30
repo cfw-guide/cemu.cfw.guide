@@ -50,7 +50,7 @@ This error means the key that came with your encrypted game dump is not in your 
 
 ### "Error: Can't initialise DirectInput"
 
-This can be fixed by unplugging the controller and restarting Windows. After your PC has fully booted, plug the controller back in. Ensure you are using the latest official version of Cemu, it is also encouraged to be using the latest version of Windows 10.
+This can be fixed by unplugging the controller and restarting your computer. After your PC has fully booted, plug the controller back in. Ensure you are using the latest official version of Cemu, it is also encouraged to be using the latest version of Windows 10/11.
 
 ### Constant stuttering / visual lag during gameplay
 
@@ -58,15 +58,13 @@ This is caused by shaderCache creation or Vulkan's pipelineCache creation. With 
 
 To alleviate gameplay stalls caused by shader and pipeline building, read [Async Shader Compile](#async-shader-compile) further below.
 
-### Can I disable, preload, or download shadersCaches?
+### Can I disable, preload, or download shader caches?
 
 If you simply want to turn off the notification that tells you they are being made, you can do this in `Options` -> `General settings` -> `Overlay`.
 
-On the contrary, no, you cannot magically create a cache before playing the game nor can you disable Shader or Pipelines to prevent stalling. Shaders and Pipelines are what allow your games to work on your GPU. No Shaders or Pipelines = No game - the emulator becomes a black square with only some music.
+Unfortunately, you cannot create a cache before playing the game, nor can you disable shaders or pipelines to prevent stalling. Shaders and pipelines are what allow your games to work on your GPU. If they were disabled, you would only see a black screen, with no graphical output.
 
-If you happen to get impatient and think downloading a cache is a good idea, please think again. Not only are caches from outside sources not reliable due to inconsistencies between game versions, data corruption, GPU vendors, etc - but due to these, external caches often cause severe graphical problems, performance drops, and otherwise inexplainable crashes. Cache distribution is also illegal by technicality, as they contain copyrighted data from within the games themselves.
-
-Only use your own cache and Async Shader Compile. If you have tried to download one, please remove the cache before asking for assistance.
+Pre-compiled shader and pipeline caches are available at [chriztr.github.io/cemu_shader_and_pipeline_caches](https://chriztr.github.io/cemu_shader_and_pipeline_caches/), however not all games are supported. Follow [Optimizing Cemu](/optimizing-cemu.html#importing-shader-caches-1) for more information on importing shader and pipeline caches.
 
 ### Async Shader Compile
 
