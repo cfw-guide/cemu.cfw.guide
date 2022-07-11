@@ -11,7 +11,7 @@ Ensure you are running the [latest drivers](https://www.amd.com/en/support) and 
 OpenGL 4.1 to 4.4 will work, however you may experience graphical issues.
 :::
 
-## Cemu Settings
+## Cemu settings
 
 1. Open the Cemu main menu
 1. Click `Options` -> `General settings` on the top bar

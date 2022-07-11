@@ -11,7 +11,7 @@ Ensure you are running the [latest drivers](https://downloadcenter.intel.com/pro
 OpenGL 4.1 to 4.4 will work, however you may experience graphical issues.
 :::
 
-## Cemu Settings
+## Cemu settings
 
 1. Open the Cemu main menu
 1. Click `Options` -> `General settings` on the top bar
@@ -22,11 +22,11 @@ OpenGL 4.1 to 4.4 will work, however you may experience graphical issues.
 
 ## Shortcuts and Drivers
 
-1. Ensure you are running in maximum performance mode.
+1. Ensure you are running in maximum performance mode
 1. If a game isn't working, consider creating a shortcut to Cemu and add `-legacy` to the target
     - This may cause other games to stop working
-1. If it still doesn't work, update your iGPU driver.
-1. If the issue still persists, it's likely that game won't work for your iGPU, or it is too old to run
+1. If it still doesn't work, update your iGPU driver
+1. If the issue still persists, it's likely that game will not work for your iGPU, or it is too old to run
 
 ---
 
