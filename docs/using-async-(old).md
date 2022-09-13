@@ -21,7 +21,7 @@ To continue, we need to know what GPU your system is using. If you don't know wh
 
 Under your display name, it should say `Display #: Connected to [GPU]`. This should start with Intel, AMD or NVIDIA. That will tell you what brand of GPU you have.
 
-![]({/assets/images/get_gpu.png)
+![](/assets/images/get_gpu.png)
 
 Before enabling async, we need to first download new drivers that support Vulkan 1.2 features. This is already included with the latest AMD and NVIDIA GPU drivers.
 
