@@ -1,6 +1,4 @@
-import type { SidebarConfig } from '@vuepress/theme-default'
-
-export const support: SidebarConfig = {
+const support = {
   text: 'Support',
   children: [
     '/troubleshooting',
@@ -12,7 +10,7 @@ export const support: SidebarConfig = {
   ],
 }
 
-export const site: SidebarConfig = {
+const site = {
   text: 'Site',
   children: [
     '/credits',
@@ -21,7 +19,7 @@ export const site: SidebarConfig = {
   ],
 }
 
-export const en: SidebarConfig = {
+module.exports = {
   '/': [
     {
       text: 'Cemu Guide',

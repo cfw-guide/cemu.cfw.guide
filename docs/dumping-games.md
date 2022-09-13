@@ -25,8 +25,6 @@ All storage devices must be formatted to FAT32 with a 32KB (32768) allocation. F
 
 :::: tab name="Digital titles" :default="true"
 
-### Ensuring your password is saved
-
 1. Turn on your Wii U console
     - If prompted, **do not** format any USB devices through the Wii U
 1. Load up the account you are going to use online

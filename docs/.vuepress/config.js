@@ -1,90 +1,62 @@
-const { navbar, sidebar } = require('./configs')
-const container = require('markdown-it-container');
-const path = require('path')
-
-const adArr = [
-  { slot: '/22046652915/cemu-0', size: [[728, 90], [320, 50]], id: 'div-gpt-ad-1649072918209-0' },
-  { slot: '/22046652915/cemu-1', size: [[728, 90], [320, 50]], id: 'div-gpt-ad-1649072940529-0' }
-]
+const { localePath, locales, themeConfigLocales, searchLocales } = require("./i18n")
+const container = require('markdown-it-container')
+const { path, fs } = require('@vuepress/utils')
+const { searchPlugin } = require('@vuepress/plugin-search')
+const { registerComponentsPlugin } = require('@vuepress/plugin-register-components')
+const { localTheme } = require('../../emiyl-theme')
 
 module.exports = {
-  base: '/',
+  locales: locales,
   
-  locales: {
-    '/': {
-      lang: 'en-US',
-      title: 'Cemu Guide',
-      description: 'A complete guide to installing CEMU and optimizing performance.',
-    },
-  },
+  theme: localTheme({
+    repo: 'cfw-guide/cemu.cfw.guide',
+    selectLanguageText: '<i class="fas fa-globe"></i>',
+    locales: themeConfigLocales,
+    adUnits: [
+      "8533",
+      "8534"
+    ]
+  }),
 
 	plugins: [
-		[
-			"@vuepress/plugin-search",
-			{
-				locales: {
-					"/": {
-						placeholder: "Search"
-					},
-				}
-			}
-		],
-		[
-			'@vuepress/register-components',
-			{
-				componentsDir: path.resolve(__dirname, './components')
-			}
-		],
-    require('./plugins/redirectPlugin/lib/')
+    searchPlugin({locales: searchLocales}),
+    require('./plugins/redirectPlugin/lib/'),
+    registerComponentsPlugin({
+      componentsDir: path.resolve(__dirname, './components'),
+    }),
 	],
   
-  themeConfig: {
-    repo: 'cfw-guide/cemu.cfw.guide',
-    adArr: adArr,
-    locales: {
-      '/': {
-        navbar: navbar.en,
-        sidebar: sidebar.en,
-        
-        discordNoticeText: "If you need further help, ask on the official Cemu [Discord Server](https://discord.gg/5psYsup) for assistance.",
-      },
-    },
-  },
-  
   head: [
-    ['script', {src: 'https://cdn.thisiswaldo.com/static/js/8530.js'}],
-    ['script', {src: 'https://www.googletagmanager.com/gtag/js?id=UA-152619365-1'}],
+    ['link', { rel: 'stylesheet', href: 'https://use.fontawesome.com/releases/v5.6.1/css/all.css' } ],
+    ['script', {type: 'text/javascript', src: '//cdn.thisiswaldo.com/static/js/8530.js'}],
     ['script', {src: '/assets/js/analytics.js'}],
-    require('./plugins/createAdScript/lib')(adArr)
   ],
 
-  theme: path.resolve(__dirname, './vuepress-theme'),
+  shouldPrefetch: true,
+
   extendsMarkdown: (md) => {
     md.use(require('markdown-it-include'))
 
-		md.use(container, "tabs", {
-			render: (tokens, idx) => {
-				const token = tokens[idx];
-				if (token.nesting === 1) {
-					return `<Tabs ${token.info}>\n`;
-				} else {
-					return `</Tabs>\n`;
-				}
-			}
-		});
-	
-		md.use(container, 'tab', {
-			render: (tokens, idx) => {
-				const token = tokens[idx];
-				if (token.nesting === 1) {
-					return `<Tab ${token.info}>\n`;
-				} else {
-					return `</Tab>\n`;
-				}
-			}
-		});
-  },
+    md.use(container, "tabs", {
+      render: (tokens, idx) => {
+        const token = tokens[idx];
+        if (token.nesting === 1) {
+          return `<Tabs ${token.info}>\n`;
+        } else {
+          return `</Tabs>\n`;
+        }
+      }
+    });
   
-	templateDev: path.join(__dirname, 'templates', 'index.dev.html'),
-	templateSSR: path.join(__dirname, 'templates', 'index.ssr.html'),
+    md.use(container, 'tab', {
+      render: (tokens, idx) => {
+        const token = tokens[idx];
+        if (token.nesting === 1) {
+          return `<Tab ${token.info}>\n`;
+        } else {
+          return `</Tab>\n`;
+        }
+      }
+    });
+  },
 }

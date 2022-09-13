@@ -3,8 +3,6 @@ title: "Credits"
 description: The writers and contributors to cemu.cfw.guide.
 ---
 
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
-
 <div>
   <div class="credits">
     <div class="user">
@@ -27,6 +25,7 @@ description: The writers and contributors to cemu.cfw.guide.
 
 I'd like to say a massive thank you to Serfrost, for allowing me to use his [Wiki Guide](https://wiki.cemu.info/wiki/Serfrosts_Cemu_Setup_Guide) as a source and helping me out while I wrote this.
 
+<pre>
     + emiyl
     + Serfrost
     + Exzap
@@ -35,5 +34,6 @@ I'd like to say a massive thank you to Serfrost, for allowing me to use his [Wik
     + BSoD Gaming
     + Elpunical
     + slashiee
+</pre>
 
 If I forgot you here, contact me and I'll add your name.
