@@ -7,11 +7,15 @@ description: Answers to commonly asked questions about the Cemu emulator.
 
 No, Cemu will never support 32-bit systems. 32-bit applications can only use up to 4GB of RAM, which Cemu frequently exceeds.
 
-## Does Cemu support MacOS or Linux?
+## Does Cemu support macOS or Linux?
 
-While Cemu have stated in the past that a Linux build is planned in the distant future, currently no builds are available for MacOS or Linux.
+Yes, builds are available for both macOS and Linux. There are a number of caveats however:
 
-Many users have managed to get Cemu working in [Wine](https://www.winehq.org/), however for best performance, we recommend running the emulator on Windows only.
+- Network functions are disabled on non-Windows builds
+- Performance is limited on Linux, and extremely limited on macOS
+- Compatibility is limited on macOS and you will be more likely come across bugs
+
+For Linux users, we suggest using [Wine](https://www.winehq.org/) and [Lutris](https://lutris.net/) to run Cemu. If you have an Intel Mac, we suggest running Bootcamp to install Windows, and to run Cemu there instead. If you have an Apple Silicon Mac, or don't want to install Windows on your Intel Mac, I have written an installation guide on my personal site at [cemu.emiyl.com/installation](https://cemu.emiyl.com/installation).
 
 ## How do I play games if I do not have a Wii U?
 
