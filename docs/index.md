@@ -25,7 +25,7 @@ Thoroughly read all of the introductory pages (including this one!) before proce
 - Cemu can run on Linux using [Wine](https://www.winehq.org) and [Lutris](https://lutris.net/) for best results
 - You can also build Cemu natively for Linux and macOS, however:
   - Performance is limited using these builds, and bugs may be more common
-  - Compatibility is [extremely limited](https://cemu.cfw.guide/) on macOS, and there is no native arm64 build avaible for Apple Silicon devices
+  - Compatibility is [extremely limited](https://cemu.emiyl.com/) on macOS, and there is no native arm64 build avaible for Apple Silicon devices
   - Network functions are stubbed on these builds, so you will not be able to play online
 
 :::
