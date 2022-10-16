@@ -25,7 +25,7 @@ After dumping, we copy the game over to the PC. Unfortunately, all Wii U disc im
 - The v1.4 release of [The Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4)
   - You will need to download the v1.4 `homebrew_launcher.v1.4.zip` release of The Homebrew Launcher
 - The latest release of [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
-- [Cdecrypt v2.0b](/assets/files/Cdecrypt_v2.0b.zip)
+- The latest release of [Cdecrypt](https://github.com/VitaSmith/cdecrypt/releases/latest)
 
 ## Preparations
 
@@ -68,8 +68,7 @@ After dumping, we copy the game over to the PC. Unfortunately, all Wii U disc im
 
 ## Decrypting
 
-1. Extract the Cdecrypt `.zip` file to your dumped game folder
-    - Not the Cemu games folder, but in the folder you just copied
-1. Double click the decrypt `.bat` file
-    - This may appear as just `decrypt` if you have file extensions disabled
-1. Once done, you can delete all files and folders in the directory except for the `code`, `content` and `meta` folders
+1. Extract the Cdecrypt `.zip` file to your computer
+1. Drag and drop your game directory containing the `.app`, `.h3` files (amongst other files) onto the `cdecrypt.exe` executable
+    - This may appear as just `cdecrypt` if you have file extensions disabled
+1. Once done, you can delete all files and folders in the game directory except for the `code`, `content` and `meta` folders
