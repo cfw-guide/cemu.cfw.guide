@@ -27,10 +27,11 @@ We recommend that you download these to allow tweaking your games for better per
 
 ## Downloads
 
-- The latest release of [Cemu](https://cemu.info/#download)
-    - Linux users can use a [Lutris script](https://lutris.net/games/cemu/) to run Cemu _(Linux is not officially supported; your mileage may vary)_
+- The latest stable release of [Cemu](https://cemu.info/#download)
+    - Linux users should use a [Lutris script](https://lutris.net/games/cemu/) to run Cemu _(Linux is not officially supported; your mileage may vary)_
+    - macOS users can download experimental Cemu builds from my site at [cemu.emiyl.com/installation](https://cemu.emiyl.com/installation), before returning here
 
-## Preparations
+## Preparations (Windows only)
 
 1. Extract the Cemu `.zip` file to your Desktop
     - **Do not** extract it to any folders that require admin permissions, such as Program Files

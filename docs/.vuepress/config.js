@@ -13,8 +13,8 @@ module.exports = {
     selectLanguageText: '<i class="fas fa-globe"></i>',
     locales: themeConfigLocales,
     adUnits: [
-      "8533",
-      "8534"
+      "8408",
+      "8442"
     ]
   }),
 
@@ -28,7 +28,7 @@ module.exports = {
   
   head: [
     ['link', { rel: 'stylesheet', href: 'https://use.fontawesome.com/releases/v5.6.1/css/all.css' } ],
-    ['script', {type: 'text/javascript', src: '//cdn.thisiswaldo.com/static/js/8530.js'}],
+    ['script', {type: 'text/javascript', src: 'https://cdn.thisiswaldo.com/static/js/8406.js'}],
     ['script', {src: '/assets/js/analytics.js'}],
   ],
 
