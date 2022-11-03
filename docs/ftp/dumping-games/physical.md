@@ -1,17 +1,17 @@
 ---
-title: Dumping Games (disc2app)
+title: Dumping games (disc2app)
 ---
 
 ## Introduction
 
-For this method, we will be dumping a physical disc game to an SD card or USB storage device. This can take some time.
+For this method, we will be dumping a physical disc game to a USB storage device or SD card. This can take some time.
 
-After dumping, we copy the game over to the PC. Unfortunately, all Wii U disc images are encrypted, which means we need to decrypt them on our PC.
+After dumping, we will copy the game over to the PC. Unfortunately, all Wii U disc images are encrypted, which means we need to decrypt them on our computer.
 
 ## Requirements
 
-- An SD card for homebrew and dumping
-- (Optional) A USB storage device to dump the game to
+- A USB storage device or SD card for homebrew and dumping
+- (Optional) Another USB storage device to dump the game to
   - Only required if the game is too big for the SD card
   - Wii U games can vary in size up to 17GB, but having 12GB of storage should be okay for most games
 

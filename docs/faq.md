@@ -1,5 +1,5 @@
 ---
-title: "FAQ"
+title: FAQ
 description: Answers to commonly asked questions about the Cemu emulator.
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting"
+title: Troubleshooting
 description: Common issues and their solutions.
 sidebarDepth: 1
 ---
@@ -184,5 +184,7 @@ If you do have confirmed support, the safest bet is to:
 2. Disable all graphicPacks (excluding FPS++) and then see if the issue stops.
 3. Try renaming your shaderCache folder to see if it's the cause of the problem. If the shaderCache isn't the culprit, you can rename your shaderCache folder back to its original name in order to resume using it after a Cemu restart.
 4. Unfortunately not all issues are repairable; you should always try to <router-link to="/dumping-games">fully redump the game, update, and DLC</router-link> from your Wii U console.
+
+---
 
 You may always visit us on our Discord to see if we can figure out the problem together.

@@ -3,17 +3,17 @@ title: Optimizing Cemu
 description: Improving gameplay and performance in the Cemu emulator.
 ---
 
-## Required Reading
+## Required reading
 
-For the best performance, we'll be switching the default graphics API from OpenGL to Vulkan. While less stable, Vulkan tends to run faster and has extra features in Cemu which OpenGL doesn't.
+For the best performance, we will be switching the default graphics API from OpenGL to Vulkan. While less stable, Vulkan tends to run faster and has extra features in Cemu which OpenGL lacks.
 
-### Asynchronous Shader Compilation
+### Asynchronous shader compilation
 
 When running games in Cemu, graphical shaders need to be re-compiled to work on a desktop GPU. This can take some time, which causes small stutters in the game every time a new one is sent to the emulator.
 
-Doing this asynchronously allows the emulator to run the process in the background. This means that when the shader is first called, it skips being rendered to the screen, and is instead stored for the next time it's used, providing a much smoother experience.
+Doing this asynchronously allows the emulator to run the process in the background. This means that when the shader is first called, it skips being rendered to the screen, and is instead stored for the next time it is used, providing a much smoother experience.
 
-The video below shows loading Breath of the Wild for the first time using asynchronous shader compilation. After these shaders have been recompiled and cached, they won't need to be converted again, so the graphical glitches stop.
+The video below shows loading Breath of the Wild for the first time using asynchronous shader compilation. After these shaders have been recompiled and cached, they will not need to be converted again, so the graphical glitches will stop.
 
 ![A gif of asynchronous shader compilation](/assets/images/async.gif)
 
@@ -23,30 +23,30 @@ The video below shows loading Breath of the Wild for the first time using asynch
 
 Asynchronous shader compilation goes a long way to speed up running games for the first time, however we can also simply download the shaders needed to run each game from the internet. If another user has previously compiled the shaders, they can upload them for other users to import into Cemu.
 
-If you're using OpenGL, you will only need to download the shader cache. If you're using Vulkan, you will need to download both the shader cache and pipeline cache. Shader caches work on each game regardless of its region, while pipeline caches are locked to the region of the game that they were generated on.
+If you are using OpenGL, you will only need to download the shader cache. If you are using Vulkan, you will need to download both the shader cache and pipeline cache. Shader caches work on each game regardless of its region, while pipeline caches are locked to the region of the game that they were generated on.
 
-### VSync Matching
+### VSync matching
 
-Vulkan also allows us to use a new experimental VSync technique which allows Cemu to use the game's built-in frame-pacing instead. This avoids tearing and reduces input latency compared to previous methods.
+Vulkan also lets us use a new experimental VSync technique which allows Cemu to use the game's built-in frame-pacing instead. This avoids tearing and reduces input latency compared to previous methods.
 
 ::: details Ensure you are running the latest drivers and that your GPU supports Vulkan.
-If your GPU doesn't support Vulkan, follow the <router-link to="/optimizing-cemu-(opengl)">OpenGL Guide</router-link>.
+If your GPU does not support Vulkan, follow the <router-link to="/optimizing-cemu-(opengl)">OpenGL guide</router-link>.
 :::
 
-## Cemu Settings
+## Cemu settings
 
 1. Open the Cemu main menu
 1. Click `Options` -> `General settings` on the top bar
 1. Navigate to the `Graphics` tab
-1. Change the "Graphics API" to `Vulkan` if it is not already
-    - If this doesn't appear, or you have problems using Vulkan, read the <router-link to="/optimizing-cemu-(opengl)">OpenGL Optimization Guide</router-link>
+1. Change the "Graphics API" to `Vulkan` if it is not already set
+    - If this option does not appear, or you have problems using Vulkan, read the <router-link to="/optimizing-cemu-(opengl)">OpenGL optimization guide</router-link>
 1. Ensure that your "Graphics Device" is set to use your most powerful GPU if your device has dual graphics
 1. Set "VSync" to `Match emulated display (Experimental)`
     - If you use a display with variable refresh rate (G-SYNC), set this to `Off` instead
     - This feature is experimental and may cause issues
-1. Enable `Async shader compiler`
+1. Enable `Async shader compile`
 1. Navigate to the `Audio` tab
-1. Under `General`, change "API" to `XAudio2`
+1. Under `General`, change the "API" to `XAudio2`
 
 ## Importing shader caches
 
