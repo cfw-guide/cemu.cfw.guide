@@ -72,6 +72,9 @@ Ensure you are running the latest drivers and that your GPU supports Vulkan. If 
 1. Set "Volume" to 100%
 1. Under `Gamepad`, set "Device" to your primary audio output device
 1. Set "Volume" to 100%
+1. Close the Settings window
+1. At the top of your display, click "Debug"
+1. Disable "Accurate barriers (Vulkan)" if it's enabled
 
 ::::
 
