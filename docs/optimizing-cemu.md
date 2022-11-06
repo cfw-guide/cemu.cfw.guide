@@ -5,7 +5,7 @@ description: Improving gameplay and performance in the Cemu emulator.
 
 ## Required Reading
 
-For the best performance, we'll be switching the default graphics API from OpenGL to Vulkan. While less stable, Vulkan tends to run faster and has extra features in Cemu which OpenGL doesn't.
+For the best performance, we'll be using the Vulkan graphics API. This tends to run faster than OpenGL and allows us to use features such as asynchronous shader compilation.
 
 ### Asynchronous Shader Compilation
 
@@ -14,6 +14,12 @@ When running games in Cemu, graphical shaders need to be re-compiled to work on 
 Doing this asynchronously allows the emulator to run the process in the background. This means that when the shader is first called, it skips being rendered to the screen, and is instead stored for the next time it's used, providing a much smoother experience.
 
 The video below shows loading Breath of the Wild for the first time using asynchronous shader compilation. After these shaders have been recompiled and cached, they won't need to be converted again, so the graphical glitches stop.
+
+::: tip
+
+You may need to update your graphics drivers to use this feature. Currently, this feature does not work on macOS at all.
+
+:::
 
 ![A gif of asynchronous shader compilation](/assets/images/async.gif)
 
@@ -29,8 +35,10 @@ If you're using OpenGL, you will only need to download the shader cache. If you'
 
 Vulkan also allows us to use a new experimental VSync technique which allows Cemu to use the game's built-in frame-pacing instead. This avoids tearing and reduces input latency compared to previous methods.
 
-::: details Ensure you are running the latest drivers and that your GPU supports Vulkan.
-If your GPU doesn't support Vulkan, follow the <router-link to="/optimizing-cemu-(opengl)">OpenGL Guide</router-link>.
+::: tip
+
+Ensure you are running the latest drivers and that your GPU supports Vulkan. If your GPU doesn't support Vulkan, follow the <router-link to="/optimizing-cemu-(opengl)">OpenGL Guide</router-link>.
+
 :::
 
 ## Cemu Settings
