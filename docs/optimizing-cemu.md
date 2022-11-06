@@ -21,7 +21,7 @@ You may need to update your graphics drivers to use this feature. Currently, thi
 
 :::
 
-![A gif of asynchronous shader compilation](/assets/images/async.gif)
+<img src="/assets/images/async.gif" alt="A gif of asynchronous shader compilation, showing various items in Breath of the Wild popping in when the shader finishes compiling." style="width: 100%;"/>
 
 *Asynchronous shader compilation in an older, slower Cemu version. More recent builds can do this in under 1/10th of a second, depending on the CPU.*
 
@@ -49,12 +49,41 @@ Ensure you are running the latest drivers and that your GPU supports Vulkan. If 
 1. Change the "Graphics API" to `Vulkan` if it is not already
     - If this doesn't appear, or you have problems using Vulkan, read the <router-link to="/optimizing-cemu-(opengl)">OpenGL Optimization Guide</router-link>
 1. Ensure that your "Graphics Device" is set to use your most powerful GPU if your device has dual graphics
-1. Set "VSync" to `Match emulated display (Experimental)`
+
+::::: tabs
+
+:::: tab name="Windows" :default="true"
+
+6. Set "VSync" to `Match emulated display (Experimental)`
     - If you use a display with variable refresh rate (G-SYNC), set this to `Off` instead
     - This feature is experimental and may cause issues
 1. Enable `Async shader compiler`
 1. Navigate to the `Audio` tab
 1. Under `General`, change "API" to `XAudio2`
+
+::::
+
+:::: tab name="macOS"
+
+6. Set "VSync" to `Double buffering`
+1. Navigate to the `Audio` tab
+1. Under `General`, change "API" to `Cubeb`
+1. Under `TV`, set "Device" to your primary audio output device
+1. Set "Volume" to 100%
+1. Under `Gamepad`, set "Device" to your primary audio output device
+1. Set "Volume" to 100%
+
+::::
+
+:::: tab name="Linux"
+
+6. Set "VSync" to `Double buffering`
+1. Navigate to the `Audio` tab
+1. Under `General`, change "API" to `Cubeb`
+
+::::
+
+:::::
 
 ## Importing shader caches
 

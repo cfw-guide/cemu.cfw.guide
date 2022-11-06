@@ -11,6 +11,12 @@ If you do not plan on using online services you may skip this page. Using Cemu o
 
 :::
 
+::: warning
+
+Online play is **not compatible** with the native macOS or Linux releases of Cemu. If you are on Linux, we recommend that you run the Windows release of Cemu in a compatibility layer such as Wine or Lutris. macOS users can skip ahead to <router-link to="/optimizing-cemu">Optimizing Cemu</router-link>.
+
+:::
+
 After dumping the online files, you will be able to play with other Wii U and Cemu players on Nintendo's official game servers.
 
 To do this, we are going to run a dumping application through the Wii U browser to transfer your account information to a USB storage device or SD card.
