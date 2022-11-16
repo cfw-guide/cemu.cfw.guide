@@ -11,7 +11,7 @@ No, Cemu will never support 32-bit systems. 32-bit applications can only use up 
 
 Yes, experimental native builds are now available for both macOS and Linux.
 
-For Linux users, we suggest using [Wine](https://www.winehq.org/) and [Lutris](https://lutris.net/) to run Cemu. Native builds and AppImage builds are also [available](https://github.com/cemu-project/Cemu/releases) if you would like to use them.
+For Linux users, we suggest using [Wine](https://www.winehq.org/) and [Lutris](https://lutris.net/) to run Cemu. Experimental native builds and AppImage builds are also [available](https://github.com/cemu-project/Cemu/releases) if you would like to use them.
 
 If you have an Intel Mac, we suggest running [Bootcamp](https://support.apple.com/en-gb/guide/bootcamp-control-panel/bcmp29b8ac66/mac) to install Windows, and to run Cemu there instead. The macOS build uses a translation layer that can cause low compatibility, crashes, graphical issues and slow performance.
 
