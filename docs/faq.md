@@ -9,13 +9,13 @@ No, Cemu will never support 32-bit systems. 32-bit applications can only use up 
 
 ## Does Cemu support macOS or Linux?
 
-Yes, builds are available for both macOS and Linux. There are a number of caveats however:
+Yes, experimental native builds are now available for both macOS and Linux.
 
-- Network functions are disabled on non-Windows builds
-- Performance is limited on Linux, and extremely limited on macOS
-- Compatibility is limited on macOS and you will be more likely come across bugs
+For Linux users, we suggest using [Wine](https://www.winehq.org/) and [Lutris](https://lutris.net/) to run Cemu. Native builds and AppImage builds are also [available](https://github.com/cemu-project/Cemu/releases) if you would like to use them.
 
-For Linux users, we suggest using [Wine](https://www.winehq.org/) and [Lutris](https://lutris.net/) to run Cemu. If you have an Intel Mac, we suggest running Bootcamp to install Windows, and to run Cemu there instead. If you have an Apple Silicon Mac, or don't want to install Windows on your Intel Mac, I have written an installation guide on my personal site at [cemu.emiyl.com/installation](https://cemu.emiyl.com/installation).
+If you have an Intel Mac, we suggest running [Bootcamp](https://support.apple.com/en-gb/guide/bootcamp-control-panel/bcmp29b8ac66/mac) to install Windows, and to run Cemu there instead. The macOS build uses a translation layer that can cause low compatibility, crashes, graphical issues and slow performance.
+
+If you have an Apple Silicon Mac, or don't want to install Windows on your Intel Mac, I have written an installation guide for the native macOS builds on my personal site at [cemu.emiyl.com/installation](https://cemu.emiyl.com/installation).
 
 ## How do I play games if I do not have a Wii U?
 
