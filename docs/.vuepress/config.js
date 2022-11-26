@@ -20,7 +20,6 @@ module.exports = {
 
 	plugins: [
     searchPlugin({locales: searchLocales}),
-    require('./plugins/redirectPlugin/lib/'),
     registerComponentsPlugin({
       componentsDir: path.resolve(__dirname, './components'),
     }),

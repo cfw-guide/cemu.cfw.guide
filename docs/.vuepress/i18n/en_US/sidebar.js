@@ -26,16 +26,10 @@ module.exports = {
       children: [
         '/installing-cemu',
         '/controller-configuration',
-        {
-          text: 'Dumping Games',
-          link: '/dumping-games',
-        },
+        '/using-dumpling',
         '/installing-games',
         '/online-play',
-        {
-          text: 'Optimizing Cemu',
-          link: '/optimizing-cemu',
-        },
+        '/optimizing-cemu',
         '/optimizing-botw',
       ],
     },
@@ -49,10 +43,7 @@ module.exports = {
       children: [
         '/installing-cemu',
         '/controller-configuration',
-        {
-          text: 'Dumping Games',
-          link: '/dumping-games',
-        },
+        '/using-dumpling',
         '/installing-games',
         '/online-play',
         {
@@ -133,16 +124,10 @@ module.exports = {
             },
           ],
         },
-        {
-          text: 'Dumping Games',
-          link: '/dumping-games',
-        },
+        '/using-dumpling',
         '/installing-games',
         '/online-play',
-        {
-          text: 'Optimizing Cemu',
-          link: '/optimizing-cemu',
-        },
+        '/optimizing-cemu',
         '/optimizing-botw',
       ],
     },

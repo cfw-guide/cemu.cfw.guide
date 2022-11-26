@@ -2,7 +2,7 @@ module.exports = [
   {
     text: 'Guides',
     children: [
-      '/dumping-games',
+      '/using-dumpling',
       '/online-play',
       '/optimizing-cemu',
       {
