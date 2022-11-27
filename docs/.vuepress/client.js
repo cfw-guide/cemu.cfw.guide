@@ -2,7 +2,12 @@ import { defineClientConfig } from '@vuepress/client'
 
 export default defineClientConfig({
     enhance({ router }) {
-        router.addRoute({ path: '/motion-controls.html', redirect: '/controller-configuration' })
-        router.addRoute({ path: '/dumping-games.html', redirect: '/using-dumpling' })
+        [
+            { path: '/motion-controls', redirect: '/controller-configuration.html' },
+            { path: '/dumping-games', redirect: '/using-dumpling.html' }
+        ].map(r => {
+            router.addRoute(r)
+            router.addRoute({ path: r.path + '.html', redirect: r.redirect })
+        })
     },
 })
