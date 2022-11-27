@@ -33,6 +33,11 @@ jobs:
       - name: Build VuePress site
         run: yarn ghbuild
 
+      - name: Create redirect pages
+        run: |
+          cp docs/.vuepress/dist/using-dumpling.html docs/.vuepress/dist/dumping-games.html
+          cp docs/.vuepress/dist/controller-configuration.html docs/.vuepress/dist/motion-controls.html
+
       # please check out the docs of the workflow for more details
       # @see https://github.com/crazy-max/ghaction-github-pages
       - name: Deploy to GitHub Pages
