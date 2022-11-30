@@ -27,7 +27,7 @@ Once installed, you should be able to launch the title from the Cemu menu.
 
 :::: tab name="Installing dumps"
 
-## Installing dumps
+<h2>Installing dumps</h2>
 
 1. Open the Cemu application
 1. On the top bar, click `File` -> `Install game title, update or DLC`
@@ -43,7 +43,7 @@ Repeat this as many times as you need until everything you dumped is installed.
 
 Linux users may have issues installing updates/DLC. You may have to extract the title directly to the installation directory: `mlc01/usr/title`. If using Lutris, please read the [notes](https://lutris.net/games/cemu/) under the script provided.
 
-## Transferring saves
+<h2>Transferring saves</h2>
 
 1. Open the Cemu application
 1. Right click on the game you would like to transfer the save to
@@ -52,7 +52,7 @@ Linux users may have issues installing updates/DLC. You may have to extract the 
     - If you used an alternative dumping tool, navigate to the folder where you keep your save backups
 1. Copy and paste the contents to the save directory you opened from Cemu
 
-## Installing updates and DLC
+<h2>Installing updates and DLC</h2>
 
 Once you have installed the base game, you can follow the instructions in the "Downloading from eShop" tab to install any updates or DLC.
 
