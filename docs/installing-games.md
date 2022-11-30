@@ -19,6 +19,7 @@ If you have dumped your account data and online files to install an eShop title,
 1. On the top bar, click `Tools` -> `Download Manager`
 1. Select your account, then click "Connect"
 1. Right click on the title you want to install, and click "Download"
+1. Repeat this for any updates and DLC you want to install
 
 Once installed, you should be able to launch the title from the Cemu menu.
 
