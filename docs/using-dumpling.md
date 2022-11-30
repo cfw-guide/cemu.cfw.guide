@@ -10,6 +10,7 @@ To do this, we are going to run a dumping application through the Wii U browser 
 
 ## Requirements
 
+- A Wii U console
 - A FAT32 formatted USB storage device or SD card
 
 ::: tip
