@@ -77,7 +77,8 @@ This can be installed like any other game dump in the next section.
 1. Take your USB storage device or SD card out of your Wii U and put it in your PC
 1. Copy `otp.bin` and `seeprom.bin` from the `/dumpling/Online Files` folder to your Cemu directory
     - This is where `Cemu.exe` is located
-1. Copy the `sys` and `usr` folders from `/dumpling/Online Files/mlc01` on your SD/USB device to the `mlc01` folder
+1. Copy the `sys` and `usr` folders from `/dumpling/Online Files/[username]/mlc01` on your SD/USB device to the `mlc01` folder
+    - [username] is the username of the account you dumped
     - By default, the `mlc01` folder is located in the Cemu folder
     - If you are unsure where it is, check in `Options` -> `General settings` under "MLC Path"
     - Overwrite any files if prompted
