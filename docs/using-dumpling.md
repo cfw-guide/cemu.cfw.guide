@@ -77,10 +77,9 @@ This can be installed like any other game dump in the next section.
 1. Exit the Dumpling app and turn off your Wii U
 1. Take your USB storage device or SD card out of your Wii U and put it in your PC
 1. Launch Cemu, then click on File -> Open Cemu Folder
-1. Copy `otp.bin` and `seeprom.bin` from the `/dumpling/Online Files` folder to your Cemu folder
+1. Copy `otp.bin` and `seeprom.bin` from the `/dumpling/Online Files` folder to your Cemu folder, which you can open with Cemu's File menu, Open Cemu Folder
 1. Copy the `sys` and `usr` folders from `/dumpling/Online Files/mlc01` on your SD/USB device to the `mlc01` folder
-    - By default, the `mlc01` folder is located in the Cemu folder
-    - If you are unsure where it is, check in `Options` -> `General settings` under "MLC Path"
+    - Open the `mlc01` folder with Cemu's File menu, Open MLC Folder
     - Overwrite any files if prompted
 
 Now that you have got your online data and dumps, you can proceed to the next step which takes you through how to install your games in Cemu.
