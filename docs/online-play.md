@@ -30,6 +30,7 @@ Doing any of these may get your console banned, restricting you from accessing o
 
 ## Requirements
 
+- A Pretendo PNID set up on your Wii U and tested working (essential to collect Pretendo certificates)
 - Online files dumped from your Wii U (<router-link to="/using-dumpling">Using Dumpling</router-link>)
 - And installed into Cemu (<router-link to="/using-dumpling.html#copying-online-files-to-cemu">Copying Online Files to Cemu</router-link>)
 
