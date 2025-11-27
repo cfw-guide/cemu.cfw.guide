@@ -3,18 +3,16 @@ title: Online Play
 description: Enabling online play on the Cemu emulator.
 ---
 
-In this section, we look at how to enable online play on Cemu. The Nintendo servers have shut down, so you will need to connect to an alternative server (Pretendo) to play online. This involves dumping a set of online files from your Wii U to make Nintendo think that the connection from Cemu is actually coming from your console. This means you will be able to play online with both other Cemu users and real Wii U users.
+In this section, we look at how to enable online play on Cemu. The Nintendo servers have shut down, so you will need to connect to an alternative game service to play online: [Pretendo](https://pretendo.network/). This involves configuring the Pretendo network on your Wii U according to the [instructions available at their website](https://pretendo.network/docs/install/wiiu), then using Dumpling to dump the set of online files from your Wii U and installing them to Cemu. This means you will be able to play online with both other Cemu users and real Wii U users.
 
-If you do not plan on using online services you may skip this page. Using Cemu online has not resulted in any bans to date.
+If you do not plan on using online services you may skip this page. 
 
 ## Getting Started
 
 As we will be connecting to Pretendo servers, do not:
 - Use mods, cheats or hacks
 - Share your online files for other people to use
-- Play on both your console and Cemu at the same time
-  - There have been no confirmed ban cases, but this may still be unsafe
-  - Using the same account to play online will kick the other player offline
+- Using the same account more than once at the same time, eg on both your console and Cemu, will kick one or all players offline in most games
 
 Doing any of these may get your console banned, restricting you from accessing online play temporarily or permanently.
 
@@ -34,11 +32,6 @@ Doing any of these may get your console banned, restricting you from accessing o
 
 - Online files dumped from your Wii U (<router-link to="/using-dumpling">Using Dumpling</router-link>)
 - And installed into Cemu (<router-link to="/using-dumpling.html#copying-online-files-to-cemu">Copying Online Files to Cemu</router-link>)
-- A FAT32 formatted USB storage device or SD card
-
-::: tip
-
-All storage devices must be formatted to FAT32 with a 32KB (32768) allocation. For storage devices larger than 32GB, use [guiformat](http://ridgecrop.co.uk/index.htm?guiformat.htm) to format it correctly.
 
 :::
 
