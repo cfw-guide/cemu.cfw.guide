@@ -1,0 +1,1 @@
+import{_ as s,c as t,o,g as a}from"./app-BADpGoGZ.js";const r={props:{id:{default:"tab"}}},c={class:"tab-container"};function n(e,_,d,l,p,f){return o(),t("div",c,[a(e.$slots,"default")])}const u=s(r,[["render",n],["__file","Tabs.vue"]]);export{u as default};
