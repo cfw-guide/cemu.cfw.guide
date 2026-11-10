@@ -28,8 +28,6 @@ We recommend that you download these to allow tweaking your games for better per
 ## Downloads
 
 - The latest stable release of [Cemu](https://cemu.info/#download)
-    - Linux users should use a [Lutris script](https://lutris.net/games/cemu/) to run Cemu
-    - macOS users can download experimental Cemu builds from my site at [cemu.emiyl.com/installation](https://cemu.emiyl.com/installation), before returning here
 
 ## Preparations (Windows only)
 
