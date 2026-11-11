@@ -32,11 +32,9 @@ If you do not have a Wii U console, you will not be able to dump games to your P
 
 ## Can I play online?
 
-Yes! Cemu supports online play, using official Nintendo servers. To do this, we will need to dump your account data from your Wii U to use for connecting to the servers. This process is easy and quick to set up, and does not require any permanent modification to your console.
+Yes! Cemu supports online play, using [Pretendo](https://pretendo.network/) servers. To do this, we will need to dump your account data from your Wii U to use for connecting to the servers. This process is easy and quick to set up, and does not require any permanent modification to your console.
 
-If your account is banned, or if you do not own a Wii U console, you will not be able to use online play with Cemu.
-
-The native macOS and Linux releases of Cemu currently don't support online play. If you are running Linux, we recommend that you run the Windows release in compatibility software such as Wine or Lutris.
+If you do not own a Wii U console, you will not be able to use online play with Cemu.
 
 ## How well can I run games?
 
