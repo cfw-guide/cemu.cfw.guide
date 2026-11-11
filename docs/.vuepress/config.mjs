@@ -1,7 +1,17 @@
-const { locales, themeConfigLocales } = require("./i18n")
-const { emiylTheme } = require('../../emiyl-theme-2')
+import i18n from './i18n/index.js'
+import { emiylTheme } from '../../emiyl-theme-2/index.js'
+import { viteBundler } from '@vuepress/bundler-vite'
 
-module.exports = {
+const { locales, themeConfigLocales } = i18n
+
+export default {
+  bundler: viteBundler({
+    viteOptions: {
+      ssr: {
+        noExternal: ['@vuepress/helper'],
+      },
+    },
+  }),
   locales: locales,
   
   theme: emiylTheme({

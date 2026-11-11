@@ -16,7 +16,7 @@ module.exports = {
   	lastUpdatedText: "Last Updated",
   	openInNewWindow: "Open in new window",
   	selectLanguageAriaLabel: "Select language",
-  	toggleDarkMode: "Toggle dark mode",
+    toggleColorMode: "Toggle dark mode",
   	toggleSidebar: "Toggle sidebar",
         
     repoLabel: '<i class="fab fa-github"></i>',

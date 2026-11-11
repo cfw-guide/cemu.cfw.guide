@@ -1,0 +1,121 @@
+/*.heroImage {
+	background-size: cover;
+	background-repeat: none;
+	background-position: center;
+	color: #fff;
+	text-shadow: 1px 1px 4px rgba(0,0,0,.5);
+
+	h1 {
+		padding-inline: .5em;
+		font-size: 3.3em;
+		font-weight: 700;
+		margin-block: 0 .4em;
+	}
+
+	.vp-hero-description {
+		padding-inline: 1em;
+		font-size: 1.5em;
+		margin-block: 0 2em;
+	}
+
+	.vp-hero-actions {
+		display: flex;
+		flex-wrap: wrap;
+		padding-inline: 1.5em;
+	}
+}
+
+.heroWrapper {
+	max-width: var(--homepage-width);
+	margin: 0 auto;
+	padding-top: 6em;
+	padding-bottom: 5.5em;
+}*/
+
+.vp-home {
+	padding-top: 2em;
+	padding-inline: 0;
+	max-width: 100%;
+
+	.vp-hero {
+		padding-block: 6em;
+		display: block;
+		text-align: left;
+
+		h1, .vp-hero-description, .vp-hero-actions {
+			color: #fff;
+			margin-inline: auto;
+			max-width: 100%;
+			text-shadow: 1px 1px 4px rgba(0,0,0,.5);
+			max-width: min(calc(var(--homepage-width) - 32px), calc(100vw - 64px));
+		}
+
+		h1 {
+			font-weight: 700;
+			font-size: 3.3em;
+		}
+
+		.vp-hero-description {
+			font-size: 1.5em;
+		}
+
+		&.heroImage {
+			background-size: cover;
+			background-repeat: none;
+			background-position: center;
+		}
+
+		.vp-hero-actions {
+			justify-content: flex-start;
+			padding-top: 1em;
+		}
+
+		.vp-hero-action-button {
+			margin-bottom: .5em;
+			padding-block: .2em;
+			font-size: 1.5em;
+			font-weight: 500;
+			
+			&.primary {
+				background-color: white;
+				color: black;
+				mix-blend-mode: screen;
+				border: 1px solid #fff;
+				text-shadow: 1px 1px 4px rgba(0,0,0,0);
+
+				&:hover {
+					background-color: white;
+				}
+			}
+	
+			&.secondary {
+				background-color: rgba(0,0,0,0);
+				color: #fff;
+				border: 1px solid #fff;
+
+				&:hover {
+					background-color: inherit;
+
+					&.dark {
+						color: white;
+					}
+				}
+			}
+		}
+	}
+
+	[vp-content] {
+		margin: 2rem auto;
+		max-width: var(--homepage-width);
+		padding-inline: 2rem;
+	}
+}
+
+html[data-theme='dark'] .vp-home .vp-hero .vp-hero-action-button {
+	&.primary:hover {
+		color: black;
+	}
+	&.secondary:hover {
+		color: white;
+	}
+}

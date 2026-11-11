@@ -1,0 +1,94 @@
+@use './palette.scss' as *;
+
+.vp-navbar {
+    background: rgba($background, 0.8);
+    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(50px);
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.02), 0 2px 6px rgba(0, 0, 0, 0.06);
+    border-bottom: 0;
+
+}
+
+html[data-theme='dark'] .vp-navbar {
+    background: rgba($dm-background, 0.8);
+    box-shadow: none;
+    border-bottom: 1px solid var(--vp-c-border);
+}
+
+@media (min-width: 720px) {
+    .vp-navbar-dropdown-wrapper .vp-navbar-dropdown {
+        display: block !important;
+        border-width: 0px;
+        box-shadow: 0 12px 32px rgba(0, 0, 0, 0.1), 0 2px 6px rgba(0, 0, 0, 0.08);
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(-4px);
+        transition: visibility 0s, opacity .25s, visibility .25s, transform .25s;
+    }
+
+    html[data-theme='dark'] {
+        .vp-navbar-dropdown-wrapper .vp-navbar-dropdown {
+            border-width: 1px;
+        }
+    }
+
+    .vp-navbar-item .fab {
+        font-size: 1.25rem;
+        vertical-align: bottom;
+        padding-bottom: 1px;
+    }
+
+    .vp-navbar-dropdown-wrapper .fas {
+        font-size: 1.25rem;
+        vertical-align: bottom;
+        padding-bottom: 1px;
+    }
+}
+
+@media (max-width: 629px) {
+    .vp-navbar-item .icon {
+        visibility: hidden;
+        font-family: var(--font-family);
+        font-size: 1px;
+        letter-spacing: -1px;
+    }
+
+    .vp-navbar-item i::after { 
+        visibility: visible;
+        font-size: 1rem;
+        letter-spacing: normal;
+    }
+
+    .vp-navbar-item .fa-globe::after { 
+        content: "Language";
+        padding-left: .5em;
+    }
+
+    .vp-navbar-item .fa-github::after { 
+        content: "GitHub";
+    }
+}
+
+.vp-navbar-dropdown-wrapper:hover .vp-navbar-dropdown, .vp-navbar-dropdown-wrapper.open .vp-navbar-dropdown {
+    opacity: 1 !important;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.vp-navbar-item, .vp-navbar-item a, .vp-navbar-item .title {
+    transition: color .25s;
+}
+
+.vp-navbar-item:hover .title, .vp-navbar-item.route-link-active .title {
+    border-bottom: 0px;
+    color: var(--vp-c-text-subtle);  
+}
+
+.vp-navbar-item>a:hover, .vp-navbar-item>a.route-link-active {
+    border-bottom: 0px !important;
+    color: var(--vp-c-accent);
+}
+
+.vp-navbar-item .external-link-icon {
+    display: none;
+}
