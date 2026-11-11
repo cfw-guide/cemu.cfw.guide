@@ -1,0 +1,1 @@
+import{c as e,r as t,s as n,t as r}from"./app-C2Ql36_l.js";var i={props:{id:{default:`tab`}}},a={class:`tab-container`};function o(r,i,o,s,c,l){return n(),t(`div`,a,[e(r.$slots,`default`)])}var s=r(i,[[`render`,o]]);export{s as default};
