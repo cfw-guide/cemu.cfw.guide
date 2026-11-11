@@ -28,21 +28,19 @@ We recommend that you download these to allow tweaking your games for better per
 ## Downloads
 
 - The latest stable release of [Cemu](https://cemu.info/#download)
-    - Linux users should use a [Lutris script](https://lutris.net/games/cemu/) to run Cemu
-    - macOS users can download experimental Cemu builds from my site at [cemu.emiyl.com/installation](https://cemu.emiyl.com/installation), before returning here
 
 ## Preparations (Windows only)
 
 1. Extract the Cemu `.zip` file to your Desktop
     - **Do not** extract it to any folders that require admin permissions, such as Program Files
 1. Right click on the Cemu executable
-1. Click `Properties`
-1. Navigate to the `Compatibility` tab
+1. Click **Properties**
+1. Navigate to the **Compatibility** tab
 1. Enable the option "Disable full-screen optimizations"
-1. Click on `Change high DPI settings`
+1. Click on "Change high DPI settings"
 1. Enable "Use this setting to fix scaling problems for this program instead of the one in settings"
 1. Enable "Override high DPI scaling behaviour. Scaling performed by: Application"
-1. Click `Apply` -> `OK`
+1. Click **Apply** -> **OK**
 
 These options are set to help avoid issues on various Windows versions, and display resolutions. That said, one or more of these options will not be necessary for everyone, but not setting them may result in complications.
 
@@ -53,19 +51,19 @@ These options are set to help avoid issues on various Windows versions, and disp
 1. Double click the Cemu application
 1. You will now be greeted with the Cemu quickstart guide
     - This will take you through setting up the emulator for first use
-1. Create a folder in a safe location named "<router-link to="/faq/#what-is-the-mlc01-folder">mlc01</router-link>"
+1. Create a folder in a safe location named "<router-link to="/faq#what-is-the-mlc01-folder">mlc01</router-link>"
 1. Leave the "Game path" field blank
-1. Click "Download <router-link to="/faq/#what-are-community-graphics-packs">community graphic packs</router-link>"
-1. Click `Next`
+1. Click "Download <router-link to="/faq#what-are-community-graphics-packs">community graphic packs</router-link>"
+1. Click **Next**
 
 ![A screenshot of the Cemu quickstart guide](/assets/images/cemu-quickstart-guide.png)
 
 ## Finishing set-up
 
-1. For now, do not click `Configure input`
+1. For now, do not click "Configure input"
     - We will do this next in more detail
 1. Enable "Automatically check for updates"
     - If you do not wish to get update notifications, you may disable this option and update Cemu manually with an option under the Help menu
-1. Click `Close`
+1. Click **Close**
 
 Now that we have gone through the quickstart guide, we will move onto properly mapping controller inputs (including motion controls).

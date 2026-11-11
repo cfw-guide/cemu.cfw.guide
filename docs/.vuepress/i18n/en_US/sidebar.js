@@ -15,7 +15,6 @@ const site = {
   children: [
     '/credits',
     '/donations',
-    '/site-navigation',
   ],
 }
 

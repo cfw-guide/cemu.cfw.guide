@@ -5,21 +5,25 @@ description: Improving gameplay and performance in the Cemu emulator.
 
 ## Required Reading
 
-For the best performance, we'll be using the Vulkan graphics API. This tends to run faster than OpenGL and allows us to use features such as asynchronous shader compilation.
+### Graphics APIs
+
+A graphics API is the interface between the emulator and your graphics hardware, and it can affect the performance and visual quality depending on which one you choose. Broadly, we recommend:
+
+- **Vulkan**: Windows and Linux
+- **Metal**: macOS
+- **OpenGL**: Older GPUs that do not support Vulkan/Metal
+
+Vulkan and Metal will generally provide the best performance, but may have compatibility issues with certain games or older hardware. If you have issues with an API, try switching to another supported API for your platform.
+
+If you want to use OpenGL, follow the <router-link to="/optimizing-cemu-(opengl)/">OpenGL Optimisation Guide</router-link> instead.
 
 ### Asynchronous Shader Compilation
 
-When running games in Cemu, graphical shaders need to be re-compiled to work on a desktop GPU. This can take some time, which causes small stutters in the game every time a new one is sent to the emulator.
+When using an emulator, any graphical shaders will need to be translated first to run on your graphics processor. These cannot be predicted ahead of time, so there is a small stutter every time when the program must wait for it to be ready. 
 
-Doing this asynchronously allows the emulator to run the process in the background. This means that when the shader is first called, it skips being rendered to the screen, and is instead stored for the next time it's used, providing a much smoother experience.
+Doing this asynchronously allows the game to carry on running anyway, and wait for the shader to compile in the background. This improves the smoothness of the gameplay, but will cause graphical errors the first time a shader is compiled.
 
-The video below shows loading Breath of the Wild for the first time using asynchronous shader compilation. After these shaders have been recompiled and cached, they won't need to be converted again, so the graphical glitches stop.
-
-::: tip
-
-You may need to update your graphics drivers to use this feature. Currently, this feature does not work on macOS at all.
-
-:::
+We recommend enabling this as we think it improves the gameplay experience overall, but you can choose which mode you prefer.
 
 <img src="/assets/images/async.gif" alt="A gif of asynchronous shader compilation, showing various items in Breath of the Wild popping in when the shader finishes compiling." style="width: 100%;"/>
 
@@ -35,54 +39,48 @@ If you're using OpenGL, you will only need to download the shader cache. If you'
 
 Vulkan also allows us to use a new experimental VSync technique which allows Cemu to use the game's built-in frame-pacing instead. This avoids tearing and reduces input latency compared to previous methods.
 
-::: tip
-
-Ensure you are running the latest drivers and that your GPU supports Vulkan. If your GPU doesn't support Vulkan, follow the <router-link to="/optimizing-cemu-(opengl)">OpenGL Guide</router-link>.
-
-:::
-
 ## Cemu Settings
 
 1. Open the Cemu main menu
-1. Click `Options` -> `General settings` on the top bar
-1. Navigate to the `Graphics` tab
-1. Change the "Graphics API" to `Vulkan` if it is not already
-    - If this doesn't appear, or you have problems using Vulkan, read the <router-link to="/optimizing-cemu-(opengl)">OpenGL Optimization Guide</router-link>
-1. Ensure that your "Graphics Device" is set to use your most powerful GPU if your device has dual graphics
+1. Click **Options** -> **General settings** on the top bar
+1. Navigate to the **Graphics** tab
+1. Change the **Graphics API** to your preferred option ([unsure?](#graphics-apis))
+1. Ensure that your **Graphics Device** is set to use your most powerful GPU if your device has dual graphics
 
 ::::: tabs
 
 :::: tab name="Windows" :default="true"
 
-6. Set "VSync" to `Match emulated display (Experimental)`
-    - If you use a display with variable refresh rate (G-SYNC), set this to `Off` instead
+6. Set **VSync** to "Match emulated display (Experimental)"
+    - If you use a display with variable refresh rate (G-SYNC), set this to "Off" instead
     - This feature is experimental and may cause issues
-1. Enable `Async shader compiler`
-1. Navigate to the `Audio` tab
-1. Under `General`, change "API" to `XAudio2`
+1. Enable **Async shader compiler**
+1. Navigate to the **Audio** tab
+1. Under **General**, change **API** to "XAudio2"
 
 ::::
 
 :::: tab name="macOS"
 
-6. Set "VSync" to `Double buffering`
-1. Navigate to the `Audio` tab
-1. Under `General`, change "API" to `Cubeb`
-1. Under `TV`, set "Device" to your primary audio output device
-1. Set "Volume" to 100%
-1. Under `Gamepad`, set "Device" to your primary audio output device
-1. Set "Volume" to 100%
+6. Set **VSync** to "Double buffering"
+1. Enable **Async shader compiler**
+1. Navigate to the **Audio** tab
+1. Under **General**, change **API** to "Cubeb"
+1. Under **TV**, set **Device** to your primary audio output device
+1. Set **Volume** to 100%
+1. Under **Gamepad**, set **Device** to your primary audio output device
+1. Set **Volume** to 100%
 1. Close the Settings window
 1. At the top of your display, click "Debug"
-1. Disable "Accurate barriers (Vulkan)" if it's enabled
 
 ::::
 
 :::: tab name="Linux"
 
-6. Set "VSync" to `Double buffering`
-1. Navigate to the `Audio` tab
-1. Under `General`, change "API" to `Cubeb`
+6. Set **VSync** to "Double buffering"
+1. Enable **Async shader compiler**
+1. Navigate to the **Audio** tab
+1. Under **General**, change **API** to "Cubeb"
 
 ::::
 

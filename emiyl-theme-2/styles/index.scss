@@ -1,0 +1,44 @@
+@use './palette.scss';
+@use './credits.scss';
+@use './table.scss';
+@use './custom-container.scss';
+@use './tabs.scss';
+@use './navigator.scss';
+@use './home.scss';
+@use './sidebar.scss';
+@use './navbar.scss';
+
+.vp-page > [vp-content] {
+	padding-bottom: 0.5rem;
+}
+
+@media (max-width: 959px) {
+	[vp-content]:not(.custom) {
+		padding-top: 0rem;
+	}
+}
+
+h5 {
+	text-transform: uppercase;
+	color: var(--vp-c-text-mute);
+	font-size: 1em;
+
+	display: flex;
+	align-items: center;
+	font-weight: 800;
+	padding-block: 1em;
+
+	&::after {
+		content: "";
+		background: var(--vp-c-border);
+		margin-left: 10px;
+		flex-grow: 1;
+		height: 1px;
+	}
+
+	.markdown-arrow {
+		color: var(--vp-c-accent);
+		font-weight: 600;
+		padding-inline: 0.1em;
+	}
+}

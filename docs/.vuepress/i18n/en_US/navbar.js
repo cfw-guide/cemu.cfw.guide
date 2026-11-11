@@ -31,7 +31,6 @@ module.exports = [
         text: 'Source',
         link: 'https://github.com/cfw-guide/cemu.cfw.guide/',
       },
-      '/site-navigation/',
     ],
   },
 ]

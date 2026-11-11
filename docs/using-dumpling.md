@@ -36,7 +36,7 @@ All storage devices must be formatted to FAT32 with a 32KB (32768) allocation. F
 1. If dumping a disk, ensure it is inserted before launching Dumpling
 1. Insert your USB storage device or SD card
 1. Launch the internet browser and open `https://dumplingapp.com/`
-1. Tap `Launch Dumpling`
+1. Tap "Launch Dumpling"
     - If your console freezes for more than 10 seconds, hold down the Power button for 4 seconds and reboot
     - Once rebooted, [reset the browser's save data](https://en-americas-support.nintendo.com/app/answers/detail/a_id/1507/~/how-to-delete-the-internet-browser-history) and try again
 
@@ -50,37 +50,35 @@ We also recommend dumping the Friend List application. If you wish to play onlin
 
 ### Game discs
 
-1. Select `Dump a game disc`
+1. Select "Dump a game disc"
 1. Ensure your desired Wii U Account is set
-1. Select `Start` to begin dumping
+1. Select **Start** to begin dumping
     - This may take a long time
 1. When finished, go back to the Dumpling main menu
 
 ### Online files
 
-1. Select `Dump files to use Cemu online`
+1. Select "Dump files to use Cemu online"
 1. Ensure your desired Wii U Account is set
-1. Select `Start` to begin dumping
+1. Select **Start** to begin dumping
 1. When finished, go back to the Dumpling main menu
 
 ### Friend List application
 
 This can be installed like any other game dump in the next section.
 
-1. Select `Dump files to use Cemu online`
-1. Select `Start` to begin dumping
+1. Select "Dump Wii U applications (e.g. Friend List, eShop etc.)"
+1. Select "Friend List" from the list 
+1. Press **+** then select **[Confirm]** to begin dumping
 1. When finished, go back to the Dumpling main menu
 
 ## Copying Online Files to Cemu
 
 1. Exit the Dumpling app and turn off your Wii U
 1. Take your USB storage device or SD card out of your Wii U and put it in your PC
-1. Copy `otp.bin` and `seeprom.bin` from the `/dumpling/Online Files` folder to your Cemu directory
-    - This is where `Cemu.exe` is located
-1. Copy the `sys` and `usr` folders from `/dumpling/Online Files/[username]/mlc01` on your SD/USB device to the `mlc01` folder
-    - [username] is the username of the account you dumped
-    - By default, the `mlc01` folder is located in the Cemu folder
-    - If you are unsure where it is, check in `Options` -> `General settings` under "MLC Path"
+1. Launch Cemu, then click on File -> Open Cemu Folder
+1. Copy `otp.bin` and `seeprom.bin` from the `/dumpling/Online Files` folder on your storage device to your Cemu folder
+1. Copy the `sys` and `usr` folders from `/dumpling/Online Files/mlc01` to the `mlc01` folder in the Cemu folder
     - Overwrite any files if prompted
 
 Now that you have got your online data and dumps, you can proceed to the next step which takes you through how to install your games in Cemu.

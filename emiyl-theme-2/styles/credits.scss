@@ -12,6 +12,8 @@
 		padding-top: 1em;
 		margin-left: 5px;
 		margin-right: 5px;
+
+		margin-bottom: 1.5em;
 	}
 }
 
@@ -27,21 +29,8 @@
 		border-radius: 50%;
 		width: 80%;
 	}
-	h3 {
-		margin: 0.3em !important;
-	}
 	p {
 		opacity: 0.65;
 		margin-bottom: 0px !important;
 	}
-}
-
-table {
-	display: table;
-	width: 100%;
-	text-align: center;
-}
-
-.custom-container-title {
-	display: none;
 }

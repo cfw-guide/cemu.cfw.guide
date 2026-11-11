@@ -1,0 +1,15 @@
+{
+  "name": "emiyl-theme",
+  "version": "2.0.0-4",
+  "type": "module",
+  "main": "index.js",
+  "author": "emiyl <me@emiyl.com>",
+  "license": "MIT",
+  "repository": "https://github.com/emiyl/emiyl-theme",
+  "devDependencies": {
+    "@vuepress/plugin-palette": "2.0.0-rc.135",
+    "@vuepress/plugin-register-components": "2.0.0-rc.135",
+    "@vuepress/theme-default": "2.0.0-rc.137",
+    "markdown-it-container": "^4.0.0"
+  }
+}
