@@ -54,7 +54,7 @@ Linux users may have issues installing updates/DLC. You may have to extract the 
 
 <h2>Installing updates and DLC</h2>
 
-Once you have installed the base game, you can follow the instructions in the "Downloading from eShop" tab to install any updates or DLC.
+Instead of dumping it from your Wii U, it may be a lot faster to install them directly to Cemu from the eShop. If you dumped your online files using dumpling, you can follow the instructions in the "Downloading from eShop" tab to install any updates or DLC.
 
 ::::
 
