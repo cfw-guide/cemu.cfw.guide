@@ -35,4 +35,10 @@ h5 {
 		flex-grow: 1;
 		height: 1px;
 	}
+
+	.markdown-arrow {
+		color: var(--vp-c-accent);
+		font-weight: 600;
+		padding-inline: 0.1em;
+	}
 }

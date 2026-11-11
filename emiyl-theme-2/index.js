@@ -52,6 +52,38 @@ export const emiylTheme = (options) => {
     },
 
     extendsMarkdown: (md) => {
+        md.core.ruler.after('inline', 'markdown-arrows', (state) => {
+            for (const token of state.tokens) {
+                if (token.type !== 'inline' || !token.children) continue
+
+                const children = []
+                for (const child of token.children) {
+                    if (child.type !== 'text' || !/(->|<-)/.test(child.content)) {
+                        children.push(child)
+                        continue
+                    }
+
+                    const parts = child.content.split(/(->|<-)/g)
+                    for (const part of parts) {
+                        if (!part) continue
+
+                        if (part === '->' || part === '<-') {
+                            const arrow = new state.Token('html_inline', '', 0)
+                            arrow.content = `<span class="markdown-arrow" aria-hidden="true">${part === '->' ? '→' : '←'}</span>`
+                            children.push(arrow)
+                        } else {
+                            const text = new state.Token('text', '', 0)
+                            text.content = part
+                            text.level = child.level
+                            children.push(text)
+                        }
+                    }
+                }
+
+                token.children = children
+            }
+        })
+
         md.use(container, "tabs", {
         render: (tokens, idx) => {
             const token = tokens[idx];
