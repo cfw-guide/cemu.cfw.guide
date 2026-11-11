@@ -42,19 +42,15 @@ The native macOS and Linux releases of Cemu currently don't support online play.
 
 It depends. A lot of people will be able to run most games at full speed, however you must take hardware requirements into account. While the Wii U is not a particularly demanding console, emulation requires a machine with much greater hardware than the original machine. Check below to see if your PC will work.
 
-::::: tabs
-
-:::: tab name="CPU" :default="true"
+### CPU
 
 A good processor will definitely help speed things up. While modern video-games can be less dependent, emulation can rely quite heavily on CPU performance. We recommend at least an AMD Ryzen 3 or an Intel i5 processor.
 
 Non-Ryzen AMD chips are not recommended as they lack single-core processing speed. These processors will struggle running most games on Cemu.
 
-Apple Silicon chips should be able to run compatible games fairly well, however [game compatibility](https://cemu.emiyl.com/) is quite low for macOS.
+Apple Silicon chips should all be able to run Cemu well.
 
-::::
-
-::: tab name="GPU"
+## GPU
 
 NVIDIA GPUs are recommended as they can take some of the load off of the CPU. AMD GPUs are also good, but heavily reliant on the performance of the CPU.
 
@@ -62,12 +58,6 @@ Generally, the bare minimum should be an NVIDIA GTX 700 card or AMD HD 7000 Seri
 
 If you are running on a thinner laptop or other low-powered machine, you may be using an iGPU instead, which is not officially supported by Cemu. While some users have reported playable framerates using integrated graphics, playing on a more powerful machine will yield much better results.
 
-::::
-
-:::: tab name="RAM"
+## RAM
 
 For the best performance across all games, we recommend using 8GB of RAM or more. While the Cemu website says it can run off of a minimum of 4GB of RAM, this is not recommended and may cause crashes, stuttering and general performance issues in a lot of games.
-
-::::
-
-:::::
