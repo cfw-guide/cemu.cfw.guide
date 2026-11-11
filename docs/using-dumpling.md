@@ -36,7 +36,7 @@ All storage devices must be formatted to FAT32 with a 32KB (32768) allocation. F
 1. If dumping a disk, ensure it is inserted before launching Dumpling
 1. Insert your USB storage device or SD card
 1. Launch the internet browser and open `https://dumplingapp.com/`
-1. Tap `Launch Dumpling`
+1. Tap "Launch Dumpling"
     - If your console freezes for more than 10 seconds, hold down the Power button for 4 seconds and reboot
     - Once rebooted, [reset the browser's save data](https://en-americas-support.nintendo.com/app/answers/detail/a_id/1507/~/how-to-delete-the-internet-browser-history) and try again
 
@@ -50,26 +50,26 @@ We also recommend dumping the Friend List application. If you wish to play onlin
 
 ### Game discs
 
-1. Select `Dump a game disc`
+1. Select "Dump a game disc"
 1. Ensure your desired Wii U Account is set
-1. Select `Start` to begin dumping
+1. Select **Start** to begin dumping
     - This may take a long time
 1. When finished, go back to the Dumpling main menu
 
 ### Online files
 
-1. Select `Dump files to use Cemu online`
+1. Select "Dump files to use Cemu online"
 1. Ensure your desired Wii U Account is set
-1. Select `Start` to begin dumping
+1. Select **Start** to begin dumping
 1. When finished, go back to the Dumpling main menu
 
 ### Friend List application
 
 This can be installed like any other game dump in the next section.
 
-1. Select `Dump Wii U applications (e.g. Friend List, eShop etc.)`
-1. Select `Friend List` from the list 
-1. Press `+` then select `[Confirm]` to begin dumping
+1. Select "Dump Wii U applications (e.g. Friend List, eShop etc.)"
+1. Select "Friend List" from the list 
+1. Press **+** then select **[Confirm]** to begin dumping
 1. When finished, go back to the Dumpling main menu
 
 ## Copying Online Files to Cemu

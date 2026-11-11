@@ -42,46 +42,45 @@ Vulkan also allows us to use a new experimental VSync technique which allows Cem
 ## Cemu Settings
 
 1. Open the Cemu main menu
-1. Click "Options" -> "General settings" on the top bar
-1. Navigate to the "Graphics" tab
-1. Change the "Graphics API" to your preferred option ([unsure?](#graphics-apis))
-1. Ensure that your "Graphics Device" is set to use your most powerful GPU if your device has dual graphics
+1. Click **Options** -> **General settings** on the top bar
+1. Navigate to the **Graphics** tab
+1. Change the **Graphics API** to your preferred option ([unsure?](#graphics-apis))
+1. Ensure that your **Graphics Device** is set to use your most powerful GPU if your device has dual graphics
 
 ::::: tabs
 
 :::: tab name="Windows" :default="true"
 
-6. Set "VSync" to `Match emulated display (Experimental)`
-    - If you use a display with variable refresh rate (G-SYNC), set this to `Off` instead
+6. Set **VSync** to "Match emulated display (Experimental)"
+    - If you use a display with variable refresh rate (G-SYNC), set this to "Off" instead
     - This feature is experimental and may cause issues
-1. Enable `Async shader compiler`
-1. Navigate to the `Audio` tab
-1. Under `General`, change "API" to `XAudio2`
+1. Enable **Async shader compiler**
+1. Navigate to the **Audio** tab
+1. Under **General**, change **API** to "XAudio2"
 
 ::::
 
 :::: tab name="macOS"
 
-6. Set "VSync" to `Double buffering`
-1. Enable `Async shader compiler`
-1. Navigate to the `Audio` tab
-1. Under `General`, change "API" to `Cubeb`
-1. Under `TV`, set "Device" to your primary audio output device
-1. Set "Volume" to 100%
-1. Under `Gamepad`, set "Device" to your primary audio output device
-1. Set "Volume" to 100%
+6. Set **VSync** to "Double buffering"
+1. Enable **Async shader compiler**
+1. Navigate to the **Audio** tab
+1. Under **General**, change **API** to "Cubeb"
+1. Under **TV**, set **Device** to your primary audio output device
+1. Set **Volume** to 100%
+1. Under **Gamepad**, set **Device** to your primary audio output device
+1. Set **Volume** to 100%
 1. Close the Settings window
 1. At the top of your display, click "Debug"
-1. Disable "Accurate barriers (Vulkan)" if it's enabled
 
 ::::
 
 :::: tab name="Linux"
 
-6. Set "VSync" to `Double buffering`
-1. Enable `Async shader compiler`
-1. Navigate to the `Audio` tab
-1. Under `General`, change "API" to `Cubeb`
+6. Set **VSync** to "Double buffering"
+1. Enable **Async shader compiler**
+1. Navigate to the **Audio** tab
+1. Under **General**, change **API** to "Cubeb"
 
 ::::
 

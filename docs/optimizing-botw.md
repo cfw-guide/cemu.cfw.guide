@@ -30,21 +30,21 @@ If you're not sure what a Graphic Pack does, please click on it and read the des
 :::
 
 1. Open the Cemu application
-1. Right click on `The Legend of Zelda - Breath of the Wild`
-1. Click `Edit graphics packs`
-1. On the bottom-right of the window, use the `Download latest community graphic packs` button
+1. Right click on "The Legend of Zelda - Breath of the Wild"
+1. Click "Edit graphics packs"
+1. On the bottom-right of the window, use the "Download latest community graphic packs" button
 
 ## Increasing FPS
 
-1. Once the download has finished, navigate to the `Mods` category
-1. Select and enable the `FPS++` checkbox
+1. Once the download has finished, navigate to the **Mods** category
+1. Select and enable the **FPS++** checkbox
 
 By default, this is set to 60FPS. This improves the smoothness of gameplay, however it can cause [some issues](https://wiki.cemu.info/wiki/The_Legend_of_Zelda:_Breath_of_the_Wild#Issues_arising_by_using_FPS.2B.2B_or_static_FPS.2B.2B). When these occur, simply set the limit to `30` until you've gotten beyond the point where the issue occurs.
 
 ## Graphics and Enhancements
 
 1. Minimize the mods category
-1. Select and enable the `Graphics` checkbox
+1. Select and enable the **Graphics** checkbox
 1. You should see a menu on the right half of the window, where you can edit graphical settings
 
 ### Resolution

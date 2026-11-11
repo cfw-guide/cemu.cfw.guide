@@ -16,7 +16,7 @@ If you have dumped your account data and online files to install an eShop title,
 :::: tab name="Downloading from eShop" :default="true"
 
 1. Open the Cemu application
-1. On the top bar, click `Tools` -> `Download Manager`
+1. On the top bar, click **Tools** -> **Download Manager**
 1. Select your account, then click "Connect"
 1. Right click on the title you want to install, and click "Download"
 1. Repeat this for any updates and DLC you want to install
@@ -30,7 +30,7 @@ Once installed, you should be able to launch the title from the Cemu menu.
 <h2>Installing dumps</h2>
 
 1. Open the Cemu application
-1. On the top bar, click `File` -> `Install game title, update or DLC`
+1. On the top bar, click **File** -> **Install game title, update or DLC**
 1. If you used [Dumpling](https://github.com/emiyl/dumpling) to dump your game, navigate to the `dumpling` folder on your SD card or USB storage device
     - If you used an alternative dumping tool, navigate to the folder where you keep your game dumps
 1. Open the relevant folder corresponding the content you want to install
@@ -47,7 +47,7 @@ Linux users may have issues installing updates/DLC. You may have to extract the 
 
 1. Open the Cemu application
 1. Right click on the game you would like to transfer the save to
-1. Click `Save directory`
+1. Click "Save directory"
 1. If you used Dumpling, open the `dumpling/Saves/[Game Title]` folder from your SD card or USB storage device
     - If you used an alternative dumping tool, navigate to the folder where you keep your save backups
 1. Copy and paste the contents to the save directory you opened from Cemu
@@ -56,12 +56,12 @@ Linux users may have issues installing updates/DLC. You may have to extract the 
 
 Once you have installed the base game, you can follow the instructions in the "Downloading from eShop" tab to install any updates or DLC.
 
-Some games, such as Breath of the Wild, **require** the latest update to be installed to be functional in Cemu.
-
 ::::
 
 :::::
 
 You should now have all the games you dumped installed onto Cemu.
+
+Some games, such as Breath of the Wild, **require** an update to be installed to be functional in Cemu.
 
 In the next step, we will enable online multiplayer, which will allow us to play on Nintendo servers with other Wii U owners.

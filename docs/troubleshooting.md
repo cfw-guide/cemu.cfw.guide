@@ -14,23 +14,23 @@ We encourage our users to submit their testing results and to otherwise keep the
 
 #### Cause #1
 
-1. Open `Task Manager` on Windows
-1. Click the `(^) More details` button if necessary
-1. Navigate to the `Details` tab
-1. Make sure Cemu.exe is not available in your process list before trying to run Cemu again - that it is otherwise fully closed
+1. Open "Task Manager" on Windows
+1. Click the "(^ ) More details" button if necessary
+1. Navigate to the **Details** tab
+1. Make sure "Cemu.exe" is not available in your process list before trying to run Cemu again - that it is otherwise fully closed
 
 There is an issue recently where Cemu.exe can get stuck in the background which will cause issues for saving your games, running games, loading your shaderCache, and a wider assortment of other complications.
 
 #### Cause #2
 
-1. Open your Cemu folder and temporarily rename your `shaderCache` folder
+1. Open your Cemu folder and temporarily rename your "shaderCache" folder
     - This will allow you to test a fresh cache to see if the problem was related to the cache that was being used
-1. If renaming the `shaderCache` folder did not help, ensure Cemu is fully closed and then rename your earlier `shaderCache` folder back to the name "shaderCache"
+1. If renaming the "shaderCache" folder did not help, ensure Cemu is fully closed and then rename your earlier "shaderCache" folder back to the name "shaderCache"
     - You will need to delete the one that was created by Cemu after you renamed your original copy
 
 #### Cause #3
 
-Accidentally loading an Update or DLC as a game by using `File` -> `Load` can cause this. Alternatively if you accidentally merged the Update or DLC data into the Base Game trying to save space, this will break the Base Game - all of the game's data will need to be <router-link to="/dumping-games">redumped</router-link> from your Wii U and replaced. Ensure you're launching the game correctly or otherwise that Update and DLC data are being installed <router-link to="/installing-games/#games-updates-and-dlc">properly</router-link>.
+Accidentally loading an Update or DLC as a game by using **File** -> **Load** can cause this. Alternatively if you accidentally merged the Update or DLC data into the Base Game trying to save space, this will break the Base Game - all of the game's data will need to be <router-link to="/dumping-games">redumped</router-link> from your Wii U and replaced. Ensure you're launching the game correctly or otherwise that Update and DLC data are being installed <router-link to="/installing-games#games-updates-and-dlc">properly</router-link>.
 
 #### Cause #4
 
@@ -60,7 +60,7 @@ To alleviate gameplay stalls caused by shader and pipeline building, read [Async
 
 ### Can I disable, preload, or download shader caches?
 
-If you simply want to turn off the notification that tells you they are being made, you can do this in `Options` -> `General settings` -> `Overlay`.
+If you simply want to turn off the notification that tells you they are being made, you can do this in **Options** -> **General settings** -> **Overlay**.
 
 Unfortunately, you cannot create a cache before playing the game, nor can you disable shaders or pipelines to prevent stalling. Shaders and pipelines are what allow your games to work on your GPU. If they were disabled, you would only see a black screen, with no graphical output.
 
@@ -68,15 +68,13 @@ Pre-compiled shader and pipeline caches are available at [chriztr.github.io/cemu
 
 ### Async Shader Compile
 
-This feature is only available for GPUs with drivers that support Vulkan 1.2 or newer; not Vulkan 1.1!
-
-Users that fit this criteria should navigate to Cemu's `Options` -> `General settings` -> `Graphics` section, then enable the `Async shader compile` feature. While using `Async Shader Compile` almost all Shaders and Pipelines will be built at the same time while you are playing, greatly reducing the amount of gameplay stalling that you could encounter without this option; some temporary graphical issues should be expected. Not all shaders and pipelines can be created in this way and will still result in some minor stalling.
+Navigate to Cemu's **Options** -> **General settings** -> **Graphics** section, then enable the **Async shader compile** feature. While using **Async Shader Compile** almost all Shaders and Pipelines will be built at the same time while you are playing, greatly reducing the amount of gameplay stalling that you could encounter without this option; some temporary graphical issues should be expected. Not all shaders and pipelines can be created in this way and will still result in some minor stalling.
 
 Newer Intel iGPUs support this feature as long as they both support Vulkan 1.2 and are using the latest available drivers. If you encounter issues while using this feature, please disable it and try again after a future driver update.
 
 ### I use Steam to launch Cemu, what can happen?
 
-Steam caches shaders on its own unless you turn this off, this majorly conflicts with `Async Shader Compile`. The symptoms are graphics or models failing to render, usually a very broken-looking game. To prevent this, look for the Shader Precaching option within Steam's settings and disable it to resolve the issue. We recommend that you do not use 3rd party launchers like Steam to launch Cemu due to potential problems that we have no control over.
+Steam caches shaders on its own unless you turn this off, this majorly conflicts with "Async shader compile". The symptoms are graphics or models failing to render, usually a very broken-looking game. To prevent this, look for the Shader Precaching option within Steam's settings and disable it to resolve the issue. We recommend that you do not use 3rd party launchers like Steam to launch Cemu due to potential problems that we have no control over.
 
 If you encounter similar symptoms to this but you aren't using Steam to launch Cemu, please refer to [this section below](#a-lot-of-objects-or-other-assets-aren-t-appearing).
 

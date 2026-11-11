@@ -37,15 +37,15 @@ Doing any of these may get your console banned, restricting you from accessing o
 ## Enabling Online Mode
 
 1. Open the Cemu emulator
-1. On the top bar, go to `Options` -> `General settings`
-1. Navigate to the `Account` tab
+1. On the top bar, go to **Options** -> **General settings**
+1. Navigate to the **Account** tab
 1. Ensure you have read the text at the top of the page
-1. Check the box `Pretendo`
+1. Check the box **Pretendo**
 
 ![A screenshot of a Cemu online account](/assets/images/cemu-account-settings.png)
 
 If you want to connect to a custom server that is not Pretendo, Select the custom button and put the network_services.xml file in your cemu folder. The custom server will provide a network_services.xml
 
-Your Wii U should now be ready to go online. If you ever want to disable online features, simply check the box `Offline`.
+Your Wii U should now be ready to go online. If you ever want to disable online features, simply check the box **Offline**.
 
 

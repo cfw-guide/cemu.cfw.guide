@@ -11,11 +11,7 @@ No, Cemu will never support 32-bit systems. 32-bit applications can only use up 
 
 Yes, experimental native builds are now available for both macOS and Linux.
 
-For Linux users, we suggest using [Wine](https://www.winehq.org/) and [Lutris](https://lutris.net/) to run Cemu. Experimental native builds and AppImage builds are also [available](https://github.com/cemu-project/Cemu/releases) if you would like to use them.
-
-If you have an Intel Mac, we suggest running [Bootcamp](https://support.apple.com/en-gb/guide/bootcamp-control-panel/bcmp29b8ac66/mac) to install Windows, and to run Cemu there instead. The macOS build uses a translation layer that can cause low compatibility, crashes, graphical issues and slow performance.
-
-If you have an Apple Silicon Mac, or don't want to install Windows on your Intel Mac, I have written an installation guide for the native macOS builds on my personal site at [cemu.emiyl.com/installation](https://cemu.emiyl.com/installation).
+For macOS, we recommend running the latest pre-release from the GitHub, as it includes a native Apple Silicon build with a Metal renderer, giving best performance.
 
 ## How do I play games if I do not have a Wii U?
 
@@ -37,7 +33,7 @@ The mlc01 path stores the emulated Wii U internal memory, including:
 
 This should be on a storage drive that Cemu will always have access to, with lots of free space. By default, the `mlc01` path will be stored in the Cemu directory.
 
-If you delete this folder everything will be gone. If this path ever gets reset, make sure to set it again in `Options` -> `General settings` -> `MLC Path`.
+If you delete this folder everything will be gone. If this path ever gets reset, make sure to set it again in **Options** -> **General settings** -> **MLC Path**.
 
 ## What are community graphic packs?
 

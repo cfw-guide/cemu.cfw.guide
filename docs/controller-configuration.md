@@ -17,15 +17,15 @@ Cemuhook was previously required for motion controls, however Cemu now natively 
 ## Instructions
 
 1. Open the Cemu application
-1. On the top bar, go to `Options` -> `Input settings`
-1. Change `Emulated controller` to "Wii U GamePad"
-1. Click on the `Controller` field
-1. Set `API` to "SDLController" 
-1. Set `Controller` to your desired controller
+1. On the top bar, go to **Options** -> **Input settings**
+1. Change "Emulated controller" to "Wii U GamePad"
+1. Click on the **Controller** field
+1. Set **API** to "SDLController" 
+1. Set **Controller** to your desired controller
     - If no controller appears after connecting it to your computer, try changing your controller API
 1. Proceed to map all your controller button inputs
-1. If you would like to add another controller input, press the `+` button next to the `Controller` field
+1. If you would like to add another controller input, press the **+** button next to the **Controller** field
     - This has many uses, such as using two Nintendo Switch Joy-Con's, or using a phone for motion input
-1. To enable motion controls or rumble, click `Settings` and change the corresponding settings
+1. To enable motion controls or rumble, click **Settings** and change the corresponding settings
 1. At the top, enter in a controller profile name, e.g. "GamePad Controller"
-1. Click `Save`
+1. Click **Save**
