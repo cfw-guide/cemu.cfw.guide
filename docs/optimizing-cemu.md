@@ -25,7 +25,9 @@ Doing this asynchronously allows the game to carry on running anyway, and wait f
 
 We recommend enabling this as we think it improves the gameplay experience overall, but you can choose which mode you prefer.
 
-<img src="/assets/images/async.gif" alt="A gif of asynchronous shader compilation, showing various items in Breath of the Wild popping in when the shader finishes compiling." style="width: 100%;"/>
+<video autoplay loop muted playsinline aria-label="Asynchronous shader compilation, showing various items in Breath of the Wild popping in when the shader finishes compiling." style="width: 100%;">
+  <source src="/assets/images/async.mp4" type="video/mp4"/>
+</video>
 
 *Asynchronous shader compilation in an older, slower Cemu version. More recent builds can do this in under 1/10th of a second, depending on the CPU.*
 
