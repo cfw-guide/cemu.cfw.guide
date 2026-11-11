@@ -34,8 +34,6 @@ Doing any of these may get your console banned, restricting you from accessing o
 - Online files dumped from your Wii U (<router-link to="/using-dumpling">Using Dumpling</router-link>)
 - And installed into Cemu (<router-link to="/using-dumpling.html#copying-online-files-to-cemu">Copying Online Files to Cemu</router-link>)
 
-:::
-
 ## Enabling Online Mode
 
 1. Open the Cemu emulator
@@ -46,10 +44,7 @@ Doing any of these may get your console banned, restricting you from accessing o
 
 ![A screenshot of a Cemu online account](/assets/images/cemu-account-settings.png)
 
-
 If you want to connect to a custom server that is not Pretendo, Select the custom button and put the network_services.xml file in your cemu folder. The custom server will provide a network_services.xml
-
-
 
 Your Wii U should now be ready to go online. If you ever want to disable online features, simply check the box `Offline`.
 

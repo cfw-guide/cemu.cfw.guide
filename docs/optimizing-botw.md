@@ -17,6 +17,12 @@ Under your display name, it should say `Display #: Connected to [GPU]`. It shoul
 
 ![](/assets/images/get_gpu.png)-->
 
+## Updating your game
+
+Breath of the Wild **will not run** unless you have a game update installed. Running the "v0" version of the game will give a prompt to update the system version. This is misleading, and it will be fixed with an update to the game. Furthermore, many mods and graphic packs (including FPS++) require the latest "v208" update to work correctly.
+
+To retrieve and install a game update, follow [Using dumpling](/using-dumpling)
+
 ## Installing Graphic Packs
 
 ::: tip
@@ -33,7 +39,7 @@ If you're not sure what a Graphic Pack does, please click on it and read the des
 1. Once the download has finished, navigate to the `Mods` category
 1. Select and enable the `FPS++` checkbox
 
-By default, this is set to 60FPS. This increases the smoothness of gameplay, however it can cause [some issues](https://wiki.cemu.info/wiki/The_Legend_of_Zelda:_Breath_of_the_Wild#Issues_arising_by_using_FPS.2B.2B_or_static_FPS.2B.2B). When these occur, simply set the limit to `30` until you've gotten beyond the point where the issue occurs.
+By default, this is set to 60FPS. This improves the smoothness of gameplay, however it can cause [some issues](https://wiki.cemu.info/wiki/The_Legend_of_Zelda:_Breath_of_the_Wild#Issues_arising_by_using_FPS.2B.2B_or_static_FPS.2B.2B). When these occur, simply set the limit to `30` until you've gotten beyond the point where the issue occurs.
 
 ## Graphics and Enhancements
 
@@ -41,46 +47,32 @@ By default, this is set to 60FPS. This increases the smoothness of gameplay, how
 1. Select and enable the `Graphics` checkbox
 1. You should see a menu on the right half of the window, where you can edit graphical settings
 
-::::: tabs
-
-:::: tab name="Aspect Ratio" :default="true"
-
-Breath of the Wild runs on a 16:9 aspect ratio on the Wii U. If you have a monitor that isn’t 16:9, you may change the aspect ratio to match it in Cemu.
-
-::::
-
-:::: tab name="Resolution"
+### Resolution
 
 If you have a more powerful GPU, you may be able to change the resolution to a higher value, e.g. 1080p, 1440p (2K) or 2160p (4K).
 
-For higher resolutions, consider using the Vulkan rendering API for increased performance. For lower resolution monitors, you can also set your resolution to a higher value for a higher quality anti-aliasing effect, however this is very computationally expensive.
+For higher resolutions, consider using the Vulkan rendering API for increased performance. For lower resolution monitors, you can also set your resolution to a higher value for a higher quality anti-aliasing effect, however this can be very computationally expensive.
 
 Run the game with different resolutions to see which works best for you.
 
-::::
+### Aspect Ratio
 
-:::: tab name="Anti-Aliasing"
+Breath of the Wild runs on a 16:9 aspect ratio on the Wii U. If you have a monitor that isn’t 16:9, you may change the aspect ratio to match it in Cemu.
+
+### Anti-Aliasing
 
 BOTW has anti-aliasing enabled by default. If you would like to use NVIDIA's implementation, or disable it entirely, you can switch to that here. We recommend leaving this at the default setting.
 
-::::
-
-:::: tab name="Shadows"
+### Shadows
 
 This setting changes the resolution of the shadows. Increasing it makes shadows sharper and more accurate, while decreasing it can gain performance while sacrificing quality.
 
 Setting this to 400% may cause some instabilities so we recommend a maximum of 300%.
 
-::::
-
-:::: tab name="Shadow Draw Distance"
+### Shadow Draw Distance
 
 This setting changes the draw distance of the shadows. Increasing it makes shadows render further away, but can make shadows blurrier.
 
 We recommend setting to "Very High" to increase draw distance without sacrificing too much shadow detail.
-
-::::
-
-:::::
 
 Once understanding what each setting does, we recommend you configure your own options. These settings should work for most people as a base however.
