@@ -12,7 +12,9 @@ defineProps<{
     <template #before>
       <slot name="before" />
     </template>
-    <span v-html="config.text" />
+    <slot v-bind="config">
+      <span v-html="config.text" />
+    </slot>
     <template #after>
       <slot name="after" />
     </template>

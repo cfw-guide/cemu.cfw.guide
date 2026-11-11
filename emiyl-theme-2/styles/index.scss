@@ -8,6 +8,10 @@
 @use './sidebar.scss';
 @use './navbar.scss';
 
+.vp-page > [vp-content] {
+	padding-bottom: 0.5rem;
+}
+
 @media (max-width: 959px) {
 	[vp-content]:not(.custom) {
 		padding-top: 0rem;

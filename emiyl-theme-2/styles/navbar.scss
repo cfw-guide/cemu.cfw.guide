@@ -81,7 +81,7 @@ html[data-theme='dark'] .vp-navbar {
 
 .vp-navbar-item:hover .title, .vp-navbar-item.route-link-active .title {
     border-bottom: 0px;
-    color: var(--vp-c-text-subtle);  
+    color: var(--vp-c-accent);
 }
 
 .vp-navbar-item>a:hover, .vp-navbar-item>a.route-link-active {
@@ -89,6 +89,7 @@ html[data-theme='dark'] .vp-navbar {
     color: var(--vp-c-accent);
 }
 
-.vp-navbar-item .external-link-icon {
+.vp-navbar .external-link::after,
+.vp-navbar .vp-external-link-icon {
     display: none;
 }

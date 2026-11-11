@@ -29,6 +29,14 @@
 	border-color: var(--c-danger-bg);
 }
 
+:is(.custom-container, .hint-container).danger,
+.hint-container.caution {
+	:is(h1, h2, h3, h4, h5, h6),
+	:is(h1, h2, h3, h4, h5, h6) .header-anchor {
+		color: var(--vp-c-text);
+	}
+}
+
 html[data-theme='dark'] {
 	:is(.custom-container, .hint-container).warning {
 		border-color: var(--c-warning);
