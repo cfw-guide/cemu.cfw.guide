@@ -27,7 +27,7 @@ We recommend that you download these to allow tweaking your games for better per
 
 ## Downloads
 
-- The latest stable release of [Cemu](https://cemu.info/#download)
+- The latest stable release of [Cemu](https://cemu.info/ActionBuilds.php)
 
 ## Preparations (Windows only)
 
