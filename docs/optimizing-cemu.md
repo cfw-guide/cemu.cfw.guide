@@ -15,7 +15,7 @@ A graphics API is the interface between the emulator and your graphics hardware,
 
 Vulkan and Metal will generally provide the best performance, but may have compatibility issues with certain games or older hardware. If you have issues with an API, try switching to another supported API for your platform.
 
-If you want to use OpenGL, follow the <router-link to="/optimizing-cemu-(opengl)/">OpenGL Optimisation Guide</router-link> instead.
+If you want to use OpenGL, follow the [OpenGL Optimisation Guide](/optimizing-cemu-(opengl)/) instead.
 
 ### Asynchronous Shader Compilation
 
@@ -49,9 +49,9 @@ Vulkan also allows us to use a new experimental VSync technique which allows Cem
 1. Change the **Graphics API** to your preferred option ([unsure?](#graphics-apis))
 1. Ensure that your **Graphics Device** is set to use your most powerful GPU if your device has dual graphics
 
-::::: tabs
+<Tabs>
 
-:::: tab name="Windows" :default="true"
+<Tab title="Windows">
 
 6. Set **VSync** to "Match emulated display (Experimental)"
     - If you use a display with variable refresh rate (G-SYNC), set this to "Off" instead
@@ -60,9 +60,9 @@ Vulkan also allows us to use a new experimental VSync technique which allows Cem
 1. Navigate to the **Audio** tab
 1. Under **General**, change **API** to "XAudio2"
 
-::::
+</Tab>
 
-:::: tab name="macOS"
+<Tab title="macOS">
 
 6. Set **VSync** to "Double buffering"
 1. Enable **Async shader compiler**
@@ -75,18 +75,18 @@ Vulkan also allows us to use a new experimental VSync technique which allows Cem
 1. Close the Settings window
 1. At the top of your display, click "Debug"
 
-::::
+</Tab>
 
-:::: tab name="Linux"
+<Tab title="Linux">
 
 6. Set **VSync** to "Double buffering"
 1. Enable **Async shader compiler**
 1. Navigate to the **Audio** tab
 1. Under **General**, change **API** to "Cubeb"
 
-::::
+</Tab>
 
-:::::
+</Tabs>
 
 ## Importing shader caches
 

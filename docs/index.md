@@ -1,14 +1,18 @@
 ---
-title: Home
-description: "A complete guide to installing CEMU and optimizing performance."
-home: true
-actions:
-  - text: Get Started
-    link: installing-cemu
-    type: secondary
-heroImage: /assets/images/splash-image.png
-heroFilter: 0.5
+layout: home
+title: Cemu Guide
+description: A complete guide to installing CEMU and optimizing performance.
+
+hero:
+  name: Cemu Guide
+  tagline: A complete guide to installing CEMU and optimizing performance.
+  actions:
+    - theme: brand
+      text: Get Started
+      link: /installing-cemu
 ---
+
+<br/>
 
 ::: tip
 For complete guides to homebrew and custom firmware for other devices, check out [CFW.Guide](https://cfw.guide).

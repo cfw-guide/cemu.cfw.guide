@@ -16,10 +16,8 @@ cd cemu.cfw.guide
 npm ci
 npm run dev
 ```
-to build the Markdown files into HTML and start a testing webserver on http://127.0.0.1:8080.
+to start a local testing webserver. Open the URL printed by VitePress; the port may vary if another server is running.
 
 ## Building the site
 
-Follow the steps above, but run `npm run build` instead at the final step. Once complete, the output will be stored at `/docs/.vuepress/dist`.
-
-The custom theme in `emiyl-theme-2` is maintained in this repository; no Git submodule initialization is needed. Its dependencies are installed by the root `npm ci`.
+Follow the steps above, but run `npm run build` instead at the final step. Once complete, The output will be stored at `/.vitepress/dist`.

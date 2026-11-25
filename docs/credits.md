@@ -1,23 +1,23 @@
 ---
 title: "Credits"
 description: The writers and contributors to cemu.cfw.guide.
+next: false
+prev: false
 ---
 
-<div>
-  <div class="credits">
-    <div class="user">
-      <img src="https://github.com/emiyl.png">
-    </div>
-    <div class="user">
-      <h3>emiyl</h3>
-      <p>Emma</p>
-      <a class="social-icon" href="https://twitter.com/emiyl0" target="_blank">
-        <i class="fab fa-twitter"></i>
-      </a>
-      <a class="social-icon" href="https://github.com/emiyl" target="_blank">
-        <i class="fab fa-github"></i>
-      </a>
-    </div>
+<script setup>
+import { VPSocialLinks } from 'vitepress/theme'
+</script>
+
+<div class="credits">
+  <img class="credits-avatar" src="https://github.com/emiyl.png" alt="emiyl's profile picture">
+  <div class="credits-user">
+    <h3>emiyl</h3>
+    <p>Emma</p>
+    <VPSocialLinks :links="[
+      { icon: 'twitter', link: 'https://twitter.com/emiyl0', ariaLabel: 'Twitter' },
+      { icon: 'github', link: 'https://github.com/emiyl', ariaLabel: 'GitHub' }
+    ]" />
   </div>
 </div>
 

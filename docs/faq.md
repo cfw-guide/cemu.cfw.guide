@@ -1,21 +1,19 @@
 ---
 title: "FAQ"
 description: Answers to commonly asked questions about the Cemu emulator.
+next: false
+prev: false
 ---
-
-## Does Cemu support 32-bit systems?
-
-No, Cemu will never support 32-bit systems. 32-bit applications can only use up to 4GB of RAM, which Cemu frequently exceeds.
-
-## Does Cemu support macOS or Linux?
-
-Yes, experimental native builds are now available for both macOS and Linux.
-
-For macOS, we recommend running the latest pre-release from the GitHub, as it includes a native Apple Silicon build with a Metal renderer, giving best performance.
 
 ## How do I play games if I do not have a Wii U?
 
 You can not. We do not support piracy here and obtaining games without dumping them from your own console is illegal.
+
+## Does Cemu support macOS or Linux?
+
+Yes, native builds are available for both macOS and Linux.
+
+For macOS, we recommend running the latest pre-release build, as it includes a native Apple Silicon build with a Metal renderer, giving best performance.
 
 ## Can I play online without dumping files from my Wii U?
 
@@ -34,6 +32,10 @@ The mlc01 path stores the emulated Wii U internal memory, including:
 This should be on a storage drive that Cemu will always have access to, with lots of free space. By default, the `mlc01` path will be stored in the Cemu directory.
 
 If you delete this folder everything will be gone. If this path ever gets reset, make sure to set it again in **Options** -> **General settings** -> **MLC Path**.
+
+## Does Cemu support 32-bit systems?
+
+No, Cemu will never support 32-bit systems. 32-bit applications can only use up to 4GB of RAM, which Cemu frequently exceeds.
 
 ## What are community graphic packs?
 

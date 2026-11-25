@@ -7,18 +7,16 @@ In this section, we look at how to enable online play on Cemu. The Nintendo serv
 
 If you do not plan on using online services you may skip this page. 
 
-## Getting Started
+## Required Reading
 
-As we will be connecting to Pretendo servers, do not:
+As a general rule of thumb, do not:
 - Use mods, cheats or hacks
 - Share your online files for other people to use
-- Using the same account more than once at the same time, eg on both your console and Cemu, will kick one or all players offline in most games
+- Use the same account on multiple devices at the same time, e.g., on both your console and Cemu, as it will kick one or all players offline in most games
 
-Doing any of these may get your console banned, restricting you from accessing online play temporarily or permanently.
+::: warning
 
-::: danger
-
-#### Warning regarding reformatting or selling your Wii U Console:
+##### Regarding reformatting or selling your Wii U Console:
 
 - Reformatting your console will result in your PNID being unlinked from that console. You will no longer be able to use online features on Cemu until you re-link your account to that console and re-obtain the files necessary for online play.
 
@@ -31,8 +29,8 @@ Doing any of these may get your console banned, restricting you from accessing o
 ## Requirements
 
 - A Pretendo PNID set up on your Wii U and tested working (essential to collect Pretendo certificates)
-- Online files dumped from your Wii U (<router-link to="/using-dumpling">Using Dumpling</router-link>)
-- And installed into Cemu (<router-link to="/using-dumpling.html#copying-online-files-to-cemu">Copying Online Files to Cemu</router-link>)
+- Online files dumped from your Wii U ([Using Dumpling](/using-dumpling))
+- Online files installed into Cemu ([Copying Online Files to Cemu](/using-dumpling.html#copying-online-files-to-cemu))
 
 ## Enabling Online Mode
 

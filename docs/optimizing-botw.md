@@ -1,6 +1,7 @@
 ---
 title: Optimizing Breath of the Wild
 description: Improving gameplay and performance of Breath of the Wild in the Cemu emulator.
+next: false
 ---
 
 Breath of the Wild is a particularly demanding game for a lot of systems, so people have created modifications to help you get the best performance possible in the game.

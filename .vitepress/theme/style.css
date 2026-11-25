@@ -1,0 +1,169 @@
+.VPHomeHero.VPHero {
+  --vp-home-hero-name-color: #fff;
+  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+    url('/assets/images/splash-image.png') center / cover no-repeat;
+}
+
+.VPNavBar.home .divider-line {
+  transition: background-color 0.25s;
+}
+
+.VPNavBar.home:not(.has-sidebar):not(.home.top) .divider {
+  background-color: transparent;
+}
+
+.VPNavBar.home .DocSearch-Button {
+  transition: background-color 0.25s, border-color 0.25s;
+}
+
+.VPNavBar.home .DocSearch-Button :is(
+  .DocSearch-Search-Icon,
+  .DocSearch-Button-Placeholder,
+  .DocSearch-Button-Key
+),
+.VPNavBar.home .DocSearch-Button .DocSearch-Button-Key:first-child::after {
+  transition: color 0.25s, border-color 0.25s;
+}
+
+.VPNavBar.home .VPNavBarTitle .title {
+  transition: color 0.25s, opacity 0.25s;
+}
+
+.VPNavBar.home.top:not(.screen-open) :is(
+  .VPNavBarTitle,
+  .VPNavBarMenuLink,
+  .VPNavBarHamburger,
+  .VPNavBarExtra > .button,
+  .VPNavBarSocialLinks > .VPSocialLink,
+  .DocSearch-Button
+) {
+  --vp-c-text-1: #fff;
+  --vp-c-text-2: #e3e3e7;
+}
+
+@media (min-width: 768px) {
+  .VPNavBar.home.top:not(.screen-open) .DocSearch-Button,
+  .VPNavBar.home.top:not(.screen-open) .DocSearch-Button:hover {
+    --vp-c-divider: #2e2e32;
+    background: rgba(0, 0, 0, 0.45);
+  }
+}
+
+.VPHomeHero .tagline {
+  color: #e3e3e7;
+}
+
+.VPHomeHero .VPButton.brand {
+  background-color: color-mix(in srgb, #fff 15%, transparent);
+}
+
+.VPHomeHero .VPButton.brand:hover {
+  background-color: color-mix(in srgb, #fff 13%, transparent);
+}
+
+.VPHomeHero .VPButton.brand:active {
+  background-color: color-mix(in srgb, #fff 13%, transparent);
+}
+
+.custom-block:is(.tip, .warning, .danger) p {
+  margin-top: 0;
+}
+
+.custom-block:is(.tip, .warning, .danger) > .custom-block-title {
+  display: none;
+}
+
+.credits {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  margin: 32px auto;
+}
+
+.credits-avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.credits-user {
+  text-align: center;
+}
+
+.vp-doc .credits-user h3 {
+  margin: 0;
+}
+
+.vp-doc .credits-user p {
+  margin: 8px 0;
+  color: var(--vp-c-text-2);
+}
+
+.credits-user .VPSocialLinks {
+  justify-content: center;
+}
+
+.vp-doc .credits-user .VPSocialLink {
+  text-decoration: none;
+}
+
+.tabs {
+  margin: 16px 0;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.tab-list {
+  display: flex;
+  border-bottom: 1px solid var(--vp-c-divider);
+  background: var(--vp-c-bg-soft);
+}
+
+.tab-button {
+  flex: 1;
+  min-height: 44px;
+  padding: 8px 12px;
+  border: 0;
+  border-right: 1px solid var(--vp-c-divider);
+  background: transparent;
+  color: var(--vp-c-text-2);
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.tab-button:last-child {
+  border-right: 0;
+}
+
+.tab-button:hover {
+  color: var(--vp-c-text-1);
+  background: var(--vp-c-bg-alt);
+}
+
+.tab-button.is-active {
+  box-shadow: inset 0 -2px var(--vp-c-brand-1);
+  color: var(--vp-c-brand-1);
+  background: var(--vp-c-bg);
+}
+
+.tab-button:focus-visible {
+  outline: 2px solid var(--vp-c-brand-1);
+  outline-offset: -2px;
+}
+
+.tab-panel {
+  padding: 16px;
+  background: var(--vp-c-bg);
+}
+
+.tab-panel > :first-child {
+  margin-top: 0;
+}
+
+.tab-panel > :last-child {
+  margin-bottom: 0;
+}
