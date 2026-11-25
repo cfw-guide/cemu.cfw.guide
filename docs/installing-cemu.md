@@ -24,7 +24,7 @@ Downloading these is recommended for the best visual experience and performance 
 
 ## Downloads
 
-- The latest stable release of [Cemu](https://cemu.info/ActionBuilds.php)
+- The latest release of [Cemu](https://cemu.info/ActionBuilds.php)
 
 <!--
 ## Preparations (Windows only)
