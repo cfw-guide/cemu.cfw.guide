@@ -1,0 +1,1 @@
+var e=`/assets/images/get_gpu.png`;export{e as t};
