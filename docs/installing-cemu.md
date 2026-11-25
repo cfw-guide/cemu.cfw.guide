@@ -3,13 +3,11 @@ title: Installing Cemu
 description: Installing and configuring Cemu for the first time.
 ---
 
-This section will take you through installing and configuring Cemu for the very first time. It is important you read all of the text here before proceeding to fully understand the instructions.
+This section will take you through installing and configuring Cemu for the very first time. It is important you read all the text here before proceeding to fully understand the instructions.
 
 ## Introduction
 
-Cemu can be installed by extracting a `.zip` file to some location on your PC, preferably avoiding locations that require elevated privileges. In this guide, we will use the Desktop.
-
-Before launching it, we will slightly tweak the program to fix some scaling issues.
+Cemu can be installed by extracting a `.zip` file to some location on your computer, preferably avoiding locations that require elevated privileges. A common location is on the desktop.
 
 When we finally open the application, it will take us through the quick-start guide. This will help us to set up the emulator properly with the necessary files and folders.
 
@@ -19,16 +17,16 @@ Community graphic packs allow you to visually alter a game and how it will run, 
 
 - Displaying at higher resolutions
 - Running at higher framerates
-- Adjusting colours and bloom
 - Improving anti-aliasing
 - Applying game modifications
 
-We recommend that you download these to allow tweaking your games for better performance.
+Downloading these is recommended for the best visual experience and performance in your games.
 
 ## Downloads
 
 - The latest stable release of [Cemu](https://cemu.info/ActionBuilds.php)
 
+<!--
 ## Preparations (Windows only)
 
 1. Extract the Cemu `.zip` file to your Desktop
@@ -45,6 +43,7 @@ We recommend that you download these to allow tweaking your games for better per
 These options are set to help avoid issues on various Windows versions, and display resolutions. That said, one or more of these options will not be necessary for everyone, but not setting them may result in complications.
 
 ![A screenshot of the settings necessary for Cemu](/assets/images/cemu-properties.png)
+-->
 
 ## Configuration
 
@@ -52,8 +51,8 @@ These options are set to help avoid issues on various Windows versions, and disp
 1. You will now be greeted with the Cemu quickstart guide
     - This will take you through setting up the emulator for first use
 1. Create a folder in a safe location named "<router-link to="/faq#what-is-the-mlc01-folder">mlc01</router-link>"
-1. Leave the "Game path" field blank
-1. Click "Download <router-link to="/faq#what-are-community-graphics-packs">community graphic packs</router-link>"
+1. Leave the **Game path** field blank
+1. Click **Download community graphic packs**
 1. Click **Next**
 
 ![A screenshot of the Cemu quickstart guide](/assets/images/cemu-quickstart-guide.png)
