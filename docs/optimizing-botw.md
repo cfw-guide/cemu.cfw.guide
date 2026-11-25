@@ -6,7 +6,7 @@ next: false
 
 Breath of the Wild is a particularly demanding game for a lot of systems, so people have created modifications to help you get the best performance possible in the game.
 
-![A screenshot of Breath of the Wild](/assets/images/reshade.png)
+<Image src="/assets/images/reshade.png" alt="A screenshot of Breath of the Wild" rounded />
 
 This game is much more demanding on your graphics card than other Wii U titles. We recommend a more powerful GPU than the ones recommended on the home page, especially if you are interested in playing at higher resolutions and framerates.
 

@@ -167,3 +167,34 @@
 .tab-panel > :last-child {
   margin-bottom: 0;
 }
+
+.guide-image {
+  display: block;
+  margin: 16px 0;
+}
+
+.guide-image :is(img, video) {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.guide-image video {
+  width: 100%;
+}
+
+.guide-image-rounded :is(img, video) {
+  border-radius: 8px;
+}
+
+.guide-image-dark {
+  display: none !important;
+}
+
+html.dark .guide-image-has-dark .guide-image-light {
+  display: none;
+}
+
+html.dark .guide-image-dark {
+  display: block !important;
+}
