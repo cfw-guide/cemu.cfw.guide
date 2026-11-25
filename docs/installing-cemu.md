@@ -43,7 +43,11 @@ You will want the following build depending on your platform:
 1. Click **Download community graphic packs**
 1. Click **Next**
 
-![A screenshot of the Cemu quickstart guide](/assets/images/cemu-quickstart-guide.png)
+<Image
+  src="/assets/images/cemu-quickstart-guide.png"
+  dark-src="/assets/images/cemu-quickstart-guide-dark.png"
+  alt="A screenshot of the Cemu quickstart guide"
+/>
 
 ## Finishing set-up
 
